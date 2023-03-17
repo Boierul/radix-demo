@@ -5,19 +5,13 @@ import './HoverCard.css';
 const HoverCardDemo = () => (
     <HoverCard.Root>
         <HoverCard.Trigger asChild>
-            <a
-                className="ImageTrigger"
-                href="https://twitter.com/radix_ui"
-                target="_blank"
-                rel="noreferrer noopener"
-            >
                 <img
                     className="Image normal"
                     src="https://pbs.twimg.com/profile_images/1337055608613253126/r_eiMp2H_400x400.png"
                     alt="Radix UI"
                 />
-            </a>
         </HoverCard.Trigger>
+
         <HoverCard.Portal>
             <HoverCard.Content className="HoverCardContent" sideOffset={5}>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>

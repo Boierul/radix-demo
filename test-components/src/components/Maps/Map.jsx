@@ -1,5 +1,5 @@
 import React from "react";
-import { GoogleMap, MarkerF, useJsApiLoader } from "@react-google-maps/api";
+import {GoogleMap, MarkerF, useJsApiLoader} from "@react-google-maps/api";
 
 const containerStyle = {
     width: "100%",
@@ -163,6 +163,9 @@ const center = {
 
 const mapOptions = {
     disableDefaultUI: true,
+    mapTypeControl: false,
+    streetViewControl: false,
+    fullscreenControl: false,
     styles: [
         {
             elementType: "geometry",
@@ -327,7 +330,7 @@ const mapOptions = {
 
 
 const Map = () => {
-    const { isLoaded } = useJsApiLoader({
+    const {isLoaded} = useJsApiLoader({
         id: "google-map-script",
         googleMapsApiKey: "AIzaSyAvJjmXsWJKp-MbJaj6TwjN4NLsPaMV714",
     });
@@ -337,33 +340,35 @@ const Map = () => {
     const onLoad = React.useCallback((map) => {
         const bounds = new window.google.maps.LatLngBounds();
         setMap(map);
-        // console.log(map);
     }, []);
 
     const onUnmount = React.useCallback(function callback(map) {
         setMap(null);
-        // console.log(map);
     }, []);
-
-    // https://i.postimg.cc/d3pmYKVs/marker-icon.png
 
     const markers = [
         {
             id: "1",
-            position: { lat: 55.016667, lng: 12.933333 },
+            position: {lat: 55.016667, lng: 12.933333},
             icon: "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
         },
         {
             id: "2",
-            position: { lat: 40.758817, lng: -73.985428 },
+            position: {lat: 40.758817, lng: -73.985428},
             icon: "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
         },
         {
             id: "3",
-            position: { lat: 40.768817, lng: -73.985428 },
+            position: {lat: 40.768817, lng: -73.985428},
             icon: "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
         }
     ];
+
+    const handleClickMarker = (marker) => {
+        // console.log(marker);
+        console.log("Clicked");
+
+    }
 
     return isLoaded ? (
         <GoogleMap
@@ -378,6 +383,8 @@ const Map = () => {
                 <MarkerF
                     key={marker.id}
                     position={marker.position}
+                    onClick={handleClickMarker}
+                    onMouseOver={handleClickMarker}
                     icon={{
                         url: marker.icon,
                         scaledSize: new window.google.maps.Size(50, 50),

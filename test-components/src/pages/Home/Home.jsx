@@ -19,7 +19,7 @@ function Home() {
             }}>
                 {/*<NavigationMenuDemo/>*/}
                 <Map/>
-                {/*<HoverCard/>*/}
+                <HoverCard/>
             </div>
         </>
     );
