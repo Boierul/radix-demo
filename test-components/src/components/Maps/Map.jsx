@@ -1,5 +1,5 @@
 import React from "react";
-import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
+import { GoogleMap, MarkerF, useJsApiLoader } from "@react-google-maps/api";
 
 const containerStyle = {
     width: "100%",
@@ -326,7 +326,6 @@ const mapOptions = {
 };
 
 
-
 const Map = () => {
     const { isLoaded } = useJsApiLoader({
         id: "google-map-script",
@@ -343,23 +342,26 @@ const Map = () => {
 
     const onUnmount = React.useCallback(function callback(map) {
         setMap(null);
+        // console.log(map);
     }, []);
+
+    // https://i.postimg.cc/d3pmYKVs/marker-icon.png
 
     const markers = [
         {
             id: "1",
             position: { lat: 55.016667, lng: 12.933333 },
-            icon: "https://maps.google.com/mapfiles/kml/paddle/red-circle.png"
+            icon: "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
         },
         {
             id: "2",
             position: { lat: 40.758817, lng: -73.985428 },
-            icon: "https://maps.google.com/mapfiles/kml/paddle/red-circle.png"
+            icon: "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
         },
         {
             id: "3",
             position: { lat: 40.768817, lng: -73.985428 },
-            icon: "https://maps.google.com/mapfiles/kml/paddle/red-circle.png"
+            icon: "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
         }
     ];
 
@@ -373,7 +375,7 @@ const Map = () => {
             options={mapOptions}
         >
             {markers.map((marker) => (
-                <Marker
+                <MarkerF
                     key={marker.id}
                     position={marker.position}
                     icon={{

@@ -13,7 +13,6 @@ function Home() {
             <div style={{
                 width: "100vw",
                 height: "100vh",
-                backgroundColor: "rebeccapurple",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center"
