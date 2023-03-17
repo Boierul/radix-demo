@@ -1,0 +1,54 @@
+@import 'src/styles/animations'
+
+.container
+  display: flex
+  justify-content: space-between
+  align-items: center
+  width: calc(100%)
+  position: fixed
+  z-index: 20
+  height: 4rem
+  background-color: white
+  border-bottom: #ececec 1px solid
+  opacity: 1
+  animation: animation__opacity .45s ease forwards
+
+  // Because of the layout padding, we add the background of the header in this way --> not very clean but simpler
+  &::before
+    content: ''
+    position: absolute
+    top: -100rem
+    left: -100rem
+    background-color: transparent
+    width: calc(100rem + 200%)
+    height: calc(100rem + 100% + 1.5rem)
+  // To take the full width including the offset due to the padding --> + 2rem for the right
+  @media screen and (max-width: 520px)
+    &::before
+      height: calc(100rem + 100% + 1rem)
+
+  .menu_container
+    margin-right: 5rem
+    @media screen and (max-width: 520px)
+      margin-right: 2rem
+    @media screen and (max-width: 420px)
+      margin-right: 1.2rem
+
+
+  .logo__container
+    font-weight: 500
+    padding-left: 5rem
+    font-size: 1.6rem
+    font-family: "Montserrat", sans-serif
+    z-index: 30
+
+    @media screen and (max-width: 520px)
+      font-size: 1.2rem
+      padding-left: 2rem
+
+    .logo__url
+      display: inline
+
+    a
+      &::before
+        width: 0

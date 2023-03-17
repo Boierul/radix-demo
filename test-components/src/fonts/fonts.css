@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Collab Thin';
+    src: local('Colab Thin'), url('../fonts/ColabThi.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Collab Regular';
+    src: local('Colab Regular'), url('../fonts/ColabReg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Collab Bold';
+    src: local('Colab Bold'), url('../fonts/ColabBol.ttf') format('truetype');
+}

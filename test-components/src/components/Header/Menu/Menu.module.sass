@@ -1,0 +1,131 @@
+@import 'src/styles/animations'
+
+.container
+  display: flex
+  justify-content: flex-end
+  align-items: center
+
+  .icon__container
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      top: 0
+      left: 100%
+      height: 100%
+      width: 5rem
+      background: transparent
+
+
+    .icon
+      height: 3.5rem
+      display: flex
+      justify-content: center
+      align-items: center
+      cursor: pointer
+      z-index: 30
+      transform: scale(.5)
+      .burger__cross
+        position: relative
+        width: 3.6rem
+        height: .25rem
+        background: var(--main-color-reverse)
+        transition: background .8s cubic-bezier(0.4, 0, 0.2, 1)
+        &::before, &::after
+          content: ''
+          position: absolute
+          left: .3rem
+          width: 3rem
+          height: .25rem
+          background: var(--main-color)
+          transition: transform .8s cubic-bezier(0.4, 0, 0.2, 1)
+        &::before
+          background: var(--main-color-reverse)
+          transform: translateY(-1.15rem)
+        &::after
+          background: var(--main-color-reverse)
+          transform: translateY(1.15rem)
+
+      &.active
+        .burger__cross
+          background: transparent
+          &::before
+            background: var(--main-color-reverse)
+            transform: rotate(45deg)
+          &::after
+            background: var(--main-color-reverse)
+            transform: rotate(-45deg)
+
+  .menu__container
+    &.desktop
+      transform: translateX(100%)
+      opacity: 0
+      transition: opacity .8s cubic-bezier(0.4, 0, 0.2, 1), transform .8s cubic-bezier(0.4, 0, 0.2, 1)
+      &.active
+        transform: translateX(0)
+        opacity: 1
+      ul
+        display: flex
+        justify-content: space-between
+        align-items: center
+        list-style-type: none
+        padding: 0
+        margin-right: 5rem
+        li
+          margin-right: 5rem
+          &:last-child
+            margin-right: 0
+          a
+            color: var(--main-color-reverse)
+            font-family: "Calibri Light", sans-serif
+            &::before
+              width: 0
+            &:hover
+              &::before
+                width: 100%
+
+    &.mobile
+      display: none
+      height: 100vh
+      width: 100vw
+      position: fixed
+      top: 50%
+      left: 50%
+      justify-content: center
+      align-items: center
+      flex-direction: column
+      background: var(--main-color)
+      transform: translate(-50%, -50%)
+      transform: translate(100%, -50%)
+      transition: transform .8s cubic-bezier(0.4, 0, 0.2, 1)
+      &.active
+        transform: translate(-50%, -50%)
+
+      ul
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+        list-style-type: none
+        padding: 0
+
+        li
+          margin-bottom: 3rem
+          &:last-child
+            margin-bottom: 0
+          a
+            font-size: 2.5rem
+            font-weight: 500
+            font-family: Montserrat, sans-serif
+            &::before
+              width: 0
+            &:hover
+              &::before
+                width: 100%
+
+
+    @media screen and ( max-width: 900px )
+      &.desktop
+        display: none
+      &.mobile
+        display: flex
