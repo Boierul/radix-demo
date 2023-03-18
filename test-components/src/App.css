@@ -4,12 +4,12 @@
     font-family: Montserrat, sans-serif;
 }
 
-.gmnoprint a, .gmnoprint span {
-    display:none;
-}
-.gmnoprint div {
-    background:none !important;
-}
+/*.gmnoprint a, .gmnoprint span {*/
+/*    display:none;*/
+/*}*/
+/*.gmnoprint div {*/
+/*    background:none !important;*/
+/*}*/
 
 /*#root > div > div > div > div > div:nth-child(15) > div > a > div > img,*/
 /*#root > div > div > div > div > div:nth-child(17) > div > div:nth-child(1)*/

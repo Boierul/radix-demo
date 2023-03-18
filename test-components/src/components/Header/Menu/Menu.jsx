@@ -20,17 +20,22 @@ const Menu = () => {
                 <ul>
                     <li>
                         <NavLink to="/" className={styles.menu__link}>
-                            our products
+                           your projects
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/" className={styles.menu__link}>
-                            our motto
+                            visualise data
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/" className={styles.menu__link}>
-                            about us
+                            notifications
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/" className={styles.menu__link}>
+                            settings
                         </NavLink>
                     </li>
                 </ul>
@@ -45,17 +50,22 @@ const Menu = () => {
                 <ul>
                     <li>
                         <NavLink to="/" className={styles.menu__link}>
-                            our products
+                            your projects
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/" className={styles.menu__link}>
-                            our motto
+                            visualise data
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/" className={styles.menu__link}>
-                            about us
+                            notifications
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/" className={styles.menu__link}>
+                            settings
                         </NavLink>
                     </li>
                 </ul>

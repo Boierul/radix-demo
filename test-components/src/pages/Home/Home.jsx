@@ -5,6 +5,7 @@ import NavigationMenuDemo from "../../components/NavigationMenu/NavigationMenuDe
 import Map from "../../components/Maps/Map.jsx";
 import HoverCard from "../../components/HoverCard/HoverCard.jsx";
 import ProjectsContainer from "../../components/Containers/ProjectsContainer/ProjectsContainer.jsx";
+import Demo from "../../components/Containers/Demo/Demo.jsx";
 
 function Home() {
     return (
@@ -12,26 +13,23 @@ function Home() {
             <Header/>
 
             <div style={{
-                width: "100vw",
-                height: "100vh",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center"
+               paddingTop: '4rem'
             }}>
                 {/*<NavigationMenuDemo/>*/}
-                <div style={{
-                    width: "50%",
-                    height: "50%",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    border: "1px solid black",
-                    borderRadius: "10px"
-                }}>
-                    {/*<Map/>*/}
-                    <ProjectsContainer/>
-                </div>
+                {/*<div style={{*/}
+                {/*    width: "50%",*/}
+                {/*    height: "50%",*/}
+                {/*    display: "flex",*/}
+                {/*    alignItems: "center",*/}
+                {/*    justifyContent: "center",*/}
+                {/*    border: "1px solid black",*/}
+                {/*    borderRadius: "10px"*/}
+                {/*}}>*/}
+                {/*    /!*<Map/>*!/*/}
+                {/*    <ProjectsContainer/>*/}
+                {/*</div>*/}
                 {/*<HoverCard/>*/}
+                <Demo/>
             </div>
         </>
     );
