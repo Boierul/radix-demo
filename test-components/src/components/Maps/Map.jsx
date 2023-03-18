@@ -1,5 +1,6 @@
 import React from "react";
 import {GoogleMap, MarkerF, useJsApiLoader} from "@react-google-maps/api";
+import Marker from "./Marker/Marker.jsx";
 
 const containerStyle = {
     width: "100%",
@@ -371,27 +372,22 @@ const Map = () => {
     }
 
     return isLoaded ? (
-        <GoogleMap
-            mapContainerStyle={containerStyle}
-            center={center}
-            zoom={13}
-            onLoad={onLoad}
-            onUnmount={onUnmount}
-            options={mapOptions}
-        >
-            {markers.map((marker) => (
-                <MarkerF
-                    key={marker.id}
-                    position={marker.position}
-                    onClick={handleClickMarker}
-                    onMouseOver={handleClickMarker}
-                    icon={{
-                        url: marker.icon,
-                        scaledSize: new window.google.maps.Size(50, 50),
-                    }}
-                />
-            ))}
-        </GoogleMap>
+            <GoogleMap
+                mapContainerStyle={containerStyle}
+                center={center}
+                zoom={13}
+                onLoad={onLoad}
+                onUnmount={onUnmount}
+                options={mapOptions}
+            >
+                {markers.map((marker) => (
+                    <Marker
+                        id={marker.id}
+                        position={marker.position}
+                        icon={marker.icon}
+                    />
+                ))}
+            </GoogleMap>
     ) : (
         <>No data available</>
     );

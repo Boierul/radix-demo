@@ -4,11 +4,12 @@ import DialogDemo from "../../components/Dialog/DialogDemo.jsx";
 import NavigationMenuDemo from "../../components/NavigationMenu/NavigationMenuDemo.jsx";
 import Map from "../../components/Maps/Map.jsx";
 import HoverCard from "../../components/HoverCard/HoverCard.jsx";
+import ProjectsContainer from "../../components/Containers/ProjectsContainer/ProjectsContainer.jsx";
 
 function Home() {
     return (
         <>
-          <Header/>
+            <Header/>
 
             <div style={{
                 width: "100vw",
@@ -18,8 +19,19 @@ function Home() {
                 justifyContent: "center"
             }}>
                 {/*<NavigationMenuDemo/>*/}
-                <Map/>
-                <HoverCard/>
+                <div style={{
+                    width: "50%",
+                    height: "50%",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    border: "1px solid black",
+                    borderRadius: "10px"
+                }}>
+                    {/*<Map/>*/}
+                    <ProjectsContainer/>
+                </div>
+                {/*<HoverCard/>*/}
             </div>
         </>
     );
