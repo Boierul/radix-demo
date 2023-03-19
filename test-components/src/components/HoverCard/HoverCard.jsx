@@ -20,6 +20,8 @@ const HoverCardDemo = ({turbinesCount}) => (
                         <div>
                             <div className="Text bold">Nr. of available turbines</div>
                             <div className="Text faded">{turbinesCount}</div>
+                            <div className="Text bold pt">Loadout activity</div>
+                            <div className="Text faded">{turbinesCount} total hours</div>
                         </div>
                     </div>
                 </div>

@@ -58,7 +58,6 @@ a {
 
 .Text {
     margin: 0;
-    color: var(--mauve12);
     font-size: 15px;
     line-height: 1.5;
 }
@@ -67,4 +66,9 @@ a {
 }
 .Text.bold {
     font-weight: 500;
+    color: var(--main-color-reverse);
+}
+
+.Text.pb {
+    padding-top: 1rem;
 }

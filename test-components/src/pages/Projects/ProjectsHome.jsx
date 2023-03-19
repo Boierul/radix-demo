@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "../../components/Header/Header.jsx";
 import Demo from "../../components/Containers/Demo/Demo.jsx";
 import styles from "./ProjectsHome.module.css";
+import projects from '../../utils/demo-data/projects.json';
 
 function ProjectsHome() {
     return (
@@ -12,15 +13,11 @@ function ProjectsHome() {
                 paddingTop: '4rem'
             }}>
                 <div className={styles.grid_container}>
-                    <div className={styles.grid_container_row}>
-                        <Demo turbinesCount="60" projectName="Project-01"/>
-                    </div>
-                    <div className={styles.grid_container_row}>
-                        <Demo turbinesCount="84" projectName="Project-02"/>
-                    </div>
-                    <div className={styles.grid_container_row}>
-                        <Demo turbinesCount="67" projectName="Project-03"/>
-                    </div>
+                    {projects.map(({Project_ID, Number_Of_Turbines, Project_Name}) => (
+                        <div key={Project_ID} className={styles.grid_container_row}>
+                            <Demo projectID={Project_ID} turbinesCount={Number_Of_Turbines} projectName={Project_Name}/>
+                        </div>
+                    ))}
                 </div>
             </div>
         </>

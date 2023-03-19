@@ -1,0 +1,99 @@
+[
+  {
+    "Loadout_ID": "L001",
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Loadout_Duration": 40.46,
+    "Total_Duration": 129.74
+  },
+  {
+    "Loadout_ID": "L002",
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Loadout_Duration": 31.99,
+    "Total_Duration": 120.6
+  },
+  {
+    "Loadout_ID": "L003",
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Loadout_Duration": 38.78,
+    "Total_Duration": 128.79
+  },
+  {
+    "Loadout_ID": "L004",
+    "Project_ID": "P01",
+    "Loadout_Number": 4,
+    "Loadout_Duration": 49.72,
+    "Total_Duration": 136.73
+  },
+  {
+    "Loadout_ID": "L005",
+    "Project_ID": "P01",
+    "Loadout_Number": 5,
+    "Loadout_Duration": 31.71,
+    "Total_Duration": 131.06
+  },
+  {
+    "Loadout_ID": "L006",
+    "Project_ID": "P01",
+    "Loadout_Number": 6,
+    "Loadout_Duration": 37.4,
+    "Total_Duration": 129.25
+  },
+  {
+    "Loadout_ID": "L007",
+    "Project_ID": "P01",
+    "Loadout_Number": 7,
+    "Loadout_Duration": 36.82,
+    "Total_Duration": 112.29
+  },
+  {
+    "Loadout_ID": "L008",
+    "Project_ID": "P01",
+    "Loadout_Number": 8,
+    "Loadout_Duration": 37.45,
+    "Total_Duration": 114.96
+  },
+  {
+    "Loadout_ID": "L009",
+    "Project_ID": "P01",
+    "Loadout_Number": 9,
+    "Loadout_Duration": 43.48,
+    "Total_Duration": 113.77
+  },
+  {
+    "Loadout_ID": "L010",
+    "Project_ID": "P01",
+    "Loadout_Number": 10,
+    "Loadout_Duration": 33.69,
+    "Total_Duration": 105.07
+  },
+  {
+    "Loadout_ID": "L011",
+    "Project_ID": "P01",
+    "Loadout_Number": 11,
+    "Loadout_Duration": 43.37,
+    "Total_Duration": 118.14
+  },
+  {
+    "Loadout_ID": "L012",
+    "Project_ID": "P01",
+    "Loadout_Number": 12,
+    "Loadout_Duration": 28.31,
+    "Total_Duration": 99.22
+  },
+  {
+    "Loadout_ID": "L013",
+    "Project_ID": "P01",
+    "Loadout_Number": 13,
+    "Loadout_Duration": 26.72,
+    "Total_Duration": 165.07
+  },
+  {
+    "Loadout_ID": "L014",
+    "Project_ID": "P01",
+    "Loadout_Number": 14,
+    "Loadout_Duration": 22
+  }
+]

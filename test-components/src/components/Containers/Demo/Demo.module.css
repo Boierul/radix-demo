@@ -18,6 +18,7 @@
 /*}*/
 
 .project_title {
+    cursor: pointer;
     font-size: 24px;
     font-weight: bold;
 
