@@ -94,6 +94,406 @@
     "Loadout_ID": "L014",
     "Project_ID": "P01",
     "Loadout_Number": 14,
-    "Loadout_Duration": 22
+    "Loadout_Duration": 22.18,
+    "Total_Duration": 85.71
+  },
+  {
+    "Loadout_ID": "L015",
+    "Project_ID": "P01",
+    "Loadout_Number": 15,
+    "Loadout_Duration": 26.48,
+    "Total_Duration": 99.7
+  },
+  {
+    "Loadout_ID": "L016",
+    "Project_ID": "P02",
+    "Loadout_Number": 1,
+    "Loadout_Duration": 28.8,
+    "Total_Duration": 100.66
+  },
+  {
+    "Loadout_ID": "L017",
+    "Project_ID": "P02",
+    "Loadout_Number": 2,
+    "Loadout_Duration": 24.23,
+    "Total_Duration": 95.26
+  },
+  {
+    "Loadout_ID": "L018",
+    "Project_ID": "P02",
+    "Loadout_Number": 3,
+    "Loadout_Duration": 61.9,
+    "Total_Duration": 510.62
+  },
+  {
+    "Loadout_ID": "L019",
+    "Project_ID": "P02",
+    "Loadout_Number": 4,
+    "Loadout_Duration": 58.93,
+    "Total_Duration": 315.76
+  },
+  {
+    "Loadout_ID": "L020",
+    "Project_ID": "P02",
+    "Loadout_Number": 5,
+    "Loadout_Duration": 33.72,
+    "Total_Duration": 425.69
+  },
+  {
+    "Loadout_ID": "L021",
+    "Project_ID": "P02",
+    "Loadout_Number": 6,
+    "Loadout_Duration": 46.77,
+    "Total_Duration": 176.79
+  },
+  {
+    "Loadout_ID": "L022",
+    "Project_ID": "P02",
+    "Loadout_Number": 7,
+    "Loadout_Duration": 37.67,
+    "Total_Duration": 205.9
+  },
+  {
+    "Loadout_ID": "L023",
+    "Project_ID": "P02",
+    "Loadout_Number": 8,
+    "Loadout_Duration": 31.88,
+    "Total_Duration": 181.88
+  },
+  {
+    "Loadout_ID": "L024",
+    "Project_ID": "P02",
+    "Loadout_Number": 9,
+    "Loadout_Duration": 36.37,
+    "Total_Duration": 211.4
+  },
+  {
+    "Loadout_ID": "L025",
+    "Project_ID": "P02",
+    "Loadout_Number": 10,
+    "Loadout_Duration": 39.28,
+    "Total_Duration": 191.16
+  },
+  {
+    "Loadout_ID": "L026",
+    "Project_ID": "P02",
+    "Loadout_Number": 11,
+    "Loadout_Duration": 26.63,
+    "Total_Duration": 183.2
+  },
+  {
+    "Loadout_ID": "L027",
+    "Project_ID": "P02",
+    "Loadout_Number": 12,
+    "Loadout_Duration": 40.85,
+    "Total_Duration": 227.63
+  },
+  {
+    "Loadout_ID": "L028",
+    "Project_ID": "P02",
+    "Loadout_Number": 13,
+    "Loadout_Duration": 34.93,
+    "Total_Duration": 236.08
+  },
+  {
+    "Loadout_ID": "L029",
+    "Project_ID": "P02",
+    "Loadout_Number": 14,
+    "Loadout_Duration": 48.98,
+    "Total_Duration": 250.96
+  },
+  {
+    "Loadout_ID": "L030",
+    "Project_ID": "P02",
+    "Loadout_Number": 15,
+    "Loadout_Duration": 63.67,
+    "Total_Duration": 255.18
+  },
+  {
+    "Loadout_ID": "L031",
+    "Project_ID": "P02",
+    "Loadout_Number": 16,
+    "Loadout_Duration": 34.25,
+    "Total_Duration": 146.25
+  },
+  {
+    "Loadout_ID": "L032",
+    "Project_ID": "P02",
+    "Loadout_Number": 17,
+    "Loadout_Duration": 62.84,
+    "Total_Duration": 230.71
+  },
+  {
+    "Loadout_ID": "L033",
+    "Project_ID": "P03",
+    "Loadout_Number": 1,
+    "Loadout_Duration": 34.92,
+    "Total_Duration": 134.47
+  },
+  {
+    "Loadout_ID": "L034",
+    "Project_ID": "P03",
+    "Loadout_Number": 2,
+    "Loadout_Duration": 35.5,
+    "Total_Duration": 155.88
+  },
+  {
+    "Loadout_ID": "L035",
+    "Project_ID": "P03",
+    "Loadout_Number": 3,
+    "Loadout_Duration": 24.32,
+    "Total_Duration": 118.84
+  },
+  {
+    "Loadout_ID": "L036",
+    "Project_ID": "P03",
+    "Loadout_Number": 4,
+    "Loadout_Duration": 37.17,
+    "Total_Duration": 119.92
+  },
+  {
+    "Loadout_ID": "L037",
+    "Project_ID": "P03",
+    "Loadout_Number": 5,
+    "Loadout_Duration": 24.01,
+    "Total_Duration": 131.03
+  },
+  {
+    "Loadout_ID": "L038",
+    "Project_ID": "P03",
+    "Loadout_Number": 6,
+    "Loadout_Duration": 28.55,
+    "Total_Duration": 120.08
+  },
+  {
+    "Loadout_ID": "L039",
+    "Project_ID": "P03",
+    "Loadout_Number": 7,
+    "Loadout_Duration": 26.32,
+    "Total_Duration": 123.24
+  },
+  {
+    "Loadout_ID": "L040",
+    "Project_ID": "P03",
+    "Loadout_Number": 8,
+    "Loadout_Duration": 16.37,
+    "Total_Duration": 132.42
+  },
+  {
+    "Loadout_ID": "L041",
+    "Project_ID": "P03",
+    "Loadout_Number": 9,
+    "Loadout_Duration": 19.92,
+    "Total_Duration": 83.47
+  },
+  {
+    "Loadout_ID": "L042",
+    "Project_ID": "P03",
+    "Loadout_Number": 10,
+    "Loadout_Duration": 16.5,
+    "Total_Duration": 85.28
+  },
+  {
+    "Loadout_ID": "L043",
+    "Project_ID": "P03",
+    "Loadout_Number": 11,
+    "Loadout_Duration": 21.73,
+    "Total_Duration": 104.5833333
+  },
+  {
+    "Loadout_ID": "L044",
+    "Project_ID": "P03",
+    "Loadout_Number": 12,
+    "Loadout_Duration": 17.4,
+    "Total_Duration": 36.23333333
+  },
+  {
+    "Loadout_ID": "L045",
+    "Project_ID": "P04",
+    "Loadout_Number": 1,
+    "Loadout_Duration": 17.92,
+    "Total_Duration": 65.99666667
+  },
+  {
+    "Loadout_ID": "L046",
+    "Project_ID": "P04",
+    "Loadout_Number": 2,
+    "Loadout_Duration": 26.48,
+    "Total_Duration": 71.38
+  },
+  {
+    "Loadout_ID": "L047",
+    "Project_ID": "P04",
+    "Loadout_Number": 3,
+    "Loadout_Duration": 14.5,
+    "Total_Duration": 77.33
+  },
+  {
+    "Loadout_ID": "L048",
+    "Project_ID": "P04",
+    "Loadout_Number": 4,
+    "Loadout_Duration": 28.25,
+    "Total_Duration": 81.8
+  },
+  {
+    "Loadout_ID": "L049",
+    "Project_ID": "P04",
+    "Loadout_Number": 5,
+    "Loadout_Duration": 33,
+    "Total_Duration": 80.37
+  },
+  {
+    "Loadout_ID": "L050",
+    "Project_ID": "P04",
+    "Loadout_Number": 6,
+    "Loadout_Duration": 24.08,
+    "Total_Duration": 62.08
+  },
+  {
+    "Loadout_ID": "L051",
+    "Project_ID": "P04",
+    "Loadout_Number": 7,
+    "Loadout_Duration": 14.58,
+    "Total_Duration": 43.760000000000005
+  },
+  {
+    "Loadout_ID": "L052",
+    "Project_ID": "P04",
+    "Loadout_Number": 8,
+    "Loadout_Duration": 16.16,
+    "Total_Duration": 46.12
+  },
+  {
+    "Loadout_ID": "L053",
+    "Project_ID": "P04",
+    "Loadout_Number": 9,
+    "Loadout_Duration": 36.68,
+    "Total_Duration": 62.029999999999994
+  },
+  {
+    "Loadout_ID": "L054",
+    "Project_ID": "P04",
+    "Loadout_Number": 10,
+    "Loadout_Duration": 11.18,
+    "Total_Duration": 25.78
+  },
+  {
+    "Loadout_ID": "L055",
+    "Project_ID": "P04",
+    "Loadout_Number": 11,
+    "Loadout_Duration": 62.65,
+    "Total_Duration": 93.74
+  },
+  {
+    "Loadout_ID": "L056",
+    "Project_ID": "P04",
+    "Loadout_Number": 12,
+    "Loadout_Duration": 198.33,
+    "Total_Duration": 198.33
+  },
+  {
+    "Loadout_ID": "L057",
+    "Project_ID": "P04",
+    "Loadout_Number": 13,
+    "Loadout_Duration": 11.08,
+    "Total_Duration": 11.08
+  },
+  {
+    "Loadout_ID": "L058",
+    "Project_ID": "P04",
+    "Loadout_Number": 14,
+    "Loadout_Duration": 22.42,
+    "Total_Duration": 64.42
+  },
+  {
+    "Loadout_ID": "L059",
+    "Project_ID": "P05",
+    "Loadout_Number": 1,
+    "Loadout_Duration": 14,
+    "Total_Duration": 56
+  },
+  {
+    "Loadout_ID": "L060",
+    "Project_ID": "P05",
+    "Loadout_Number": 2,
+    "Loadout_Duration": 12,
+    "Total_Duration": 12
+  },
+  {
+    "Loadout_ID": "L061",
+    "Project_ID": "P05",
+    "Loadout_Number": 3,
+    "Loadout_Duration": 16.25,
+    "Total_Duration": 48.59
+  },
+  {
+    "Loadout_ID": "L062",
+    "Project_ID": "P05",
+    "Loadout_Number": 4,
+    "Loadout_Duration": 34.01,
+    "Total_Duration": 147.91
+  },
+  {
+    "Loadout_ID": "L063",
+    "Project_ID": "P05",
+    "Loadout_Number": 5,
+    "Loadout_Duration": 39.42,
+    "Total_Duration": 116.75
+  },
+  {
+    "Loadout_ID": "L064",
+    "Project_ID": "P05",
+    "Loadout_Number": 6,
+    "Loadout_Duration": 320.5,
+    "Total_Duration": 462.59
+  },
+  {
+    "Loadout_ID": "L065",
+    "Project_ID": "P05",
+    "Loadout_Number": 7,
+    "Loadout_Duration": 15.41,
+    "Total_Duration": 59.739999999999995
+  },
+  {
+    "Loadout_ID": "L066",
+    "Project_ID": "P05",
+    "Loadout_Number": 8,
+    "Loadout_Duration": 31.379999999999995,
+    "Total_Duration": 110.02
+  },
+  {
+    "Loadout_ID": "L067",
+    "Project_ID": "P05",
+    "Loadout_Number": 9,
+    "Loadout_Duration": 70.25,
+    "Total_Duration": 186.01
+  },
+  {
+    "Loadout_ID": "L068",
+    "Project_ID": "P05",
+    "Loadout_Number": 10,
+    "Loadout_Duration": 72.22,
+    "Total_Duration": 209.675
+  },
+  {
+    "Loadout_ID": "L069",
+    "Project_ID": "P05",
+    "Loadout_Number": 11,
+    "Loadout_Duration": 37.67,
+    "Total_Duration": 144.85
+  },
+  {
+    "Loadout_ID": "L070",
+    "Project_ID": "P05",
+    "Loadout_Number": 12,
+    "Loadout_Duration": 28.29,
+    "Total_Duration": 96.17
+  },
+  {
+    "Loadout_ID": "L071",
+    "Project_ID": "P05",
+    "Loadout_Number": 13,
+    "Loadout_Duration": 22.67,
+    "Total_Duration": 109.065
   }
 ]

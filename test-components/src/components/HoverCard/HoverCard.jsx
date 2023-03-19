@@ -3,7 +3,7 @@ import * as HoverCard from '@radix-ui/react-hover-card';
 import './HoverCard.css';
 import icon from "../../icons/png/board.png";
 
-const HoverCardDemo = ({turbinesCount}) => (
+const HoverCardDemo = ({turbinesCount, loadoutCount}) => (
     <HoverCard.Root>
         <HoverCard.Trigger asChild>
                 <img
@@ -21,7 +21,7 @@ const HoverCardDemo = ({turbinesCount}) => (
                             <div className="Text bold">Nr. of available turbines</div>
                             <div className="Text faded">{turbinesCount}</div>
                             <div className="Text bold pt">Loadout activity</div>
-                            <div className="Text faded">{turbinesCount} total hours</div>
+                            <div className="Text faded">{loadoutCount} total hours</div>
                         </div>
                     </div>
                 </div>

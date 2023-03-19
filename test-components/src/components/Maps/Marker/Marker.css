@@ -69,6 +69,6 @@ a {
     color: var(--main-color-reverse);
 }
 
-.Text.pb {
-    padding-top: 1rem;
+.Text.pt {
+    padding-top: .7rem;
 }
