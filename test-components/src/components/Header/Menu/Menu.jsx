@@ -19,7 +19,7 @@ const Menu = () => {
             >
                 <ul>
                     <li>
-                        <NavLink to="/" className={styles.menu__link}>
+                        <NavLink to="/projects" className={styles.menu__link}>
                            your projects
                         </NavLink>
                     </li>
@@ -49,7 +49,7 @@ const Menu = () => {
             >
                 <ul>
                     <li>
-                        <NavLink to="/" className={styles.menu__link}>
+                        <NavLink to="/projects" className={styles.menu__link}>
                             your projects
                         </NavLink>
                     </li>
