@@ -45,6 +45,29 @@ time, mark, audio, video {
   scroll-behavior: smooth;
 }
 
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  -webkit-overflow-scrolling: auto !important;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 0.1em;
+}
+
+/* Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(23, 23, 23, 0.91);
+}
+
+
 /*a {*/
 /*  font-weight: 500;*/
 /*  color: #646cff;*/

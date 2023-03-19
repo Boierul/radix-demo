@@ -43,6 +43,7 @@ a {
 }
 
 .Image {
+    cursor: pointer;
     display: block;
     border-radius: 100%;
 }
