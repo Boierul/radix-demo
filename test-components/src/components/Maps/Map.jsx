@@ -1,5 +1,5 @@
 import React from "react";
-import {GoogleMap, MarkerF, useJsApiLoader} from "@react-google-maps/api";
+import {GoogleMap, useJsApiLoader} from "@react-google-maps/api";
 import Marker from "./Marker/Marker.jsx";
 
 const containerStyle = {
@@ -372,6 +372,10 @@ const Map = () => {
     }
 
     return isLoaded ? (
+        <div style={{
+            width: "100vw",
+            height: "100vh"
+        }}>
             <GoogleMap
                 mapContainerStyle={containerStyle}
                 center={center}
@@ -388,6 +392,7 @@ const Map = () => {
                     />
                 ))}
             </GoogleMap>
+        </div>
     ) : (
         <>No data available</>
     );

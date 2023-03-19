@@ -1,9 +1,11 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*!*@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');*!*/
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');*/
+@import '@radix-ui/colors/blackA.css';
 
 :root {
   --main-color: #F5F5F5;
+  --main-color-hover: #eaeaea;
   --main-color-reverse: #000;
   --accent-color: #009999;
   --accent-second-color: #0090B2;
@@ -48,7 +50,12 @@ time, mark, audio, video {
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
+  background: var(--blackA6);
   -webkit-overflow-scrolling: auto !important;
+}
+
+::-webkit-scrollbar:hover {
+  background: var(--blackA8);
 }
 
 /* Scrollbar Track */
@@ -58,66 +65,11 @@ time, mark, audio, video {
 
 /* Scrollbar Thumb */
 ::-webkit-scrollbar-thumb {
-  background: #000000;
-  border-radius: 0.1em;
+  background: rgba(23, 23, 23, 0.56);
+  border-radius: 1em;
 }
 
 /* Hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(23, 23, 23, 0.91);
+  background: rgba(23, 23, 23, 0.71);
 }
-
-
-/*a {*/
-/*  font-weight: 500;*/
-/*  color: #646cff;*/
-/*  text-decoration: inherit;*/
-/*}*/
-/*a:hover {*/
-/*  color: #535bf2;*/
-/*}*/
-
-/*body {*/
-/*  margin: 0;*/
-/*  display: flex;*/
-/*  place-items: center;*/
-/*  min-width: 320px;*/
-/*  min-height: 100vh;*/
-/*}*/
-
-/*h1 {*/
-/*  font-size: 3.2em;*/
-/*  line-height: 1.1;*/
-/*}*/
-
-/*button {*/
-/*  border-radius: 8px;*/
-/*  border: 1px solid transparent;*/
-/*  padding: 0.6em 1.2em;*/
-/*  font-size: 1em;*/
-/*  font-weight: 500;*/
-/*  font-family: inherit;*/
-/*  background-color: #1a1a1a;*/
-/*  cursor: pointer;*/
-/*  transition: border-color 0.25s;*/
-/*}*/
-/*button:hover {*/
-/*  border-color: #646cff;*/
-/*}*/
-/*button:focus,*/
-/*button:focus-visible {*/
-/*  outline: 4px auto -webkit-focus-ring-color;*/
-/*}*/
-
-/*@media (prefers-color-scheme: light) {*/
-/*  :root {*/
-/*    color: #213547;*/
-/*    background-color: #ffffff;*/
-/*  }*/
-/*  a:hover {*/
-/*    color: #747bff;*/
-/*  }*/
-/*  button {*/
-/*    background-color: #f9f9f9;*/
-/*  }*/
-/*}*/

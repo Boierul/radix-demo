@@ -8,6 +8,7 @@ import ProjectsContainer from "../../components/Containers/ProjectsContainer/Pro
 import Demo from "../../components/Containers/Demo/Demo.jsx";
 
 import styles from './Home.module.css';
+import ScrollArea from "../../components/ScrollArea/ScrollArea.jsx";
 
 function Home() {
     return (

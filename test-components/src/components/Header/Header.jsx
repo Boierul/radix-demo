@@ -5,7 +5,7 @@ import styles from './Header.module.sass';
 import Menu from "../Header/Menu/Menu.jsx";
 import LogoMain from "../../icons/LogoMain.jsx";
 
-const Header = (props) => {
+const Header = () => {
     return (
         <header className={styles.container}>
             <div className={styles.logo__container}>
