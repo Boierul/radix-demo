@@ -1,21 +1,12 @@
 import React from 'react';
+import styles from './HeaderText.module.scss';
 
 function HeaderText({title, subtitle}) {
     return (
         <>
-            <div style={{
-                marginBottom: '2rem',
-                marginLeft: '1.5rem',
-                display: 'flex',
-                flexDirection: 'column',
-            }}>
-                <span style={{
-                    fontSize: '2rem',
-                    fontFamily: 'Bahnschrift',
-                }}>{title}</span>
-                <span style={{
-                    fontSize: '1rem',
-                }}>{subtitle}</span>
+            <div className={styles.header_text_container}>
+                <span className={styles.header_text_title}>{title}</span>
+                <span className={styles.header_text_subtitle}>{subtitle}</span>
             </div>
         </>
     );

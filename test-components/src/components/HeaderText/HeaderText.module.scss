@@ -1,0 +1,22 @@
+.header_text_container {
+  margin-bottom: 2rem;
+  margin-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 520px) {
+    margin-bottom: 1rem;
+  }
+
+  .header_text_title {
+    font-size: 2rem;
+    font-family: 'Bahnschrift', sans-serif;
+  }
+
+  .header_text_subtitle {
+    font-size: 1.1rem;
+    @media screen and (max-width: 520px) {
+      max-width: 300px;
+      font-size: 1rem;
+    }
+  }
+}

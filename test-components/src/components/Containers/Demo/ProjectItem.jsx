@@ -2,10 +2,10 @@ import React from 'react';
 import styles from './Demo.module.css';
 import HoverCard from "../../HoverCard/HoverCard.jsx";
 
-function ProjectIcon({projectID, turbinesCount, loadoutCount, projectName}) {
+function ProjectItem({projectID, turbinesCount, loadoutCount, projectName}) {
 
     function handleProjectClick() {
-        console.log("Project clicked")
+        window.location.href = `/projects/${projectID}`;
     }
 
     return (
@@ -26,4 +26,4 @@ function ProjectIcon({projectID, turbinesCount, loadoutCount, projectName}) {
     );
 }
 
-export default ProjectIcon;
+export default ProjectItem;

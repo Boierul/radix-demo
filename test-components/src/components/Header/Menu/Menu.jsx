@@ -24,7 +24,7 @@ const Menu = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/" className={styles.menu__link}>
+                        <NavLink to="/turbines" className={styles.menu__link}>
                             visualise data
                         </NavLink>
                     </li>
