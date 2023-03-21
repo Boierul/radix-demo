@@ -1,5 +1,5 @@
 import React from 'react';
-import './ProjectsContainer.css'
+import './ProjectsContainer.scss'
 
 function ProjectsContainer() {
     return (

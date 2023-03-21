@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from "../../../components/Header/Header.jsx";
-import HeaderText from "../../../components/HeaderText/HeaderText.jsx";
+import HeaderText from "../../../components/HeaderText/MK1/HeaderText.jsx";
 
 import styles from './ProjectDetailPage.module.scss';
 

@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './HeaderText.module.scss';
 
 function HeaderText({title, subtitle}) {
+
     return (
         <>
             <div className={styles.header_text_container}>

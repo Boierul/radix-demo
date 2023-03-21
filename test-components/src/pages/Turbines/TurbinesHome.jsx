@@ -1,18 +1,23 @@
 import React from 'react';
-import Header from "../../components/Header/Header.jsx";
-import styles from './TurbinesHome.module.scss';
-import HeaderText from "../../components/HeaderText/HeaderText.jsx";
-import Map from "../../components/Maps/Map.jsx";
 
-function TurbinesHome({projectName}) {
+import Map from "../../components/Maps/Map.jsx";
+import Header from "../../components/Header/Header.jsx";
+import HeaderTextMK2 from "../../components/HeaderText/MK2/HeaderTextMK2.jsx";
+
+import styles from './TurbinesHome.module.scss';
+
+function TurbinesHome({projectId, projectName}) {
+
     return (
         <>
             <Header/>
 
             <div className={styles.turbines_container}>
                 <div className={styles.header_text}>
-                    <HeaderText title={`${projectName} / Turbines`}
-                                subtitle="Here are displayed all the data related to your turbines"/>
+                    <HeaderTextMK2 title={`${projectName}`}
+                                   subtitle="Here are displayed all the data related to your turbines"
+                                   projectId={projectId}
+                    />
                 </div>
 
                 <div className={styles.turbines_grid_container}>

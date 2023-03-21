@@ -32,7 +32,7 @@ function TurbineHomeWrapper() {
         return <Custom404/>;
     }
 
-    return <TurbinesHome projectName={projectName} />;
+    return <TurbinesHome projectId={projectId} projectName={projectName} />;
 }
 
 export default TurbineHomeWrapper;
