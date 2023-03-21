@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from "../../../components/Header/Header.jsx";
 import styles from './UnderConstructionPage.module.scss';
+import ButtonText from "../../../components/Buttons/ButtonText/ButtonText.jsx";
 
-function UnderConstructionPage(props) {
+function UnderConstructionPage() {
     return (
         <>
             <Header/>
@@ -10,6 +11,10 @@ function UnderConstructionPage(props) {
             <div className={styles.construction_container}>
                 <div className={styles.construction_title}>
                     Under Construction
+
+                    <div className={styles.construction_button}>
+                        <ButtonText/>
+                    </div>
                 </div>
             </div>
         </>

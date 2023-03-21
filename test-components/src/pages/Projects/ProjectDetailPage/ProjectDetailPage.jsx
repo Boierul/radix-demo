@@ -7,37 +7,42 @@ import styles from './ProjectDetailPage.module.scss';
 import ContentContainerLoadout from "../../../components/Containers/ContentContainer/ContentContainerLoadout.jsx";
 
 import loadout from "../../../utils/demo-data/loadout.json";
-import projects from "../../../utils/customJSON/projectsUpdated.json";
 
 function ProjectDetailPage({projectId, projectName}) {
     const [loadoutData, setLoadoutData] = useState([]);
-
-    const projectIdDEMO = "P01";
+    // Synchronous concurrency flag
+    const [stateCheck, setStateCheck] = useState(false);
+    const [totalDurationCount, setTotalDurationCount] = useState(0);
+    const [totalAverageDurationCount, setTotalAverageDurationCount] = useState(0);
+    const [totalLoadoutCount, setTotalLoadoutCount] = useState(0);
 
     useEffect(() => {
         // Checks if the project ID is in the loadout array && renders the loadout data
-        const result = loadout.filter((loadout) => loadout.Project_ID === projectIdDEMO);
+        const result = loadout.filter((loadout) => loadout.Project_ID === projectId);
 
         if (result) {
             setLoadoutData(result);
-            // console.log(result);
+            setStateCheck(true);
         }
     }, []);
 
     useEffect(() => {
-        console.log(loadoutData)
-    }, [loadoutData]);
+        let sumDurationCount = 0;
+        let sumAvgDurationCount = 0;
+
+        loadoutData.forEach(({Project_ID, Loadout_ID, Total_Duration, Loadout_Duration}) => {
+            sumDurationCount += Total_Duration;
+            sumAvgDurationCount += Loadout_Duration;
+        })
+
+        // Numbers of loadouts
+        setTotalLoadoutCount(loadoutData.length);
+        setTotalDurationCount(sumDurationCount)
+        setTotalAverageDurationCount(sumAvgDurationCount)
+
+    }, [stateCheck]);
 
 
-    // // Hook that runs when loadout changes to update the loadoutCountSum
-    // useEffect(() => {
-    //     // Only update loadoutCountSum when the sumTotalDuration changes
-    //     if (prevState.current !== loadout) {
-    //         setLoadoutData(loadout);
-    //         // Update the previous value to the new one
-    //         prevState.current = loadout;
-    //     }
-    // }, []); // Run this hook only when loadout changes
 
     return (
         <>
@@ -49,18 +54,12 @@ function ProjectDetailPage({projectId, projectName}) {
                                 subtitle="Here is displayed all the data related to your project"/>
                 </div>
 
-                <>
-                    {/*{loadoutData.map(({Project_ID, Total_Duration, Average_Duration}) => ((Project_ID === projectIdDEMO) ?*/}
-                    {/*    <ContentContainerLoadout loadoutCount={loadoutData.length}*/}
-                    {/*                                totalLoadoutDuration={Total_Duration}*/}
-                    {/*                                averageLoadoutDuration={Average_Duration}*/}
-                    {/*                                key={Project_ID}*/}
-                    {/*    /> : null))}*/}
-                </>
-
                 <div className={styles.loadout_section}>
                     <div className={styles.grid_container}>
-                        <ContentContainerLoadout/>
+                        {stateCheck && <ContentContainerLoadout totalDurationCount={parseInt(totalDurationCount)}
+                                                                totalAverageCount={parseInt(totalAverageDurationCount)}
+                                                                totalLoadoutCount={totalLoadoutCount}
+                        />}
                     </div>
                 </div>
 

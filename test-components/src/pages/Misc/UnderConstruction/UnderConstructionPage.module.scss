@@ -11,5 +11,9 @@
     align-content: center;
     font-size: clamp(2rem, -1.2188rem + 9.5vw, 3.5rem);
     font-weight: 400;
+
+    .construction_button {
+      padding-top: 2rem;
+    }
   }
 }

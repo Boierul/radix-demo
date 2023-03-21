@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import styles from "./ContentContainerLoadout.module.scss";
 
-function ContentContainerLoadout(loadoutCount, totalLoadoutDuration, averageLoadoutDuration) {
+function ContentContainerLoadout({totalDurationCount, totalAverageCount, totalLoadoutCount}) {
     return (
         <div className={styles.layout_container_row}>
             <div className={styles.layout_title}>
@@ -10,13 +10,13 @@ function ContentContainerLoadout(loadoutCount, totalLoadoutDuration, averageLoad
 
             <div className={styles.layout_inner_container}>
                 <div className={styles.layout_loadout_title}>
-                    Number of loadouts: <span className={styles.layout_loadout_count}>15</span>
+                    Number of loadouts: <span className={styles.layout_loadout_count}>{totalLoadoutCount}</span>
                 </div>
                 <div className={styles.layout_loadout_title}>
-                    Total duration of all loadouts: <span className={styles.layout_loadout_count}>1478h</span>
+                    Total duration of all loadouts: <span className={styles.layout_loadout_count}>{totalDurationCount}h</span>
                 </div>
                 <div className={styles.layout_loadout_title}>
-                    Average duration of a loadout: <span className={styles.layout_loadout_count}>42h</span>
+                    Average duration of a loadout: <span className={styles.layout_loadout_count}>{totalAverageCount}h</span>
                 </div>
             </div>
         </div>
