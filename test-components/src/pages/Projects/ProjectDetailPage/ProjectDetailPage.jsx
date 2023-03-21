@@ -35,9 +35,11 @@ function ProjectDetailPage() {
                                 subtitle="Here is displayed all the data related to your project"/>
                 </div>
 
-                <div className={styles.grid_container}>
-                    <div className={styles.grid_container_row}>
-                        Blea
+                <div className={styles.loadout_section}>
+                    <div className={styles.grid_container}>
+                        <div className={styles.grid_container_row}>
+                            Blea
+                        </div>
                     </div>
                 </div>
 

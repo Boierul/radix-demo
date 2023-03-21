@@ -4,7 +4,7 @@ import styles from './TurbinesHome.module.css';
 import HeaderText from "../../components/HeaderText/HeaderText.jsx";
 import Map from "../../components/Maps/Map.jsx";
 
-function TurbinesHome({projectName}) {
+function TurbinesHome({projectId}) {
     return (
         <>
             <Header/>
@@ -13,7 +13,7 @@ function TurbinesHome({projectName}) {
                 paddingTop: '4rem',
             }}>
                 <div className={styles.header_text}>
-                    <HeaderText title={`${projectName} / Turbines`}
+                    <HeaderText title={`${projectId} / Turbines`}
                                 subtitle="Here are displayed all the data related to your turbines"/>
                 </div>
 

@@ -15,7 +15,7 @@ function App() {
             <Route path="/" element={<Home/>}/>
             <Route path="/projects" element={<ProjectsHome/>}/>
             <Route path="/projects/:projectId" element={<ProjectDetailPage/>}/>
-            <Route path="/projects/:projectName/turbines" element={<TurbineHomeWrapper/>}/>
+            <Route path="/projects/:projectId/turbines" element={<TurbineHomeWrapper/>}/>
             <Route path="/turbines" element={<TurbinesHome projectName="Project-01"/>}/>
             <Route path="/*" element={<Custom404/>}/>
 
