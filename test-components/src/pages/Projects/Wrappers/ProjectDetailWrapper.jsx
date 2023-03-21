@@ -1,15 +1,18 @@
 import React, {useEffect, useState} from 'react';
 import {useParams} from "react-router-dom";
-import TurbinesHome from "../TurbinesHome.jsx";
+
 import Custom404 from "../../404/Custom404.jsx";
+import ProjectDetailPage from "../ProjectDetailPage/ProjectDetailPage.jsx";
+
 import projects from "../../../utils/customJSON/projectsUpdated.json";
 
-function TurbineHomeWrapper() {
+function ProjectDetailWrapper() {
     const {projectId} = useParams();
     const [allowedProjectNames, setAllowedProjectNames] = useState([]);
     const [projectName, setProjectName] = useState('');
 
     useEffect(() => {
+        // Checks if the project ID is in the projects array && renders the project detail page
         const result = projects.map((project) => project.Project_ID);
         setAllowedProjectNames(result);
     }, []);
@@ -25,14 +28,12 @@ function TurbineHomeWrapper() {
         })
     }, []);
 
-
     // Function that checks if the projectName is in the allowedProjectNames array
     if (!allowedProjectNames.includes(projectId)) {
         // Render 404 page
         return <Custom404/>;
     }
-
-    return <TurbinesHome projectName={projectName} />;
+    return <ProjectDetailPage projectId={projectId} projectName={projectName}/>;
 }
 
-export default TurbineHomeWrapper;
+export default ProjectDetailWrapper;

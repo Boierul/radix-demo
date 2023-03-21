@@ -1,0 +1,35 @@
+.projects_home_container {
+    padding-top: 4rem;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 140px;
+    gap: 2rem;
+    padding: 2rem 5rem;
+    max-height: 100%;
+    overflow: auto;
+    @media screen and (max-width: 960px) {
+        gap: .75rem;
+    }
+    @media screen and (max-width: 520px) {
+        gap: .5rem;
+        padding: 2.5% 2rem;
+    }
+}
+/*TODO Be careful with responsiveness as % makes it a little unpredictable*/
+
+.grid_container_row {
+    width: 100%;
+    grid-column: span 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 1440px) {
+        grid-column: span 6;
+    }
+    @media screen and (max-width: 960px) {
+        grid-column: span 12;
+    }
+}

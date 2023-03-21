@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Demo.module.css';
+import styles from './ProjectItem.module.scss';
 import HoverCard from "../../HoverCard/HoverCard.jsx";
 
 function ProjectItem({projectID, turbinesCount, loadoutCount, projectName}) {

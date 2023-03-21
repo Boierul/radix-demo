@@ -1,30 +1,11 @@
-import React, {useEffect, useState} from 'react';
-import {useParams} from "react-router-dom";
+import React from 'react';
 
 import Header from "../../../components/Header/Header.jsx";
 import HeaderText from "../../../components/HeaderText/HeaderText.jsx";
 
 import styles from './ProjectDetailPage.module.scss';
-import projects from '../../../utils/customJSON/projectsUpdated.json';
 
-function ProjectDetailPage() {
-    const {projectId} = useParams();
-    const [projectName, setProjectName] = useState('No project name');
-
-    // TODO - Add loadout section
-
-    useEffect(() => {
-        // Checks if the project ID is in the projects array and sets the project name
-        projects.map((project) => {
-            {
-                if (project.Project_ID === projectId) {
-                    setProjectName(project.Project_Name);
-                }
-            }
-        })
-    }, []);
-
-
+function ProjectDetailPage({projectId, projectName}) {
     return (
         <>
             <Header/>

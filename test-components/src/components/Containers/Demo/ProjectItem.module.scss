@@ -7,21 +7,15 @@
 }
 
 .projects_inner_container {
-    padding: 2.5rem 4rem;
+    padding: 2rem 4rem;
     display: flex;
     justify-content: space-between;
 }
-
-/*.projects_icon {*/
-/*    width: 65px;*/
-/*    height: 65px;*/
-/*}*/
 
 .project_title {
     cursor: pointer;
     font-size: 24px;
     font-weight: bold;
-
 }
 
 .project_subtitle {
@@ -33,6 +27,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media screen and (max-width: 520px) {
+        display: none;
+    }
 }
 
 .project_text_container {

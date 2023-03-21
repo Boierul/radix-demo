@@ -8,15 +8,17 @@ import ProjectsHome from "./pages/Projects/ProjectsHome.jsx";
 import Custom404 from "./pages/404/Custom404.jsx";
 import TurbineHomeWrapper from "./pages/Turbines/Wrappers/TurbineHomeWrapper.jsx";
 import ProjectDetailPage from "./pages/Projects/ProjectDetailPage/ProjectDetailPage.jsx";
+import ProjectDetailWrapper from "./pages/Projects/Wrappers/ProjectDetailWrapper.jsx";
+import TurbineDetailPage from "./pages/Turbines/TurbineDetailPage/TurbineDetailPage.jsx";
 
 function App() {
     return (
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/projects" element={<ProjectsHome/>}/>
-            <Route path="/projects/:projectId" element={<ProjectDetailPage/>}/>
+            <Route path="/projects/:projectId" element={<ProjectDetailWrapper/>}/>
             <Route path="/projects/:projectId/turbines" element={<TurbineHomeWrapper/>}/>
-            <Route path="/turbines" element={<TurbinesHome projectName="Project-01"/>}/>
+            <Route path="/projects/:projectId/turbines/:turbineId" element={<TurbineDetailPage/>}/>
             <Route path="/*" element={<Custom404/>}/>
 
             <Route path="/demo" element={<Map/>}/>

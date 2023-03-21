@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import Header from "../../components/Header/Header.jsx";
 import ProjectItem from "../../components/Containers/Demo/ProjectItem.jsx";
-import styles from "./ProjectsHome.module.css";
+import styles from "./ProjectsHome.module.scss";
 import projects from '../../utils/customJSON/projectsUpdated.json';
 import loadout from '../../utils/demo-data/loadout.json';
 
@@ -40,7 +40,7 @@ function ProjectsHome() {
     return (
         <>
             <Header />
-            <div style={{ paddingTop: '4rem' }}>
+            <div className={styles.projects_home_container}>
                 <div className={styles.grid_container}>
                     {projects.map(({ Project_ID, Number_Of_Turbines, Project_Name }) => (
                         <div key={Project_ID} className={styles.grid_container_row}>
