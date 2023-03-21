@@ -1,5 +1,5 @@
 .project_detail_container {
-  padding-top: 4rem
+  padding-top: 4rem;
 }
 
 .header_text {
@@ -12,6 +12,8 @@
 
 .loadout_section {
   // Just for the structure -_-
+  // TODO maybe remove this. Maybe!
+  height: 70vh;
 }
 
 .grid_container {
@@ -25,5 +27,29 @@
   overflow: auto;
   @media screen and (max-width: 520px) {
     padding: 2.5% 2rem;
+  }
+
+  .project_grid_row {
+    width: 100%;
+    height: 300px;
+    grid-column: span 4;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    @media screen and (max-width: 1150px) {
+      grid-column: span 12;
+    }
+
+    .project_grid_row_title {
+      font-family: Bahnschrift, sans-serif;
+      font-weight: 400;
+      border-radius: 10px 10px 0 0;
+      background: var(--main-color-reverse);
+      border-bottom: 2px solid #ececec;
+      color: var(--main-color);
+      padding: 1rem 2rem;
+      font-size: clamp(1rem, 0.35rem + 3.25vw, 1.8rem);
+    }
   }
 }

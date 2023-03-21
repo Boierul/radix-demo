@@ -60,7 +60,9 @@ a {
     line-height: 1.5;
 }
 .Text.faded {
+    font-family: Montserrat, sans-serif;
     color: var(--mauve10);
+    font-size: 14px;
 }
 .Text.bold {
     font-weight: 600;

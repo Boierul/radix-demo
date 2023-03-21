@@ -3,10 +3,10 @@ import {Link} from "react-router-dom";
 
 import styles from './ButtonText.module.scss';
 
-function ButtonText() {
+function ButtonText({text}) {
     return (
         <Link to="/">
-            <a className={styles.link}>Go to homepage</a>
+            <a className={styles.button_text}>{text}</a>
         </Link>
     );
 }

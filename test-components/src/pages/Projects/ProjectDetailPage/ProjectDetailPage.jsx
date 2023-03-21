@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 
 import Header from "../../../components/Header/Header.jsx";
 import HeaderText from "../../../components/HeaderText/MK1/HeaderText.jsx";
@@ -7,6 +7,7 @@ import styles from './ProjectDetailPage.module.scss';
 import ContentContainerLoadout from "../../../components/Containers/ContentContainer/ContentContainerLoadout.jsx";
 
 import loadout from "../../../utils/demo-data/loadout.json";
+import ScrollArea from "../../../components/ScrollArea/ScrollArea.jsx";
 
 function ProjectDetailPage({projectId, projectName}) {
     const [loadoutData, setLoadoutData] = useState([]);
@@ -42,8 +43,6 @@ function ProjectDetailPage({projectId, projectName}) {
 
     }, [stateCheck]);
 
-
-
     return (
         <>
             <Header/>
@@ -57,9 +56,21 @@ function ProjectDetailPage({projectId, projectName}) {
                 <div className={styles.loadout_section}>
                     <div className={styles.grid_container}>
                         {stateCheck && <ContentContainerLoadout totalDurationCount={parseInt(totalDurationCount)}
-                                                                totalAverageCount={parseInt(totalAverageDurationCount)}
+                                                                totalAverageCount={parseInt(totalAverageDurationCount / totalLoadoutCount)}
                                                                 totalLoadoutCount={totalLoadoutCount}
                         />}
+                        <div className={styles.project_grid_row}>
+                            <div className={styles.project_grid_row_title}>
+                                Loadout Numbers
+                                {/*    TODO Add a hover card to show the loadout num bers in other projects*/}
+                            </div>
+                            <ScrollArea headerText="Loadout Numbers"/>
+                        </div>
+                        <div className={styles.project_grid_row}>
+                            <div className={styles.project_grid_row_title}>
+                                Turbines Activity
+                            </div>
+                        </div>
                     </div>
                 </div>
 

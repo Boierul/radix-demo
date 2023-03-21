@@ -8,6 +8,7 @@ import TurbineHomeWrapper from "./pages/Turbines/Wrappers/TurbineHomeWrapper.jsx
 import ProjectDetailWrapper from "./pages/Projects/Wrappers/ProjectDetailWrapper.jsx";
 import TurbineDetailPage from "./pages/Turbines/TurbineDetailPage/TurbineDetailPage.jsx";
 import UnderConstructionPage from "./pages/Misc/UnderConstruction/UnderConstructionPage.jsx";
+import ButtonText from "./components/Buttons/ButtonText/ButtonText.jsx";
 
 function App() {
     return (
@@ -20,6 +21,16 @@ function App() {
             <Route path="/construction" element={<UnderConstructionPage/>}/>
             <Route path="/*" element={<Custom404/>}/>
 
+
+            <Route path="/demo" element={<div style={{
+                height: "100vh",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                flexDirection: "column"
+            }}>
+                <ButtonText text="Baraga"/>
+            </div>}/>
         </Routes>
     )
 }
