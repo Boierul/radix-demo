@@ -1,0 +1,15 @@
+.construction_container {
+  padding-top: 4rem;
+
+  .construction_title {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: clamp(2rem, -1.2188rem + 9.5vw, 3.5rem);
+    font-weight: 400;
+  }
+}

@@ -25,7 +25,7 @@ function HeaderTextMK3({title, subtitle, projectId, turbineId}) {
                     <span className={styles.header_text_path_1} onClick={handleProjectTurbinesClick}>
                         / Turbines
                     </span>
-                   <span className={styles.header_text_path_2} onClick={handleProjectTurbinesClick}>
+                   <span className={styles.header_text_path_2} onClick={handleTurbineDetailsClick}>
                         / {turbineId}
                     </span>
                </div>

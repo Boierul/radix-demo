@@ -1,9 +1,13 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, {useEffect, useRef, useState} from 'react';
+
 import Header from "../../components/Header/Header.jsx";
+import HeaderText from "../../components/HeaderText/MK1/HeaderText.jsx";
 import ProjectItem from "../../components/Containers/Demo/ProjectItem.jsx";
-import styles from "./ProjectsHome.module.scss";
+
 import projects from '../../utils/customJSON/projectsUpdated.json';
 import loadout from '../../utils/demo-data/loadout.json';
+
+import styles from "./ProjectsHome.module.scss";
 
 function ProjectsHome() {
     // Store the previous sumTotalDuration value
@@ -39,15 +43,23 @@ function ProjectsHome() {
 
     return (
         <>
-            <Header />
+            <Header/>
+
             <div className={styles.projects_home_container}>
+                <div className={styles.header_text}>
+                    <HeaderText
+                        title="Projects"
+                        subtitle="Here are displayed all your available projects"
+                    />
+                </div>
+
                 <div className={styles.grid_container}>
-                    {projects.map(({ Project_ID, Number_Of_Turbines, Project_Name }) => (
+                    {projects.map(({Project_ID, Number_Of_Turbines, Project_Name}) => (
                         <div key={Project_ID} className={styles.grid_container_row}>
                             <ProjectItem loadoutCount={parseInt(loadoutCountSum[Project_ID]) || 0}
                                          projectID={Project_ID}
                                          turbinesCount={Number_Of_Turbines}
-                                         projectName={Project_Name} />
+                                         projectName={Project_Name}/>
                         </div>
                     ))}
                 </div>

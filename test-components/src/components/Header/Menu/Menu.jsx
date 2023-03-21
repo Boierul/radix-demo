@@ -24,17 +24,17 @@ const Menu = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/turbines" className={styles.menu__link}>
+                        <NavLink to="/construction" className={styles.menu__link}>
                             visualise data
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/" className={styles.menu__link}>
+                        <NavLink to="/construction" className={styles.menu__link}>
                             notifications
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/" className={styles.menu__link}>
+                        <NavLink to="/construction" className={styles.menu__link}>
                             settings
                         </NavLink>
                     </li>
@@ -54,17 +54,17 @@ const Menu = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/" className={styles.menu__link}>
+                        <NavLink to="/construction" className={styles.menu__link}>
                             visualise data
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/" className={styles.menu__link}>
+                        <NavLink to="/construction" className={styles.menu__link}>
                             notifications
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/" className={styles.menu__link}>
+                        <NavLink to="/construction" className={styles.menu__link}>
                             settings
                         </NavLink>
                     </li>
