@@ -20,10 +20,8 @@ function ProjectDetailWrapper() {
     useEffect(() => {
         // Checks if the project ID is in the projects array and sets the project name
         projects.map((project) => {
-            {
-                if (project.Project_ID === projectId) {
-                    setProjectName(project.Project_Name);
-                }
+            if (project.Project_ID === projectId) {
+                setProjectName(project.Project_Name);
             }
         })
     }, []);

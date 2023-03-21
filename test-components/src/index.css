@@ -7,6 +7,7 @@
   --main-color: #F5F5F5;
   --main-color-hover: #eaeaea;
   --main-color-reverse: #000;
+  --main-color-reverse-op-75: rgba(0, 0, 0, 0.75);
   --accent-color: #009999;
   --accent-second-color: #0090B2;
   --accent-second-complementary-color: #00ff75;

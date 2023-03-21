@@ -1,0 +1,39 @@
+.layout_container_row {
+  width: 100%;
+  grid-column: span 4;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+  .layout_title {
+    font-family: Bahnschrift, sans-serif;
+    font-weight: 400;
+    border-radius: 10px 10px 0 0;
+    background: var(--main-color-reverse);
+    border-bottom: 2px solid #ececec;
+    color: var(--main-color);
+    padding: 1rem 2rem;
+    font-size: clamp(1rem, 0.35rem + 3.25vw, 1.8rem);
+  }
+
+  .layout_inner_container {
+    padding-top: .5rem;
+
+    .layout_loadout_title {
+      font-weight: 600;
+      padding: .55rem 2rem;
+      display: flex;
+      flex-direction: column;
+
+      .layout_loadout_count {
+        padding-top: .2rem;
+        font-weight: 300;
+        font-size: clamp(1rem, 0.35rem + 3.25vw, 1.2rem);
+      }
+    }
+  }
+}

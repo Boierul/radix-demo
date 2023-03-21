@@ -27,15 +27,3 @@
     padding: 2.5% 2rem;
   }
 }
-
-.grid_container_row {
-  width: 100%;
-  grid-column: span 12;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #ececec;
-  border-radius: 10px;
-  background-color: white;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-}
