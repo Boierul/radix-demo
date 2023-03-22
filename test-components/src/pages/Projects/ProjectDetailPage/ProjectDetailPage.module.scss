@@ -51,5 +51,20 @@
       padding: 1rem 2rem;
       font-size: clamp(1rem, 0.35rem + 3.25vw, 1.8rem);
     }
+
+    .project_grid_turbines_title {
+      display: flex;
+      flex-direction: row;
+      padding: 1rem 2rem;
+      font-weight: 600;
+
+      .project_grid_turbines_circle {
+        position: relative;
+        padding-left: 1rem;
+        margin-top: .2rem;
+      }
+    }
   }
 }
+
+

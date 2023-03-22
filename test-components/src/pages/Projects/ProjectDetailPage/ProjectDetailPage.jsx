@@ -8,6 +8,7 @@ import ContentContainerLoadout from "../../../components/Containers/ContentConta
 
 import loadout from "../../../utils/demo-data/loadout.json";
 import ScrollArea from "../../../components/ScrollArea/ScrollArea.jsx";
+import PulsatingCircle from "../../../components/PulsatingCircle/PulsatingCircle.jsx";
 
 function ProjectDetailPage({projectId, projectName}) {
     const [loadoutData, setLoadoutData] = useState([]);
@@ -69,6 +70,12 @@ function ProjectDetailPage({projectId, projectName}) {
                         <div className={styles.project_grid_row}>
                             <div className={styles.project_grid_row_title}>
                                 Turbines Activity
+                            </div>
+                            <div className={styles.project_grid_turbines_title}>
+                                Turbines Status:
+                                <div className={styles.project_grid_turbines_circle}>
+                                    <PulsatingCircle/>
+                                </div>
                             </div>
                         </div>
                     </div>
