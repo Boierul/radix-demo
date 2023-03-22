@@ -28,6 +28,7 @@
     padding-top: .5rem;
 
     .layout_loadout_title {
+      font-size: clamp(1rem, 0.35rem + 3.25vw, 1.1rem);
       font-weight: 600;
       padding: .55rem 2rem;
       display: flex;

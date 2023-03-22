@@ -55,14 +55,21 @@
     }
 
     .project_grid_turbines_title {
+      font-size: clamp(1rem, 0.35rem + 3.25vw, 1.1rem);
+      font-weight: 600;
+      padding: .55rem 2rem;
       display: flex;
-      flex-direction: row;
-      padding: 1rem 2rem;
+      flex-direction: column;
+    }
+
+    .project_grid_turbines_title {
+      display: flex;
+      flex-direction: column;
+      padding: .55rem 2rem;
       font-weight: 600;
 
-      .project_grid_turbines_circle {
+      .project_grid_turbines_title_value {
         position: relative;
-        padding-left: 1rem;
         margin-top: .2rem;
       }
     }
@@ -70,3 +77,22 @@
 }
 
 
+.project_grid_inner_container {
+  padding-top: .5rem;
+}
+
+.project_grid_turbines_span {
+  padding-top: .2rem;
+  font-weight: 300;
+  font-size: clamp(1rem, 0.35rem + 3.25vw, 1.2rem);
+}
+
+.project_grid_row_padding {
+    padding-top: .5rem;
+}
+
+.project_grid_row_container  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

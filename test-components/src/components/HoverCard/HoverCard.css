@@ -44,6 +44,10 @@ a {
     display: block;
     border-radius: 100%;
 }
+.Image.small {
+    width: 30px;
+    height: 30px;
+}
 .Image.normal {
     width: 45px;
     height: 45px;

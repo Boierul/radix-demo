@@ -8,7 +8,7 @@ import ContentContainerLoadout from "../../../components/Containers/ContentConta
 
 import loadout from "../../../utils/demo-data/loadout.json";
 import ScrollArea from "../../../components/ScrollArea/ScrollArea.jsx";
-import PulsatingCircle from "../../../components/PulsatingCircle/PulsatingCircle.jsx";
+import icon from "../../../icons/png/arrow-right-1.png";
 
 function ProjectDetailPage({projectId, projectName}) {
     const [loadoutData, setLoadoutData] = useState([]);
@@ -71,16 +71,45 @@ function ProjectDetailPage({projectId, projectName}) {
 
                         <div className={styles.project_grid_row}>
                             <div className={styles.project_grid_row_title}>
-                                Turbines Activity
-                            </div>
-                            <div className={styles.project_grid_turbines_title}>
-                                Turbines Status:
-                                <div className={styles.project_grid_turbines_circle}>
-                                    <PulsatingCircle/>
+                                <div className={styles.project_grid_row_container}>
+                                    <>Turbines Activity</>
+                                    <>
+                                        <img
+                                            className="Image small"
+                                            src={icon}
+                                            alt="icon"
+                                            onClick={() => {
+                                                window.location.href = `/projects/${projectId}/turbines`
+                                            }}
+                                        />
+                                    </>
                                 </div>
                             </div>
-                        </div>
 
+                            <div className={styles.project_grid_row_padding}>
+                                <div className={styles.project_grid_turbines_title}>
+                                    Turbines status:
+                                    <div className={styles.project_grid_turbines_title_value}>
+                                        <span className={styles.project_grid_turbines_span}>Active</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className={styles.project_grid_turbines_title}>
+                                Nr. of available turbines:
+                                <div className={styles.project_grid_turbines_title_value}>
+                                    <span className={styles.project_grid_turbines_span}>46</span>
+                                </div>
+                            </div>
+
+                            <div className={styles.project_grid_turbines_title}>
+                                Nr. of turbine installations:
+                                <div className={styles.project_grid_turbines_title_value}>
+                                    <span className={styles.project_grid_turbines_span}>52</span>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 
