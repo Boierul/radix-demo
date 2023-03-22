@@ -4,7 +4,7 @@ import './ScrollArea.css';
 
 const TAGS = Array.from({ length: 50 }).map((_, i, a) => `v1.2.0-beta.${a.length + i}`);
 
-const ScrollAreaDemo = ({headerText}) => (
+const ScrollAreaDemo = () => (
     <ScrollArea.Root className="ScrollAreaRoot">
         <ScrollArea.Viewport className="ScrollAreaViewport">
             <div>

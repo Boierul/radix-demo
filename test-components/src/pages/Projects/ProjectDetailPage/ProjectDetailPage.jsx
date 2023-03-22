@@ -60,13 +60,15 @@ function ProjectDetailPage({projectId, projectName}) {
                                                                 totalAverageCount={parseInt(totalAverageDurationCount / totalLoadoutCount)}
                                                                 totalLoadoutCount={totalLoadoutCount}
                         />}
+
                         <div className={styles.project_grid_row}>
                             <div className={styles.project_grid_row_title}>
                                 Loadout Numbers
-                                {/*    TODO Add a hover card to show the loadout num bers in other projects*/}
+                                {/*    TODO Add a hover card to show the loadout numbers in other projects*/}
                             </div>
-                            <ScrollArea headerText="Loadout Numbers"/>
+                            <ScrollArea/>
                         </div>
+
                         <div className={styles.project_grid_row}>
                             <div className={styles.project_grid_row_title}>
                                 Turbines Activity
@@ -78,6 +80,7 @@ function ProjectDetailPage({projectId, projectName}) {
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
 

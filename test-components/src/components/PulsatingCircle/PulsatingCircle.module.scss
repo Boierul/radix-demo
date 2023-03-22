@@ -17,7 +17,7 @@
     margin-top: -100%;
     border-radius: 45px;
     background-color: #00ff75;
-    animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    animation: pulse-ring 2.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
   }
 
   &:after {
@@ -31,7 +31,7 @@
     background-color: var(--main-color);
     border-radius: 15px;
     box-shadow: 0 0 8px rgba(0, 0, 0, .3);
-    animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.4s infinite;
+    animation: pulse-dot 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.4s infinite;
   }
 }
 
