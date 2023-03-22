@@ -11,6 +11,7 @@ function ProjectDetailWrapper() {
     const [allowedProjectNames, setAllowedProjectNames] = useState([]);
     const [projectName, setProjectName] = useState('');
 
+
     useEffect(() => {
         // Checks if the project ID is in the projects array && renders the project detail page
         const result = projects.map((project) => project.Project_ID);

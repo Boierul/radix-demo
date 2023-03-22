@@ -3,11 +3,11 @@ import React, {useEffect, useState} from 'react';
 import Header from "../../../components/Header/Header.jsx";
 import HeaderText from "../../../components/HeaderText/MK1/HeaderText.jsx";
 
-import styles from './ProjectDetailPage.module.scss';
 import ContentContainerLoadout from "../../../components/Containers/ContentContainer/ContentContainerLoadout.jsx";
-
-import loadout from "../../../utils/demo-data/loadout.json";
 import ScrollArea from "../../../components/ScrollArea/ScrollArea.jsx";
+
+import styles from './ProjectDetailPage.module.scss';
+import loadout from "../../../utils/demo-data/loadout.json";
 import icon from "../../../icons/png/arrow-right-1.png";
 
 function ProjectDetailPage({projectId, projectName}) {
@@ -56,19 +56,6 @@ function ProjectDetailPage({projectId, projectName}) {
 
                 <div className={styles.loadout_section}>
                     <div className={styles.grid_container}>
-                        {stateCheck && <ContentContainerLoadout totalDurationCount={parseInt(totalDurationCount)}
-                                                                totalAverageCount={parseInt(totalAverageDurationCount / totalLoadoutCount)}
-                                                                totalLoadoutCount={totalLoadoutCount}
-                        />}
-
-                        <div className={styles.project_grid_row}>
-                            <div className={styles.project_grid_row_title}>
-                                Loadout Numbers
-                                {/*    TODO Add a hover card to show the loadout numbers in other projects*/}
-                            </div>
-                            <ScrollArea/>
-                        </div>
-
                         <div className={styles.project_grid_row}>
                             <div className={styles.project_grid_row_title}>
                                 <div className={styles.project_grid_row_container}>
@@ -110,6 +97,20 @@ function ProjectDetailPage({projectId, projectName}) {
                             </div>
 
                         </div>
+
+                        {stateCheck && <ContentContainerLoadout totalDurationCount={parseInt(totalDurationCount)}
+                                                                totalAverageCount={parseInt(totalAverageDurationCount / totalLoadoutCount)}
+                                                                totalLoadoutCount={totalLoadoutCount}
+                        />}
+
+                        <div className={styles.project_grid_row}>
+                            <div className={styles.project_grid_row_title}>
+                                Loadout Numbers
+                                {/*    TODO Add a hover card to show the loadout numbers in other projects*/}
+                            </div>
+                            <ScrollArea/>
+                        </div>
+
                     </div>
                 </div>
 

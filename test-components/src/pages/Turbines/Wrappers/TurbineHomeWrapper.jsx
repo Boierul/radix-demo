@@ -8,6 +8,7 @@ function TurbineHomeWrapper() {
     const {projectId} = useParams();
     const [allowedProjectNames, setAllowedProjectNames] = useState([]);
     const [projectName, setProjectName] = useState('');
+    const [turbineList, setTurbineList] = useState([]);
 
     useEffect(() => {
         const result = projects.map((project) => project.Project_ID);
@@ -20,6 +21,8 @@ function TurbineHomeWrapper() {
             {
                 if (project.Project_ID === projectId) {
                     setProjectName(project.Project_Name);
+                    setTurbineList(project.Turbines)
+                    console.log(project.Turbines)
                 }
             }
         })
@@ -32,7 +35,7 @@ function TurbineHomeWrapper() {
         return <Custom404/>;
     }
 
-    return <TurbinesHome projectId={projectId} projectName={projectName} />;
+    return <TurbinesHome projectId={projectId} projectName={projectName} turbineList={turbineList}/>;
 }
 
 export default TurbineHomeWrapper;

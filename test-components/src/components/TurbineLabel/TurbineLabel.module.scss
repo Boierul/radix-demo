@@ -1,0 +1,51 @@
+.turbines_grid_row {
+  width: 100%;
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ececec;
+  background: var(--main-color-reverse);
+  color: var(--main-color);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  @media screen and (max-width: 1440px) {
+    grid-column: span 3;
+  }
+  @media screen and (max-width: 960px) {
+    grid-column: span 4;
+  }
+  @media screen and (max-width: 768px) {
+    grid-column: span 6;
+  }
+  @media screen and (max-width: 630px) {
+    grid-column: span 12;
+  }
+}
+
+.turbines_grid_inner_container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.turbines_grid_title {
+  font-family: Bahnschrift, sans-serif;
+  font-weight: 400;
+  font-size: clamp(1rem, 0.35rem + 3.25vw, 1.8rem);
+  display: flex;
+}
+
+.turbines_grid_container_circle {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  padding-left: 1.2rem;
+  @media screen and (min-width: 1440px) {
+    padding-left: 1.5rem;
+  }
+  @media screen and (min-width: 1800px) {
+    padding-left: 2rem;
+  }
+}

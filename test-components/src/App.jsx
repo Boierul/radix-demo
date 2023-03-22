@@ -8,7 +8,6 @@ import TurbineHomeWrapper from "./pages/Turbines/Wrappers/TurbineHomeWrapper.jsx
 import ProjectDetailWrapper from "./pages/Projects/Wrappers/ProjectDetailWrapper.jsx";
 import TurbineDetailPage from "./pages/Turbines/TurbineDetailPage/TurbineDetailPage.jsx";
 import UnderConstructionPage from "./pages/Misc/UnderConstruction/UnderConstructionPage.jsx";
-import ButtonText from "./components/Buttons/ButtonText/ButtonText.jsx";
 import PulsatingCircle from "./components/PulsatingCircle/PulsatingCircle.jsx";
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
             <Route path="/projects/:projectId/turbines/:turbineId" element={<TurbineDetailPage/>}/>
             <Route path="/construction" element={<UnderConstructionPage/>}/>
             <Route path="/*" element={<Custom404/>}/>
-
 
             <Route path="/demo" element={<div style={{
                 height: "100vh",
