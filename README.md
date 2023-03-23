@@ -1,1 +1,1 @@
-# Siemens demo application
+# Front-end Demo Application
