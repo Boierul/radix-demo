@@ -40,19 +40,19 @@ a {
 .ImageTrigger:focus {
 }
 
-.Image {
+.Images {
+    cursor: pointer;
     display: block;
-    border-radius: 100%;
 }
-.Image.small {
+.Images.small {
     width: 30px;
     height: 30px;
 }
-.Image.normal {
+.Images.normal {
     width: 45px;
     height: 45px;
 }
-.Image.large {
+.Images.large {
     width: 65px;
     height: 65px;
 }

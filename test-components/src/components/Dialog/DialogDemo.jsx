@@ -2,41 +2,53 @@ import React from 'react';
 import './DialogDemos.css';
 
 import * as Dialog from '@radix-ui/react-dialog';
-import { Cross2Icon } from '@radix-ui/react-icons';
+import {Cross2Icon} from '@radix-ui/react-icons';
+import plusIcon from '../../icons/png/plus.png';
+import ButtonText from "../Buttons/ButtonText/ButtonText.jsx";
 
 function DialogDemo() {
     return (
         <Dialog.Root>
             <Dialog.Trigger asChild>
-                <button className="Button violet">Edit profile</button>
+                <button className="Button_MK2">
+                    <img style={{
+                        width: '25px',
+                        height: '25px',
+                    }} src={plusIcon}/>
+                </button>
             </Dialog.Trigger>
             <Dialog.Portal>
-                <Dialog.Overlay className="DialogOverlay" />
+                <Dialog.Overlay className="DialogOverlay"/>
                 <Dialog.Content className="DialogContent">
-                    <Dialog.Title className="DialogTitle">Edit profile</Dialog.Title>
+                    <Dialog.Title className="DialogTitle">Add project</Dialog.Title>
                     <Dialog.Description className="DialogDescription">
-                        Make changes to your profile here. Click save when you're done.
+                        Here you can add a new project to your list
                     </Dialog.Description>
-                    <fieldset className="Fieldset">
-                        <label className="Label" htmlFor="name">
-                            Name
-                        </label>
-                        <input className="Input" id="name" defaultValue="Pedro Duarte" />
-                    </fieldset>
-                    <fieldset className="Fieldset">
-                        <label className="Label" htmlFor="username">
-                            Username
-                        </label>
-                        <input className="Input" id="username" defaultValue="@peduarte" />
-                    </fieldset>
-                    <div style={{ display: 'flex', marginTop: 25, justifyContent: 'flex-end' }}>
+                    <div style={{
+                        padding: '.2rem 0'
+                    }}>
+                        <fieldset className="Fieldset">
+                            <label className="Label" htmlFor="name">
+                                Project Name
+                            </label>
+                            <input className="Input" id="name" defaultValue=""/>
+                        </fieldset>
+                        <fieldset className="Fieldset">
+                            <label className="Label" htmlFor="username">
+                                Others
+                            </label>
+                            <input className="Input" id="username" defaultValue=""/>
+                        </fieldset>
+                    </div>
+                    <div style={{display: 'flex', marginTop: 15, justifyContent: 'flex-end'}}>
                         <Dialog.Close asChild>
-                            <button className="Button green">Save changes</button>
+                            <ButtonText text="Add project" fontSize="13px"/>
+                            {/*<button className="Button custom">Add project</button>*/}
                         </Dialog.Close>
                     </div>
                     <Dialog.Close asChild>
                         <button className="IconButton" aria-label="Close">
-                            <Cross2Icon />
+                            <Cross2Icon/>
                         </button>
                     </Dialog.Close>
                 </Dialog.Content>

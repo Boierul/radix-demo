@@ -8,6 +8,7 @@ import projects from '../../utils/customJSON/projectsUpdated.json';
 import loadout from '../../utils/demo-data/loadout.json';
 
 import styles from "./ProjectsHome.module.scss";
+import DialogDemo from "../../components/Dialog/DialogDemo.jsx";
 
 function ProjectsHome() {
     // Store the previous sumTotalDuration value
@@ -62,9 +63,8 @@ function ProjectsHome() {
                                          projectName={Project_Name}/>
                         </div>
                     ))}
-                    {/*TODO -> CRUD project */}
-                    <div>
-                        Add Project
+                    <div className={styles.grid_container_row}>
+                        <DialogDemo/>
                     </div>
                 </div>
             </div>

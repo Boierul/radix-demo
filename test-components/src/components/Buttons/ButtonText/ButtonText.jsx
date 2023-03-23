@@ -3,10 +3,12 @@ import {Link} from "react-router-dom";
 
 import styles from './ButtonText.module.scss';
 
-function ButtonText({text}) {
+function ButtonText({text, fontSize}) {
     return (
         <Link to="/">
-            <a className={styles.button_text}>{text}</a>
+            <a className={styles.button_text} style={{
+                fontSize: `${fontSize}`
+            }}>{text}</a>
         </Link>
     );
 }

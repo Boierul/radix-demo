@@ -62,7 +62,7 @@ function ProjectDetailPage({projectId, projectName}) {
                                     <>Turbines Activity</>
                                     <>
                                         <img
-                                            className="Image small"
+                                            className={styles.project_grid_image}
                                             src={icon}
                                             alt="icon"
                                             onClick={() => {

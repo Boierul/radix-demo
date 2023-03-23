@@ -1,13 +1,13 @@
 import React from 'react';
 import * as HoverCard from '@radix-ui/react-hover-card';
 import './HoverCard.css';
-import icon from "../../icons/png/board.png";
+import icon from "../../icons/png/strategy.png";
 
 const HoverCardDemo = ({turbinesCount, loadoutCount}) => (
     <HoverCard.Root>
         <HoverCard.Trigger asChild>
                 <img
-                    className="Image large"
+                    className="Images small"
                     src={icon}
                     alt="icon"
                 />
