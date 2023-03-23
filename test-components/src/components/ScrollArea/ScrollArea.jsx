@@ -2,9 +2,7 @@ import React from 'react';
 import './ScrollArea.css';
 import * as ScrollArea from '@radix-ui/react-scroll-area';
 
-import loadout from "../../../src/utils/demo-data/loadout.json";
-
-const ScrollAreaDemo = ({filteredLoadoutData}) => (
+const ScrollAreaLoadout = ({filteredLoadoutData}) => (
     <ScrollArea.Root className="ScrollAreaRoot">
         <ScrollArea.Viewport className="ScrollAreaViewport">
             <div>
@@ -25,4 +23,4 @@ const ScrollAreaDemo = ({filteredLoadoutData}) => (
     </ScrollArea.Root>
 );
 
-export default ScrollAreaDemo;
+export default ScrollAreaLoadout;

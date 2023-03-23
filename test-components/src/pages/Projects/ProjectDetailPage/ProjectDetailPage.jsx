@@ -19,14 +19,11 @@ function ProjectDetailPage({projectId, projectName, storedProjectId}) {
     const [totalAverageDurationCount, setTotalAverageDurationCount] = useState(0);
     const [totalLoadoutCount, setTotalLoadoutCount] = useState(0);
 
+    // Filter the loadout data by project ID
     function filterLoadoutByProjectID(loadoutList, projectID) {
         return loadoutList
             .filter((loadout) => loadout.Project_ID === projectID)
     }
-
-    // function mapFilteredLoadoutData(filteredLoadoutData) {
-    //     return filteredLoadoutData.map((loadout) => loadout.Loadout_ID);
-    // }
 
     // Checks if the project ID is in the loadout array && renders the loadout data
     useEffect(() => {
