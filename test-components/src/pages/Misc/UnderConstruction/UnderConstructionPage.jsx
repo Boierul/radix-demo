@@ -13,7 +13,7 @@ function UnderConstructionPage() {
                     Under Construction
 
                     <div className={styles.construction_button}>
-                        <ButtonText text="Go to homepage"/>
+                        <ButtonText text="Go to homepage" fontSize='12px'/>
                     </div>
                 </div>
             </div>

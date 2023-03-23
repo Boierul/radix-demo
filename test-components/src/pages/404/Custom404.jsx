@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Custom404.module.scss';
-import {Link} from "react-router-dom";
 import ButtonText from "../../components/Buttons/ButtonText/ButtonText.jsx"; // Import your CSS file here
 
 function Custom404() {
@@ -11,7 +10,7 @@ function Custom404() {
                 <h2 className={styles.heading}>This page could not be found.</h2>
             </div>
             <div className={styles.link_container}>
-                <ButtonText text="Go to homepage"/>
+                <ButtonText text="Go to homepage" fontSize='12px'/>
             </div>
         </div>
     );

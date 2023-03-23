@@ -1,17 +1,16 @@
 import React from 'react';
-import * as ScrollArea from '@radix-ui/react-scroll-area';
 import './ScrollArea.css';
+import * as ScrollArea from '@radix-ui/react-scroll-area';
 
-const TAGS = Array.from({ length: 50 }).map((_, i, a) => `v1.2.0-beta.${a.length + i}`);
+import loadout from "../../../src/utils/demo-data/loadout.json";
 
 const ScrollAreaDemo = () => (
     <ScrollArea.Root className="ScrollAreaRoot">
         <ScrollArea.Viewport className="ScrollAreaViewport">
             <div>
-                {/*<div className="Text">{headerText}</div>*/}
-                {TAGS.map((tag) => (
-                    <div className="Tag" key={tag}>
-                        {tag}
+                {loadout.map((tag) => (
+                    <div className="Tag" key={loadout.Loadout_ID}>
+                        {tag.Loadout_ID}
                     </div>
                 ))}
             </div>

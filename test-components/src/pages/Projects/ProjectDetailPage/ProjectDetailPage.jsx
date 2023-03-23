@@ -18,8 +18,8 @@ function ProjectDetailPage({projectId, projectName}) {
     const [totalAverageDurationCount, setTotalAverageDurationCount] = useState(0);
     const [totalLoadoutCount, setTotalLoadoutCount] = useState(0);
 
+    // Checks if the project ID is in the loadout array && renders the loadout data
     useEffect(() => {
-        // Checks if the project ID is in the loadout array && renders the loadout data
         const result = loadout.filter((loadout) => loadout.Project_ID === projectId);
 
         if (result) {
@@ -28,6 +28,7 @@ function ProjectDetailPage({projectId, projectName}) {
         }
     }, []);
 
+    // Calculates the total duration, average duration and total loadouts
     useEffect(() => {
         let sumDurationCount = 0;
         let sumAvgDurationCount = 0;

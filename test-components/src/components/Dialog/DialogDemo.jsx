@@ -29,7 +29,7 @@ function DialogDemo() {
                     }}>
                         <fieldset className="Fieldset">
                             <label className="Label" htmlFor="name">
-                                Project Name
+                                Name
                             </label>
                             <input className="Input" id="name" defaultValue=""/>
                         </fieldset>

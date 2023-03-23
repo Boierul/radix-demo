@@ -9,6 +9,8 @@ import projects from "../../../utils/customJSON/projectsUpdated.json";
 function ProjectDetailWrapper() {
     const {projectId} = useParams();
     const [allowedProjectNames, setAllowedProjectNames] = useState([]);
+    // TODO: Add the turbines names to the allowedTurbinesNames array
+    const [allowedTurbinesNames, setTurbinesNames] = useState([]);
     const [projectName, setProjectName] = useState('');
 
 
