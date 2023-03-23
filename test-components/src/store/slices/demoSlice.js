@@ -1,20 +1,25 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-    value: 'A00',
+    trubineID: 'A00',
+    projectID: 'P00'
 }
 
 export const counterSlice = createSlice({
-    name: 'turbine',
+    name: 'application',
     initialState,
     reducers: {
         setTurbineName: (state, action) => {
-            state.value = action.payload
+            state.trubineID = action.payload
+        },
+        setProjectName: (state, action) => {
+            state.projectID = action.payload
         }
     },
 })
 
 // Action creators are generated for each case reducer function
-export const { setTurbineName } = counterSlice.actions
+export const { setTurbineName, setProjectName } = counterSlice.actions
 
 export default counterSlice.reducer
+

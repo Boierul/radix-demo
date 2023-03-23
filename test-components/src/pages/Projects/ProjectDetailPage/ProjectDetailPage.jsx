@@ -10,20 +10,32 @@ import styles from './ProjectDetailPage.module.scss';
 import loadout from "../../../utils/demo-data/loadout.json";
 import icon from "../../../icons/png/arrow-right-1.png";
 
-function ProjectDetailPage({projectId, projectName}) {
+function ProjectDetailPage({projectId, projectName, storedProjectId}) {
     const [loadoutData, setLoadoutData] = useState([]);
+    const [filteredLoadoutData, setFilteredLoadoutData] = useState([]);
     // Synchronous concurrency flag
     const [stateCheck, setStateCheck] = useState(false);
     const [totalDurationCount, setTotalDurationCount] = useState(0);
     const [totalAverageDurationCount, setTotalAverageDurationCount] = useState(0);
     const [totalLoadoutCount, setTotalLoadoutCount] = useState(0);
 
+    function filterLoadoutByProjectID(loadoutList, projectID) {
+        return loadoutList
+            .filter((loadout) => loadout.Project_ID === projectID)
+    }
+
+    // function mapFilteredLoadoutData(filteredLoadoutData) {
+    //     return filteredLoadoutData.map((loadout) => loadout.Loadout_ID);
+    // }
+
     // Checks if the project ID is in the loadout array && renders the loadout data
     useEffect(() => {
-        const result = loadout.filter((loadout) => loadout.Project_ID === projectId);
+        const result =
+            filterLoadoutByProjectID(loadout, storedProjectId);
 
         if (result) {
             setLoadoutData(result);
+            setFilteredLoadoutData(result);
             setStateCheck(true);
         }
     }, []);
@@ -67,7 +79,7 @@ function ProjectDetailPage({projectId, projectName}) {
                                             src={icon}
                                             alt="icon"
                                             onClick={() => {
-                                                window.location.href = `/projects/${projectId}/turbines`
+                                                window.location.href = `/projects/${storedProjectId}/turbines`
                                             }}
                                         />
                                     </>
@@ -109,7 +121,7 @@ function ProjectDetailPage({projectId, projectName}) {
                                 Loadout Numbers
                                 {/*    TODO Add a hover card to show the loadout numbers in other projects*/}
                             </div>
-                            <ScrollArea/>
+                            <ScrollArea filteredLoadoutData={filteredLoadoutData}/>
                         </div>
 
                     </div>

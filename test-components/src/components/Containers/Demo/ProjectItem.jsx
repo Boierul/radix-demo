@@ -5,6 +5,8 @@ import HoverCard from "../../HoverCard/HoverCard.jsx";
 function ProjectItem({projectID, turbinesCount, loadoutCount, projectName}) {
 
     function handleProjectClick() {
+        // Set the projectID to local storage (Redux is not persistent)
+        localStorage.setItem('projectID', projectID)
         window.location.href = `/projects/${projectID}`;
     }
 

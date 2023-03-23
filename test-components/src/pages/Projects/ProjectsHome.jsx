@@ -13,6 +13,7 @@ import DialogDemo from "../../components/Dialog/DialogDemo.jsx";
 function ProjectsHome() {
     // Store the previous sumTotalDuration value
     const prevSumTotalDuration = useRef(null);
+    // Store the sum of the total duration of each project
     const [loadoutCountSum, setLoadoutCountSum] = useState({});
 
     // Function that sums the total duration of each project

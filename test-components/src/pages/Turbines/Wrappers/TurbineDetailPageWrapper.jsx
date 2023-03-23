@@ -15,12 +15,15 @@ function TurbineDetailPageWrapper() {
 
     const dispatch = useDispatch();
     const storedTurbineName = localStorage.getItem('turbineName')
+    const storedProjectId = localStorage.getItem('projectID')
 
+    // Checks if the project ID is in the projects array and sets the allowedProjectNames
     useEffect(() => {
         const result = projects.map((project) => project.Project_ID);
         setAllowedProjectNames(result);
     }, []);
 
+    // Checks if the turbine name is in local storage and sets the turbine name
     useEffect(() => {
         // Get the turbine name from local storage
         if (storedTurbineName) {

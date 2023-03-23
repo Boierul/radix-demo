@@ -6,8 +6,6 @@ import HeaderTextMK3 from "../../../components/HeaderText/MK3/HeaderTextMK3.jsx"
 import styles from './TurbineDetailPage.module.scss';
 
 function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
-    const turbineID = 'A01'
-
     return (
         <>
             <Header/>
