@@ -6,6 +6,8 @@ import HeaderTextMK2 from "../../components/HeaderText/MK2/HeaderTextMK2.jsx";
 
 import styles from './TurbinesHome.module.scss';
 import TurbineLabel from "../../components/TurbineLabel/TurbineLabel.jsx";
+import DialogDemo from "../../components/Dialog/DialogDemo.jsx";
+import plusIcon from "../../icons/png/plus-inverted.png";
 
 function TurbinesHome({projectId, projectName, turbineList}) {
     // Limit the number of turbines to 10 to display
@@ -29,13 +31,15 @@ function TurbinesHome({projectId, projectName, turbineList}) {
                             <TurbineLabel turbineName={turbine.Turbine_ID} projectId={projectId}/>
                         )
                     })}
-                    {/* TODO - Add a button to add a turbine (use Radix EditPopover)*/}
-                    <div style={{
-                        display: "flex",
-                        // backgroundColor: "red",
-                        justifyContent: "center",
-                        alignItems: "center",
-                    }}>Add Turbine
+                    <div className={styles.turbine_grid_container_row}>
+                        <DialogDemo title='Add turbine'
+                                    description='Here you can add a new turbine to your list'
+                                    labelOne={'Name'}
+                                    labelTwo={'Others'}
+                                    icon={plusIcon}
+                                    buttonText={'Add turbine'}
+                                    backgroundColor={'#000'}
+                        />
                     </div>
                 </div>
 

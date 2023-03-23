@@ -10,6 +10,8 @@ import loadout from '../../utils/demo-data/loadout.json';
 import styles from "./ProjectsHome.module.scss";
 import DialogDemo from "../../components/Dialog/DialogDemo.jsx";
 
+import plusIcon from '../../icons/png/plus.png';
+
 function ProjectsHome() {
     // Store the previous sumTotalDuration value
     const prevSumTotalDuration = useRef(null);
@@ -65,7 +67,14 @@ function ProjectsHome() {
                         </div>
                     ))}
                     <div className={styles.grid_container_row}>
-                        <DialogDemo/>
+                        <DialogDemo title='Add project'
+                                    description='Here you can add a new project to your list'
+                                    labelOne={'Name'}
+                                    labelTwo={'Others'}
+                                    icon={plusIcon}
+                                    buttonText={'Add project'}
+                                    backgroundColor={'#fff'}
+                        />
                     </div>
                 </div>
             </div>

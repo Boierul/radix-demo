@@ -43,3 +43,23 @@
     padding: 1.5% 2rem;
   }
 }
+
+.turbine_grid_container_row {
+  width: 100%;
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 1440px) {
+    grid-column: span 3;
+  }
+  @media screen and (max-width: 960px) {
+    grid-column: span 4;
+  }
+  @media screen and (max-width: 768px) {
+    grid-column: span 6;
+  }
+  @media screen and (max-width: 630px) {
+    grid-column: span 12;
+  }
+}

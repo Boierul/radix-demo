@@ -3,47 +3,47 @@ import './DialogDemos.css';
 
 import * as Dialog from '@radix-ui/react-dialog';
 import {Cross2Icon} from '@radix-ui/react-icons';
-import plusIcon from '../../icons/png/plus.png';
 import ButtonText from "../Buttons/ButtonText/ButtonText.jsx";
 
-function DialogDemo() {
+function DialogDemo({title, icon, description, labelOne, labelTwo, buttonText, backgroundColor}) {
     return (
         <Dialog.Root>
             <Dialog.Trigger asChild>
-                <button className="Button_MK2">
+                <button style={{
+                    backgroundColor: backgroundColor
+                }} className="Button_MK2">
                     <img style={{
                         width: '25px',
                         height: '25px',
-                    }} src={plusIcon}/>
+                    }} src={icon}/>
                 </button>
             </Dialog.Trigger>
             <Dialog.Portal>
                 <Dialog.Overlay className="DialogOverlay"/>
                 <Dialog.Content className="DialogContent">
-                    <Dialog.Title className="DialogTitle">Add project</Dialog.Title>
+                    <Dialog.Title className="DialogTitle">{title}</Dialog.Title>
                     <Dialog.Description className="DialogDescription">
-                        Here you can add a new project to your list
+                        {description}
                     </Dialog.Description>
                     <div style={{
                         padding: '.2rem 0'
                     }}>
                         <fieldset className="Fieldset">
                             <label className="Label" htmlFor="name">
-                                Name
+                                {labelOne}
                             </label>
                             <input className="Input" id="name" defaultValue=""/>
                         </fieldset>
                         <fieldset className="Fieldset">
                             <label className="Label" htmlFor="username">
-                                Others
+                                {labelTwo}
                             </label>
                             <input className="Input" id="username" defaultValue=""/>
                         </fieldset>
                     </div>
                     <div style={{display: 'flex', marginTop: 15, justifyContent: 'flex-end'}}>
                         <Dialog.Close asChild>
-                            <ButtonText text="Add project" fontSize="13px"/>
-                            {/*<button className="Button custom">Add project</button>*/}
+                            <ButtonText text={buttonText} fontSize="13px"/>
                         </Dialog.Close>
                     </div>
                     <Dialog.Close asChild>
