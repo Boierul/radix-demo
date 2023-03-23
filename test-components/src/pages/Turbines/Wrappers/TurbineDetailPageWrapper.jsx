@@ -1,14 +1,20 @@
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {useParams} from "react-router-dom";
-import TurbinesHome from "../TurbinesHome.jsx";
-import Custom404 from "../../404/Custom404.jsx";
-import projects from "../../../utils/customJSON/projectsUpdated.json";
 
-function TurbineHomeWrapper() {
+import Custom404 from "../../404/Custom404.jsx";
+import TurbineDetailPage from "../TurbineDetailPage/TurbineDetailPage.jsx";
+
+import projects from "../../../utils/customJSON/projectsUpdated.json";
+import {setTurbineName} from "../../../store/slices/demoSlice.js";
+import {useDispatch} from "react-redux";
+
+function TurbineDetailPageWrapper() {
     const {projectId} = useParams();
     const [allowedProjectNames, setAllowedProjectNames] = useState([]);
     const [projectName, setProjectName] = useState('');
-    const [turbineList, setTurbineList] = useState([]);
+
+    const dispatch = useDispatch();
+    const storedTurbineName = localStorage.getItem('turbineName')
 
     useEffect(() => {
         const result = projects.map((project) => project.Project_ID);
@@ -16,17 +22,22 @@ function TurbineHomeWrapper() {
     }, []);
 
     useEffect(() => {
+        // Get the turbine name from local storage
+        if (storedTurbineName) {
+            dispatch(setTurbineName(storedTurbineName))
+        }
+    }, [])
+
+    useEffect(() => {
         // Checks if the project ID is in the projects array and sets the project name
         projects.map((project) => {
             {
                 if (project.Project_ID === projectId) {
                     setProjectName(project.Project_Name);
-                    setTurbineList(project.Turbines)
                 }
             }
         })
     }, []);
-
 
     // Function that checks if the projectName is in the allowedProjectNames array
     if (!allowedProjectNames.includes(projectId)) {
@@ -34,7 +45,7 @@ function TurbineHomeWrapper() {
         return <Custom404/>;
     }
 
-    return <TurbinesHome projectId={projectId} projectName={projectName} turbineList={turbineList}/>;
+    return <TurbineDetailPage projectId={projectId} projectName={projectName} storedTurbineName={storedTurbineName}/>;
 }
 
-export default TurbineHomeWrapper;
+export default TurbineDetailPageWrapper;

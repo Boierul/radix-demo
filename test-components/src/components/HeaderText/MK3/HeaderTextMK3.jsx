@@ -8,11 +8,11 @@ function HeaderTextMK3({title, subtitle, projectId, turbineId}) {
     }
 
     function handleProjectTurbinesClick() {
-        window.location.href = `/projects/${projectId}/Turbines`;
+        window.location.href = `/projects/${projectId}/turbines`;
     }
 
     function handleTurbineDetailsClick() {
-        window.location.href = `/projects/${projectId}/Turbines/${turbineId}`;
+        window.location.href = `/projects/${projectId}/turbines/${turbineId}`;
     }
 
     return (

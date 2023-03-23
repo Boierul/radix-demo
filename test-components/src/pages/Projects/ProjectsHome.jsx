@@ -62,6 +62,10 @@ function ProjectsHome() {
                                          projectName={Project_Name}/>
                         </div>
                     ))}
+                    {/*TODO -> CRUD project */}
+                    <div>
+                        Add Project
+                    </div>
                 </div>
             </div>
         </>

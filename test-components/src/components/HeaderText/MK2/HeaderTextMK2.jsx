@@ -8,7 +8,7 @@ function HeaderTextMK2({title, subtitle, projectId}) {
     }
 
     function handleProjectTurbinesClick() {
-        window.location.href = `/projects/${projectId}/Turbines`;
+        window.location.href = `/projects/${projectId}/turbines`;
     }
 
     return (

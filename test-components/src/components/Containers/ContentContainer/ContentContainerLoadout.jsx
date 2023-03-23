@@ -13,10 +13,10 @@ function ContentContainerLoadout({totalDurationCount, totalAverageCount, totalLo
                     Number of loadouts <span className={styles.layout_loadout_count}>{totalLoadoutCount}</span>
                 </div>
                 <div className={styles.layout_loadout_title}>
-                    Total duration of all loadouts <span className={styles.layout_loadout_count}>{totalDurationCount}h</span>
+                    Total loadout duration <span className={styles.layout_loadout_count}>{totalDurationCount}h</span>
                 </div>
                 <div className={styles.layout_loadout_title}>
-                    Average duration of a loadout <span className={styles.layout_loadout_count}>{totalAverageCount}h</span>
+                    Average loadout duration <span className={styles.layout_loadout_count}>{totalAverageCount}h</span>
                 </div>
             </div>
         </div>

@@ -75,7 +75,7 @@ function ProjectDetailPage({projectId, projectName}) {
 
                             <div className={styles.project_grid_row_padding}>
                                 <div className={styles.project_grid_turbines_title}>
-                                    Turbines status:
+                                    Turbines status
                                     <div className={styles.project_grid_turbines_title_value}>
                                         <span className={styles.project_grid_turbines_span}>Active</span>
                                     </div>
@@ -83,14 +83,14 @@ function ProjectDetailPage({projectId, projectName}) {
                             </div>
 
                             <div className={styles.project_grid_turbines_title}>
-                                Nr. of available turbines:
+                                Nr. of available turbines
                                 <div className={styles.project_grid_turbines_title_value}>
                                     <span className={styles.project_grid_turbines_span}>46</span>
                                 </div>
                             </div>
 
                             <div className={styles.project_grid_turbines_title}>
-                                Nr. of turbine installations:
+                                Nr. of turbine installations
                                 <div className={styles.project_grid_turbines_title_value}>
                                     <span className={styles.project_grid_turbines_span}>52</span>
                                 </div>

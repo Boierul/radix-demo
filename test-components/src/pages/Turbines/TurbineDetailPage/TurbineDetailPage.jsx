@@ -5,10 +5,8 @@ import HeaderTextMK3 from "../../../components/HeaderText/MK3/HeaderTextMK3.jsx"
 
 import styles from './TurbineDetailPage.module.scss';
 
-function TurbineDetailPage() {
-    const projectId = "P01"
-    const projectName = "Project-01"
-    const turbineId = "A01"
+function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
+    const turbineID = 'A01'
 
     return (
         <>
@@ -20,7 +18,7 @@ function TurbineDetailPage() {
                         title={`${projectName}`}
                         subtitle="Here is displayed all the data related to your current selected turbine"
                         projectId={`${projectId}`}
-                        turbineId={`${turbineId}`}
+                        turbineId={`${storedTurbineName}`}
                     />
                 </div>
             </div>
