@@ -5,10 +5,11 @@
     margin:0 auto;
     height:586px;
     padding:0;
+    scale: .5;
 }
 
 .stolby {
-    position:absolute;
+    position:relative;
     left:200px;
     top:0;
     margin-top:18%;
@@ -34,7 +35,7 @@
     -o-transform: scale(0.7) rotate(0deg);
     -ms-transform: scale(0.7) rotate(0deg);
     transform: scale(0.7) rotate(0deg);
-    animation: 16s motion2 infinite linear;
+    animation: 12s motion2 infinite linear;
 }
 
 #v3 {
@@ -45,7 +46,7 @@
     -o-transform: scale(0.5) rotate(0deg);
     -ms-transform: scale(0.5) rotate(0deg);
     transform: scale(0.5) rotate(0deg);
-    animation: 15s motion3 infinite linear;
+    animation: 20s motion3 infinite linear;
     opacity:0.9;
 }
 
@@ -57,7 +58,7 @@
     -o-transform: scale(0.3) rotate(0deg);
     -ms-transform: scale(0.3) rotate(0deg);
     transform: scale(0.3) rotate(0deg);
-    animation: 12s motion4 infinite linear;
+    animation: 25s motion4 infinite linear;
     opacity:0.7;
 }
 

@@ -34,8 +34,14 @@ function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
                         />
                     </div>
 
-                    <div className={styles.turbines_detail_row}>
-                            <TurbineDemo/>
+                    <div className={styles.turbines_detail_row} style={{
+                        paddingTop: '15.7%',
+                        borderRadius: '10px',
+                        backgroundImage: 'linear-gradient(#C6E4EE 0%, #C6E4EE 40%, #FED1AE 60%, #FAA0B9 70%, #CB7DCB 80%, #757ECB 100%)',
+                        border: '1px solid #e0e0e0',
+                        boxShadow: "0 2px 10px var(--blackA7)"
+                    }}>
+                        <TurbineDemo/>
                     </div>
                 </div>
             </div>

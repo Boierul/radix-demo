@@ -24,10 +24,10 @@ function TurbineDemo() {
                             <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="374.3179" y1="233.0791"
                                             x2="332.9839"
                                             y2="234.4131">
-                                <stop offset="0" style={{stopColor: '#6A4301'}}/>
+                                <stop offset="0" style={{stopColor: '#030500'}}/>
                                 <stop offset="0.1656" style={{stopColor: '#030500'}}/>
-                                <stop offset="0.4969" style={{stopColor: '#06224B'}}/>
-                                <stop offset="1" style={{stopColor: "#132457"}}/>
+                                <stop offset="0.4969" style={{stopColor: '#030500'}}/>
+                                <stop offset="1" style={{stopColor: "#030500"}}/>
                             </linearGradient>
                             <path fill="url(#SVGID_1_)" d="M354.571,60.562c-3.076,0-6.105-0.24-9.07-0.698l-9.263,347.365h38l-9.27-347.601
 		C361.581,60.229,358.11,60.562,354.571,60.562z"/>
@@ -93,10 +93,10 @@ function TurbineDemo() {
                             <polygon points="505.428,407.268 484.645,407.268 490.115,202.164 499.959,202.164 	"/>
                             <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="505.4741" y1="312.0166"
                                             x2="482.8659" y2="312.7462">
-                                <stop offset="0" style={{stopColor: '#6A4301'}}/>
+                                <stop offset="0" style={{stopColor: '#030500'}}/>
                                 <stop offset="0.1656" style={{stopColor: '#030500'}}/>
-                                <stop offset="0.4969" style={{stopColor: '#06224B'}}/>
-                                <stop offset="1" style={{stopColor: "#132457"}}/>
+                                <stop offset="0.4969" style={{stopColor: '#030500'}}/>
+                                <stop offset="1" style={{stopColor: "#030500"}}/>
                             </linearGradient>
                             <path fill="url(#SVGID_4_)" d="M494.671,217.661c-1.681,0-3.339-0.133-4.961-0.383l-5.065,189.989h20.783l-5.068-190.118
 		C498.505,217.479,496.608,217.661,494.671,217.661z"/>
