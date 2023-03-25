@@ -2,67 +2,132 @@
   {
     "Turbine_ID": "A01",
     "Project_ID": "P01",
-    "Loadout_Number": 1
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.016667,
+      "lng": 12.933333
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "A02",
     "Project_ID": "P01",
-    "Loadout_Number": 1
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.941333
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "A03",
     "Project_ID": "P01",
-    "Loadout_Number": 1
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.017670,
+      "lng": 12.941533
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "A04",
     "Project_ID": "P01",
-    "Loadout_Number": 1
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.942533
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "A05",
     "Project_ID": "P01",
-    "Loadout_Number": 2
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 55.6,
+      "lng": 12.233
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "A06",
     "Project_ID": "P01",
-    "Loadout_Number": 2
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 56.1875,
+      "lng": 8.081
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "A07",
     "Project_ID": "P01",
-    "Loadout_Number": 2
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 56.5,
+      "lng": 8.333
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "A08",
     "Project_ID": "P01",
-    "Loadout_Number": 2
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 55.4406,
+      "lng": 8.2808
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "A09",
     "Project_ID": "P01",
-    "Loadout_Number": 3
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.483,
+      "lng": 8.416
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "A10",
     "Project_ID": "P01",
-    "Loadout_Number": 3
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 56.5,
+      "lng": 8.333
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "A11",
     "Project_ID": "P01",
-    "Loadout_Number": 3
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.333,
+      "lng": 8.316
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "A12",
     "Project_ID": "P01",
-    "Loadout_Number": 3
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 56.2167,
+      "lng": 8.3833
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "A13",
     "Project_ID": "P01",
-    "Loadout_Number": 4
+    "Loadout_Number": 4,
+    "Position": {
+      "lat": 55.533,
+      "lng": 8.55
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "A14",
@@ -301,73 +366,138 @@
   },
   {
     "Turbine_ID": "B01",
-    "Project_ID": "P02",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.016667,
+      "lng": 12.933333
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "B02",
-    "Project_ID": "P02",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.941333
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "B03",
-    "Project_ID": "P02",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.017670,
+      "lng": 12.941533
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "B04",
-    "Project_ID": "P02",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.942533
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "B05",
-    "Project_ID": "P02",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 55.6,
+      "lng": 12.233
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "B06",
-    "Project_ID": "P02",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 56.1875,
+      "lng": 8.081
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "B07",
-    "Project_ID": "P02",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 56.5,
+      "lng": 8.333
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "B08",
-    "Project_ID": "P02",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 55.4406,
+      "lng": 8.2808
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "B09",
-    "Project_ID": "P02",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.483,
+      "lng": 8.416
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "B10",
-    "Project_ID": "P02",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 56.5,
+      "lng": 8.333
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "B11",
-    "Project_ID": "P02",
-    "Loadout_Number": 3
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.333,
+      "lng": 8.316
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "B12",
-    "Project_ID": "P02",
-    "Loadout_Number": 3
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 56.2167,
+      "lng": 8.3833
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "B13",
-    "Project_ID": "P02",
-    "Loadout_Number": 3
+    "Project_ID": "P01",
+    "Loadout_Number": 4,
+    "Position": {
+      "lat": 55.533,
+      "lng": 8.55
+    },
+    "Turbine_Icon": "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "B14",
-    "Project_ID": "P02",
-    "Loadout_Number": 3
+    "lat": "P02",
+    "lng": 3
   },
   {
     "Turbine_ID": "B15",
@@ -721,73 +851,143 @@
   },
   {
     "Turbine_ID": "C01",
-    "Project_ID": "P03",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.016667,
+      "lng": 12.933333
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "C02",
-    "Project_ID": "P03",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.941333
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "C03",
-    "Project_ID": "P03",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.017670,
+      "lng": 12.941533
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "C04",
-    "Project_ID": "P03",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.942533
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "C05",
-    "Project_ID": "P03",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 55.6,
+      "lng": 12.233
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "C06",
-    "Project_ID": "P03",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 56.1875,
+      "lng": 8.081
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "C07",
-    "Project_ID": "P03",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 56.5,
+      "lng": 8.333
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "C08",
-    "Project_ID": "P03",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 55.4406,
+      "lng": 8.2808
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "C09",
-    "Project_ID": "P03",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.016667,
+      "lng": 12.933333
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "C10",
-    "Project_ID": "P03",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.941333
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "C11",
-    "Project_ID": "P03",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.017670,
+      "lng": 12.941533
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "C12",
-    "Project_ID": "P03",
-    "Loadout_Number": 3
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.942533
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "C13",
-    "Project_ID": "P03",
-    "Loadout_Number": 3
+    "Project_ID": "P01",
+    "Loadout_Number": 4,
+    "Position": {
+      "lat": 55.6,
+      "lng": 12.233
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "C14",
-    "Project_ID": "P03",
-    "Loadout_Number": 3
+    "Project_ID": "P01",
+    "Loadout_Number": 4,
+    "Position": {
+      "lat": 56.1875,
+      "lng": 8.081
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "C15",
@@ -1056,73 +1256,143 @@
   },
   {
     "Turbine_ID": "D01",
-    "Project_ID": "P04",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.016667,
+      "lng": 12.933333
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "D02",
-    "Project_ID": "P04",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.941333
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "D03",
-    "Project_ID": "P04",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.017670,
+      "lng": 12.941533
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "D04",
-    "Project_ID": "P04",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.942533
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "D05",
-    "Project_ID": "P04",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 55.6,
+      "lng": 12.233
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "D06",
-    "Project_ID": "P04",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 56.1875,
+      "lng": 8.081
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "D07",
-    "Project_ID": "P04",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 56.5,
+      "lng": 8.333
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "D08",
-    "Project_ID": "P04",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 55.4406,
+      "lng": 8.2808
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "D09",
-    "Project_ID": "P04",
-    "Loadout_Number": 3
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.016667,
+      "lng": 12.933333
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "D10",
-    "Project_ID": "P04",
-    "Loadout_Number": 3
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.941333
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "D11",
-    "Project_ID": "P04",
-    "Loadout_Number": 3
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.017670,
+      "lng": 12.941533
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "D12",
-    "Project_ID": "P04",
-    "Loadout_Number": 3
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.942533
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "D13",
-    "Project_ID": "P04",
-    "Loadout_Number": 4
+    "Project_ID": "P01",
+    "Loadout_Number": 4,
+    "Position": {
+      "lat": 55.6,
+      "lng": 12.233
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "D14",
-    "Project_ID": "P04",
-    "Loadout_Number": 4
+    "Project_ID": "P01",
+    "Loadout_Number": 4,
+    "Position": {
+      "lat": 56.1875,
+      "lng": 8.081
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "D15",
@@ -1336,73 +1606,143 @@
   },
   {
     "Turbine_ID": "E01",
-    "Project_ID": "P05",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.016667,
+      "lng": 12.933333
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "E02",
-    "Project_ID": "P05",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.941333
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "E03",
-    "Project_ID": "P05",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.017670,
+      "lng": 12.941533
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "E04",
-    "Project_ID": "P05",
-    "Loadout_Number": 1
+    "Project_ID": "P01",
+    "Loadout_Number": 1,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.942533
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "E05",
-    "Project_ID": "P05",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 55.6,
+      "lng": 12.233
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "E06",
-    "Project_ID": "P05",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 56.1875,
+      "lng": 8.081
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "E07",
-    "Project_ID": "P05",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 56.5,
+      "lng": 8.333
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "E08",
-    "Project_ID": "P05",
-    "Loadout_Number": 2
+    "Project_ID": "P01",
+    "Loadout_Number": 2,
+    "Position": {
+      "lat": 55.4406,
+      "lng": 8.2808
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "E09",
-    "Project_ID": "P05",
-    "Loadout_Number": 3
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.016667,
+      "lng": 12.933333
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "E10",
-    "Project_ID": "P05",
-    "Loadout_Number": 3
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.941333
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "E11",
-    "Project_ID": "P05",
-    "Loadout_Number": 3
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.017670,
+      "lng": 12.941533
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "E12",
-    "Project_ID": "P05",
-    "Loadout_Number": 3
+    "Project_ID": "P01",
+    "Loadout_Number": 3,
+    "Position": {
+      "lat": 55.016670,
+      "lng": 12.942533
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "E13",
-    "Project_ID": "P05",
-    "Loadout_Number": 4
+    "Project_ID": "P01",
+    "Loadout_Number": 4,
+    "Position": {
+      "lat": 55.6,
+      "lng": 12.233
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "E14",
-    "Project_ID": "P05",
-    "Loadout_Number": 4
+    "Project_ID": "P01",
+    "Loadout_Number": 4,
+    "Position": {
+      "lat": 56.1875,
+      "lng": 8.081
+    },
+    "Turbine_Icon" : "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
   },
   {
     "Turbine_ID": "E15",

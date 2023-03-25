@@ -55,12 +55,6 @@ function TurbinesHome({projectId, projectName, turbineList}) {
                         <TurbineDemo/>
                     </div>
                 </div>
-
-                {/*<div className={styles.turbines_maps_container}>*/}
-                {/*    <div className={styles.turbines_maps_container_inner}>*/}
-                {/*        <Map/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
             </div>
         </>
     );

@@ -1,15 +1,18 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {GoogleMap, useJsApiLoader} from "@react-google-maps/api";
 import Marker from "./Marker/Marker.jsx";
+import markers from "../../utils/demo-data/turbines.json";
+import {useDispatch} from "react-redux";
+import {setProjectName, setTurbineName} from "../../store/slices/demoSlice.js";
 
 const containerStyle = {
     width: "100%",
     height: "100%",
 };
 
-const center = {
-    lat: 40.748817,
-    lng: -73.985428,
+let center = {
+    lat: 55.016667,
+    lng: 12.933333
 };
 
 //
@@ -347,29 +350,8 @@ const Map = () => {
         setMap(null);
     }, []);
 
-    const markers = [
-        {
-            id: "1",
-            position: {lat: 55.016667, lng: 12.933333},
-            icon: "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
-        },
-        {
-            id: "2",
-            position: {lat: 40.758817, lng: -73.985428},
-            icon: "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
-        },
-        {
-            id: "3",
-            position: {lat: 40.768817, lng: -73.985428},
-            icon: "https://i.postimg.cc/d3pmYKVs/marker-icon.png"
-        }
-    ];
-
-    const handleClickMarker = (marker) => {
-        // console.log(marker);
-        console.log("Clicked");
-
-    }
+    // const storedProjectId = localStorage.getItem('projectID')
+    const storedTurbineId = localStorage.getItem('turbineName')
 
     return isLoaded ? (
         <div style={{
@@ -379,18 +361,25 @@ const Map = () => {
             <GoogleMap
                 mapContainerStyle={containerStyle}
                 center={center}
-                zoom={13}
+                zoom={8}
                 onLoad={onLoad}
                 onUnmount={onUnmount}
                 options={mapOptions}
             >
-                {markers.map((marker) => (
-                    <Marker
-                        id={marker.id}
-                        position={marker.position}
-                        icon={marker.icon}
-                    />
-                ))}
+                {markers.map((marker) => {
+                    if (marker.Turbine_ID === storedTurbineId) {
+                        center = marker.Position
+                        return (
+                            <Marker
+                                id={marker.Turbine_ID}
+                                position={marker.Position}
+                                icon={marker.Turbine_Icon}/>
+                        )
+                    } else {
+                        // TODO create a no such marker page
+                        return null;
+                    }
+                })}
             </GoogleMap>
         </div>
     ) : (
