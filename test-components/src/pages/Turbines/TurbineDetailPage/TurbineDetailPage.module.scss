@@ -51,9 +51,6 @@
   @media screen and (max-width: 450px) {
     padding-top: 14rem;
   }
-  @media screen and (max-width: 450px) {
-    //padding-top: 12rem;
-  }
 }
 
 .turbines_detail_grid {
@@ -75,3 +72,23 @@
   }
 }
 
+.turbines_details_maps_container {
+  margin: 4rem 5rem;
+  border: 2px solid #ececec;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px var(--blackA7);
+  @media screen and (max-width: 920px) {
+    margin: 4rem 3rem;
+  }
+  @media screen and (max-width: 768px) {
+    margin: 4rem 2rem;
+  }
+  @media screen and (max-width: 420px) {
+    margin: 4rem 0;
+  }
+}
+
+.turbines_details_maps_container_inner {
+  display: flex;
+  justify-content: space-between;
+}

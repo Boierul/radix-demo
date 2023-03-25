@@ -10,7 +10,8 @@
   .header_text_title,
   .header_text_path_1 {
     cursor: pointer;
-    font-size: 2rem;
+    //font-size: 2rem;
+    font-size: clamp(1.75rem, 0.2143rem + 2.6786vw, 2.625rem);
     font-family: 'Bahnschrift', sans-serif;
   }
 
