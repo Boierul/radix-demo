@@ -1,18 +1,28 @@
 .container {
     position: absolute;
-    /*position:relative;*/
     width:1000px;
     margin:0 auto;
     height:586px;
-    padding:0;
     scale: .5;
 }
 
+@media screen and (max-width: 580px) {
+    .container {
+        scale: .4;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        scale: .3;
+    }
+}
+
 .stolby {
-    position:relative;
+    position:absolute;
     left:200px;
     top:0;
-    margin-top:18%;
+    margin-top:11rem;
 }
 
 #v1, #v2, #v3, #v4 {

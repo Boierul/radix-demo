@@ -16,11 +16,43 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   @media screen and (max-width: 1440px) {
     grid-column: span 6;
   }
   @media screen and (max-width: 960px) {
     grid-column: span 12;
+  }
+}
+
+.turbines_detail_row_alternative {
+  width: 100%;
+  grid-column: span 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ececec;
+  padding-top: 6.75rem;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  @media screen and (max-width: 1440px) {
+    grid-column: span 6;
+  }
+  @media screen and (max-width: 960px) {
+    grid-column: span 12;
+  }
+  @media screen and (max-width: 580px) {
+    padding-top: 10.3rem;
+  }
+  @media screen and (max-width: 450px) {
+    padding-top: 14rem;
+  }
+  @media screen and (max-width: 450px) {
+    //padding-top: 12rem;
   }
 }
 
@@ -42,3 +74,4 @@
     padding: 2.5% 2rem;
   }
 }
+

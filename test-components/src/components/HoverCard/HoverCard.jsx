@@ -18,7 +18,7 @@ const HoverCardDemo = ({turbinesCount, loadoutCount}) => (
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: 15 }}>
                         <div>
-                            <div className="Text bold">Nr. of available turbines</div>
+                            <div className="Text bold">Available turbines</div>
                             <div className="Text faded">{turbinesCount}</div>
                             <div className="Text bold pt">Loadout activity</div>
                             <div className="Text faded">{loadoutCount} total hours</div>

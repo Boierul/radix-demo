@@ -4,8 +4,6 @@ import Header from "../../../components/Header/Header.jsx";
 import HeaderTextMK3 from "../../../components/HeaderText/MK3/HeaderTextMK3.jsx";
 
 import styles from './TurbineDetailPage.module.scss';
-import plusIcon from "../../../icons/png/plus.png";
-import DialogDemo from "../../../components/Dialog/DialogDemo.jsx";
 import TurbineDemo from "../../../components/TurbineDemo/TurbineDemo.jsx";
 
 function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
@@ -24,18 +22,15 @@ function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
                 </div>
                 <div className={styles.turbines_detail_grid}>
                     <div className={styles.turbines_detail_row}>
-                        <DialogDemo title='Add project'
-                                    description='Here you can add a new project to your list'
-                                    labelOne={'Name'}
-                                    labelTwo={'Others'}
-                                    icon={plusIcon}
-                                    buttonText={'Add project'}
-                                    backgroundColor={'#fff'}
-                        />
+
                     </div>
 
-                    <div className={styles.turbines_detail_row} style={{
-                        paddingTop: '15.7%',
+                    <div className={styles.turbines_detail_row}>
+
+                    </div>
+
+                    <div className={styles.turbines_detail_row_alternative} style={{
+                        gridColumn: 'span 12',
                         borderRadius: '10px',
                         backgroundImage: 'linear-gradient(#C6E4EE 0%, #C6E4EE 40%, #FED1AE 60%, #FAA0B9 70%, #CB7DCB 80%, #757ECB 100%)',
                         border: '1px solid #e0e0e0',
