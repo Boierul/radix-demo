@@ -6,6 +6,7 @@ import HeaderTextMK3 from "../../../components/HeaderText/MK3/HeaderTextMK3.jsx"
 import styles from './TurbineDetailPage.module.scss';
 import plusIcon from "../../../icons/png/plus.png";
 import DialogDemo from "../../../components/Dialog/DialogDemo.jsx";
+import TurbineDemo from "../../../components/TurbineDemo/TurbineDemo.jsx";
 
 function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
     return (
@@ -31,6 +32,10 @@ function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
                                     buttonText={'Add project'}
                                     backgroundColor={'#fff'}
                         />
+                    </div>
+
+                    <div className={styles.turbines_detail_row}>
+                            <TurbineDemo/>
                     </div>
                 </div>
             </div>

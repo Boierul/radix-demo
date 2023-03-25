@@ -5,7 +5,7 @@ import styles from './TurbineIcon.module.scss';
 function TurbineIcon() {
     return (
         <div className={styles.turbine_icon_container}>
-            <img src={turbineIcon} alt="turbine icon"/>
+            <img src={turbineIcon} alt="turbine icon" id="turbine_image"/>
         </div>
     );
 }
