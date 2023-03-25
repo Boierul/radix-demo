@@ -10,6 +10,7 @@ import ProjectDetailWrapper from "./pages/Projects/Wrappers/ProjectDetailWrapper
 import UnderConstructionPage from "./pages/Misc/UnderConstruction/UnderConstructionPage.jsx";
 import PulsatingCircle from "./components/PulsatingCircle/PulsatingCircle.jsx";
 import TurbineDetailPageWrapper from "./pages/Turbines/Wrappers/TurbineDetailPageWrapper.jsx";
+import TurbineIcon from "./components/TurbineIcon/TurbineIcon.jsx";
 
 function App() {
     return (
@@ -30,7 +31,8 @@ function App() {
                 flexDirection: "column"
             }}>
                 {/*<ButtonText text="Baraga"/>*/}
-                <PulsatingCircle/>
+                {/*<PulsatingCircle/>*/}
+                <TurbineIcon/>
             </div>}/>
         </Routes>
     )

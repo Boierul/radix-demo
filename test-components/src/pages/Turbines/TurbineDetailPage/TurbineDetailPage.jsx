@@ -4,6 +4,8 @@ import Header from "../../../components/Header/Header.jsx";
 import HeaderTextMK3 from "../../../components/HeaderText/MK3/HeaderTextMK3.jsx";
 
 import styles from './TurbineDetailPage.module.scss';
+import plusIcon from "../../../icons/png/plus.png";
+import DialogDemo from "../../../components/Dialog/DialogDemo.jsx";
 
 function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
     return (
@@ -18,6 +20,18 @@ function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
                         projectId={`${projectId}`}
                         turbineId={`${storedTurbineName}`}
                     />
+                </div>
+                <div className={styles.turbines_detail_grid}>
+                    <div className={styles.turbines_detail_row}>
+                        <DialogDemo title='Add project'
+                                    description='Here you can add a new project to your list'
+                                    labelOne={'Name'}
+                                    labelTwo={'Others'}
+                                    icon={plusIcon}
+                                    buttonText={'Add project'}
+                                    backgroundColor={'#fff'}
+                        />
+                    </div>
                 </div>
             </div>
         </>
