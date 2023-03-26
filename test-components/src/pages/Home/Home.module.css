@@ -8,7 +8,6 @@
     max-height: 100%;
     overflow: auto;
 }
-/*TODO Be careful with responsiveness as % makes it a little unpredictable*/
 
 .grid_container_row {
     width: 100%;

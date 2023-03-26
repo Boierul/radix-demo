@@ -8,9 +8,9 @@ import TurbineHomeWrapper from "./pages/Turbines/Wrappers/TurbineHomeWrapper.jsx
 import ProjectDetailWrapper from "./pages/Projects/Wrappers/ProjectDetailWrapper.jsx";
 import UnderConstructionPage from "./pages/Misc/UnderConstruction/UnderConstructionPage.jsx";
 import TurbineDetailPageWrapper from "./pages/Turbines/Wrappers/TurbineDetailPageWrapper.jsx";
-import PulsatingCircle from "./components/PulsatingCircle/PulsatingCircle.jsx";
-import TurbinesAll from "./pages/Turbines/TurbinesAll/TurbinesAll.jsx";
 import TurbineAllWrapper from "./pages/Turbines/Wrappers/TurbineAllWrapper.jsx";
+import PulsatingCircle from "./components/PulsatingCircle/PulsatingCircle.jsx";
+import CalendarDemo from "./components/Calendar/CalendarDemo.jsx";
 
 function App() {
     return (
@@ -26,12 +26,15 @@ function App() {
 
             <Route path="/demo" element={<div style={{
                 height: "100vh",
+                width: "100vw",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
                 flexDirection: "column"
             }}>
-                <PulsatingCircle/>
+                {/*<PulsatingCircle/>*/}
+                {/*<SelectDemo/>*/}
+                <CalendarDemo/>
             </div>}/>
         </Routes>
     )
