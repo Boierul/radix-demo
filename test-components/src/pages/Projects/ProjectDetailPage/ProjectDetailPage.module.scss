@@ -5,6 +5,10 @@
 .header_text {
   margin-top: 3rem;
   margin-left: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   @media screen and (max-width: 520px) {
     margin-left: 1rem;
   }
@@ -87,17 +91,36 @@
 }
 
 .project_grid_row_padding {
-    padding-top: .5rem;
+  padding-top: .5rem;
 }
 
-.project_grid_row_container  {
+.project_grid_row_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.project_grid_image{
+.project_grid_image {
   cursor: pointer;
   width: 30px;
   height: 30px;
+}
+
+.project_detail_view_all {
+  margin-right: 5rem;
+  @media screen and (max-width: 960px) {
+    display: none;
+  }
+}
+
+.project_detail_view_all_mobile {
+  display: none;
+  @media screen and (max-width: 960px) {
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    padding: 1.2rem 0;
+  }
 }

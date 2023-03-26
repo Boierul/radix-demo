@@ -9,6 +9,8 @@ import ScrollArea from "../../../components/ScrollArea/ScrollArea.jsx";
 import styles from './ProjectDetailPage.module.scss';
 import loadout from "../../../utils/demo-data/loadout.json";
 import icon from "../../../icons/png/arrow-right-1.png";
+import ButtonText from "../../../components/Buttons/ButtonText/ButtonText.jsx";
+import ButtonOutline from "../../../components/Buttons/ButtonOutline/ButtonOutline.jsx";
 
 function ProjectDetailPage({projectId, projectName, storedProjectId, turbineCount}) {
     // Set the project Name and name in local storage
@@ -65,6 +67,14 @@ function ProjectDetailPage({projectId, projectName, storedProjectId, turbineCoun
                 <div className={styles.header_text}>
                     <HeaderText title={`${projectName}`}
                                 subtitle="Here is displayed all the data related to your project"/>
+
+                    <div className={styles.project_detail_view_all}>
+                        <ButtonText text={'View all projects'} path={`projects`}/>
+                    </div>
+                </div>
+
+                <div className={styles.project_detail_view_all_mobile}>
+                    <ButtonOutline text={'View all projects'} path={`projects`}/>
                 </div>
 
                 <div className={styles.loadout_section}>
