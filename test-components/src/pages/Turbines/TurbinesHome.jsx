@@ -7,6 +7,9 @@ import TurbineLabel from "../../components/TurbineLabel/TurbineLabel.jsx";
 import DialogDemo from "../../components/Dialog/DialogDemo.jsx";
 import plusIcon from "../../icons/png/plus-inverted.png";
 import TurbineDemo from "../../components/TurbineDemo/TurbineDemo.jsx";
+import ButtonText from "../../components/Buttons/ButtonText/ButtonText.jsx";
+import ExcelFile from "../../features/Excel/ExcelFile.jsx";
+import ButtonOutline from "../../components/Buttons/ButtonOutline/ButtonOutline.jsx";
 
 function TurbinesHome({projectId, projectName, turbineList}) {
     // Limit the number of turbines to 10 to display
@@ -18,10 +21,17 @@ function TurbinesHome({projectId, projectName, turbineList}) {
 
             <div className={styles.turbines_container}>
                 <div className={styles.header_text}>
-                    <HeaderTextMK2 title={`${projectName}`}
-                                   subtitle="Here are displayed all the data related to your turbines"
-                                   projectId={projectId}
-                    />
+                        <HeaderTextMK2 title={`${projectName}`}
+                                       subtitle="Here are displayed all the data related to your turbines"
+                                       projectId={projectId}
+                        />
+                        <div className={styles.turbines_all_link}>
+                            <ButtonText text={'View all turbines'} path={`projects/${projectId}/turbinesAll`}/>
+                        </div>
+                </div>
+
+                <div className={styles.turbines_all_link_mobile}>
+                    <ButtonOutline text={'View all turbines'} path={`projects/${projectId}/turbinesAll`}/>
                 </div>
 
                 <div className={styles.turbines_grid_container}>

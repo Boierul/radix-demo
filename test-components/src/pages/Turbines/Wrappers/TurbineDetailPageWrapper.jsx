@@ -44,8 +44,10 @@ function TurbineDetailPageWrapper() {
 
     // Function that checks if the projectName is in the allowedProjectNames array
     if (!allowedProjectNames.includes(projectId)) {
-        // Render 404 page
-        return <Custom404/>;
+        // Render 404 page  - Set timeout to render the 404 page after 1 second, for users not to see the page flickering
+        return (setTimeout(() => {
+            return <Custom404/>
+        }, 500));
     }
 
     return <TurbineDetailPage projectId={projectId} projectName={projectName} storedTurbineName={storedTurbineName}/>;

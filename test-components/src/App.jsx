@@ -10,6 +10,7 @@ import UnderConstructionPage from "./pages/Misc/UnderConstruction/UnderConstruct
 import TurbineDetailPageWrapper from "./pages/Turbines/Wrappers/TurbineDetailPageWrapper.jsx";
 import PulsatingCircle from "./components/PulsatingCircle/PulsatingCircle.jsx";
 import TurbinesAll from "./pages/Turbines/TurbinesAll/TurbinesAll.jsx";
+import TurbineAllWrapper from "./pages/Turbines/Wrappers/TurbineAllWrapper.jsx";
 
 function App() {
     return (
@@ -19,7 +20,7 @@ function App() {
             <Route path="/projects/:projectId" element={<ProjectDetailWrapper/>}/>
             <Route path="/projects/:projectId/turbines" element={<TurbineHomeWrapper/>}/>
             <Route path="/projects/:projectId/turbines/:turbineId" element={<TurbineDetailPageWrapper/>}/>
-            <Route path="/projects/:projectId/turbinesAll" element={<TurbinesAll/>}/>
+            <Route path="/projects/:projectId/turbinesAll" element={<TurbineAllWrapper/>}/>
             <Route path="/construction" element={<UnderConstructionPage/>}/>
             <Route path="/*" element={<Custom404/>}/>
 

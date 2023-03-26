@@ -12,7 +12,7 @@
 
 .loadout_section {
   // TODO maybe remove this. Maybe!
-  height: 70vh;
+  //height: 70vh;
   margin-bottom: 3rem;
   margin-top: 2rem;
 }
@@ -22,7 +22,7 @@
   grid-template-columns: repeat(12, 1fr);
   grid-auto-rows: 300px;
   gap: 20px;
-  height: 75vh;
+  //height: 75vh;
   padding: 1rem 5rem;
   max-height: 100%;
   overflow: auto;

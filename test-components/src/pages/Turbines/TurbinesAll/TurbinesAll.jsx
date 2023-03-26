@@ -1,14 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-import styles from "./TurbinesAll.module.scss";
 import Header from "../../../components/Header/Header.jsx";
 import HeaderTextMK2V2 from "../../../components/HeaderText/MK2/v2/HeaderTextMK2V2.jsx";
+import DialogDemo from "../../../components/Dialog/DialogDemo.jsx";
 
-function TurbinesAll() {
-    const storedProjectName = localStorage.getItem('projectName')
-    // const storedTurbineName = localStorage.getItem('turbineName')
-    const storedProjectId = localStorage.getItem('projectID')
+import plusIcon from '../../../icons/png/plus-inverted.png';
+import styles from "./TurbinesAll.module.scss";
+import TurbineLabel from "../../../components/TurbineLabel/TurbineLabel.jsx";
 
+
+function TurbinesAll({storedProjectName, storedProjectId, turbineList}) {
     return (
         <>
             <Header/>
@@ -20,6 +21,27 @@ function TurbinesAll() {
                                      projectId={storedProjectId}
                     />
                 </div>
+
+                <div className={styles.turbines_all_grid_container}>
+                    {turbineList.map((turbine) => {
+                        return (
+                                <TurbineLabel turbineName={turbine.Turbine_ID}
+                                              projectId={storedProjectId}
+                                              projectName={storedProjectName}/>
+                        )
+                    })}
+                    <div className={styles.turbines_all_grid_container_row}>
+                        <DialogDemo title='Add turbine'
+                                    description='Here you can add a new turbine to your list'
+                                    labelOne={'Name'}
+                                    labelTwo={'Others'}
+                                    icon={plusIcon}
+                                    buttonText={'Add turbine'}
+                                    backgroundColor={'#000'}
+                        />
+                    </div>
+                </div>
+
             </div>
         </>
     );
