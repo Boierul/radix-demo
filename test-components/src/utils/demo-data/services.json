@@ -1,0 +1,2235 @@
+[
+  {
+    "Service_ID": "SE001",
+    "Turbine_ID": "A01",
+    "Service_NET_Duration": "12.25",
+    "Service_Deviations": "8.762537389",
+    "Service_Date": "03/02/2020"
+  },
+  {
+    "Service_ID": "SE002",
+    "Turbine_ID": "A02",
+    "Service_NET_Duration": "12",
+    "Service_Deviations": "8.319435774",
+    "Service_Date": "03/02/2020"
+  },
+  {
+    "Service_ID": "SE003",
+    "Turbine_ID": "A03",
+    "Service_NET_Duration": "15.7",
+    "Service_Deviations": "9.05948106",
+    "Service_Date": "02/02/2020"
+  },
+  {
+    "Service_ID": "SE004",
+    "Turbine_ID": "A04",
+    "Service_NET_Duration": "13.7",
+    "Service_Deviations": "5.632294765",
+    "Service_Date": "02/02/2020"
+  },
+  {
+    "Service_ID": "SE005",
+    "Turbine_ID": "A05",
+    "Service_NET_Duration": "11.9",
+    "Service_Deviations": "4.194853754",
+    "Service_Date": "28/01/2020"
+  },
+  {
+    "Service_ID": "SE006",
+    "Turbine_ID": "A06",
+    "Service_NET_Duration": "17.47",
+    "Service_Deviations": "9.725240101",
+    "Service_Date": "25/01/2020"
+  },
+  {
+    "Service_ID": "SE007",
+    "Turbine_ID": "A07",
+    "Service_NET_Duration": "17.47",
+    "Service_Deviations": "1.670885826",
+    "Service_Date": "25/01/2020"
+  },
+  {
+    "Service_ID": "SE008",
+    "Turbine_ID": "A08",
+    "Service_NET_Duration": "12.47",
+    "Service_Deviations": "1.221671235",
+    "Service_Date": "25/01/2020"
+  },
+  {
+    "Service_ID": "SE009",
+    "Turbine_ID": "A09",
+    "Service_NET_Duration": "13.97",
+    "Service_Deviations": "8.477174749",
+    "Service_Date": "25/01/2020"
+  },
+  {
+    "Service_ID": "SE010",
+    "Turbine_ID": "A10",
+    "Service_NET_Duration": "14.47",
+    "Service_Deviations": "1.482865861",
+    "Service_Date": "25/01/2020"
+  },
+  {
+    "Service_ID": "SE011",
+    "Turbine_ID": "A11",
+    "Service_NET_Duration": "12.73",
+    "Service_Deviations": "2.116310434",
+    "Service_Date": "24/01/2020"
+  },
+  {
+    "Service_ID": "SE012",
+    "Turbine_ID": "A12",
+    "Service_NET_Duration": "16.18",
+    "Service_Deviations": "7.659874254",
+    "Service_Date": "24/01/2020"
+  },
+  {
+    "Service_ID": "SE013",
+    "Turbine_ID": "A13",
+    "Service_NET_Duration": "15.33",
+    "Service_Deviations": "8.12016788",
+    "Service_Date": "23/01/2020"
+  },
+  {
+    "Service_ID": "SE014",
+    "Turbine_ID": "A14",
+    "Service_NET_Duration": "13.5",
+    "Service_Deviations": "3.838438719",
+    "Service_Date": "23/01/2020"
+  },
+  {
+    "Service_ID": "SE015",
+    "Turbine_ID": "A15",
+    "Service_NET_Duration": "23",
+    "Service_Deviations": "9.637444745",
+    "Service_Date": "22/01/2020"
+  },
+  {
+    "Service_ID": "SE016",
+    "Turbine_ID": "A16",
+    "Service_NET_Duration": "11.7",
+    "Service_Deviations": "8.993448611",
+    "Service_Date": "22/01/2020"
+  },
+  {
+    "Service_ID": "SE017",
+    "Turbine_ID": "A17",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "8.125399698",
+    "Service_Date": "25/11/2018"
+  },
+  {
+    "Service_ID": "SE018",
+    "Turbine_ID": "A18",
+    "Service_NET_Duration": "7.5",
+    "Service_Deviations": "2.749616478",
+    "Service_Date": "24/11/2018"
+  },
+  {
+    "Service_ID": "SE019",
+    "Turbine_ID": "A19",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "6.126247",
+    "Service_Date": "24/11/2018"
+  },
+  {
+    "Service_ID": "SE020",
+    "Turbine_ID": "A20",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "5.787137158",
+    "Service_Date": "23/11/2018"
+  },
+  {
+    "Service_ID": "SE021",
+    "Turbine_ID": "A21",
+    "Service_NET_Duration": "14.5",
+    "Service_Deviations": "8.531106851",
+    "Service_Date": "23/11/2018"
+  },
+  {
+    "Service_ID": "SE022",
+    "Turbine_ID": "A22",
+    "Service_NET_Duration": "11.25",
+    "Service_Deviations": "9.055983524",
+    "Service_Date": "22/11/2018"
+  },
+  {
+    "Service_ID": "SE023",
+    "Turbine_ID": "A23",
+    "Service_NET_Duration": "12.75",
+    "Service_Deviations": "6.566120738",
+    "Service_Date": "22/11/2018"
+  },
+  {
+    "Service_ID": "SE024",
+    "Turbine_ID": "A24",
+    "Service_NET_Duration": "17.75",
+    "Service_Deviations": "4.97474874",
+    "Service_Date": "17/11/2018"
+  },
+  {
+    "Service_ID": "SE025",
+    "Turbine_ID": "A25",
+    "Service_NET_Duration": "11.25",
+    "Service_Deviations": "8.188954366",
+    "Service_Date": "17/11/2018"
+  },
+  {
+    "Service_ID": "SE026",
+    "Turbine_ID": "A26",
+    "Service_NET_Duration": "14.25",
+    "Service_Deviations": "5.626286906",
+    "Service_Date": "17/11/2018"
+  },
+  {
+    "Service_ID": "SE027",
+    "Turbine_ID": "A27",
+    "Service_NET_Duration": "13",
+    "Service_Deviations": "4.019515366",
+    "Service_Date": "16/11/2018"
+  },
+  {
+    "Service_ID": "SE028",
+    "Turbine_ID": "A28",
+    "Service_NET_Duration": "12.75",
+    "Service_Deviations": "5.486787076",
+    "Service_Date": "16/11/2018"
+  },
+  {
+    "Service_ID": "SE029",
+    "Turbine_ID": "A29",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "8.146828021",
+    "Service_Date": "14/11/2018"
+  },
+  {
+    "Service_ID": "SE030",
+    "Turbine_ID": "A30",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "5.122667344",
+    "Service_Date": "14/11/2018"
+  },
+  {
+    "Service_ID": "SE031",
+    "Turbine_ID": "A31",
+    "Service_NET_Duration": "9.75",
+    "Service_Deviations": "4.853802023",
+    "Service_Date": "13/11/2018"
+  },
+  {
+    "Service_ID": "SE032",
+    "Turbine_ID": "A32",
+    "Service_NET_Duration": "10.25",
+    "Service_Deviations": "3.183922634",
+    "Service_Date": "13/11/2018"
+  },
+  {
+    "Service_ID": "SE033",
+    "Turbine_ID": "A33",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "5.529752936",
+    "Service_Date": "12/11/2018"
+  },
+  {
+    "Service_ID": "SE034",
+    "Turbine_ID": "A34",
+    "Service_NET_Duration": "8.75",
+    "Service_Deviations": "2.79523667",
+    "Service_Date": "12/11/2018"
+  },
+  {
+    "Service_ID": "SE035",
+    "Turbine_ID": "A35",
+    "Service_NET_Duration": "10.25",
+    "Service_Deviations": "4.883536667",
+    "Service_Date": "11/11/2018"
+  },
+  {
+    "Service_ID": "SE036",
+    "Turbine_ID": "A36",
+    "Service_NET_Duration": "10.25",
+    "Service_Deviations": "6.303719203",
+    "Service_Date": "11/11/2018"
+  },
+  {
+    "Service_ID": "SE037",
+    "Turbine_ID": "A37",
+    "Service_NET_Duration": "10.5",
+    "Service_Deviations": "5.087102606",
+    "Service_Date": "10/11/2018"
+  },
+  {
+    "Service_ID": "SE038",
+    "Turbine_ID": "A38",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "6.033439834",
+    "Service_Date": "10/11/2018"
+  },
+  {
+    "Service_ID": "SE039",
+    "Turbine_ID": "A39",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "0.376872815",
+    "Service_Date": "09/11/2018"
+  },
+  {
+    "Service_ID": "SE040",
+    "Turbine_ID": "A40",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "3.789891891",
+    "Service_Date": "09/11/2018"
+  },
+  {
+    "Service_ID": "SE041",
+    "Turbine_ID": "A41",
+    "Service_NET_Duration": "12",
+    "Service_Deviations": "8.634063058",
+    "Service_Date": "08/11/2018"
+  },
+  {
+    "Service_ID": "SE042",
+    "Turbine_ID": "A42",
+    "Service_NET_Duration": "9.25",
+    "Service_Deviations": "2.016989816",
+    "Service_Date": "08/11/2018"
+  },
+  {
+    "Service_ID": "SE043",
+    "Turbine_ID": "A43",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "3.535715596",
+    "Service_Date": "07/11/2018"
+  },
+  {
+    "Service_ID": "SE044",
+    "Turbine_ID": "A44",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "7.536714458",
+    "Service_Date": "07/11/2018"
+  },
+  {
+    "Service_ID": "SE045",
+    "Turbine_ID": "A45",
+    "Service_NET_Duration": "5.5",
+    "Service_Deviations": "3.58242849",
+    "Service_Date": "06/11/2018"
+  },
+  {
+    "Service_ID": "SE046",
+    "Turbine_ID": "A46",
+    "Service_NET_Duration": "7.5",
+    "Service_Deviations": "7.51837926",
+    "Service_Date": "06/11/2018"
+  },
+  {
+    "Service_ID": "SE047",
+    "Turbine_ID": "A47",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "0.532359248",
+    "Service_Date": "05/11/2018"
+  },
+  {
+    "Service_ID": "SE048",
+    "Turbine_ID": "A48",
+    "Service_NET_Duration": "7.5",
+    "Service_Deviations": "2.044335767",
+    "Service_Date": "05/11/2018"
+  },
+  {
+    "Service_ID": "SE049",
+    "Turbine_ID": "A49",
+    "Service_NET_Duration": "10.5",
+    "Service_Deviations": "7.133877466",
+    "Service_Date": "04/11/2018"
+  },
+  {
+    "Service_ID": "SE050",
+    "Turbine_ID": "A50",
+    "Service_NET_Duration": "9.25",
+    "Service_Deviations": "3.506476315",
+    "Service_Date": "04/11/2018"
+  },
+  {
+    "Service_ID": "SE051",
+    "Turbine_ID": "A51",
+    "Service_NET_Duration": "8.25",
+    "Service_Deviations": "5.237179635",
+    "Service_Date": "03/11/2018"
+  },
+  {
+    "Service_ID": "SE052",
+    "Turbine_ID": "A52",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "3.636779241",
+    "Service_Date": "03/11/2018"
+  },
+  {
+    "Service_ID": "SE053",
+    "Turbine_ID": "A53",
+    "Service_NET_Duration": "10.25",
+    "Service_Deviations": "4.111699922",
+    "Service_Date": "02/11/2018"
+  },
+  {
+    "Service_ID": "SE054",
+    "Turbine_ID": "A54",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "1.878266738",
+    "Service_Date": "02/11/2018"
+  },
+  {
+    "Service_ID": "SE055",
+    "Turbine_ID": "A55",
+    "Service_NET_Duration": "9.75",
+    "Service_Deviations": "6.561046528",
+    "Service_Date": "01/11/2018"
+  },
+  {
+    "Service_ID": "SE056",
+    "Turbine_ID": "A56",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "5.352880485",
+    "Service_Date": "01/11/2018"
+  },
+  {
+    "Service_ID": "SE057",
+    "Turbine_ID": "A57",
+    "Service_NET_Duration": "7",
+    "Service_Deviations": "8.309620615",
+    "Service_Date": "01/11/2018"
+  },
+  {
+    "Service_ID": "SE058",
+    "Turbine_ID": "A58",
+    "Service_NET_Duration": "12.75",
+    "Service_Deviations": "2.407012049",
+    "Service_Date": "31/10/2018"
+  },
+  {
+    "Service_ID": "SE059",
+    "Turbine_ID": "A59",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "5.473266331",
+    "Service_Date": "30/10/2018"
+  },
+  {
+    "Service_ID": "SE060",
+    "Turbine_ID": "A60",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "5.149864599",
+    "Service_Date": "28/10/2018"
+  },
+  {
+    "Service_ID": "SE061",
+    "Turbine_ID": "B01",
+    "Service_NET_Duration": "12",
+    "Service_Deviations": "0.082770057",
+    "Service_Date": "27/10/2018"
+  },
+  {
+    "Service_ID": "SE062",
+    "Turbine_ID": "B02",
+    "Service_NET_Duration": "15",
+    "Service_Deviations": "6.810719595",
+    "Service_Date": "26/10/2018"
+  },
+  {
+    "Service_ID": "SE063",
+    "Turbine_ID": "B03",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "7.955081992",
+    "Service_Date": "22/10/2018"
+  },
+  {
+    "Service_ID": "SE064",
+    "Turbine_ID": "B04",
+    "Service_NET_Duration": "12.5",
+    "Service_Deviations": "8.386713697",
+    "Service_Date": "19/10/2018"
+  },
+  {
+    "Service_ID": "SE065",
+    "Turbine_ID": "B05",
+    "Service_NET_Duration": "18.75",
+    "Service_Deviations": "8.90760256",
+    "Service_Date": "19/10/2018"
+  },
+  {
+    "Service_ID": "SE066",
+    "Turbine_ID": "B06",
+    "Service_NET_Duration": "17.75",
+    "Service_Deviations": "0.918920825",
+    "Service_Date": "18/10/2018"
+  },
+  {
+    "Service_ID": "SE067",
+    "Turbine_ID": "B07",
+    "Service_NET_Duration": "14.25",
+    "Service_Deviations": "4.046814159",
+    "Service_Date": "17/10/2018"
+  },
+  {
+    "Service_ID": "SE068",
+    "Turbine_ID": "B08",
+    "Service_NET_Duration": "10.92",
+    "Service_Deviations": "2.94960164",
+    "Service_Date": "16/10/2018"
+  },
+  {
+    "Service_ID": "SE069",
+    "Turbine_ID": "B09",
+    "Service_NET_Duration": "20.75",
+    "Service_Deviations": "5.578848022",
+    "Service_Date": "15/10/2018"
+  },
+  {
+    "Service_ID": "SE070",
+    "Turbine_ID": "B10",
+    "Service_NET_Duration": "10.25",
+    "Service_Deviations": "7.112871931",
+    "Service_Date": "13/10/2018"
+  },
+  {
+    "Service_ID": "SE071",
+    "Turbine_ID": "B11",
+    "Service_NET_Duration": "20.5",
+    "Service_Deviations": "0.861523753",
+    "Service_Date": "12/10/2018"
+  },
+  {
+    "Service_ID": "SE072",
+    "Turbine_ID": "B12",
+    "Service_NET_Duration": "9.75",
+    "Service_Deviations": "0.117366245",
+    "Service_Date": "10/10/2018"
+  },
+  {
+    "Service_ID": "SE073",
+    "Turbine_ID": "B13",
+    "Service_NET_Duration": "10.25",
+    "Service_Deviations": "3.900942565",
+    "Service_Date": "08/10/2018"
+  },
+  {
+    "Service_ID": "SE074",
+    "Turbine_ID": "B14",
+    "Service_NET_Duration": "9.75",
+    "Service_Deviations": "7.253257823",
+    "Service_Date": "06/10/2018"
+  },
+  {
+    "Service_ID": "SE075",
+    "Turbine_ID": "B15",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "7.461974382",
+    "Service_Date": "05/10/2018"
+  },
+  {
+    "Service_ID": "SE076",
+    "Turbine_ID": "B16",
+    "Service_NET_Duration": "13.75",
+    "Service_Deviations": "9.688172145",
+    "Service_Date": "04/10/2018"
+  },
+  {
+    "Service_ID": "SE077",
+    "Turbine_ID": "B17",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "8.030696466",
+    "Service_Date": "01/06/2019"
+  },
+  {
+    "Service_ID": "SE078",
+    "Turbine_ID": "B18",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "6.01021225",
+    "Service_Date": "01/06/2019"
+  },
+  {
+    "Service_ID": "SE079",
+    "Turbine_ID": "B19",
+    "Service_NET_Duration": "6.16",
+    "Service_Deviations": "4.563640656",
+    "Service_Date": "01/06/2019"
+  },
+  {
+    "Service_ID": "SE080",
+    "Turbine_ID": "B20",
+    "Service_NET_Duration": "7.25",
+    "Service_Deviations": "7.396499928",
+    "Service_Date": "01/06/2019"
+  },
+  {
+    "Service_ID": "SE081",
+    "Turbine_ID": "B21",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "2.275844534",
+    "Service_Date": "01/05/2019"
+  },
+  {
+    "Service_ID": "SE082",
+    "Turbine_ID": "B22",
+    "Service_NET_Duration": "11",
+    "Service_Deviations": "2.758596284",
+    "Service_Date": "01/05/2019"
+  },
+  {
+    "Service_ID": "SE083",
+    "Turbine_ID": "B23",
+    "Service_NET_Duration": "6.55",
+    "Service_Deviations": "1.640015635",
+    "Service_Date": "01/05/2019"
+  },
+  {
+    "Service_ID": "SE084",
+    "Turbine_ID": "B24",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "4.474745184",
+    "Service_Date": "01/05/2019"
+  },
+  {
+    "Service_ID": "SE085",
+    "Turbine_ID": "B25",
+    "Service_NET_Duration": "10.75",
+    "Service_Deviations": "5.7894125",
+    "Service_Date": "01/05/2019"
+  },
+  {
+    "Service_ID": "SE086",
+    "Turbine_ID": "B26",
+    "Service_NET_Duration": "8.25",
+    "Service_Deviations": "8.205221103",
+    "Service_Date": "01/04/2019"
+  },
+  {
+    "Service_ID": "SE087",
+    "Turbine_ID": "B27",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "3.418055981",
+    "Service_Date": "01/04/2019"
+  },
+  {
+    "Service_ID": "SE088",
+    "Turbine_ID": "B28",
+    "Service_NET_Duration": "9.15",
+    "Service_Deviations": "5.610948701",
+    "Service_Date": "01/04/2019"
+  },
+  {
+    "Service_ID": "SE089",
+    "Turbine_ID": "B29",
+    "Service_NET_Duration": "10.15",
+    "Service_Deviations": "5.373485331",
+    "Service_Date": "01/04/2019"
+  },
+  {
+    "Service_ID": "SE090",
+    "Turbine_ID": "B30",
+    "Service_NET_Duration": "10.15",
+    "Service_Deviations": "9.714482764",
+    "Service_Date": "01/04/2019"
+  },
+  {
+    "Service_ID": "SE091",
+    "Turbine_ID": "B31",
+    "Service_NET_Duration": "6.45",
+    "Service_Deviations": "2.392551271",
+    "Service_Date": "01/04/2019"
+  },
+  {
+    "Service_ID": "SE092",
+    "Turbine_ID": "B32",
+    "Service_NET_Duration": "8.4",
+    "Service_Deviations": "5.282898291",
+    "Service_Date": "01/04/2019"
+  },
+  {
+    "Service_ID": "SE093",
+    "Turbine_ID": "B33",
+    "Service_NET_Duration": "7.3",
+    "Service_Deviations": "2.397225259",
+    "Service_Date": "01/04/2019"
+  },
+  {
+    "Service_ID": "SE094",
+    "Turbine_ID": "B34",
+    "Service_NET_Duration": "9.37",
+    "Service_Deviations": "0.586915623",
+    "Service_Date": "01/04/2019"
+  },
+  {
+    "Service_ID": "SE095",
+    "Turbine_ID": "B35",
+    "Service_NET_Duration": "4.25",
+    "Service_Deviations": "3.295856664",
+    "Service_Date": "01/03/2019"
+  },
+  {
+    "Service_ID": "SE096",
+    "Turbine_ID": "B36",
+    "Service_NET_Duration": "9.75",
+    "Service_Deviations": "8.170761032",
+    "Service_Date": "01/03/2019"
+  },
+  {
+    "Service_ID": "SE097",
+    "Turbine_ID": "B37",
+    "Service_NET_Duration": "8.8",
+    "Service_Deviations": "2.184431811",
+    "Service_Date": "01/03/2019"
+  },
+  {
+    "Service_ID": "SE098",
+    "Turbine_ID": "B38",
+    "Service_NET_Duration": "11.75",
+    "Service_Deviations": "2.16980441",
+    "Service_Date": "01/03/2019"
+  },
+  {
+    "Service_ID": "SE099",
+    "Turbine_ID": "B39",
+    "Service_NET_Duration": "10.25",
+    "Service_Deviations": "5.137856689",
+    "Service_Date": "01/03/2019"
+  },
+  {
+    "Service_ID": "SE100",
+    "Turbine_ID": "B40",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "9.851821684",
+    "Service_Date": "01/03/2019"
+  },
+  {
+    "Service_ID": "SE101",
+    "Turbine_ID": "B41",
+    "Service_NET_Duration": "7.33",
+    "Service_Deviations": "0.595378626",
+    "Service_Date": "01/02/2019"
+  },
+  {
+    "Service_ID": "SE102",
+    "Turbine_ID": "B42",
+    "Service_NET_Duration": "9.75",
+    "Service_Deviations": "7.255479559",
+    "Service_Date": "01/02/2019"
+  },
+  {
+    "Service_ID": "SE103",
+    "Turbine_ID": "B43",
+    "Service_NET_Duration": "11",
+    "Service_Deviations": "8.075968849",
+    "Service_Date": "01/02/2019"
+  },
+  {
+    "Service_ID": "SE104",
+    "Turbine_ID": "B44",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "6.865122198",
+    "Service_Date": "01/02/2019"
+  },
+  {
+    "Service_ID": "SE105",
+    "Turbine_ID": "B45",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "8.17129558",
+    "Service_Date": "01/02/2019"
+  },
+  {
+    "Service_ID": "SE106",
+    "Turbine_ID": "B46",
+    "Service_NET_Duration": "7",
+    "Service_Deviations": "6.641571449",
+    "Service_Date": "01/02/2019"
+  },
+  {
+    "Service_ID": "SE107",
+    "Turbine_ID": "B47",
+    "Service_NET_Duration": "8.25",
+    "Service_Deviations": "2.204266896",
+    "Service_Date": "01/02/2019"
+  },
+  {
+    "Service_ID": "SE108",
+    "Turbine_ID": "B48",
+    "Service_NET_Duration": "6.17",
+    "Service_Deviations": "4.166098328",
+    "Service_Date": "01/02/2019"
+  },
+  {
+    "Service_ID": "SE109",
+    "Turbine_ID": "B49",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "8.921705599",
+    "Service_Date": "01/02/2019"
+  },
+  {
+    "Service_ID": "SE110",
+    "Turbine_ID": "B50",
+    "Service_NET_Duration": "10.33",
+    "Service_Deviations": "2.598669779",
+    "Service_Date": "01/02/2019"
+  },
+  {
+    "Service_ID": "SE111",
+    "Turbine_ID": "B51",
+    "Service_NET_Duration": "9.58",
+    "Service_Deviations": "9.53061558",
+    "Service_Date": "01/02/2019"
+  },
+  {
+    "Service_ID": "SE112",
+    "Turbine_ID": "B52",
+    "Service_NET_Duration": "8.75",
+    "Service_Deviations": "1.33362509",
+    "Service_Date": "01/02/2019"
+  },
+  {
+    "Service_ID": "SE113",
+    "Turbine_ID": "B53",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "4.145997935",
+    "Service_Date": "01/01/2019"
+  },
+  {
+    "Service_ID": "SE114",
+    "Turbine_ID": "B54",
+    "Service_NET_Duration": "9.5",
+    "Service_Deviations": "8.753623218",
+    "Service_Date": "01/01/2019"
+  },
+  {
+    "Service_ID": "SE115",
+    "Turbine_ID": "B55",
+    "Service_NET_Duration": "11.17",
+    "Service_Deviations": "4.685653455",
+    "Service_Date": "01/01/2019"
+  },
+  {
+    "Service_ID": "SE116",
+    "Turbine_ID": "B56",
+    "Service_NET_Duration": "7.5",
+    "Service_Deviations": "6.085004271",
+    "Service_Date": "01/01/2019"
+  },
+  {
+    "Service_ID": "SE117",
+    "Turbine_ID": "B57",
+    "Service_NET_Duration": "9.5",
+    "Service_Deviations": "3.482860118",
+    "Service_Date": "01/01/2019"
+  },
+  {
+    "Service_ID": "SE118",
+    "Turbine_ID": "B58",
+    "Service_NET_Duration": "11.58",
+    "Service_Deviations": "8.074373438",
+    "Service_Date": "01/01/2019"
+  },
+  {
+    "Service_ID": "SE119",
+    "Turbine_ID": "B59",
+    "Service_NET_Duration": "10.4",
+    "Service_Deviations": "9.898695674",
+    "Service_Date": "01/01/2019"
+  },
+  {
+    "Service_ID": "SE120",
+    "Turbine_ID": "B60",
+    "Service_NET_Duration": "9.4",
+    "Service_Deviations": "7.51961638",
+    "Service_Date": "01/01/2019"
+  },
+  {
+    "Service_ID": "SE121",
+    "Turbine_ID": "B61",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "8.012584227",
+    "Service_Date": "01/01/2019"
+  },
+  {
+    "Service_ID": "SE122",
+    "Turbine_ID": "B62",
+    "Service_NET_Duration": "10.25",
+    "Service_Deviations": "5.408989019",
+    "Service_Date": "01/01/2019"
+  },
+  {
+    "Service_ID": "SE123",
+    "Turbine_ID": "B63",
+    "Service_NET_Duration": "10.75",
+    "Service_Deviations": "2.266881314",
+    "Service_Date": "01/01/2019"
+  },
+  {
+    "Service_ID": "SE124",
+    "Turbine_ID": "B64",
+    "Service_NET_Duration": "12.08",
+    "Service_Deviations": "8.772611948",
+    "Service_Date": "01/01/2019"
+  },
+  {
+    "Service_ID": "SE125",
+    "Turbine_ID": "B65",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "4.596322929",
+    "Service_Date": "01/01/2019"
+  },
+  {
+    "Service_ID": "SE126",
+    "Turbine_ID": "B66",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "4.667588831",
+    "Service_Date": "01/12/2018"
+  },
+  {
+    "Service_ID": "SE127",
+    "Turbine_ID": "B67",
+    "Service_NET_Duration": "14.33",
+    "Service_Deviations": "5.595672319",
+    "Service_Date": "01/12/2018"
+  },
+  {
+    "Service_ID": "SE128",
+    "Turbine_ID": "B68",
+    "Service_NET_Duration": "7.25",
+    "Service_Deviations": "9.152094148",
+    "Service_Date": "01/11/2018"
+  },
+  {
+    "Service_ID": "SE129",
+    "Turbine_ID": "B69",
+    "Service_NET_Duration": "9.25",
+    "Service_Deviations": "5.319925203",
+    "Service_Date": "01/11/2018"
+  },
+  {
+    "Service_ID": "SE130",
+    "Turbine_ID": "B70",
+    "Service_NET_Duration": "20.75",
+    "Service_Deviations": "5.832020083",
+    "Service_Date": "01/11/2018"
+  },
+  {
+    "Service_ID": "SE131",
+    "Turbine_ID": "B71",
+    "Service_NET_Duration": "11.25",
+    "Service_Deviations": "2.175266371",
+    "Service_Date": "01/11/2018"
+  },
+  {
+    "Service_ID": "SE132",
+    "Turbine_ID": "B72",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "5.466872028",
+    "Service_Date": "01/11/2018"
+  },
+  {
+    "Service_ID": "SE133",
+    "Turbine_ID": "B73",
+    "Service_NET_Duration": "13.5",
+    "Service_Deviations": "1.784166452",
+    "Service_Date": "01/11/2018"
+  },
+  {
+    "Service_ID": "SE134",
+    "Turbine_ID": "B74",
+    "Service_NET_Duration": "13.75",
+    "Service_Deviations": "9.859542195",
+    "Service_Date": "01/11/2018"
+  },
+  {
+    "Service_ID": "SE135",
+    "Turbine_ID": "B75",
+    "Service_NET_Duration": "11.17",
+    "Service_Deviations": "9.706751856",
+    "Service_Date": "01/11/2018"
+  },
+  {
+    "Service_ID": "SE136",
+    "Turbine_ID": "B76",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "5.904092093",
+    "Service_Date": "01/11/2018"
+  },
+  {
+    "Service_ID": "SE137",
+    "Turbine_ID": "B77",
+    "Service_NET_Duration": "10.5",
+    "Service_Deviations": "0.204529657",
+    "Service_Date": "01/11/2018"
+  },
+  {
+    "Service_ID": "SE138",
+    "Turbine_ID": "B78",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "9.669506111",
+    "Service_Date": "01/11/2018"
+  },
+  {
+    "Service_ID": "SE139",
+    "Turbine_ID": "B79",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "1.651393047",
+    "Service_Date": "01/10/2018"
+  },
+  {
+    "Service_ID": "SE140",
+    "Turbine_ID": "B80",
+    "Service_NET_Duration": "9.5",
+    "Service_Deviations": "1.408051436",
+    "Service_Date": "01/10/2018"
+  },
+  {
+    "Service_ID": "SE141",
+    "Turbine_ID": "B81",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "2.499145804",
+    "Service_Date": "01/10/2018"
+  },
+  {
+    "Service_ID": "SE142",
+    "Turbine_ID": "B82",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "8.380784803",
+    "Service_Date": "01/10/2018"
+  },
+  {
+    "Service_ID": "SE143",
+    "Turbine_ID": "B83",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "6.916186185",
+    "Service_Date": "01/09/2018"
+  },
+  {
+    "Service_ID": "SE144",
+    "Turbine_ID": "B84",
+    "Service_NET_Duration": "15.5",
+    "Service_Deviations": "2.432538176",
+    "Service_Date": "01/09/2018"
+  },
+  {
+    "Service_ID": "SE145",
+    "Turbine_ID": "C01",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "2.105176741",
+    "Service_Date": "01/09/2018"
+  },
+  {
+    "Service_ID": "SE146",
+    "Turbine_ID": "C02",
+    "Service_NET_Duration": "9.5",
+    "Service_Deviations": "2.946859103",
+    "Service_Date": "01/09/2018"
+  },
+  {
+    "Service_ID": "SE147",
+    "Turbine_ID": "C03",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "2.477286122",
+    "Service_Date": "01/09/2018"
+  },
+  {
+    "Service_ID": "SE148",
+    "Turbine_ID": "C04",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "3.377071914",
+    "Service_Date": "01/09/2018"
+  },
+  {
+    "Service_ID": "SE149",
+    "Turbine_ID": "C05",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "4.720686604",
+    "Service_Date": "01/09/2018"
+  },
+  {
+    "Service_ID": "SE150",
+    "Turbine_ID": "C06",
+    "Service_NET_Duration": "12",
+    "Service_Deviations": "2.109548868",
+    "Service_Date": "01/09/2018"
+  },
+  {
+    "Service_ID": "SE151",
+    "Turbine_ID": "C07",
+    "Service_NET_Duration": "9.5",
+    "Service_Deviations": "0.925701908",
+    "Service_Date": "01/09/2018"
+  },
+  {
+    "Service_ID": "SE152",
+    "Turbine_ID": "C08",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "0.032469334",
+    "Service_Date": "01/08/2018"
+  },
+  {
+    "Service_ID": "SE153",
+    "Turbine_ID": "C09",
+    "Service_NET_Duration": "13.75",
+    "Service_Deviations": "1.170128393",
+    "Service_Date": "01/08/2018"
+  },
+  {
+    "Service_ID": "SE154",
+    "Turbine_ID": "C10",
+    "Service_NET_Duration": "9.75",
+    "Service_Deviations": "2.956469214",
+    "Service_Date": "01/08/2018"
+  },
+  {
+    "Service_ID": "SE155",
+    "Turbine_ID": "C11",
+    "Service_NET_Duration": "17",
+    "Service_Deviations": "1.778068801",
+    "Service_Date": "01/08/2018"
+  },
+  {
+    "Service_ID": "SE156",
+    "Turbine_ID": "C12",
+    "Service_NET_Duration": "12.15",
+    "Service_Deviations": "2.019436348",
+    "Service_Date": "01/08/2018"
+  },
+  {
+    "Service_ID": "SE157",
+    "Turbine_ID": "C13",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "1.036805829",
+    "Service_Date": "01/08/2018"
+  },
+  {
+    "Service_ID": "SE158",
+    "Turbine_ID": "C14",
+    "Service_NET_Duration": "9.5",
+    "Service_Deviations": "4.595914339",
+    "Service_Date": "01/08/2018"
+  },
+  {
+    "Service_ID": "SE159",
+    "Turbine_ID": "C15",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "1.990404619",
+    "Service_Date": "01/08/2018"
+  },
+  {
+    "Service_ID": "SE160",
+    "Turbine_ID": "C16",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "5.570443004",
+    "Service_Date": "01/08/2018"
+  },
+  {
+    "Service_ID": "SE161",
+    "Turbine_ID": "C17",
+    "Service_NET_Duration": "6",
+    "Service_Deviations": "4.720054034",
+    "Service_Date": "09/12/2020"
+  },
+  {
+    "Service_ID": "SE162",
+    "Turbine_ID": "C18",
+    "Service_NET_Duration": "7.5",
+    "Service_Deviations": "1.714084605",
+    "Service_Date": "07/12/2020"
+  },
+  {
+    "Service_ID": "SE163",
+    "Turbine_ID": "C19",
+    "Service_NET_Duration": "9.25",
+    "Service_Deviations": "1.042867459",
+    "Service_Date": "30/11/2020"
+  },
+  {
+    "Service_ID": "SE164",
+    "Turbine_ID": "C20",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "8.305381137",
+    "Service_Date": "28/11/2020"
+  },
+  {
+    "Service_ID": "SE165",
+    "Turbine_ID": "C21",
+    "Service_NET_Duration": "9.25",
+    "Service_Deviations": "2.760755",
+    "Service_Date": "28/11/2020"
+  },
+  {
+    "Service_ID": "SE166",
+    "Turbine_ID": "C22",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "5.815988905",
+    "Service_Date": "25/11/2020"
+  },
+  {
+    "Service_ID": "SE167",
+    "Turbine_ID": "C23",
+    "Service_NET_Duration": "8.75",
+    "Service_Deviations": "2.669926725",
+    "Service_Date": "25/11/2020"
+  },
+  {
+    "Service_ID": "SE168",
+    "Turbine_ID": "C24",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "3.707322455",
+    "Service_Date": "24/11/2020"
+  },
+  {
+    "Service_ID": "SE169",
+    "Turbine_ID": "C25",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "4.691518686",
+    "Service_Date": "24/11/2020"
+  },
+  {
+    "Service_ID": "SE170",
+    "Turbine_ID": "C26",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "9.763672489",
+    "Service_Date": "23/11/2020"
+  },
+  {
+    "Service_ID": "SE171",
+    "Turbine_ID": "C27",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "6.441041107",
+    "Service_Date": "23/11/2020"
+  },
+  {
+    "Service_ID": "SE172",
+    "Turbine_ID": "C28",
+    "Service_NET_Duration": "8.25",
+    "Service_Deviations": "5.337176917",
+    "Service_Date": "22/11/2020"
+  },
+  {
+    "Service_ID": "SE173",
+    "Turbine_ID": "C29",
+    "Service_NET_Duration": "6.5",
+    "Service_Deviations": "7.451959672",
+    "Service_Date": "22/11/2020"
+  },
+  {
+    "Service_ID": "SE174",
+    "Turbine_ID": "C30",
+    "Service_NET_Duration": "7.5",
+    "Service_Deviations": "1.958783982",
+    "Service_Date": "20/11/2020"
+  },
+  {
+    "Service_ID": "SE175",
+    "Turbine_ID": "C31",
+    "Service_NET_Duration": "6.75",
+    "Service_Deviations": "4.003536055",
+    "Service_Date": "20/11/2020"
+  },
+  {
+    "Service_ID": "SE176",
+    "Turbine_ID": "C32",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "5.735815004",
+    "Service_Date": "18/11/2020"
+  },
+  {
+    "Service_ID": "SE177",
+    "Turbine_ID": "C33",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "4.066302971",
+    "Service_Date": "18/11/2020"
+  },
+  {
+    "Service_ID": "SE178",
+    "Turbine_ID": "C34",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "5.937745191",
+    "Service_Date": "16/11/2020"
+  },
+  {
+    "Service_ID": "SE179",
+    "Turbine_ID": "C35",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "5.529326971",
+    "Service_Date": "14/11/2020"
+  },
+  {
+    "Service_ID": "SE180",
+    "Turbine_ID": "C36",
+    "Service_NET_Duration": "7.25",
+    "Service_Deviations": "9.018875749",
+    "Service_Date": "14/11/2020"
+  },
+  {
+    "Service_ID": "SE181",
+    "Turbine_ID": "C37",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "1.207294223",
+    "Service_Date": "11/11/2020"
+  },
+  {
+    "Service_ID": "SE182",
+    "Turbine_ID": "C38",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "1.667963889",
+    "Service_Date": "11/11/2020"
+  },
+  {
+    "Service_ID": "SE183",
+    "Turbine_ID": "C39",
+    "Service_NET_Duration": "10.5",
+    "Service_Deviations": "2.999762754",
+    "Service_Date": "10/11/2020"
+  },
+  {
+    "Service_ID": "SE184",
+    "Turbine_ID": "C40",
+    "Service_NET_Duration": "9.75",
+    "Service_Deviations": "3.62731589",
+    "Service_Date": "10/11/2020"
+  },
+  {
+    "Service_ID": "SE185",
+    "Turbine_ID": "C41",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "8.30406186",
+    "Service_Date": "09/11/2020"
+  },
+  {
+    "Service_ID": "SE186",
+    "Turbine_ID": "C42",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "0.72903529",
+    "Service_Date": "09/11/2020"
+  },
+  {
+    "Service_ID": "SE187",
+    "Turbine_ID": "C43",
+    "Service_NET_Duration": "11.5",
+    "Service_Deviations": "7.913856038",
+    "Service_Date": "08/11/2020"
+  },
+  {
+    "Service_ID": "SE188",
+    "Turbine_ID": "C44",
+    "Service_NET_Duration": "9.75",
+    "Service_Deviations": "9.954176349",
+    "Service_Date": "08/11/2020"
+  },
+  {
+    "Service_ID": "SE189",
+    "Turbine_ID": "C45",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "9.832582272",
+    "Service_Date": "07/11/2020"
+  },
+  {
+    "Service_ID": "SE190",
+    "Turbine_ID": "C46",
+    "Service_NET_Duration": "11",
+    "Service_Deviations": "3.636394079",
+    "Service_Date": "07/11/2020"
+  },
+  {
+    "Service_ID": "SE191",
+    "Turbine_ID": "C47",
+    "Service_NET_Duration": "12.25",
+    "Service_Deviations": "2.749385657",
+    "Service_Date": "06/11/2020"
+  },
+  {
+    "Service_ID": "SE192",
+    "Turbine_ID": "C48",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "1.211359354",
+    "Service_Date": "04/11/2020"
+  },
+  {
+    "Service_ID": "SE193",
+    "Turbine_ID": "C49",
+    "Service_NET_Duration": "7.5",
+    "Service_Deviations": "6.898923199",
+    "Service_Date": "23/10/2020"
+  },
+  {
+    "Service_ID": "SE194",
+    "Turbine_ID": "C50",
+    "Service_NET_Duration": "6",
+    "Service_Deviations": "0.376567572",
+    "Service_Date": "22/10/2020"
+  },
+  {
+    "Service_ID": "SE195",
+    "Turbine_ID": "C51",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "5.516003388",
+    "Service_Date": "20/10/2020"
+  },
+  {
+    "Service_ID": "SE196",
+    "Turbine_ID": "C52",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "3.18498547",
+    "Service_Date": "19/10/2020"
+  },
+  {
+    "Service_ID": "SE197",
+    "Turbine_ID": "C53",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "6.459268526",
+    "Service_Date": "18/10/2020"
+  },
+  {
+    "Service_ID": "SE198",
+    "Turbine_ID": "C54",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "9.134258146",
+    "Service_Date": "17/10/2020"
+  },
+  {
+    "Service_ID": "SE199",
+    "Turbine_ID": "C55",
+    "Service_NET_Duration": "9.25",
+    "Service_Deviations": "3.059474137",
+    "Service_Date": "14/10/2020"
+  },
+  {
+    "Service_ID": "SE200",
+    "Turbine_ID": "C56",
+    "Service_NET_Duration": "7.5",
+    "Service_Deviations": "8.666009408",
+    "Service_Date": "13/10/2020"
+  },
+  {
+    "Service_ID": "SE201",
+    "Turbine_ID": "C57",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "5.934793684",
+    "Service_Date": "12/10/2020"
+  },
+  {
+    "Service_ID": "SE202",
+    "Turbine_ID": "C58",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "8.630411162",
+    "Service_Date": "09/10/2020"
+  },
+  {
+    "Service_ID": "SE203",
+    "Turbine_ID": "C59",
+    "Service_NET_Duration": "8.25",
+    "Service_Deviations": "6.21093023",
+    "Service_Date": "03/10/2020"
+  },
+  {
+    "Service_ID": "SE204",
+    "Turbine_ID": "C60",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "3.934593712",
+    "Service_Date": "30/09/2020"
+  },
+  {
+    "Service_ID": "SE205",
+    "Turbine_ID": "C61",
+    "Service_NET_Duration": "7.75",
+    "Service_Deviations": "5.581716881",
+    "Service_Date": "29/09/2020"
+  },
+  {
+    "Service_ID": "SE206",
+    "Turbine_ID": "C62",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "0.346283306",
+    "Service_Date": "23/09/2020"
+  },
+  {
+    "Service_ID": "SE207",
+    "Turbine_ID": "C63",
+    "Service_NET_Duration": "8.75",
+    "Service_Deviations": "1.506062243",
+    "Service_Date": "22/09/2020"
+  },
+  {
+    "Service_ID": "SE208",
+    "Turbine_ID": "C64",
+    "Service_NET_Duration": "8.75",
+    "Service_Deviations": "7.241776446",
+    "Service_Date": "21/09/2020"
+  },
+  {
+    "Service_ID": "SE209",
+    "Turbine_ID": "C65",
+    "Service_NET_Duration": "7.5",
+    "Service_Deviations": "2.057592106",
+    "Service_Date": "14/09/2020"
+  },
+  {
+    "Service_ID": "SE210",
+    "Turbine_ID": "C66",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "9.102588192",
+    "Service_Date": "13/09/2020"
+  },
+  {
+    "Service_ID": "SE211",
+    "Turbine_ID": "C67",
+    "Service_NET_Duration": "9.5",
+    "Service_Deviations": "8.040033415",
+    "Service_Date": "12/09/2020"
+  },
+  {
+    "Service_ID": "SE212",
+    "Turbine_ID": "D01",
+    "Service_NET_Duration": "13.75",
+    "Service_Deviations": "6.219655184",
+    "Service_Date": "11/09/2020"
+  },
+  {
+    "Service_ID": "SE213",
+    "Turbine_ID": "D02",
+    "Service_NET_Duration": "7.5",
+    "Service_Deviations": "3.972210502",
+    "Service_Date": "14/08/2020"
+  },
+  {
+    "Service_ID": "SE214",
+    "Turbine_ID": "D03",
+    "Service_NET_Duration": "10.25",
+    "Service_Deviations": "5.179670385",
+    "Service_Date": "13/08/2020"
+  },
+  {
+    "Service_ID": "SE215",
+    "Turbine_ID": "D04",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "9.223198756",
+    "Service_Date": "11/08/2020"
+  },
+  {
+    "Service_ID": "SE216",
+    "Turbine_ID": "D05",
+    "Service_NET_Duration": "9.75",
+    "Service_Deviations": "4.36943846",
+    "Service_Date": "10/08/2020"
+  },
+  {
+    "Service_ID": "SE217",
+    "Turbine_ID": "D06",
+    "Service_NET_Duration": "13",
+    "Service_Deviations": "2.329709106",
+    "Service_Date": "07/08/2020"
+  },
+  {
+    "Service_ID": "SE218",
+    "Turbine_ID": "D07",
+    "Service_NET_Duration": "7.5",
+    "Service_Deviations": "2.34427864",
+    "Service_Date": "04/08/2020"
+  },
+  {
+    "Service_ID": "SE219",
+    "Turbine_ID": "D08",
+    "Service_NET_Duration": "7.5",
+    "Service_Deviations": "6.105609823",
+    "Service_Date": "02/08/2020"
+  },
+  {
+    "Service_ID": "SE220",
+    "Turbine_ID": "D09",
+    "Service_NET_Duration": "9.75",
+    "Service_Deviations": "8.470139108",
+    "Service_Date": "31/07/2020"
+  },
+  {
+    "Service_ID": "SE221",
+    "Turbine_ID": "D10",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "8.278718639",
+    "Service_Date": "29/07/2020"
+  },
+  {
+    "Service_ID": "SE222",
+    "Turbine_ID": "D11",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "6.440468227",
+    "Service_Date": "28/07/2020"
+  },
+  {
+    "Service_ID": "SE223",
+    "Turbine_ID": "D12",
+    "Service_NET_Duration": "7",
+    "Service_Deviations": "1.404828362",
+    "Service_Date": "27/07/2020"
+  },
+  {
+    "Service_ID": "SE224",
+    "Turbine_ID": "D13",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "5.020213032",
+    "Service_Date": "26/07/2020"
+  },
+  {
+    "Service_ID": "SE225",
+    "Turbine_ID": "D14",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "3.881975912",
+    "Service_Date": "24/07/2020"
+  },
+  {
+    "Service_ID": "SE226",
+    "Turbine_ID": "D15",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "3.919635765",
+    "Service_Date": "23/07/2020"
+  },
+  {
+    "Service_ID": "SE227",
+    "Turbine_ID": "D16",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "3.514067777",
+    "Service_Date": "21/07/2020"
+  },
+  {
+    "Service_ID": "SE228",
+    "Turbine_ID": "D17",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "1.739518346",
+    "Service_Date": "20/07/2020"
+  },
+  {
+    "Service_ID": "SE229",
+    "Turbine_ID": "D18",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "1.816218282",
+    "Service_Date": "19/07/2020"
+  },
+  {
+    "Service_ID": "SE230",
+    "Turbine_ID": "D19",
+    "Service_NET_Duration": "9.25",
+    "Service_Deviations": "7.837235798",
+    "Service_Date": "18/07/2020"
+  },
+  {
+    "Service_ID": "SE231",
+    "Turbine_ID": "D20",
+    "Service_NET_Duration": "9.5",
+    "Service_Deviations": "1.339822982",
+    "Service_Date": "17/07/2020"
+  },
+  {
+    "Service_ID": "SE232",
+    "Turbine_ID": "D21",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "6.636135251",
+    "Service_Date": "16/07/2020"
+  },
+  {
+    "Service_ID": "SE233",
+    "Turbine_ID": "D22",
+    "Service_NET_Duration": "9.5",
+    "Service_Deviations": "0.103847511",
+    "Service_Date": "15/07/2020"
+  },
+  {
+    "Service_ID": "SE234",
+    "Turbine_ID": "D23",
+    "Service_NET_Duration": "12.67",
+    "Service_Deviations": "8.920564392",
+    "Service_Date": "14/07/2020"
+  },
+  {
+    "Service_ID": "SE235",
+    "Turbine_ID": "D24",
+    "Service_NET_Duration": "12.75",
+    "Service_Deviations": "9.021881762",
+    "Service_Date": "13/07/2020"
+  },
+  {
+    "Service_ID": "SE236",
+    "Turbine_ID": "D25",
+    "Service_NET_Duration": "10",
+    "Service_Deviations": "9.109381303",
+    "Service_Date": "11/07/2020"
+  },
+  {
+    "Service_ID": "SE237",
+    "Turbine_ID": "D26",
+    "Service_NET_Duration": "8.75",
+    "Service_Deviations": "7.649799822",
+    "Service_Date": "07/07/2020"
+  },
+  {
+    "Service_ID": "SE238",
+    "Turbine_ID": "D27",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "6.32799913",
+    "Service_Date": "02/07/2020"
+  },
+  {
+    "Service_ID": "SE239",
+    "Turbine_ID": "D28",
+    "Service_NET_Duration": "10.33",
+    "Service_Deviations": "8.635549626",
+    "Service_Date": "01/07/2020"
+  },
+  {
+    "Service_ID": "SE240",
+    "Turbine_ID": "D29",
+    "Service_NET_Duration": "11",
+    "Service_Deviations": "1.231258952",
+    "Service_Date": "19/06/2020"
+  },
+  {
+    "Service_ID": "SE241",
+    "Turbine_ID": "D30",
+    "Service_NET_Duration": "9",
+    "Service_Deviations": "0.284224343",
+    "Service_Date": "15/06/2020"
+  },
+  {
+    "Service_ID": "SE242",
+    "Turbine_ID": "D31",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "8.350806443",
+    "Service_Date": "14/06/2020"
+  },
+  {
+    "Service_ID": "SE243",
+    "Turbine_ID": "D32",
+    "Service_NET_Duration": "7.5",
+    "Service_Deviations": "5.425937582",
+    "Service_Date": "13/06/2020"
+  },
+  {
+    "Service_ID": "SE244",
+    "Turbine_ID": "D33",
+    "Service_NET_Duration": "11.25",
+    "Service_Deviations": "8.889584943",
+    "Service_Date": "12/06/2020"
+  },
+  {
+    "Service_ID": "SE245",
+    "Turbine_ID": "D34",
+    "Service_NET_Duration": "7.75",
+    "Service_Deviations": "3.198434826",
+    "Service_Date": "10/06/2020"
+  },
+  {
+    "Service_ID": "SE246",
+    "Turbine_ID": "D35",
+    "Service_NET_Duration": "7.75",
+    "Service_Deviations": "6.11180759",
+    "Service_Date": "09/06/2020"
+  },
+  {
+    "Service_ID": "SE247",
+    "Turbine_ID": "D36",
+    "Service_NET_Duration": "13.25",
+    "Service_Deviations": "7.14560926",
+    "Service_Date": "07/06/2020"
+  },
+  {
+    "Service_ID": "SE248",
+    "Turbine_ID": "D37",
+    "Service_NET_Duration": "8",
+    "Service_Deviations": "2.414042567",
+    "Service_Date": "01/06/2020"
+  },
+  {
+    "Service_ID": "SE249",
+    "Turbine_ID": "D38",
+    "Service_NET_Duration": "9.75",
+    "Service_Deviations": "5.278005927",
+    "Service_Date": "31/05/2020"
+  },
+  {
+    "Service_ID": "SE250",
+    "Turbine_ID": "D39",
+    "Service_NET_Duration": "8.25",
+    "Service_Deviations": "4.221978962",
+    "Service_Date": "30/05/2020"
+  },
+  {
+    "Service_ID": "SE251",
+    "Turbine_ID": "D40",
+    "Service_NET_Duration": "10.25",
+    "Service_Deviations": "6.405520383",
+    "Service_Date": "29/05/2020"
+  },
+  {
+    "Service_ID": "SE252",
+    "Turbine_ID": "D41",
+    "Service_NET_Duration": "8.5",
+    "Service_Deviations": "9.854938791",
+    "Service_Date": "25/05/2020"
+  },
+  {
+    "Service_ID": "SE253",
+    "Turbine_ID": "D42",
+    "Service_NET_Duration": "9.5",
+    "Service_Deviations": "1.055565417",
+    "Service_Date": "18/05/2020"
+  },
+  {
+    "Service_ID": "SE254",
+    "Turbine_ID": "D43",
+    "Service_NET_Duration": "14.5",
+    "Service_Deviations": "4.24549305",
+    "Service_Date": "17/05/2020"
+  },
+  {
+    "Service_ID": "SE255",
+    "Turbine_ID": "D44",
+    "Service_NET_Duration": "12.38",
+    "Service_Deviations": "2.454052537",
+    "Service_Date": "15/08/2020"
+  },
+  {
+    "Service_ID": "SE256",
+    "Turbine_ID": "D45",
+    "Service_NET_Duration": "11.15",
+    "Service_Deviations": "8.9364868",
+    "Service_Date": "11/08/2020"
+  },
+  {
+    "Service_ID": "SE257",
+    "Turbine_ID": "D46",
+    "Service_NET_Duration": "10.90",
+    "Service_Deviations": "0.075434612",
+    "Service_Date": "11/08/2020"
+  },
+  {
+    "Service_ID": "SE258",
+    "Turbine_ID": "D47",
+    "Service_NET_Duration": "9.30",
+    "Service_Deviations": "0.998655282",
+    "Service_Date": "10/08/2020"
+  },
+  {
+    "Service_ID": "SE259",
+    "Turbine_ID": "D48",
+    "Service_NET_Duration": "10.17",
+    "Service_Deviations": "0.699782831",
+    "Service_Date": "10/08/2020"
+  },
+  {
+    "Service_ID": "SE260",
+    "Turbine_ID": "D49",
+    "Service_NET_Duration": "11.98",
+    "Service_Deviations": "1.080984591",
+    "Service_Date": "09/08/2020"
+  },
+  {
+    "Service_ID": "SE261",
+    "Turbine_ID": "D50",
+    "Service_NET_Duration": "9.57",
+    "Service_Deviations": "1.868982057",
+    "Service_Date": "08/08/2020"
+  },
+  {
+    "Service_ID": "SE262",
+    "Turbine_ID": "D51",
+    "Service_NET_Duration": "13.82",
+    "Service_Deviations": "5.980600732",
+    "Service_Date": "08/08/2020"
+  },
+  {
+    "Service_ID": "SE263",
+    "Turbine_ID": "D52",
+    "Service_NET_Duration": "13.63",
+    "Service_Deviations": "0.288158864",
+    "Service_Date": "07/08/2020"
+  },
+  {
+    "Service_ID": "SE264",
+    "Turbine_ID": "D53",
+    "Service_NET_Duration": "8.08",
+    "Service_Deviations": "7.941129011",
+    "Service_Date": "07/08/2020"
+  },
+  {
+    "Service_ID": "SE265",
+    "Turbine_ID": "D54",
+    "Service_NET_Duration": "13.23",
+    "Service_Deviations": "3.216389537",
+    "Service_Date": "06/08/2020"
+  },
+  {
+    "Service_ID": "SE266",
+    "Turbine_ID": "D55",
+    "Service_NET_Duration": "12.25",
+    "Service_Deviations": "7.921468153",
+    "Service_Date": "04/08/2020"
+  },
+  {
+    "Service_ID": "SE267",
+    "Turbine_ID": "D56",
+    "Service_NET_Duration": "12.25",
+    "Service_Deviations": "0.563488243",
+    "Service_Date": "04/08/2020"
+  },
+  {
+    "Service_ID": "SE268",
+    "Turbine_ID": "E01",
+    "Service_NET_Duration": "10.30",
+    "Service_Deviations": "7.880302025",
+    "Service_Date": "03/08/2020"
+  },
+  {
+    "Service_ID": "SE269",
+    "Turbine_ID": "E02",
+    "Service_NET_Duration": "18.23",
+    "Service_Deviations": "8.722781905",
+    "Service_Date": "02/08/2020"
+  },
+  {
+    "Service_ID": "SE270",
+    "Turbine_ID": "E03",
+    "Service_NET_Duration": "23.57",
+    "Service_Deviations": "5.085372673",
+    "Service_Date": "02/08/2020"
+  },
+  {
+    "Service_ID": "SE271",
+    "Turbine_ID": "E04",
+    "Service_NET_Duration": "5.20",
+    "Service_Deviations": "8.160483279",
+    "Service_Date": "02/08/2020"
+  },
+  {
+    "Service_ID": "SE272",
+    "Turbine_ID": "E05",
+    "Service_NET_Duration": "13.08",
+    "Service_Deviations": "9.134152985",
+    "Service_Date": "01/08/2020"
+  },
+  {
+    "Service_ID": "SE273",
+    "Turbine_ID": "E06",
+    "Service_NET_Duration": "14.07",
+    "Service_Deviations": "5.198239328",
+    "Service_Date": "01/08/2020"
+  },
+  {
+    "Service_ID": "SE274",
+    "Turbine_ID": "E07",
+    "Service_NET_Duration": "16.14",
+    "Service_Deviations": "4.435122691",
+    "Service_Date": "30/07/2020"
+  },
+  {
+    "Service_ID": "SE275",
+    "Turbine_ID": "E08",
+    "Service_NET_Duration": "18.55",
+    "Service_Deviations": "0.870103328",
+    "Service_Date": "26/07/2020"
+  },
+  {
+    "Service_ID": "SE276",
+    "Turbine_ID": "E09",
+    "Service_NET_Duration": "14.23",
+    "Service_Deviations": "9.185677666",
+    "Service_Date": "24/07/2020"
+  },
+  {
+    "Service_ID": "SE277",
+    "Turbine_ID": "E10",
+    "Service_NET_Duration": "15.65",
+    "Service_Deviations": "2.09313944",
+    "Service_Date": "24/07/2020"
+  },
+  {
+    "Service_ID": "SE278",
+    "Turbine_ID": "E11",
+    "Service_NET_Duration": "11.88",
+    "Service_Deviations": "1.917720911",
+    "Service_Date": "23/07/2020"
+  },
+  {
+    "Service_ID": "SE279",
+    "Turbine_ID": "E12",
+    "Service_NET_Duration": "6.55",
+    "Service_Deviations": "7.55907646",
+    "Service_Date": "22/07/2020"
+  },
+  {
+    "Service_ID": "SE280",
+    "Turbine_ID": "E13",
+    "Service_NET_Duration": "11.40",
+    "Service_Deviations": "2.775641098",
+    "Service_Date": "21/07/2020"
+  },
+  {
+    "Service_ID": "SE281",
+    "Turbine_ID": "E14",
+    "Service_NET_Duration": "13.72",
+    "Service_Deviations": "0.49206457",
+    "Service_Date": "20/07/2020"
+  },
+  {
+    "Service_ID": "SE282",
+    "Turbine_ID": "E15",
+    "Service_NET_Duration": "19.05",
+    "Service_Deviations": "1.755633059",
+    "Service_Date": "19/07/2020"
+  },
+  {
+    "Service_ID": "SE283",
+    "Turbine_ID": "E16",
+    "Service_NET_Duration": "16.13",
+    "Service_Deviations": "7.139926166",
+    "Service_Date": "17/07/2020"
+  },
+  {
+    "Service_ID": "SE284",
+    "Turbine_ID": "E17",
+    "Service_NET_Duration": "15.12",
+    "Service_Deviations": "8.412380278",
+    "Service_Date": "17/07/2020"
+  },
+  {
+    "Service_ID": "SE285",
+    "Turbine_ID": "E18",
+    "Service_NET_Duration": "13.50",
+    "Service_Deviations": "3.180143568",
+    "Service_Date": "14/07/2020"
+  },
+  {
+    "Service_ID": "SE286",
+    "Turbine_ID": "E19",
+    "Service_NET_Duration": "15.32",
+    "Service_Deviations": "6.900404569",
+    "Service_Date": "14/07/2020"
+  },
+  {
+    "Service_ID": "SE287",
+    "Turbine_ID": "E20",
+    "Service_NET_Duration": "14.65",
+    "Service_Deviations": "7.525658385",
+    "Service_Date": "12/07/2020"
+  },
+  {
+    "Service_ID": "SE288",
+    "Turbine_ID": "E21",
+    "Service_NET_Duration": "9.83",
+    "Service_Deviations": "1.498188873",
+    "Service_Date": "11/07/2020"
+  },
+  {
+    "Service_ID": "SE289",
+    "Turbine_ID": "E22",
+    "Service_NET_Duration": "13.90",
+    "Service_Deviations": "6.450625864",
+    "Service_Date": "11/07/2020"
+  },
+  {
+    "Service_ID": "SE290",
+    "Turbine_ID": "E23",
+    "Service_NET_Duration": "17.98",
+    "Service_Deviations": "3.901429008",
+    "Service_Date": "10/07/2020"
+  },
+  {
+    "Service_ID": "SE291",
+    "Turbine_ID": "E24",
+    "Service_NET_Duration": "13.93",
+    "Service_Deviations": "3.554331872",
+    "Service_Date": "09/07/2020"
+  },
+  {
+    "Service_ID": "SE292",
+    "Turbine_ID": "E25",
+    "Service_NET_Duration": "15.13",
+    "Service_Deviations": "2.898034845",
+    "Service_Date": "08/07/2020"
+  },
+  {
+    "Service_ID": "SE293",
+    "Turbine_ID": "E26",
+    "Service_NET_Duration": "16.33",
+    "Service_Deviations": "2.136719577",
+    "Service_Date": "07/07/2020"
+  },
+  {
+    "Service_ID": "SE294",
+    "Turbine_ID": "E27",
+    "Service_NET_Duration": "14.13",
+    "Service_Deviations": "7.206248615",
+    "Service_Date": "07/07/2020"
+  },
+  {
+    "Service_ID": "SE295",
+    "Turbine_ID": "E28",
+    "Service_NET_Duration": "17.13",
+    "Service_Deviations": "9.148077579",
+    "Service_Date": "03/07/2020"
+  },
+  {
+    "Service_ID": "SE296",
+    "Turbine_ID": "E29",
+    "Service_NET_Duration": "10.92",
+    "Service_Deviations": "2.045867792",
+    "Service_Date": "01/07/2020"
+  },
+  {
+    "Service_ID": "SE297",
+    "Turbine_ID": "E30",
+    "Service_NET_Duration": "20.93",
+    "Service_Deviations": "8.865160449",
+    "Service_Date": "25/06/2020"
+  },
+  {
+    "Service_ID": "SE298",
+    "Turbine_ID": "E31",
+    "Service_NET_Duration": "14.88",
+    "Service_Deviations": "1.022261347",
+    "Service_Date": "25/06/2020"
+  },
+  {
+    "Service_ID": "SE299",
+    "Turbine_ID": "E32",
+    "Service_NET_Duration": "12.10",
+    "Service_Deviations": "1.269373378",
+    "Service_Date": "24/06/2020"
+  },
+  {
+    "Service_ID": "SE300",
+    "Turbine_ID": "E33",
+    "Service_NET_Duration": "10.97",
+    "Service_Deviations": "0.735802909",
+    "Service_Date": "24/06/2020"
+  },
+  {
+    "Service_ID": "SE301",
+    "Turbine_ID": "E34",
+    "Service_NET_Duration": "13.90",
+    "Service_Deviations": "7.371497023",
+    "Service_Date": "22/06/2020"
+  },
+  {
+    "Service_ID": "SE302",
+    "Turbine_ID": "E35",
+    "Service_NET_Duration": "10.83",
+    "Service_Deviations": "1.886777998",
+    "Service_Date": "20/06/2020"
+  },
+  {
+    "Service_ID": "SE303",
+    "Turbine_ID": "E36",
+    "Service_NET_Duration": "20.55",
+    "Service_Deviations": "1.215814666",
+    "Service_Date": "20/06/2020"
+  },
+  {
+    "Service_ID": "SE304",
+    "Turbine_ID": "E37",
+    "Service_NET_Duration": "14.50",
+    "Service_Deviations": "8.91013601",
+    "Service_Date": "17/06/2020"
+  },
+  {
+    "Service_ID": "SE305",
+    "Turbine_ID": "E38",
+    "Service_NET_Duration": "11.73",
+    "Service_Deviations": "2.495189962",
+    "Service_Date": "14/06/2020"
+  },
+  {
+    "Service_ID": "SE306",
+    "Turbine_ID": "E39",
+    "Service_NET_Duration": "18.13",
+    "Service_Deviations": "0.362114821",
+    "Service_Date": "13/06/2020"
+  },
+  {
+    "Service_ID": "SE307",
+    "Turbine_ID": "E40",
+    "Service_NET_Duration": "16.35",
+    "Service_Deviations": "5.285530696",
+    "Service_Date": "13/06/2020"
+  },
+  {
+    "Service_ID": "SE308",
+    "Turbine_ID": "E41",
+    "Service_NET_Duration": "17.17",
+    "Service_Deviations": "9.864480012",
+    "Service_Date": "10/06/2020"
+  },
+  {
+    "Service_ID": "SE309",
+    "Turbine_ID": "E42",
+    "Service_NET_Duration": "13.45",
+    "Service_Deviations": "8.016985755",
+    "Service_Date": "10/06/2020"
+  },
+  {
+    "Service_ID": "SE310",
+    "Turbine_ID": "E43",
+    "Service_NET_Duration": "15.50",
+    "Service_Deviations": "1.487444788",
+    "Service_Date": "07/06/2020"
+  },
+  {
+    "Service_ID": "SE311",
+    "Turbine_ID": "E44",
+    "Service_NET_Duration": "15.35",
+    "Service_Deviations": "5.298401972",
+    "Service_Date": "01/06/2020"
+  },
+  {
+    "Service_ID": "SE312",
+    "Turbine_ID": "E45",
+    "Service_NET_Duration": "15.23",
+    "Service_Deviations": "3.296942768",
+    "Service_Date": "26/05/2020"
+  },
+  {
+    "Service_ID": "SE313",
+    "Turbine_ID": "E46",
+    "Service_NET_Duration": "16.93",
+    "Service_Deviations": "4.361291763",
+    "Service_Date": "25/05/2020"
+  },
+  {
+    "Service_ID": "SE314",
+    "Turbine_ID": "E47",
+    "Service_NET_Duration": "28.22",
+    "Service_Deviations": "1.326539801",
+    "Service_Date": "19/05/2020"
+  },
+  {
+    "Service_ID": "SE315",
+    "Turbine_ID": "E48",
+    "Service_NET_Duration": "15.70",
+    "Service_Deviations": "5.66444844",
+    "Service_Date": "19/05/2020"
+  },
+  {
+    "Service_ID": "SE316",
+    "Turbine_ID": "E49",
+    "Service_NET_Duration": "14.17",
+    "Service_Deviations": "6.74797263",
+    "Service_Date": "17/05/2020"
+  },
+  {
+    "Service_ID": "SE317",
+    "Turbine_ID": "E50",
+    "Service_NET_Duration": "11.85",
+    "Service_Deviations": "7.694892747",
+    "Service_Date": "17/05/2020"
+  },
+  {
+    "Service_ID": "SE318",
+    "Turbine_ID": "E51",
+    "Service_NET_Duration": "20.43",
+    "Service_Deviations": "8.443084021",
+    "Service_Date": "12/05/2020"
+  },
+  {
+    "Service_ID": "SE319",
+    "Turbine_ID": "E52",
+    "Service_NET_Duration": "18.08",
+    "Service_Deviations": "6.979874953",
+    "Service_Date": "05/05/2020"
+  }
+]

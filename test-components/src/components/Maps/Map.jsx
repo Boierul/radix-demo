@@ -383,7 +383,15 @@ const Map = () => {
             </GoogleMap>
         </div>
     ) : (
-        <>No data available</>
+        <div style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100vh",
+            width: "100vw"
+        }}>
+            No data available
+        </div>
     );
 };
 

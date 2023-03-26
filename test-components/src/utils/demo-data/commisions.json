@@ -1,0 +1,2235 @@
+[
+  {
+    "Comm_ID": "COM001",
+    "Turbine_ID": "A01",
+    "Comm_NET_Duration": "7.42",
+    "Comm_Deviations": "8.737079848",
+    "Comm_Date": "05/01/2022"
+  },
+  {
+    "Comm_ID": "COM002",
+    "Turbine_ID": "A02",
+    "Comm_NET_Duration": "13.05",
+    "Comm_Deviations": "4.066899307",
+    "Comm_Date": "15/01/2022"
+  },
+  {
+    "Comm_ID": "COM003",
+    "Turbine_ID": "A03",
+    "Comm_NET_Duration": "21.67",
+    "Comm_Deviations": "5.952472745",
+    "Comm_Date": "21/12/2021"
+  },
+  {
+    "Comm_ID": "COM004",
+    "Turbine_ID": "A04",
+    "Comm_NET_Duration": "20.01",
+    "Comm_Deviations": "4.723275522",
+    "Comm_Date": "23/01/2022"
+  },
+  {
+    "Comm_ID": "COM005",
+    "Turbine_ID": "A05",
+    "Comm_NET_Duration": "22.06",
+    "Comm_Deviations": "7.601375809",
+    "Comm_Date": "16/01/2022"
+  },
+  {
+    "Comm_ID": "COM006",
+    "Turbine_ID": "A06",
+    "Comm_NET_Duration": "13.72",
+    "Comm_Deviations": "2.402704907",
+    "Comm_Date": "07/01/2022"
+  },
+  {
+    "Comm_ID": "COM007",
+    "Turbine_ID": "A07",
+    "Comm_NET_Duration": "7.18",
+    "Comm_Deviations": "2.992472872",
+    "Comm_Date": "24/12/2021"
+  },
+  {
+    "Comm_ID": "COM008",
+    "Turbine_ID": "A08",
+    "Comm_NET_Duration": "3.75",
+    "Comm_Deviations": "9.483834401",
+    "Comm_Date": "06/11/2021"
+  },
+  {
+    "Comm_ID": "COM009",
+    "Turbine_ID": "A09",
+    "Comm_NET_Duration": "12.11",
+    "Comm_Deviations": "2.917826152",
+    "Comm_Date": "08/11/2021"
+  },
+  {
+    "Comm_ID": "COM010",
+    "Turbine_ID": "A10",
+    "Comm_NET_Duration": "12.5",
+    "Comm_Deviations": "9.069938628",
+    "Comm_Date": "08/06/2021"
+  },
+  {
+    "Comm_ID": "COM011",
+    "Turbine_ID": "A11",
+    "Comm_NET_Duration": "5",
+    "Comm_Deviations": "1.544701863",
+    "Comm_Date": "28/01/2022"
+  },
+  {
+    "Comm_ID": "COM012",
+    "Turbine_ID": "A12",
+    "Comm_NET_Duration": "19.37",
+    "Comm_Deviations": "2.348025475",
+    "Comm_Date": "27/01/2022"
+  },
+  {
+    "Comm_ID": "COM013",
+    "Turbine_ID": "A13",
+    "Comm_NET_Duration": "9.77",
+    "Comm_Deviations": "4.065087151",
+    "Comm_Date": "03/02/2022"
+  },
+  {
+    "Comm_ID": "COM014",
+    "Turbine_ID": "A14",
+    "Comm_NET_Duration": "8.03",
+    "Comm_Deviations": "2.003664301",
+    "Comm_Date": "03/02/2022"
+  },
+  {
+    "Comm_ID": "COM015",
+    "Turbine_ID": "A15",
+    "Comm_NET_Duration": "12",
+    "Comm_Deviations": "2.060435889",
+    "Comm_Date": "19/01/2022"
+  },
+  {
+    "Comm_ID": "COM016",
+    "Turbine_ID": "A16",
+    "Comm_NET_Duration": "6.76",
+    "Comm_Deviations": "9.030729662",
+    "Comm_Date": "25/01/2022"
+  },
+  {
+    "Comm_ID": "COM017",
+    "Turbine_ID": "A17",
+    "Comm_NET_Duration": "10.47",
+    "Comm_Deviations": "1.408961562",
+    "Comm_Date": "11/02/2022"
+  },
+  {
+    "Comm_ID": "COM018",
+    "Turbine_ID": "A18",
+    "Comm_NET_Duration": "10",
+    "Comm_Deviations": "6.697862332",
+    "Comm_Date": "25/01/2022"
+  },
+  {
+    "Comm_ID": "COM019",
+    "Turbine_ID": "A19",
+    "Comm_NET_Duration": "10.51",
+    "Comm_Deviations": "0.324729176",
+    "Comm_Date": "02/01/2022"
+  },
+  {
+    "Comm_ID": "COM020",
+    "Turbine_ID": "A20",
+    "Comm_NET_Duration": "10.7",
+    "Comm_Deviations": "0.696153763",
+    "Comm_Date": "11/01/2022"
+  },
+  {
+    "Comm_ID": "COM021",
+    "Turbine_ID": "A21",
+    "Comm_NET_Duration": "7.18",
+    "Comm_Deviations": "8.905497508",
+    "Comm_Date": "20/06/2021"
+  },
+  {
+    "Comm_ID": "COM022",
+    "Turbine_ID": "A22",
+    "Comm_NET_Duration": "12",
+    "Comm_Deviations": "0.729937053",
+    "Comm_Date": "02/01/2022"
+  },
+  {
+    "Comm_ID": "COM023",
+    "Turbine_ID": "A23",
+    "Comm_NET_Duration": "7.03",
+    "Comm_Deviations": "1.481007857",
+    "Comm_Date": "09/01/2022"
+  },
+  {
+    "Comm_ID": "COM024",
+    "Turbine_ID": "A24",
+    "Comm_NET_Duration": "6.42",
+    "Comm_Deviations": "9.143484183",
+    "Comm_Date": "11/01/2022"
+  },
+  {
+    "Comm_ID": "COM025",
+    "Turbine_ID": "A25",
+    "Comm_NET_Duration": "7.2",
+    "Comm_Deviations": "7.555573438",
+    "Comm_Date": "22/01/2022"
+  },
+  {
+    "Comm_ID": "COM026",
+    "Turbine_ID": "A26",
+    "Comm_NET_Duration": "6.35",
+    "Comm_Deviations": "1.795936637",
+    "Comm_Date": "11/01/2022"
+  },
+  {
+    "Comm_ID": "COM027",
+    "Turbine_ID": "A27",
+    "Comm_NET_Duration": "6.65",
+    "Comm_Deviations": "6.996887421",
+    "Comm_Date": "24/12/2021"
+  },
+  {
+    "Comm_ID": "COM028",
+    "Turbine_ID": "A28",
+    "Comm_NET_Duration": "9.4",
+    "Comm_Deviations": "7.656276273",
+    "Comm_Date": "09/01/2022"
+  },
+  {
+    "Comm_ID": "COM029",
+    "Turbine_ID": "A29",
+    "Comm_NET_Duration": "8.25",
+    "Comm_Deviations": "3.984486459",
+    "Comm_Date": "14/02/2022"
+  },
+  {
+    "Comm_ID": "COM030",
+    "Turbine_ID": "A30",
+    "Comm_NET_Duration": "15.92",
+    "Comm_Deviations": "3.801768226",
+    "Comm_Date": "04/07/2021"
+  },
+  {
+    "Comm_ID": "COM031",
+    "Turbine_ID": "A31",
+    "Comm_NET_Duration": "8.5",
+    "Comm_Deviations": "3.381507912",
+    "Comm_Date": "05/07/2021"
+  },
+  {
+    "Comm_ID": "COM032",
+    "Turbine_ID": "A32",
+    "Comm_NET_Duration": "51.5",
+    "Comm_Deviations": "3.511142888",
+    "Comm_Date": "09/07/2021"
+  },
+  {
+    "Comm_ID": "COM033",
+    "Turbine_ID": "A33",
+    "Comm_NET_Duration": "22.5",
+    "Comm_Deviations": "6.332186051",
+    "Comm_Date": "10/07/2021"
+  },
+  {
+    "Comm_ID": "COM034",
+    "Turbine_ID": "A34",
+    "Comm_NET_Duration": "20.75",
+    "Comm_Deviations": "1.075029254",
+    "Comm_Date": "12/07/2021"
+  },
+  {
+    "Comm_ID": "COM035",
+    "Turbine_ID": "A35",
+    "Comm_NET_Duration": "27.75",
+    "Comm_Deviations": "1.317133303",
+    "Comm_Date": "13/07/2021"
+  },
+  {
+    "Comm_ID": "COM036",
+    "Turbine_ID": "A36",
+    "Comm_NET_Duration": "34.25",
+    "Comm_Deviations": "7.002067053",
+    "Comm_Date": "18/07/2021"
+  },
+  {
+    "Comm_ID": "COM037",
+    "Turbine_ID": "A37",
+    "Comm_NET_Duration": "19.5",
+    "Comm_Deviations": "0.773484665",
+    "Comm_Date": "17/07/2021"
+  },
+  {
+    "Comm_ID": "COM038",
+    "Turbine_ID": "A38",
+    "Comm_NET_Duration": "19.75",
+    "Comm_Deviations": "3.819135604",
+    "Comm_Date": "18/07/2021"
+  },
+  {
+    "Comm_ID": "COM039",
+    "Turbine_ID": "A39",
+    "Comm_NET_Duration": "16.5",
+    "Comm_Deviations": "0.563694192",
+    "Comm_Date": "17/07/2021"
+  },
+  {
+    "Comm_ID": "COM040",
+    "Turbine_ID": "A40",
+    "Comm_NET_Duration": "8.75",
+    "Comm_Deviations": "9.46651445",
+    "Comm_Date": "16/07/2021"
+  },
+  {
+    "Comm_ID": "COM041",
+    "Turbine_ID": "A41",
+    "Comm_NET_Duration": "20",
+    "Comm_Deviations": "6.612874597",
+    "Comm_Date": "20/07/2021"
+  },
+  {
+    "Comm_ID": "COM042",
+    "Turbine_ID": "A42",
+    "Comm_NET_Duration": "13.5",
+    "Comm_Deviations": "6.793526415",
+    "Comm_Date": "19/07/2021"
+  },
+  {
+    "Comm_ID": "COM043",
+    "Turbine_ID": "A43",
+    "Comm_NET_Duration": "17.5",
+    "Comm_Deviations": "5.441747767",
+    "Comm_Date": "19/07/2021"
+  },
+  {
+    "Comm_ID": "COM044",
+    "Turbine_ID": "A44",
+    "Comm_NET_Duration": "18",
+    "Comm_Deviations": "4.961223521",
+    "Comm_Date": "20/07/2021"
+  },
+  {
+    "Comm_ID": "COM045",
+    "Turbine_ID": "A45",
+    "Comm_NET_Duration": "3.5",
+    "Comm_Deviations": "9.403409891",
+    "Comm_Date": "23/07/2021"
+  },
+  {
+    "Comm_ID": "COM046",
+    "Turbine_ID": "A46",
+    "Comm_NET_Duration": "22.75",
+    "Comm_Deviations": "6.484285972",
+    "Comm_Date": "23/07/2021"
+  },
+  {
+    "Comm_ID": "COM047",
+    "Turbine_ID": "A47",
+    "Comm_NET_Duration": "9",
+    "Comm_Deviations": "2.770523018",
+    "Comm_Date": "24/07/2021"
+  },
+  {
+    "Comm_ID": "COM048",
+    "Turbine_ID": "A48",
+    "Comm_NET_Duration": "9",
+    "Comm_Deviations": "1.546128792",
+    "Comm_Date": "24/07/2021"
+  },
+  {
+    "Comm_ID": "COM049",
+    "Turbine_ID": "A49",
+    "Comm_NET_Duration": "9.5",
+    "Comm_Deviations": "3.891466664",
+    "Comm_Date": "02/08/2021"
+  },
+  {
+    "Comm_ID": "COM050",
+    "Turbine_ID": "A50",
+    "Comm_NET_Duration": "19",
+    "Comm_Deviations": "4.229000384",
+    "Comm_Date": "31/07/2021"
+  },
+  {
+    "Comm_ID": "COM051",
+    "Turbine_ID": "A51",
+    "Comm_NET_Duration": "11.25",
+    "Comm_Deviations": "7.374873152",
+    "Comm_Date": "31/07/2021"
+  },
+  {
+    "Comm_ID": "COM052",
+    "Turbine_ID": "A52",
+    "Comm_NET_Duration": "8.25",
+    "Comm_Deviations": "2.78889992",
+    "Comm_Date": "26/07/2021"
+  },
+  {
+    "Comm_ID": "COM053",
+    "Turbine_ID": "A53",
+    "Comm_NET_Duration": "8",
+    "Comm_Deviations": "0.951604013",
+    "Comm_Date": "30/07/2021"
+  },
+  {
+    "Comm_ID": "COM054",
+    "Turbine_ID": "A54",
+    "Comm_NET_Duration": "10.5",
+    "Comm_Deviations": "9.296135616",
+    "Comm_Date": "05/08/2021"
+  },
+  {
+    "Comm_ID": "COM055",
+    "Turbine_ID": "A55",
+    "Comm_NET_Duration": "8.5",
+    "Comm_Deviations": "6.675960504",
+    "Comm_Date": "02/08/2021"
+  },
+  {
+    "Comm_ID": "COM056",
+    "Turbine_ID": "A56",
+    "Comm_NET_Duration": "7.5",
+    "Comm_Deviations": "1.697445203",
+    "Comm_Date": "01/08/2021"
+  },
+  {
+    "Comm_ID": "COM057",
+    "Turbine_ID": "A57",
+    "Comm_NET_Duration": "7.5",
+    "Comm_Deviations": "7.482066443",
+    "Comm_Date": "07/08/2021"
+  },
+  {
+    "Comm_ID": "COM058",
+    "Turbine_ID": "A58",
+    "Comm_NET_Duration": "20.5",
+    "Comm_Deviations": "6.261375002",
+    "Comm_Date": "05/08/2021"
+  },
+  {
+    "Comm_ID": "COM059",
+    "Turbine_ID": "A59",
+    "Comm_NET_Duration": "24",
+    "Comm_Deviations": "4.822116485",
+    "Comm_Date": "03/08/2021"
+  },
+  {
+    "Comm_ID": "COM060",
+    "Turbine_ID": "A60",
+    "Comm_NET_Duration": "9.5",
+    "Comm_Deviations": "3.458269874",
+    "Comm_Date": "07/08/2021"
+  },
+  {
+    "Comm_ID": "COM061",
+    "Turbine_ID": "B01",
+    "Comm_NET_Duration": "11",
+    "Comm_Deviations": "6.690289686",
+    "Comm_Date": "09/08/2021"
+  },
+  {
+    "Comm_ID": "COM062",
+    "Turbine_ID": "B02",
+    "Comm_NET_Duration": "17",
+    "Comm_Deviations": "5.972035273",
+    "Comm_Date": "09/08/2021"
+  },
+  {
+    "Comm_ID": "COM063",
+    "Turbine_ID": "B03",
+    "Comm_NET_Duration": "9",
+    "Comm_Deviations": "5.280923705",
+    "Comm_Date": "10/08/2021"
+  },
+  {
+    "Comm_ID": "COM064",
+    "Turbine_ID": "B04",
+    "Comm_NET_Duration": "10.25",
+    "Comm_Deviations": "0.009714699",
+    "Comm_Date": "10/08/2021"
+  },
+  {
+    "Comm_ID": "COM065",
+    "Turbine_ID": "B05",
+    "Comm_NET_Duration": "36.25",
+    "Comm_Deviations": "0.295505556",
+    "Comm_Date": "11/08/2021"
+  },
+  {
+    "Comm_ID": "COM066",
+    "Turbine_ID": "B06",
+    "Comm_NET_Duration": "8.5",
+    "Comm_Deviations": "6.776764926",
+    "Comm_Date": "11/08/2021"
+  },
+  {
+    "Comm_ID": "COM067",
+    "Turbine_ID": "B07",
+    "Comm_NET_Duration": "15.25",
+    "Comm_Deviations": "2.604377213",
+    "Comm_Date": "13/08/2021"
+  },
+  {
+    "Comm_ID": "COM068",
+    "Turbine_ID": "B08",
+    "Comm_NET_Duration": "11",
+    "Comm_Deviations": "3.968433033",
+    "Comm_Date": "20/08/2021"
+  },
+  {
+    "Comm_ID": "COM069",
+    "Turbine_ID": "B09",
+    "Comm_NET_Duration": "14.5",
+    "Comm_Deviations": "8.710377356",
+    "Comm_Date": "13/08/2021"
+  },
+  {
+    "Comm_ID": "COM070",
+    "Turbine_ID": "B10",
+    "Comm_NET_Duration": "12.75",
+    "Comm_Deviations": "3.586113317",
+    "Comm_Date": "28/08/2021"
+  },
+  {
+    "Comm_ID": "COM071",
+    "Turbine_ID": "B11",
+    "Comm_NET_Duration": "14",
+    "Comm_Deviations": "7.694473924",
+    "Comm_Date": "20/08/2021"
+  },
+  {
+    "Comm_ID": "COM072",
+    "Turbine_ID": "B12",
+    "Comm_NET_Duration": "11.75",
+    "Comm_Deviations": "4.056175564",
+    "Comm_Date": "21/08/2021"
+  },
+  {
+    "Comm_ID": "COM073",
+    "Turbine_ID": "B13",
+    "Comm_NET_Duration": "17",
+    "Comm_Deviations": "1.000369108",
+    "Comm_Date": "22/08/2021"
+  },
+  {
+    "Comm_ID": "COM074",
+    "Turbine_ID": "B14",
+    "Comm_NET_Duration": "14.25",
+    "Comm_Deviations": "9.177264846",
+    "Comm_Date": "02/09/2021"
+  },
+  {
+    "Comm_ID": "COM075",
+    "Turbine_ID": "B15",
+    "Comm_NET_Duration": "7",
+    "Comm_Deviations": "8.425651837",
+    "Comm_Date": "09/09/2021"
+  },
+  {
+    "Comm_ID": "COM076",
+    "Turbine_ID": "B16",
+    "Comm_NET_Duration": "12",
+    "Comm_Deviations": "0.473734077",
+    "Comm_Date": "08/09/2021"
+  },
+  {
+    "Comm_ID": "COM077",
+    "Turbine_ID": "B17",
+    "Comm_NET_Duration": "9.5",
+    "Comm_Deviations": "8.807188284",
+    "Comm_Date": "11/09/2021"
+  },
+  {
+    "Comm_ID": "COM078",
+    "Turbine_ID": "B18",
+    "Comm_NET_Duration": "5.5",
+    "Comm_Deviations": "1.636889315",
+    "Comm_Date": "06/09/2021"
+  },
+  {
+    "Comm_ID": "COM079",
+    "Turbine_ID": "B19",
+    "Comm_NET_Duration": "6.5",
+    "Comm_Deviations": "3.689503266",
+    "Comm_Date": "04/09/2021"
+  },
+  {
+    "Comm_ID": "COM080",
+    "Turbine_ID": "B20",
+    "Comm_NET_Duration": "16.75",
+    "Comm_Deviations": "3.252412001",
+    "Comm_Date": "03/09/2021"
+  },
+  {
+    "Comm_ID": "COM081",
+    "Turbine_ID": "B21",
+    "Comm_NET_Duration": "27",
+    "Comm_Deviations": "0.067351498",
+    "Comm_Date": "10/09/2021"
+  },
+  {
+    "Comm_ID": "COM082",
+    "Turbine_ID": "B22",
+    "Comm_NET_Duration": "7",
+    "Comm_Deviations": "9.274037382",
+    "Comm_Date": "16/11/2021"
+  },
+  {
+    "Comm_ID": "COM083",
+    "Turbine_ID": "B23",
+    "Comm_NET_Duration": "10.75",
+    "Comm_Deviations": "6.020190894",
+    "Comm_Date": "17/09/2021"
+  },
+  {
+    "Comm_ID": "COM084",
+    "Turbine_ID": "B24",
+    "Comm_NET_Duration": "40.35",
+    "Comm_Deviations": "0.434932092",
+    "Comm_Date": "19/09/2021"
+  },
+  {
+    "Comm_ID": "COM085",
+    "Turbine_ID": "B25",
+    "Comm_NET_Duration": "19.46666667",
+    "Comm_Deviations": "5.345111908",
+    "Comm_Date": "21/09/2021"
+  },
+  {
+    "Comm_ID": "COM086",
+    "Turbine_ID": "B26",
+    "Comm_NET_Duration": "28.71666667",
+    "Comm_Deviations": "1.124295602",
+    "Comm_Date": "12/09/2021"
+  },
+  {
+    "Comm_ID": "COM087",
+    "Turbine_ID": "B27",
+    "Comm_NET_Duration": "16.73333333",
+    "Comm_Deviations": "7.605006355",
+    "Comm_Date": "23/09/2021"
+  },
+  {
+    "Comm_ID": "COM088",
+    "Turbine_ID": "B28",
+    "Comm_NET_Duration": "29.7",
+    "Comm_Deviations": "1.906039901",
+    "Comm_Date": "20/09/2021"
+  },
+  {
+    "Comm_ID": "COM089",
+    "Turbine_ID": "B29",
+    "Comm_NET_Duration": "9.85",
+    "Comm_Deviations": "1.422375441",
+    "Comm_Date": "20/09/2021"
+  },
+  {
+    "Comm_ID": "COM090",
+    "Turbine_ID": "B30",
+    "Comm_NET_Duration": "13.21666667",
+    "Comm_Deviations": "7.399938066",
+    "Comm_Date": "25/09/2021"
+  },
+  {
+    "Comm_ID": "COM091",
+    "Turbine_ID": "B31",
+    "Comm_NET_Duration": "25.88333333",
+    "Comm_Deviations": "0.870456729",
+    "Comm_Date": "02/10/2021"
+  },
+  {
+    "Comm_ID": "COM092",
+    "Turbine_ID": "B32",
+    "Comm_NET_Duration": "11.96666667",
+    "Comm_Deviations": "4.990677696",
+    "Comm_Date": "05/10/2021"
+  },
+  {
+    "Comm_ID": "COM093",
+    "Turbine_ID": "B33",
+    "Comm_NET_Duration": "17.71666667",
+    "Comm_Deviations": "6.802778892",
+    "Comm_Date": "15/11/2021"
+  },
+  {
+    "Comm_ID": "COM094",
+    "Turbine_ID": "B34",
+    "Comm_NET_Duration": "26.13333333",
+    "Comm_Deviations": "8.825197258",
+    "Comm_Date": "26/09/2021"
+  },
+  {
+    "Comm_ID": "COM095",
+    "Turbine_ID": "B35",
+    "Comm_NET_Duration": "13.66666667",
+    "Comm_Deviations": "2.365541343",
+    "Comm_Date": "19/09/2021"
+  },
+  {
+    "Comm_ID": "COM096",
+    "Turbine_ID": "B36",
+    "Comm_NET_Duration": "19.83333333",
+    "Comm_Deviations": "3.659520563",
+    "Comm_Date": "26/09/2021"
+  },
+  {
+    "Comm_ID": "COM097",
+    "Turbine_ID": "B37",
+    "Comm_NET_Duration": "27.83333333",
+    "Comm_Deviations": "5.293116619",
+    "Comm_Date": "04/10/2021"
+  },
+  {
+    "Comm_ID": "COM098",
+    "Turbine_ID": "B38",
+    "Comm_NET_Duration": "22.21666667",
+    "Comm_Deviations": "8.715286447",
+    "Comm_Date": "18/01/2022"
+  },
+  {
+    "Comm_ID": "COM099",
+    "Turbine_ID": "B39",
+    "Comm_NET_Duration": "15.21666667",
+    "Comm_Deviations": "1.209867661",
+    "Comm_Date": "09/10/2021"
+  },
+  {
+    "Comm_ID": "COM100",
+    "Turbine_ID": "B40",
+    "Comm_NET_Duration": "12.95",
+    "Comm_Deviations": "1.926850564",
+    "Comm_Date": "07/10/2021"
+  },
+  {
+    "Comm_ID": "COM101",
+    "Turbine_ID": "B41",
+    "Comm_NET_Duration": "16.83333333",
+    "Comm_Deviations": "5.141662219",
+    "Comm_Date": "07/10/2021"
+  },
+  {
+    "Comm_ID": "COM102",
+    "Turbine_ID": "B42",
+    "Comm_NET_Duration": "16.95",
+    "Comm_Deviations": "1.732030612",
+    "Comm_Date": "11/10/2021"
+  },
+  {
+    "Comm_ID": "COM103",
+    "Turbine_ID": "B43",
+    "Comm_NET_Duration": "13.6",
+    "Comm_Deviations": "0.553621803",
+    "Comm_Date": "15/11/2021"
+  },
+  {
+    "Comm_ID": "COM104",
+    "Turbine_ID": "B44",
+    "Comm_NET_Duration": "18.5",
+    "Comm_Deviations": "7.040724988",
+    "Comm_Date": "11/10/2021"
+  },
+  {
+    "Comm_ID": "COM105",
+    "Turbine_ID": "B45",
+    "Comm_NET_Duration": "14.66666667",
+    "Comm_Deviations": "8.101351912",
+    "Comm_Date": "13/10/2021"
+  },
+  {
+    "Comm_ID": "COM106",
+    "Turbine_ID": "B46",
+    "Comm_NET_Duration": "17.16666667",
+    "Comm_Deviations": "0.140661175",
+    "Comm_Date": "10/10/2021"
+  },
+  {
+    "Comm_ID": "COM107",
+    "Turbine_ID": "B47",
+    "Comm_NET_Duration": "13.7",
+    "Comm_Deviations": "0.46489013",
+    "Comm_Date": "18/10/2021"
+  },
+  {
+    "Comm_ID": "COM108",
+    "Turbine_ID": "B48",
+    "Comm_NET_Duration": "19.26666667",
+    "Comm_Deviations": "4.482672399",
+    "Comm_Date": "19/10/2021"
+  },
+  {
+    "Comm_ID": "COM109",
+    "Turbine_ID": "B49",
+    "Comm_NET_Duration": "15.66666667",
+    "Comm_Deviations": "6.745998431",
+    "Comm_Date": "20/10/2021"
+  },
+  {
+    "Comm_ID": "COM110",
+    "Turbine_ID": "B50",
+    "Comm_NET_Duration": "18.08333333",
+    "Comm_Deviations": "9.107814331",
+    "Comm_Date": "16/10/2021"
+  },
+  {
+    "Comm_ID": "COM111",
+    "Turbine_ID": "B51",
+    "Comm_NET_Duration": "13.03333333",
+    "Comm_Deviations": "5.483591384",
+    "Comm_Date": "16/10/2021"
+  },
+  {
+    "Comm_ID": "COM112",
+    "Turbine_ID": "B52",
+    "Comm_NET_Duration": "15.6",
+    "Comm_Deviations": "9.995072187",
+    "Comm_Date": "17/10/2021"
+  },
+  {
+    "Comm_ID": "COM113",
+    "Turbine_ID": "B53",
+    "Comm_NET_Duration": "14.83333333",
+    "Comm_Deviations": "9.268940863",
+    "Comm_Date": "09/11/2021"
+  },
+  {
+    "Comm_ID": "COM114",
+    "Turbine_ID": "B54",
+    "Comm_NET_Duration": "9.5",
+    "Comm_Deviations": "7.114532743",
+    "Comm_Date": "18/10/2021"
+  },
+  {
+    "Comm_ID": "COM115",
+    "Turbine_ID": "B55",
+    "Comm_NET_Duration": "16.75",
+    "Comm_Deviations": "5.58248681",
+    "Comm_Date": "13/10/2021"
+  },
+  {
+    "Comm_ID": "COM116",
+    "Turbine_ID": "B56",
+    "Comm_NET_Duration": "10.58333333",
+    "Comm_Deviations": "8.878699059",
+    "Comm_Date": "03/11/2021"
+  },
+  {
+    "Comm_ID": "COM117",
+    "Turbine_ID": "B57",
+    "Comm_NET_Duration": "9.65",
+    "Comm_Deviations": "4.597972923",
+    "Comm_Date": "30/10/2021"
+  },
+  {
+    "Comm_ID": "COM118",
+    "Turbine_ID": "B58",
+    "Comm_NET_Duration": "13.91666667",
+    "Comm_Deviations": "2.769009435",
+    "Comm_Date": "09/11/2021"
+  },
+  {
+    "Comm_ID": "COM119",
+    "Turbine_ID": "B59",
+    "Comm_NET_Duration": "17.8",
+    "Comm_Deviations": "6.942443381",
+    "Comm_Date": "05/11/2021"
+  },
+  {
+    "Comm_ID": "COM120",
+    "Turbine_ID": "B60",
+    "Comm_NET_Duration": "15.42",
+    "Comm_Deviations": "3.695155435",
+    "Comm_Date": "13/11/2021"
+  },
+  {
+    "Comm_ID": "COM121",
+    "Turbine_ID": "B61",
+    "Comm_NET_Duration": "26.08333333",
+    "Comm_Deviations": "9.885985067",
+    "Comm_Date": "10/11/2021"
+  },
+  {
+    "Comm_ID": "COM122",
+    "Turbine_ID": "B62",
+    "Comm_NET_Duration": "10.16666667",
+    "Comm_Deviations": "6.415536138",
+    "Comm_Date": "10/11/2021"
+  },
+  {
+    "Comm_ID": "COM123",
+    "Turbine_ID": "B63",
+    "Comm_NET_Duration": "9.966666667",
+    "Comm_Deviations": "7.680660822",
+    "Comm_Date": "14/11/2021"
+  },
+  {
+    "Comm_ID": "COM124",
+    "Turbine_ID": "B64",
+    "Comm_NET_Duration": "12.45",
+    "Comm_Deviations": "6.053801399",
+    "Comm_Date": "14/11/2021"
+  },
+  {
+    "Comm_ID": "COM125",
+    "Turbine_ID": "B65",
+    "Comm_NET_Duration": "20.07",
+    "Comm_Deviations": "0.981332975",
+    "Comm_Date": "13/11/2021"
+  },
+  {
+    "Comm_ID": "COM126",
+    "Turbine_ID": "B66",
+    "Comm_NET_Duration": "32.15",
+    "Comm_Deviations": "9.216117162",
+    "Comm_Date": "19/11/2021"
+  },
+  {
+    "Comm_ID": "COM127",
+    "Turbine_ID": "B67",
+    "Comm_NET_Duration": "15.72",
+    "Comm_Deviations": "5.557285078",
+    "Comm_Date": "20/11/2021"
+  },
+  {
+    "Comm_ID": "COM128",
+    "Turbine_ID": "B68",
+    "Comm_NET_Duration": "16.72",
+    "Comm_Deviations": "1.383680076",
+    "Comm_Date": "20/11/2021"
+  },
+  {
+    "Comm_ID": "COM129",
+    "Turbine_ID": "B69",
+    "Comm_NET_Duration": "24.83",
+    "Comm_Deviations": "4.636103042",
+    "Comm_Date": "23/11/2021"
+  },
+  {
+    "Comm_ID": "COM130",
+    "Turbine_ID": "B70",
+    "Comm_NET_Duration": "16.3",
+    "Comm_Deviations": "9.188165055",
+    "Comm_Date": "23/11/2021"
+  },
+  {
+    "Comm_ID": "COM131",
+    "Turbine_ID": "B71",
+    "Comm_NET_Duration": "17",
+    "Comm_Deviations": "3.784003054",
+    "Comm_Date": "19/11/2021"
+  },
+  {
+    "Comm_ID": "COM132",
+    "Turbine_ID": "B72",
+    "Comm_NET_Duration": "16.08",
+    "Comm_Deviations": "5.02928974",
+    "Comm_Date": "24/11/2021"
+  },
+  {
+    "Comm_ID": "COM133",
+    "Turbine_ID": "B73",
+    "Comm_NET_Duration": "19.25",
+    "Comm_Deviations": "0.785634483",
+    "Comm_Date": "06/12/2021"
+  },
+  {
+    "Comm_ID": "COM134",
+    "Turbine_ID": "B74",
+    "Comm_NET_Duration": "17.85",
+    "Comm_Deviations": "9.389196539",
+    "Comm_Date": "04/12/2021"
+  },
+  {
+    "Comm_ID": "COM135",
+    "Turbine_ID": "B75",
+    "Comm_NET_Duration": "27.73333333",
+    "Comm_Deviations": "4.154546483",
+    "Comm_Date": "11/12/2021"
+  },
+  {
+    "Comm_ID": "COM136",
+    "Turbine_ID": "B76",
+    "Comm_NET_Duration": "23.85",
+    "Comm_Deviations": "3.730872823",
+    "Comm_Date": "06/12/2021"
+  },
+  {
+    "Comm_ID": "COM137",
+    "Turbine_ID": "B77",
+    "Comm_NET_Duration": "14.1",
+    "Comm_Deviations": "1.810254829",
+    "Comm_Date": "11/12/2021"
+  },
+  {
+    "Comm_ID": "COM138",
+    "Turbine_ID": "B78",
+    "Comm_NET_Duration": "21.23333333",
+    "Comm_Deviations": "9.384976272",
+    "Comm_Date": "04/12/2021"
+  },
+  {
+    "Comm_ID": "COM139",
+    "Turbine_ID": "B79",
+    "Comm_NET_Duration": "19.71666667",
+    "Comm_Deviations": "1.214108233",
+    "Comm_Date": "13/12/2021"
+  },
+  {
+    "Comm_ID": "COM140",
+    "Turbine_ID": "B80",
+    "Comm_NET_Duration": "18.78333333",
+    "Comm_Deviations": "1.146785676",
+    "Comm_Date": "07/12/2021"
+  },
+  {
+    "Comm_ID": "COM141",
+    "Turbine_ID": "B81",
+    "Comm_NET_Duration": "18.05",
+    "Comm_Deviations": "8.352511486",
+    "Comm_Date": "05/12/2021"
+  },
+  {
+    "Comm_ID": "COM142",
+    "Turbine_ID": "B82",
+    "Comm_NET_Duration": "13.57",
+    "Comm_Deviations": "4.445817778",
+    "Comm_Date": "14/12/2021"
+  },
+  {
+    "Comm_ID": "COM143",
+    "Turbine_ID": "B83",
+    "Comm_NET_Duration": "14.73",
+    "Comm_Deviations": "1.479228391",
+    "Comm_Date": "14/12/2021"
+  },
+  {
+    "Comm_ID": "COM144",
+    "Turbine_ID": "B84",
+    "Comm_NET_Duration": "24.47",
+    "Comm_Deviations": "8.671366087",
+    "Comm_Date": "13/12/2021"
+  },
+  {
+    "Comm_ID": "COM145",
+    "Turbine_ID": "C01",
+    "Comm_NET_Duration": "19.57",
+    "Comm_Deviations": "9.767526621",
+    "Comm_Date": "15/12/2021"
+  },
+  {
+    "Comm_ID": "COM146",
+    "Turbine_ID": "C02",
+    "Comm_NET_Duration": "19.42",
+    "Comm_Deviations": "6.160974602",
+    "Comm_Date": "12/12/2021"
+  },
+  {
+    "Comm_ID": "COM147",
+    "Turbine_ID": "C03",
+    "Comm_NET_Duration": "25.97",
+    "Comm_Deviations": "2.965370715",
+    "Comm_Date": "13/12/2021"
+  },
+  {
+    "Comm_ID": "COM148",
+    "Turbine_ID": "C04",
+    "Comm_NET_Duration": "16.58",
+    "Comm_Deviations": "3.204052633",
+    "Comm_Date": "16/12/2021"
+  },
+  {
+    "Comm_ID": "COM149",
+    "Turbine_ID": "C05",
+    "Comm_NET_Duration": "13.26666667",
+    "Comm_Deviations": "8.623287801",
+    "Comm_Date": "02/01/2022"
+  },
+  {
+    "Comm_ID": "COM150",
+    "Turbine_ID": "C06",
+    "Comm_NET_Duration": "18.92",
+    "Comm_Deviations": "5.227320131",
+    "Comm_Date": "15/12/2021"
+  },
+  {
+    "Comm_ID": "COM151",
+    "Turbine_ID": "C07",
+    "Comm_NET_Duration": "28",
+    "Comm_Deviations": "9.034209127",
+    "Comm_Date": "16/12/2021"
+  },
+  {
+    "Comm_ID": "COM152",
+    "Turbine_ID": "C08",
+    "Comm_NET_Duration": "38",
+    "Comm_Deviations": "8.663975164",
+    "Comm_Date": "20/12/2021"
+  },
+  {
+    "Comm_ID": "COM153",
+    "Turbine_ID": "C09",
+    "Comm_NET_Duration": "15.25",
+    "Comm_Deviations": "3.118515511",
+    "Comm_Date": "17/12/2021"
+  },
+  {
+    "Comm_ID": "COM154",
+    "Turbine_ID": "C10",
+    "Comm_NET_Duration": "37.45",
+    "Comm_Deviations": "9.344047833",
+    "Comm_Date": "14/12/2021"
+  },
+  {
+    "Comm_ID": "COM155",
+    "Turbine_ID": "C11",
+    "Comm_NET_Duration": "14.25",
+    "Comm_Deviations": "4.781728403",
+    "Comm_Date": "19/12/2021"
+  },
+  {
+    "Comm_ID": "COM156",
+    "Turbine_ID": "C12",
+    "Comm_NET_Duration": "13.48",
+    "Comm_Deviations": "2.155049195",
+    "Comm_Date": "23/12/2021"
+  },
+  {
+    "Comm_ID": "COM157",
+    "Turbine_ID": "C13",
+    "Comm_NET_Duration": "7.75",
+    "Comm_Deviations": "2.295358719",
+    "Comm_Date": "24/12/2021"
+  },
+  {
+    "Comm_ID": "COM158",
+    "Turbine_ID": "C14",
+    "Comm_NET_Duration": "13.22",
+    "Comm_Deviations": "6.435763089",
+    "Comm_Date": "27/12/2021"
+  },
+  {
+    "Comm_ID": "COM159",
+    "Turbine_ID": "C15",
+    "Comm_NET_Duration": "9.25",
+    "Comm_Deviations": "3.780665318",
+    "Comm_Date": "10/01/2022"
+  },
+  {
+    "Comm_ID": "COM160",
+    "Turbine_ID": "C16",
+    "Comm_NET_Duration": "6.42",
+    "Comm_Deviations": "8.204350145",
+    "Comm_Date": "14/01/2022"
+  },
+  {
+    "Comm_ID": "COM161",
+    "Turbine_ID": "C17",
+    "Comm_NET_Duration": "8.35",
+    "Comm_Deviations": "9.531402017",
+    "Comm_Date": "12/01/2022"
+  },
+  {
+    "Comm_ID": "COM162",
+    "Turbine_ID": "C18",
+    "Comm_NET_Duration": "9.25",
+    "Comm_Deviations": "7.196112427",
+    "Comm_Date": "13/01/2022"
+  },
+  {
+    "Comm_ID": "COM163",
+    "Turbine_ID": "C19",
+    "Comm_NET_Duration": "6",
+    "Comm_Deviations": "8.943856505",
+    "Comm_Date": "13/01/2022"
+  },
+  {
+    "Comm_ID": "COM164",
+    "Turbine_ID": "C20",
+    "Comm_NET_Duration": "15.48",
+    "Comm_Deviations": "2.243628049",
+    "Comm_Date": "14/01/2022"
+  },
+  {
+    "Comm_ID": "COM165",
+    "Turbine_ID": "C21",
+    "Comm_NET_Duration": "16.75",
+    "Comm_Deviations": "1.922203958",
+    "Comm_Date": "10/01/2022"
+  },
+  {
+    "Comm_ID": "COM166",
+    "Turbine_ID": "C22",
+    "Comm_NET_Duration": "12.15",
+    "Comm_Deviations": "6.235554058",
+    "Comm_Date": "12/01/2022"
+  },
+  {
+    "Comm_ID": "COM167",
+    "Turbine_ID": "C23",
+    "Comm_NET_Duration": "10.75",
+    "Comm_Deviations": "9.141833933",
+    "Comm_Date": "16/01/2022"
+  },
+  {
+    "Comm_ID": "COM168",
+    "Turbine_ID": "C24",
+    "Comm_NET_Duration": "5",
+    "Comm_Deviations": "3.516830065",
+    "Comm_Date": "15/01/2022"
+  },
+  {
+    "Comm_ID": "COM169",
+    "Turbine_ID": "C25",
+    "Comm_NET_Duration": "3.5",
+    "Comm_Deviations": "3.139139091",
+    "Comm_Date": "19/01/2022"
+  },
+  {
+    "Comm_ID": "COM170",
+    "Turbine_ID": "C26",
+    "Comm_NET_Duration": "12.3",
+    "Comm_Deviations": "9.590350305",
+    "Comm_Date": "18/01/2022"
+  },
+  {
+    "Comm_ID": "COM171",
+    "Turbine_ID": "C27",
+    "Comm_NET_Duration": "17.27",
+    "Comm_Deviations": "4.138148796",
+    "Comm_Date": "23/01/2022"
+  },
+  {
+    "Comm_ID": "COM172",
+    "Turbine_ID": "C28",
+    "Comm_NET_Duration": "8.28",
+    "Comm_Deviations": "1.184095913",
+    "Comm_Date": "23/01/2022"
+  },
+  {
+    "Comm_ID": "COM173",
+    "Turbine_ID": "C29",
+    "Comm_NET_Duration": "7.35",
+    "Comm_Deviations": "4.666247127",
+    "Comm_Date": "24-Jan-22"
+  },
+  {
+    "Comm_ID": "COM174",
+    "Turbine_ID": "C30",
+    "Comm_NET_Duration": "8.5",
+    "Comm_Deviations": "7.075979742",
+    "Comm_Date": "24-Jan-22"
+  },
+  {
+    "Comm_ID": "COM175",
+    "Turbine_ID": "C31",
+    "Comm_NET_Duration": "6.22",
+    "Comm_Deviations": "6.845720449",
+    "Comm_Date": "09/07/2021"
+  },
+  {
+    "Comm_ID": "COM176",
+    "Turbine_ID": "C32",
+    "Comm_NET_Duration": "6.52",
+    "Comm_Deviations": "7.543615563",
+    "Comm_Date": "11/07/2021"
+  },
+  {
+    "Comm_ID": "COM177",
+    "Turbine_ID": "C33",
+    "Comm_NET_Duration": "13",
+    "Comm_Deviations": "8.24622115",
+    "Comm_Date": "12/07/2021"
+  },
+  {
+    "Comm_ID": "COM178",
+    "Turbine_ID": "C34",
+    "Comm_NET_Duration": "6",
+    "Comm_Deviations": "6.562376133",
+    "Comm_Date": "12/07/2021"
+  },
+  {
+    "Comm_ID": "COM179",
+    "Turbine_ID": "C35",
+    "Comm_NET_Duration": "5.3",
+    "Comm_Deviations": "9.690654586",
+    "Comm_Date": "13/07/2021"
+  },
+  {
+    "Comm_ID": "COM180",
+    "Turbine_ID": "C36",
+    "Comm_NET_Duration": "6.83",
+    "Comm_Deviations": "7.754239798",
+    "Comm_Date": "15/07/2021"
+  },
+  {
+    "Comm_ID": "COM181",
+    "Turbine_ID": "C37",
+    "Comm_NET_Duration": "5.5",
+    "Comm_Deviations": "5.112469618",
+    "Comm_Date": "16/07/2021"
+  },
+  {
+    "Comm_ID": "COM182",
+    "Turbine_ID": "C38",
+    "Comm_NET_Duration": "6.5",
+    "Comm_Deviations": "0.921541219",
+    "Comm_Date": "16/07/2021"
+  },
+  {
+    "Comm_ID": "COM183",
+    "Turbine_ID": "C39",
+    "Comm_NET_Duration": "12.63",
+    "Comm_Deviations": "1.282505716",
+    "Comm_Date": "17/07/2021"
+  },
+  {
+    "Comm_ID": "COM184",
+    "Turbine_ID": "C40",
+    "Comm_NET_Duration": "7.25",
+    "Comm_Deviations": "0.20161722",
+    "Comm_Date": "22/07/2021"
+  },
+  {
+    "Comm_ID": "COM185",
+    "Turbine_ID": "C41",
+    "Comm_NET_Duration": "8",
+    "Comm_Deviations": "1.865406353",
+    "Comm_Date": "23/07/2021"
+  },
+  {
+    "Comm_ID": "COM186",
+    "Turbine_ID": "C42",
+    "Comm_NET_Duration": "6.75",
+    "Comm_Deviations": "9.791889757",
+    "Comm_Date": "22/07/2021"
+  },
+  {
+    "Comm_ID": "COM187",
+    "Turbine_ID": "C43",
+    "Comm_NET_Duration": "7.25",
+    "Comm_Deviations": "7.693056282",
+    "Comm_Date": "23/07/2021"
+  },
+  {
+    "Comm_ID": "COM188",
+    "Turbine_ID": "C44",
+    "Comm_NET_Duration": "7.55",
+    "Comm_Deviations": "2.715214976",
+    "Comm_Date": "24/07/2021"
+  },
+  {
+    "Comm_ID": "COM189",
+    "Turbine_ID": "C45",
+    "Comm_NET_Duration": "6.5",
+    "Comm_Deviations": "2.217901355",
+    "Comm_Date": "25/07/2021"
+  },
+  {
+    "Comm_ID": "COM190",
+    "Turbine_ID": "C46",
+    "Comm_NET_Duration": "5.88",
+    "Comm_Deviations": "3.580458686",
+    "Comm_Date": "30/07/2021"
+  },
+  {
+    "Comm_ID": "COM191",
+    "Turbine_ID": "C47",
+    "Comm_NET_Duration": "5.25",
+    "Comm_Deviations": "7.415816309",
+    "Comm_Date": "31/07/2021"
+  },
+  {
+    "Comm_ID": "COM192",
+    "Turbine_ID": "C48",
+    "Comm_NET_Duration": "5",
+    "Comm_Deviations": "9.903325658",
+    "Comm_Date": "01/08/2021"
+  },
+  {
+    "Comm_ID": "COM193",
+    "Turbine_ID": "C49",
+    "Comm_NET_Duration": "6.32",
+    "Comm_Deviations": "1.927964204",
+    "Comm_Date": "02/08/2021"
+  },
+  {
+    "Comm_ID": "COM194",
+    "Turbine_ID": "C50",
+    "Comm_NET_Duration": "6.7",
+    "Comm_Deviations": "8.360936467",
+    "Comm_Date": "03/08/2021"
+  },
+  {
+    "Comm_ID": "COM195",
+    "Turbine_ID": "C51",
+    "Comm_NET_Duration": "6.58",
+    "Comm_Deviations": "7.655271161",
+    "Comm_Date": "05/08/2021"
+  },
+  {
+    "Comm_ID": "COM196",
+    "Turbine_ID": "C52",
+    "Comm_NET_Duration": "6.5",
+    "Comm_Deviations": "5.175440737",
+    "Comm_Date": "07/08/2021"
+  },
+  {
+    "Comm_ID": "COM197",
+    "Turbine_ID": "C53",
+    "Comm_NET_Duration": "5.33",
+    "Comm_Deviations": "2.241767365",
+    "Comm_Date": "09/08/2021"
+  },
+  {
+    "Comm_ID": "COM198",
+    "Turbine_ID": "C54",
+    "Comm_NET_Duration": "25.75",
+    "Comm_Deviations": "3.570315313",
+    "Comm_Date": "07/08/2021"
+  },
+  {
+    "Comm_ID": "COM199",
+    "Turbine_ID": "C55",
+    "Comm_NET_Duration": "20.25",
+    "Comm_Deviations": "1.752622085",
+    "Comm_Date": "09/08/2021"
+  },
+  {
+    "Comm_ID": "COM200",
+    "Turbine_ID": "C56",
+    "Comm_NET_Duration": "38.25",
+    "Comm_Deviations": "7.784047829",
+    "Comm_Date": "10/08/2021"
+  },
+  {
+    "Comm_ID": "COM201",
+    "Turbine_ID": "C57",
+    "Comm_NET_Duration": "38",
+    "Comm_Deviations": "6.815123073",
+    "Comm_Date": "11/08/2021"
+  },
+  {
+    "Comm_ID": "COM202",
+    "Turbine_ID": "C58",
+    "Comm_NET_Duration": "17.75",
+    "Comm_Deviations": "6.335262125",
+    "Comm_Date": "13/08/2021"
+  },
+  {
+    "Comm_ID": "COM203",
+    "Turbine_ID": "C59",
+    "Comm_NET_Duration": "20.25",
+    "Comm_Deviations": "5.651199489",
+    "Comm_Date": "16/08/2021"
+  },
+  {
+    "Comm_ID": "COM204",
+    "Turbine_ID": "C60",
+    "Comm_NET_Duration": "49.75",
+    "Comm_Deviations": "6.947575344",
+    "Comm_Date": "18/08/2021"
+  },
+  {
+    "Comm_ID": "COM205",
+    "Turbine_ID": "C61",
+    "Comm_NET_Duration": "61",
+    "Comm_Deviations": "2.969964899",
+    "Comm_Date": "20/08/2021"
+  },
+  {
+    "Comm_ID": "COM206",
+    "Turbine_ID": "C62",
+    "Comm_NET_Duration": "27.33",
+    "Comm_Deviations": "9.578451821",
+    "Comm_Date": "27/08/2021"
+  },
+  {
+    "Comm_ID": "COM207",
+    "Turbine_ID": "C63",
+    "Comm_NET_Duration": "9",
+    "Comm_Deviations": "0.718609894",
+    "Comm_Date": "28/08/2021"
+  },
+  {
+    "Comm_ID": "COM208",
+    "Turbine_ID": "C64",
+    "Comm_NET_Duration": "24.25",
+    "Comm_Deviations": "7.138657223",
+    "Comm_Date": "02/09/2021"
+  },
+  {
+    "Comm_ID": "COM209",
+    "Turbine_ID": "C65",
+    "Comm_NET_Duration": "29.25",
+    "Comm_Deviations": "9.55645869",
+    "Comm_Date": "03/09/2021"
+  },
+  {
+    "Comm_ID": "COM210",
+    "Turbine_ID": "C66",
+    "Comm_NET_Duration": "40",
+    "Comm_Deviations": "9.753622897",
+    "Comm_Date": "24/08/2021"
+  },
+  {
+    "Comm_ID": "COM211",
+    "Turbine_ID": "C67",
+    "Comm_NET_Duration": "21.75",
+    "Comm_Deviations": "8.537315729",
+    "Comm_Date": "27/08/2021"
+  },
+  {
+    "Comm_ID": "COM212",
+    "Turbine_ID": "D01",
+    "Comm_NET_Duration": "18.5",
+    "Comm_Deviations": "6.439438064",
+    "Comm_Date": "28/08/2021"
+  },
+  {
+    "Comm_ID": "COM213",
+    "Turbine_ID": "D02",
+    "Comm_NET_Duration": "52.25",
+    "Comm_Deviations": "0.577380761",
+    "Comm_Date": "02/09/2021"
+  },
+  {
+    "Comm_ID": "COM214",
+    "Turbine_ID": "D03",
+    "Comm_NET_Duration": "21.75",
+    "Comm_Deviations": "7.035607083",
+    "Comm_Date": "05/09/2021"
+  },
+  {
+    "Comm_ID": "COM215",
+    "Turbine_ID": "D04",
+    "Comm_NET_Duration": "27.5",
+    "Comm_Deviations": "3.737925354",
+    "Comm_Date": "06/09/2021"
+  },
+  {
+    "Comm_ID": "COM216",
+    "Turbine_ID": "D05",
+    "Comm_NET_Duration": "52.5",
+    "Comm_Deviations": "3.555060758",
+    "Comm_Date": "07/09/2021"
+  },
+  {
+    "Comm_ID": "COM217",
+    "Turbine_ID": "D06",
+    "Comm_NET_Duration": "71.25",
+    "Comm_Deviations": "7.29838934",
+    "Comm_Date": "10/09/2021"
+  },
+  {
+    "Comm_ID": "COM218",
+    "Turbine_ID": "D07",
+    "Comm_NET_Duration": "13.75",
+    "Comm_Deviations": "8.720230638",
+    "Comm_Date": "07/09/2021"
+  },
+  {
+    "Comm_ID": "COM219",
+    "Turbine_ID": "D08",
+    "Comm_NET_Duration": "27.5",
+    "Comm_Deviations": "8.733877316",
+    "Comm_Date": "09/07/2021"
+  },
+  {
+    "Comm_ID": "COM220",
+    "Turbine_ID": "D09",
+    "Comm_NET_Duration": "32",
+    "Comm_Deviations": "0.72662756",
+    "Comm_Date": "08/09/2021"
+  },
+  {
+    "Comm_ID": "COM221",
+    "Turbine_ID": "D10",
+    "Comm_NET_Duration": "35.75",
+    "Comm_Deviations": "2.68881808",
+    "Comm_Date": "09/09/2021"
+  },
+  {
+    "Comm_ID": "COM222",
+    "Turbine_ID": "D11",
+    "Comm_NET_Duration": "52.75",
+    "Comm_Deviations": "8.140022878",
+    "Comm_Date": "13/09/2021"
+  },
+  {
+    "Comm_ID": "COM223",
+    "Turbine_ID": "D12",
+    "Comm_NET_Duration": "20.75",
+    "Comm_Deviations": "9.439875867",
+    "Comm_Date": "14/09/2021"
+  },
+  {
+    "Comm_ID": "COM224",
+    "Turbine_ID": "D13",
+    "Comm_NET_Duration": "20",
+    "Comm_Deviations": "3.235742214",
+    "Comm_Date": "17/09/2021"
+  },
+  {
+    "Comm_ID": "COM225",
+    "Turbine_ID": "D14",
+    "Comm_NET_Duration": "34.25",
+    "Comm_Deviations": "5.184054061",
+    "Comm_Date": "18/09/2021"
+  },
+  {
+    "Comm_ID": "COM226",
+    "Turbine_ID": "D15",
+    "Comm_NET_Duration": "18",
+    "Comm_Deviations": "3.814563404",
+    "Comm_Date": "13/09/2021"
+  },
+  {
+    "Comm_ID": "COM227",
+    "Turbine_ID": "D16",
+    "Comm_NET_Duration": "8.75",
+    "Comm_Deviations": "4.350956271",
+    "Comm_Date": "13/09/2021"
+  },
+  {
+    "Comm_ID": "COM228",
+    "Turbine_ID": "D17",
+    "Comm_NET_Duration": "6.25",
+    "Comm_Deviations": "7.624774841",
+    "Comm_Date": "14/09/2021"
+  },
+  {
+    "Comm_ID": "COM229",
+    "Turbine_ID": "D18",
+    "Comm_NET_Duration": "13.5",
+    "Comm_Deviations": "7.456086293",
+    "Comm_Date": "16/09/2021"
+  },
+  {
+    "Comm_ID": "COM230",
+    "Turbine_ID": "D19",
+    "Comm_NET_Duration": "7",
+    "Comm_Deviations": "6.900528767",
+    "Comm_Date": "19/09/2021"
+  },
+  {
+    "Comm_ID": "COM231",
+    "Turbine_ID": "D20",
+    "Comm_NET_Duration": "6",
+    "Comm_Deviations": "0.806626707",
+    "Comm_Date": "20/09/2021"
+  },
+  {
+    "Comm_ID": "COM232",
+    "Turbine_ID": "D21",
+    "Comm_NET_Duration": "8",
+    "Comm_Deviations": "9.419319858",
+    "Comm_Date": "21/09/2021"
+  },
+  {
+    "Comm_ID": "COM233",
+    "Turbine_ID": "D22",
+    "Comm_NET_Duration": "5",
+    "Comm_Deviations": "3.868873475",
+    "Comm_Date": "22/09/2021"
+  },
+  {
+    "Comm_ID": "COM234",
+    "Turbine_ID": "D23",
+    "Comm_NET_Duration": "4.5",
+    "Comm_Deviations": "6.929760889",
+    "Comm_Date": "22/09/2021"
+  },
+  {
+    "Comm_ID": "COM235",
+    "Turbine_ID": "D24",
+    "Comm_NET_Duration": "8",
+    "Comm_Deviations": "9.83434903",
+    "Comm_Date": "25/09/2021"
+  },
+  {
+    "Comm_ID": "COM236",
+    "Turbine_ID": "D25",
+    "Comm_NET_Duration": "7",
+    "Comm_Deviations": "9.513188135",
+    "Comm_Date": "26/09/2021"
+  },
+  {
+    "Comm_ID": "COM237",
+    "Turbine_ID": "D26",
+    "Comm_NET_Duration": "12.5",
+    "Comm_Deviations": "0.328374016",
+    "Comm_Date": "06/10/2021"
+  },
+  {
+    "Comm_ID": "COM238",
+    "Turbine_ID": "D27",
+    "Comm_NET_Duration": "8",
+    "Comm_Deviations": "9.967010503",
+    "Comm_Date": "26/09/2021"
+  },
+  {
+    "Comm_ID": "COM239",
+    "Turbine_ID": "D28",
+    "Comm_NET_Duration": "4.75",
+    "Comm_Deviations": "5.276128018",
+    "Comm_Date": "01/10/2021"
+  },
+  {
+    "Comm_ID": "COM240",
+    "Turbine_ID": "D29",
+    "Comm_NET_Duration": "8.5",
+    "Comm_Deviations": "2.538912638",
+    "Comm_Date": "04/10/2021"
+  },
+  {
+    "Comm_ID": "COM241",
+    "Turbine_ID": "D30",
+    "Comm_NET_Duration": "8.75",
+    "Comm_Deviations": "2.20434619",
+    "Comm_Date": "06/10/2021"
+  },
+  {
+    "Comm_ID": "COM242",
+    "Turbine_ID": "D31",
+    "Comm_NET_Duration": "10.91666667",
+    "Comm_Deviations": "1.141980156",
+    "Comm_Date": "11/10/2021"
+  },
+  {
+    "Comm_ID": "COM243",
+    "Turbine_ID": "D32",
+    "Comm_NET_Duration": "10.25",
+    "Comm_Deviations": "4.551429057",
+    "Comm_Date": "12/10/2021"
+  },
+  {
+    "Comm_ID": "COM244",
+    "Turbine_ID": "D33",
+    "Comm_NET_Duration": "9.25",
+    "Comm_Deviations": "4.016353228",
+    "Comm_Date": "13/10/2021"
+  },
+  {
+    "Comm_ID": "COM245",
+    "Turbine_ID": "D34",
+    "Comm_NET_Duration": "9.5",
+    "Comm_Deviations": "8.646071779",
+    "Comm_Date": "15/10/2021"
+  },
+  {
+    "Comm_ID": "COM246",
+    "Turbine_ID": "D35",
+    "Comm_NET_Duration": "9",
+    "Comm_Deviations": "2.429911989",
+    "Comm_Date": "10/10/2021"
+  },
+  {
+    "Comm_ID": "COM247",
+    "Turbine_ID": "D36",
+    "Comm_NET_Duration": "38.25",
+    "Comm_Deviations": "7.531807283",
+    "Comm_Date": "11/10/2021"
+  },
+  {
+    "Comm_ID": "COM248",
+    "Turbine_ID": "D37",
+    "Comm_NET_Duration": "14",
+    "Comm_Deviations": "8.483634495",
+    "Comm_Date": "12/10/2021"
+  },
+  {
+    "Comm_ID": "COM249",
+    "Turbine_ID": "D38",
+    "Comm_NET_Duration": "15.75",
+    "Comm_Deviations": "4.72946649",
+    "Comm_Date": "13/10/2021"
+  },
+  {
+    "Comm_ID": "COM250",
+    "Turbine_ID": "D39",
+    "Comm_NET_Duration": "10.25",
+    "Comm_Deviations": "7.664128148",
+    "Comm_Date": "17/10/2021"
+  },
+  {
+    "Comm_ID": "COM251",
+    "Turbine_ID": "D40",
+    "Comm_NET_Duration": "19",
+    "Comm_Deviations": "3.842977166",
+    "Comm_Date": "18/10/2021"
+  },
+  {
+    "Comm_ID": "COM252",
+    "Turbine_ID": "D41",
+    "Comm_NET_Duration": "18.5",
+    "Comm_Deviations": "3.424360832",
+    "Comm_Date": "20/10/2021"
+  },
+  {
+    "Comm_ID": "COM253",
+    "Turbine_ID": "D42",
+    "Comm_NET_Duration": "9.25",
+    "Comm_Deviations": "5.365883683",
+    "Comm_Date": "23/10/2021"
+  },
+  {
+    "Comm_ID": "COM254",
+    "Turbine_ID": "D43",
+    "Comm_NET_Duration": "21",
+    "Comm_Deviations": "0.240607853",
+    "Comm_Date": "23/10/2021"
+  },
+  {
+    "Comm_ID": "COM255",
+    "Turbine_ID": "D44",
+    "Comm_NET_Duration": "9.5",
+    "Comm_Deviations": "3.199678003",
+    "Comm_Date": "25/10/2021"
+  },
+  {
+    "Comm_ID": "COM256",
+    "Turbine_ID": "D45",
+    "Comm_NET_Duration": "8",
+    "Comm_Deviations": "1.232593449",
+    "Comm_Date": "31/10/2021"
+  },
+  {
+    "Comm_ID": "COM257",
+    "Turbine_ID": "D46",
+    "Comm_NET_Duration": "9.5",
+    "Comm_Deviations": "4.920771619",
+    "Comm_Date": "02/11/2021"
+  },
+  {
+    "Comm_ID": "COM258",
+    "Turbine_ID": "D47",
+    "Comm_NET_Duration": "13.5",
+    "Comm_Deviations": "4.75278366",
+    "Comm_Date": "02/11/2021"
+  },
+  {
+    "Comm_ID": "COM259",
+    "Turbine_ID": "D48",
+    "Comm_NET_Duration": "6",
+    "Comm_Deviations": "5.370342937",
+    "Comm_Date": "02/11/2021"
+  },
+  {
+    "Comm_ID": "COM260",
+    "Turbine_ID": "D49",
+    "Comm_NET_Duration": "9",
+    "Comm_Deviations": "7.990892704",
+    "Comm_Date": "04/11/2021"
+  },
+  {
+    "Comm_ID": "COM261",
+    "Turbine_ID": "D50",
+    "Comm_NET_Duration": "8.5",
+    "Comm_Deviations": "1.530015981",
+    "Comm_Date": "08/11/2021"
+  },
+  {
+    "Comm_ID": "COM262",
+    "Turbine_ID": "D51",
+    "Comm_NET_Duration": "8",
+    "Comm_Deviations": "3.777758753",
+    "Comm_Date": "10/11/2021"
+  },
+  {
+    "Comm_ID": "COM263",
+    "Turbine_ID": "D52",
+    "Comm_NET_Duration": "7.5",
+    "Comm_Deviations": "9.681134997",
+    "Comm_Date": "11/11/2021"
+  },
+  {
+    "Comm_ID": "COM264",
+    "Turbine_ID": "D53",
+    "Comm_NET_Duration": "16.75",
+    "Comm_Deviations": "4.305925206",
+    "Comm_Date": "13/11/2021"
+  },
+  {
+    "Comm_ID": "COM265",
+    "Turbine_ID": "D54",
+    "Comm_NET_Duration": "40.25",
+    "Comm_Deviations": "0.23181801",
+    "Comm_Date": "14/11/2021"
+  },
+  {
+    "Comm_ID": "COM266",
+    "Turbine_ID": "D55",
+    "Comm_NET_Duration": "18.75",
+    "Comm_Deviations": "9.250756069",
+    "Comm_Date": "11/11/2021"
+  },
+  {
+    "Comm_ID": "COM267",
+    "Turbine_ID": "D56",
+    "Comm_NET_Duration": "8.166666667",
+    "Comm_Deviations": "6.576659931",
+    "Comm_Date": "13/11/2021"
+  },
+  {
+    "Comm_ID": "COM268",
+    "Turbine_ID": "E01",
+    "Comm_NET_Duration": "10",
+    "Comm_Deviations": "3.914607477",
+    "Comm_Date": "14/11/2021"
+  },
+  {
+    "Comm_ID": "COM269",
+    "Turbine_ID": "E02",
+    "Comm_NET_Duration": "7.75",
+    "Comm_Deviations": "6.217668863",
+    "Comm_Date": "15/11/2021"
+  },
+  {
+    "Comm_ID": "COM270",
+    "Turbine_ID": "E03",
+    "Comm_NET_Duration": "7.5",
+    "Comm_Deviations": "3.209815315",
+    "Comm_Date": "20/11/2021"
+  },
+  {
+    "Comm_ID": "COM271",
+    "Turbine_ID": "E04",
+    "Comm_NET_Duration": "5.5",
+    "Comm_Deviations": "7.872889802",
+    "Comm_Date": "23/11/2021"
+  },
+  {
+    "Comm_ID": "COM272",
+    "Turbine_ID": "E05",
+    "Comm_NET_Duration": "7.75",
+    "Comm_Deviations": "5.433291236",
+    "Comm_Date": "24/11/2021"
+  },
+  {
+    "Comm_ID": "COM273",
+    "Turbine_ID": "E06",
+    "Comm_NET_Duration": "9.75",
+    "Comm_Deviations": "7.872631932",
+    "Comm_Date": "27/11/2021"
+  },
+  {
+    "Comm_ID": "COM274",
+    "Turbine_ID": "E07",
+    "Comm_NET_Duration": "8",
+    "Comm_Deviations": "2.450311782",
+    "Comm_Date": "22/11/2021"
+  },
+  {
+    "Comm_ID": "COM275",
+    "Turbine_ID": "E08",
+    "Comm_NET_Duration": "8",
+    "Comm_Deviations": "2.799331644",
+    "Comm_Date": "22/11/2021"
+  },
+  {
+    "Comm_ID": "COM276",
+    "Turbine_ID": "E09",
+    "Comm_NET_Duration": "6",
+    "Comm_Deviations": "5.132248957",
+    "Comm_Date": "23/11/2021"
+  },
+  {
+    "Comm_ID": "COM277",
+    "Turbine_ID": "E10",
+    "Comm_NET_Duration": "7",
+    "Comm_Deviations": "5.341626501",
+    "Comm_Date": "24/11/2021"
+  },
+  {
+    "Comm_ID": "COM278",
+    "Turbine_ID": "E11",
+    "Comm_NET_Duration": "9.5",
+    "Comm_Deviations": "9.810241582",
+    "Comm_Date": "04/12/2021"
+  },
+  {
+    "Comm_ID": "COM279",
+    "Turbine_ID": "E12",
+    "Comm_NET_Duration": "8",
+    "Comm_Deviations": "0.109017927",
+    "Comm_Date": "06/12/2021"
+  },
+  {
+    "Comm_ID": "COM280",
+    "Turbine_ID": "E13",
+    "Comm_NET_Duration": "8.5",
+    "Comm_Deviations": "9.500761917",
+    "Comm_Date": "09/12/2021"
+  },
+  {
+    "Comm_ID": "COM281",
+    "Turbine_ID": "E14",
+    "Comm_NET_Duration": "14",
+    "Comm_Deviations": "9.832343199",
+    "Comm_Date": "09/12/2021"
+  },
+  {
+    "Comm_ID": "COM282",
+    "Turbine_ID": "E15",
+    "Comm_NET_Duration": "7.5",
+    "Comm_Deviations": "9.249823168",
+    "Comm_Date": "04/12/2021"
+  },
+  {
+    "Comm_ID": "COM283",
+    "Turbine_ID": "E16",
+    "Comm_NET_Duration": "8.5",
+    "Comm_Deviations": "2.48351262",
+    "Comm_Date": "09/12/2021"
+  },
+  {
+    "Comm_ID": "COM284",
+    "Turbine_ID": "E17",
+    "Comm_NET_Duration": "5.916666667",
+    "Comm_Deviations": "0.031267549",
+    "Comm_Date": "10/12/2021"
+  },
+  {
+    "Comm_ID": "COM285",
+    "Turbine_ID": "E18",
+    "Comm_NET_Duration": "7.5",
+    "Comm_Deviations": "9.450124872",
+    "Comm_Date": "14/12/2021"
+  },
+  {
+    "Comm_ID": "COM286",
+    "Turbine_ID": "E19",
+    "Comm_NET_Duration": "9",
+    "Comm_Deviations": "1.230796798",
+    "Comm_Date": "16/12/2021"
+  },
+  {
+    "Comm_ID": "COM287",
+    "Turbine_ID": "E20",
+    "Comm_NET_Duration": "7.75",
+    "Comm_Deviations": "7.924344968",
+    "Comm_Date": "17/12/2021"
+  },
+  {
+    "Comm_ID": "COM288",
+    "Turbine_ID": "E21",
+    "Comm_NET_Duration": "5.5",
+    "Comm_Deviations": "8.267274324",
+    "Comm_Date": "18/12/2021"
+  },
+  {
+    "Comm_ID": "COM289",
+    "Turbine_ID": "E22",
+    "Comm_NET_Duration": "7",
+    "Comm_Deviations": "8.930340439",
+    "Comm_Date": "16/12/2012"
+  },
+  {
+    "Comm_ID": "COM290",
+    "Turbine_ID": "E23",
+    "Comm_NET_Duration": "6.5",
+    "Comm_Deviations": "7.927257436",
+    "Comm_Date": "17/12/2021"
+  },
+  {
+    "Comm_ID": "COM291",
+    "Turbine_ID": "E24",
+    "Comm_NET_Duration": "15",
+    "Comm_Deviations": "7.468979558",
+    "Comm_Date": "18/12/2021"
+  },
+  {
+    "Comm_ID": "COM292",
+    "Turbine_ID": "E25",
+    "Comm_NET_Duration": "15.75",
+    "Comm_Deviations": "6.382283552",
+    "Comm_Date": "19/12/2021"
+  },
+  {
+    "Comm_ID": "COM293",
+    "Turbine_ID": "E26",
+    "Comm_NET_Duration": "7",
+    "Comm_Deviations": "0.036780834",
+    "Comm_Date": "21/12/2021"
+  },
+  {
+    "Comm_ID": "COM294",
+    "Turbine_ID": "E27",
+    "Comm_NET_Duration": "5.5",
+    "Comm_Deviations": "2.252607085",
+    "Comm_Date": "23/12/2021"
+  },
+  {
+    "Comm_ID": "COM295",
+    "Turbine_ID": "E28",
+    "Comm_NET_Duration": "7.75",
+    "Comm_Deviations": "1.14613481",
+    "Comm_Date": "24/12/2021"
+  },
+  {
+    "Comm_ID": "COM296",
+    "Turbine_ID": "E29",
+    "Comm_NET_Duration": "6.5",
+    "Comm_Deviations": "8.086462869",
+    "Comm_Date": "27/12/2021"
+  },
+  {
+    "Comm_ID": "COM297",
+    "Turbine_ID": "E30",
+    "Comm_NET_Duration": "6",
+    "Comm_Deviations": "9.081696452",
+    "Comm_Date": "23/12/2021"
+  },
+  {
+    "Comm_ID": "COM298",
+    "Turbine_ID": "E31",
+    "Comm_NET_Duration": "5.5",
+    "Comm_Deviations": "2.584399137",
+    "Comm_Date": "24/12/2021"
+  },
+  {
+    "Comm_ID": "COM299",
+    "Turbine_ID": "E32",
+    "Comm_NET_Duration": "16",
+    "Comm_Deviations": "6.129370298",
+    "Comm_Date": "27/12/2021"
+  },
+  {
+    "Comm_ID": "COM300",
+    "Turbine_ID": "E33",
+    "Comm_NET_Duration": "8.5",
+    "Comm_Deviations": "2.670765283",
+    "Comm_Date": "28/12/2021"
+  },
+  {
+    "Comm_ID": "COM301",
+    "Turbine_ID": "E34",
+    "Comm_NET_Duration": "5",
+    "Comm_Deviations": "5.448219913",
+    "Comm_Date": "04/01/2022"
+  },
+  {
+    "Comm_ID": "COM302",
+    "Turbine_ID": "E35",
+    "Comm_NET_Duration": "7.5",
+    "Comm_Deviations": "8.443767745",
+    "Comm_Date": "09/01/2022"
+  },
+  {
+    "Comm_ID": "COM303",
+    "Turbine_ID": "E36",
+    "Comm_NET_Duration": "6.5",
+    "Comm_Deviations": "9.146118201",
+    "Comm_Date": "10/01/2022"
+  },
+  {
+    "Comm_ID": "COM304",
+    "Turbine_ID": "E37",
+    "Comm_NET_Duration": "9",
+    "Comm_Deviations": "0.378976017",
+    "Comm_Date": "11/01/2022"
+  },
+  {
+    "Comm_ID": "COM305",
+    "Turbine_ID": "E38",
+    "Comm_NET_Duration": "4.75",
+    "Comm_Deviations": "4.03656774",
+    "Comm_Date": "04/01/2022"
+  },
+  {
+    "Comm_ID": "COM306",
+    "Turbine_ID": "E39",
+    "Comm_NET_Duration": "7.25",
+    "Comm_Deviations": "9.450221443",
+    "Comm_Date": "15/06/2021"
+  },
+  {
+    "Comm_ID": "COM307",
+    "Turbine_ID": "E40",
+    "Comm_NET_Duration": "8",
+    "Comm_Deviations": "8.775166135",
+    "Comm_Date": "13/06/2021"
+  },
+  {
+    "Comm_ID": "COM308",
+    "Turbine_ID": "E41",
+    "Comm_NET_Duration": "8",
+    "Comm_Deviations": "3.050510391",
+    "Comm_Date": "15/06/2021"
+  },
+  {
+    "Comm_ID": "COM309",
+    "Turbine_ID": "E42",
+    "Comm_NET_Duration": "7.25",
+    "Comm_Deviations": "6.283814282",
+    "Comm_Date": "16/06/2021"
+  },
+  {
+    "Comm_ID": "COM310",
+    "Turbine_ID": "E43",
+    "Comm_NET_Duration": "8",
+    "Comm_Deviations": "7.141937427",
+    "Comm_Date": "17/06/2021"
+  },
+  {
+    "Comm_ID": "COM311",
+    "Turbine_ID": "E44",
+    "Comm_NET_Duration": "8.25",
+    "Comm_Deviations": "0.533206135",
+    "Comm_Date": "21/06/2021"
+  },
+  {
+    "Comm_ID": "COM312",
+    "Turbine_ID": "E45",
+    "Comm_NET_Duration": "7.75",
+    "Comm_Deviations": "3.705654868",
+    "Comm_Date": "23/06/2021"
+  },
+  {
+    "Comm_ID": "COM313",
+    "Turbine_ID": "E46",
+    "Comm_NET_Duration": "5.75",
+    "Comm_Deviations": "0.98707676",
+    "Comm_Date": "24/06/2021"
+  },
+  {
+    "Comm_ID": "COM314",
+    "Turbine_ID": "E47",
+    "Comm_NET_Duration": "10.48333333",
+    "Comm_Deviations": "4.85044449",
+    "Comm_Date": "25/06/2021"
+  },
+  {
+    "Comm_ID": "COM315",
+    "Turbine_ID": "E48",
+    "Comm_NET_Duration": "13.5",
+    "Comm_Deviations": "7.208979664",
+    "Comm_Date": "25/06/2021"
+  },
+  {
+    "Comm_ID": "COM316",
+    "Turbine_ID": "E49",
+    "Comm_NET_Duration": "11",
+    "Comm_Deviations": "0.169959773",
+    "Comm_Date": "26/06/2021"
+  },
+  {
+    "Comm_ID": "COM317",
+    "Turbine_ID": "E50",
+    "Comm_NET_Duration": "8.5",
+    "Comm_Deviations": "5.704102524",
+    "Comm_Date": "03/07/2021"
+  },
+  {
+    "Comm_ID": "COM318",
+    "Turbine_ID": "E51",
+    "Comm_NET_Duration": "7.25",
+    "Comm_Deviations": "1.528761702",
+    "Comm_Date": "04/07/2021"
+  },
+  {
+    "Comm_ID": "COM319",
+    "Turbine_ID": "E52",
+    "Comm_NET_Duration": "7",
+    "Comm_Deviations": "5.269073267",
+    "Comm_Date": "03/07/2021"
+  }
+]

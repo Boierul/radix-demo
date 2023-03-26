@@ -1,0 +1,2235 @@
+[
+  {
+    "Installation_ID": "IN001",
+    "Turbine_ID": "A01",
+    "Installation_NET_Duration": "14.94",
+    "Installation_Deviations": "2.870530972",
+    "Installation_Date": "6/20/20"
+  },
+  {
+    "Installation_ID": "IN002",
+    "Turbine_ID": "A02",
+    "Installation_NET_Duration": "12.96",
+    "Installation_Deviations": "5.107758251",
+    "Installation_Date": "6/22/20"
+  },
+  {
+    "Installation_ID": "IN003",
+    "Turbine_ID": "A03",
+    "Installation_NET_Duration": "16.35",
+    "Installation_Deviations": "5.504171787",
+    "Installation_Date": "6/26/20"
+  },
+  {
+    "Installation_ID": "IN004",
+    "Turbine_ID": "A04",
+    "Installation_NET_Duration": "15.48",
+    "Installation_Deviations": "2.402258976",
+    "Installation_Date": "6/27/20"
+  },
+  {
+    "Installation_ID": "IN005",
+    "Turbine_ID": "A05",
+    "Installation_NET_Duration": "18.32",
+    "Installation_Deviations": "6.275454516",
+    "Installation_Date": "7/8/20"
+  },
+  {
+    "Installation_ID": "IN006",
+    "Turbine_ID": "A06",
+    "Installation_NET_Duration": "17.18",
+    "Installation_Deviations": "2.015922329",
+    "Installation_Date": "7/10/20"
+  },
+  {
+    "Installation_ID": "IN007",
+    "Turbine_ID": "A07",
+    "Installation_NET_Duration": "17.22",
+    "Installation_Deviations": "0.432433833",
+    "Installation_Date": "7/13/20"
+  },
+  {
+    "Installation_ID": "IN008",
+    "Turbine_ID": "A08",
+    "Installation_NET_Duration": "17.24",
+    "Installation_Deviations": "6.726623905",
+    "Installation_Date": "7/14/20"
+  },
+  {
+    "Installation_ID": "IN009",
+    "Turbine_ID": "A09",
+    "Installation_NET_Duration": "19.17",
+    "Installation_Deviations": "3.974759252",
+    "Installation_Date": "7/17/20"
+  },
+  {
+    "Installation_ID": "IN010",
+    "Turbine_ID": "A10",
+    "Installation_NET_Duration": "23.00",
+    "Installation_Deviations": "6.521812285",
+    "Installation_Date": "7/18/20"
+  },
+  {
+    "Installation_ID": "IN011",
+    "Turbine_ID": "A11",
+    "Installation_NET_Duration": "17.42",
+    "Installation_Deviations": "9.068962556",
+    "Installation_Date": "7/21/20"
+  },
+  {
+    "Installation_ID": "IN012",
+    "Turbine_ID": "A12",
+    "Installation_NET_Duration": "20.28",
+    "Installation_Deviations": "5.008121161",
+    "Installation_Date": "7/22/20"
+  },
+  {
+    "Installation_ID": "IN013",
+    "Turbine_ID": "A13",
+    "Installation_NET_Duration": "16.41",
+    "Installation_Deviations": "0.175199016",
+    "Installation_Date": "7/26/20"
+  },
+  {
+    "Installation_ID": "IN014",
+    "Turbine_ID": "A14",
+    "Installation_NET_Duration": "17.75",
+    "Installation_Deviations": "3.800869587",
+    "Installation_Date": "7/29/20"
+  },
+  {
+    "Installation_ID": "IN015",
+    "Turbine_ID": "A15",
+    "Installation_NET_Duration": "20.77",
+    "Installation_Deviations": "0.309884508",
+    "Installation_Date": "8/1/20"
+  },
+  {
+    "Installation_ID": "IN016",
+    "Turbine_ID": "A16",
+    "Installation_NET_Duration": "16.84",
+    "Installation_Deviations": "3.79818832",
+    "Installation_Date": "8/4/20"
+  },
+  {
+    "Installation_ID": "IN017",
+    "Turbine_ID": "A17",
+    "Installation_NET_Duration": "26.56",
+    "Installation_Deviations": "5.419147548",
+    "Installation_Date": "8/8/20"
+  },
+  {
+    "Installation_ID": "IN018",
+    "Turbine_ID": "A18",
+    "Installation_NET_Duration": "23.92",
+    "Installation_Deviations": "0.26406699",
+    "Installation_Date": "8/9/20"
+  },
+  {
+    "Installation_ID": "IN019",
+    "Turbine_ID": "A19",
+    "Installation_NET_Duration": "17.22",
+    "Installation_Deviations": "2.494628524",
+    "Installation_Date": "8/12/20"
+  },
+  {
+    "Installation_ID": "IN020",
+    "Turbine_ID": "A20",
+    "Installation_NET_Duration": "12.62",
+    "Installation_Deviations": "7.938340534",
+    "Installation_Date": "8/13/20"
+  },
+  {
+    "Installation_ID": "IN021",
+    "Turbine_ID": "A21",
+    "Installation_NET_Duration": "16.90",
+    "Installation_Deviations": "2.812691745",
+    "Installation_Date": "8/17/20"
+  },
+  {
+    "Installation_ID": "IN022",
+    "Turbine_ID": "A22",
+    "Installation_NET_Duration": "14.26",
+    "Installation_Deviations": "1.482891372",
+    "Installation_Date": "8/15/20"
+  },
+  {
+    "Installation_ID": "IN023",
+    "Turbine_ID": "A23",
+    "Installation_NET_Duration": "18.51",
+    "Installation_Deviations": "3.905876114",
+    "Installation_Date": "8/19/20"
+  },
+  {
+    "Installation_ID": "IN024",
+    "Turbine_ID": "A24",
+    "Installation_NET_Duration": "16.19",
+    "Installation_Deviations": "9.99252152",
+    "Installation_Date": "8/20/20"
+  },
+  {
+    "Installation_ID": "IN025",
+    "Turbine_ID": "A25",
+    "Installation_NET_Duration": "19.01",
+    "Installation_Deviations": "9.726955809",
+    "Installation_Date": "8/27/20"
+  },
+  {
+    "Installation_ID": "IN026",
+    "Turbine_ID": "A26",
+    "Installation_NET_Duration": "16.00",
+    "Installation_Deviations": "7.44601708",
+    "Installation_Date": "8/29/20"
+  },
+  {
+    "Installation_ID": "IN027",
+    "Turbine_ID": "A27",
+    "Installation_NET_Duration": "19.11",
+    "Installation_Deviations": "3.535093034",
+    "Installation_Date": "9/1/20"
+  },
+  {
+    "Installation_ID": "IN028",
+    "Turbine_ID": "A28",
+    "Installation_NET_Duration": "18.01",
+    "Installation_Deviations": "6.191973223",
+    "Installation_Date": "9/2/20"
+  },
+  {
+    "Installation_ID": "IN029",
+    "Turbine_ID": "A29",
+    "Installation_NET_Duration": "18.45",
+    "Installation_Deviations": "7.660002669",
+    "Installation_Date": "9/5/20"
+  },
+  {
+    "Installation_ID": "IN030",
+    "Turbine_ID": "A30",
+    "Installation_NET_Duration": "16.66",
+    "Installation_Deviations": "8.848925297",
+    "Installation_Date": "9/6/20"
+  },
+  {
+    "Installation_ID": "IN031",
+    "Turbine_ID": "A31",
+    "Installation_NET_Duration": "18.17",
+    "Installation_Deviations": "9.905770747",
+    "Installation_Date": "9/9/20"
+  },
+  {
+    "Installation_ID": "IN032",
+    "Turbine_ID": "A32",
+    "Installation_NET_Duration": "21.62",
+    "Installation_Deviations": "9.02772896",
+    "Installation_Date": "9/11/20"
+  },
+  {
+    "Installation_ID": "IN033",
+    "Turbine_ID": "A33",
+    "Installation_NET_Duration": "21.82",
+    "Installation_Deviations": "6.251512297",
+    "Installation_Date": "9/13/20"
+  },
+  {
+    "Installation_ID": "IN034",
+    "Turbine_ID": "A34",
+    "Installation_NET_Duration": "25.91",
+    "Installation_Deviations": "1.312205285",
+    "Installation_Date": "9/14/20"
+  },
+  {
+    "Installation_ID": "IN035",
+    "Turbine_ID": "A35",
+    "Installation_NET_Duration": "25.00",
+    "Installation_Deviations": "5.97026268",
+    "Installation_Date": "9/21/20"
+  },
+  {
+    "Installation_ID": "IN036",
+    "Turbine_ID": "A36",
+    "Installation_NET_Duration": "23.25",
+    "Installation_Deviations": "1.751544766",
+    "Installation_Date": "9/21/20"
+  },
+  {
+    "Installation_ID": "IN037",
+    "Turbine_ID": "A37",
+    "Installation_NET_Duration": "17.34",
+    "Installation_Deviations": "8.971205607",
+    "Installation_Date": "9/29/20"
+  },
+  {
+    "Installation_ID": "IN038",
+    "Turbine_ID": "A38",
+    "Installation_NET_Duration": "15",
+    "Installation_Deviations": "2.245263294",
+    "Installation_Date": "9/30/20"
+  },
+  {
+    "Installation_ID": "IN039",
+    "Turbine_ID": "A39",
+    "Installation_NET_Duration": "16.75",
+    "Installation_Deviations": "9.438789803",
+    "Installation_Date": "10/3/20"
+  },
+  {
+    "Installation_ID": "IN040",
+    "Turbine_ID": "A40",
+    "Installation_NET_Duration": "18.91",
+    "Installation_Deviations": "3.744944945",
+    "Installation_Date": "10/9/20"
+  },
+  {
+    "Installation_ID": "IN041",
+    "Turbine_ID": "A41",
+    "Installation_NET_Duration": "17.91",
+    "Installation_Deviations": "3.445418558",
+    "Installation_Date": "10/14/20"
+  },
+  {
+    "Installation_ID": "IN042",
+    "Turbine_ID": "A42",
+    "Installation_NET_Duration": "14.37",
+    "Installation_Deviations": "3.02356083",
+    "Installation_Date": "10/15/20"
+  },
+  {
+    "Installation_ID": "IN043",
+    "Turbine_ID": "A43",
+    "Installation_NET_Duration": "15.84",
+    "Installation_Deviations": "4.446757433",
+    "Installation_Date": "10/17/20"
+  },
+  {
+    "Installation_ID": "IN044",
+    "Turbine_ID": "A44",
+    "Installation_NET_Duration": "18.88",
+    "Installation_Deviations": "5.056731545",
+    "Installation_Date": "10/18/20"
+  },
+  {
+    "Installation_ID": "IN045",
+    "Turbine_ID": "A45",
+    "Installation_NET_Duration": "19.43",
+    "Installation_Deviations": "5.34465371",
+    "Installation_Date": "10/23/20"
+  },
+  {
+    "Installation_ID": "IN046",
+    "Turbine_ID": "A46",
+    "Installation_NET_Duration": "19.91",
+    "Installation_Deviations": "5.025419739",
+    "Installation_Date": "10/27/20"
+  },
+  {
+    "Installation_ID": "IN047",
+    "Turbine_ID": "A47",
+    "Installation_NET_Duration": "18.84",
+    "Installation_Deviations": "3.961756368",
+    "Installation_Date": "11/5/20"
+  },
+  {
+    "Installation_ID": "IN048",
+    "Turbine_ID": "A48",
+    "Installation_NET_Duration": "17.76",
+    "Installation_Deviations": "0.443506332",
+    "Installation_Date": "11/6/20"
+  },
+  {
+    "Installation_ID": "IN049",
+    "Turbine_ID": "A49",
+    "Installation_NET_Duration": "21.58",
+    "Installation_Deviations": "9.959125514",
+    "Installation_Date": "11/8/20"
+  },
+  {
+    "Installation_ID": "IN050",
+    "Turbine_ID": "A50",
+    "Installation_NET_Duration": "20.17",
+    "Installation_Deviations": "5.524605261",
+    "Installation_Date": "11/9/20"
+  },
+  {
+    "Installation_ID": "IN051",
+    "Turbine_ID": "A51",
+    "Installation_NET_Duration": "39.17",
+    "Installation_Deviations": "9.839431865",
+    "Installation_Date": "11/13/20"
+  },
+  {
+    "Installation_ID": "IN052",
+    "Turbine_ID": "A52",
+    "Installation_NET_Duration": "39.94",
+    "Installation_Deviations": "5.010896219",
+    "Installation_Date": "11/20/20"
+  },
+  {
+    "Installation_ID": "IN053",
+    "Turbine_ID": "A53",
+    "Installation_NET_Duration": "24.3",
+    "Installation_Deviations": "4.513885485",
+    "Installation_Date": "11/23/20"
+  },
+  {
+    "Installation_ID": "IN054",
+    "Turbine_ID": "A54",
+    "Installation_NET_Duration": "26.92",
+    "Installation_Deviations": "6.947421852",
+    "Installation_Date": "11/24/20"
+  },
+  {
+    "Installation_ID": "IN055",
+    "Turbine_ID": "A55",
+    "Installation_NET_Duration": "34.17",
+    "Installation_Deviations": "9.477247638",
+    "Installation_Date": "11/26/20"
+  },
+  {
+    "Installation_ID": "IN056",
+    "Turbine_ID": "A56",
+    "Installation_NET_Duration": "20.59",
+    "Installation_Deviations": "9.388364181",
+    "Installation_Date": "11/27/20"
+  },
+  {
+    "Installation_ID": "IN057",
+    "Turbine_ID": "A57",
+    "Installation_NET_Duration": "20.58",
+    "Installation_Deviations": "0.900026727",
+    "Installation_Date": "11/29/20"
+  },
+  {
+    "Installation_ID": "IN058",
+    "Turbine_ID": "A58",
+    "Installation_NET_Duration": "20.08",
+    "Installation_Deviations": "7.849642787",
+    "Installation_Date": "11/30/20"
+  },
+  {
+    "Installation_ID": "IN059",
+    "Turbine_ID": "A59",
+    "Installation_NET_Duration": "17.16",
+    "Installation_Deviations": "4.974778328",
+    "Installation_Date": "4/23/21"
+  },
+  {
+    "Installation_ID": "IN060",
+    "Turbine_ID": "A60",
+    "Installation_NET_Duration": "27.91",
+    "Installation_Deviations": "9.627125172",
+    "Installation_Date": "4/27/21"
+  },
+  {
+    "Installation_ID": "IN061",
+    "Turbine_ID": "B01",
+    "Installation_NET_Duration": "17.65",
+    "Installation_Deviations": "0.596661155",
+    "Installation_Date": "5/12/21"
+  },
+  {
+    "Installation_ID": "IN062",
+    "Turbine_ID": "B02",
+    "Installation_NET_Duration": "28.42",
+    "Installation_Deviations": "8.942191171",
+    "Installation_Date": "6/14/21"
+  },
+  {
+    "Installation_ID": "IN063",
+    "Turbine_ID": "B03",
+    "Installation_NET_Duration": "15.83",
+    "Installation_Deviations": "8.809458364",
+    "Installation_Date": "7/2/21"
+  },
+  {
+    "Installation_ID": "IN064",
+    "Turbine_ID": "B04",
+    "Installation_NET_Duration": "16.08",
+    "Installation_Deviations": "6.777903444",
+    "Installation_Date": "7/4/21"
+  },
+  {
+    "Installation_ID": "IN065",
+    "Turbine_ID": "B05",
+    "Installation_NET_Duration": "21.66",
+    "Installation_Deviations": "7.739340568",
+    "Installation_Date": "8/12/21"
+  },
+  {
+    "Installation_ID": "IN066",
+    "Turbine_ID": "B06",
+    "Installation_NET_Duration": "20",
+    "Installation_Deviations": "1.75978034",
+    "Installation_Date": "8/13/21"
+  },
+  {
+    "Installation_ID": "IN067",
+    "Turbine_ID": "B07",
+    "Installation_NET_Duration": "19.53",
+    "Installation_Deviations": "2.765155406",
+    "Installation_Date": "8/22/21"
+  },
+  {
+    "Installation_ID": "IN068",
+    "Turbine_ID": "B08",
+    "Installation_NET_Duration": "17.58",
+    "Installation_Deviations": "6.552079158",
+    "Installation_Date": "9/10/21"
+  },
+  {
+    "Installation_ID": "IN069",
+    "Turbine_ID": "B09",
+    "Installation_NET_Duration": "14.62",
+    "Installation_Deviations": "4.835805163",
+    "Installation_Date": "9/19/21"
+  },
+  {
+    "Installation_ID": "IN070",
+    "Turbine_ID": "B10",
+    "Installation_NET_Duration": "15.71",
+    "Installation_Deviations": "1.097806823",
+    "Installation_Date": "1/27/21"
+  },
+  {
+    "Installation_ID": "IN071",
+    "Turbine_ID": "B11",
+    "Installation_NET_Duration": "16.3",
+    "Installation_Deviations": "6.078352047",
+    "Installation_Date": "1/29/21"
+  },
+  {
+    "Installation_ID": "IN072",
+    "Turbine_ID": "B12",
+    "Installation_NET_Duration": "19.75",
+    "Installation_Deviations": "8.348629562",
+    "Installation_Date": "1/30/21"
+  },
+  {
+    "Installation_ID": "IN073",
+    "Turbine_ID": "B13",
+    "Installation_NET_Duration": "20.13",
+    "Installation_Deviations": "6.872997007",
+    "Installation_Date": "2/1/21"
+  },
+  {
+    "Installation_ID": "IN074",
+    "Turbine_ID": "B14",
+    "Installation_NET_Duration": "16.67",
+    "Installation_Deviations": "7.676211055",
+    "Installation_Date": "2/12/21"
+  },
+  {
+    "Installation_ID": "IN075",
+    "Turbine_ID": "B15",
+    "Installation_NET_Duration": "16.58",
+    "Installation_Deviations": "9.389082663",
+    "Installation_Date": "2/13/21"
+  },
+  {
+    "Installation_ID": "IN076",
+    "Turbine_ID": "B16",
+    "Installation_NET_Duration": "15.33",
+    "Installation_Deviations": "6.427359479",
+    "Installation_Date": "2/14/21"
+  },
+  {
+    "Installation_ID": "IN077",
+    "Turbine_ID": "B17",
+    "Installation_NET_Duration": "19.83",
+    "Installation_Deviations": "0.969687682",
+    "Installation_Date": "2/16/21"
+  },
+  {
+    "Installation_ID": "IN078",
+    "Turbine_ID": "B18",
+    "Installation_NET_Duration": "21.75",
+    "Installation_Deviations": "1.8808776",
+    "Installation_Date": "2/19/21"
+  },
+  {
+    "Installation_ID": "IN079",
+    "Turbine_ID": "B19",
+    "Installation_NET_Duration": "21.17",
+    "Installation_Deviations": "5.465693243",
+    "Installation_Date": "2/21/21"
+  },
+  {
+    "Installation_ID": "IN080",
+    "Turbine_ID": "B20",
+    "Installation_NET_Duration": "23.67",
+    "Installation_Deviations": "0.326333757",
+    "Installation_Date": "2/22/21"
+  },
+  {
+    "Installation_ID": "IN081",
+    "Turbine_ID": "B21",
+    "Installation_NET_Duration": "14.9",
+    "Installation_Deviations": "3.693036032",
+    "Installation_Date": "2/23/01"
+  },
+  {
+    "Installation_ID": "IN082",
+    "Turbine_ID": "B22",
+    "Installation_NET_Duration": "16.5",
+    "Installation_Deviations": "6.79585764",
+    "Installation_Date": "2/27/21"
+  },
+  {
+    "Installation_ID": "IN083",
+    "Turbine_ID": "B23",
+    "Installation_NET_Duration": "25.4",
+    "Installation_Deviations": "7.046460654",
+    "Installation_Date": "2/28/21"
+  },
+  {
+    "Installation_ID": "IN084",
+    "Turbine_ID": "B24",
+    "Installation_NET_Duration": "19.7",
+    "Installation_Deviations": "0.917872807",
+    "Installation_Date": "3/1/21"
+  },
+  {
+    "Installation_ID": "IN085",
+    "Turbine_ID": "B25",
+    "Installation_NET_Duration": "26.3",
+    "Installation_Deviations": "3.851206634",
+    "Installation_Date": "3/2/21"
+  },
+  {
+    "Installation_ID": "IN086",
+    "Turbine_ID": "B26",
+    "Installation_NET_Duration": "16.9",
+    "Installation_Deviations": "8.975081661",
+    "Installation_Date": "3/3/21"
+  },
+  {
+    "Installation_ID": "IN087",
+    "Turbine_ID": "B27",
+    "Installation_NET_Duration": "23.4",
+    "Installation_Deviations": "5.903091381",
+    "Installation_Date": "3/5/21"
+  },
+  {
+    "Installation_ID": "IN088",
+    "Turbine_ID": "B28",
+    "Installation_NET_Duration": "20.8",
+    "Installation_Deviations": "7.202636161",
+    "Installation_Date": "3/7/21"
+  },
+  {
+    "Installation_ID": "IN089",
+    "Turbine_ID": "B29",
+    "Installation_NET_Duration": "17.8",
+    "Installation_Deviations": "0.004846288",
+    "Installation_Date": "3/8/21"
+  },
+  {
+    "Installation_ID": "IN090",
+    "Turbine_ID": "B30",
+    "Installation_NET_Duration": "20.9",
+    "Installation_Deviations": "3.046042691",
+    "Installation_Date": "3/14/21"
+  },
+  {
+    "Installation_ID": "IN091",
+    "Turbine_ID": "B31",
+    "Installation_NET_Duration": "18.7",
+    "Installation_Deviations": "9.966957174",
+    "Installation_Date": "3/15/21"
+  },
+  {
+    "Installation_ID": "IN092",
+    "Turbine_ID": "B32",
+    "Installation_NET_Duration": "18.8",
+    "Installation_Deviations": "4.244806716",
+    "Installation_Date": "3/16/21"
+  },
+  {
+    "Installation_ID": "IN093",
+    "Turbine_ID": "B33",
+    "Installation_NET_Duration": "21.6",
+    "Installation_Deviations": "0.10732896",
+    "Installation_Date": "3/18/21"
+  },
+  {
+    "Installation_ID": "IN094",
+    "Turbine_ID": "B34",
+    "Installation_NET_Duration": "15.9",
+    "Installation_Deviations": "8.310518926",
+    "Installation_Date": "3/22/21"
+  },
+  {
+    "Installation_ID": "IN095",
+    "Turbine_ID": "B35",
+    "Installation_NET_Duration": "24.8",
+    "Installation_Deviations": "8.02716001",
+    "Installation_Date": "3/22/21"
+  },
+  {
+    "Installation_ID": "IN096",
+    "Turbine_ID": "B36",
+    "Installation_NET_Duration": "20.1",
+    "Installation_Deviations": "9.013633831",
+    "Installation_Date": "3/23/21"
+  },
+  {
+    "Installation_ID": "IN097",
+    "Turbine_ID": "B37",
+    "Installation_NET_Duration": "14.7",
+    "Installation_Deviations": "0.144970423",
+    "Installation_Date": "3/24/21"
+  },
+  {
+    "Installation_ID": "IN098",
+    "Turbine_ID": "B38",
+    "Installation_NET_Duration": "16.83",
+    "Installation_Deviations": "5.196079203",
+    "Installation_Date": "3/27/21"
+  },
+  {
+    "Installation_ID": "IN099",
+    "Turbine_ID": "B39",
+    "Installation_NET_Duration": "16.83",
+    "Installation_Deviations": "0.008203678",
+    "Installation_Date": "3/30/21"
+  },
+  {
+    "Installation_ID": "IN100",
+    "Turbine_ID": "B40",
+    "Installation_NET_Duration": "19.2",
+    "Installation_Deviations": "9.886795776",
+    "Installation_Date": "3/31/21"
+  },
+  {
+    "Installation_ID": "IN101",
+    "Turbine_ID": "B41",
+    "Installation_NET_Duration": "22.8",
+    "Installation_Deviations": "9.432202572",
+    "Installation_Date": "4/1/21"
+  },
+  {
+    "Installation_ID": "IN102",
+    "Turbine_ID": "B42",
+    "Installation_NET_Duration": "15.2",
+    "Installation_Deviations": "0.369532478",
+    "Installation_Date": "4/3/21"
+  },
+  {
+    "Installation_ID": "IN103",
+    "Turbine_ID": "B43",
+    "Installation_NET_Duration": "14.92",
+    "Installation_Deviations": "4.349795152",
+    "Installation_Date": "4/4/21"
+  },
+  {
+    "Installation_ID": "IN104",
+    "Turbine_ID": "B44",
+    "Installation_NET_Duration": "22.21",
+    "Installation_Deviations": "6.379738074",
+    "Installation_Date": "4/7/21"
+  },
+  {
+    "Installation_ID": "IN105",
+    "Turbine_ID": "B45",
+    "Installation_NET_Duration": "20.43",
+    "Installation_Deviations": "5.016325143",
+    "Installation_Date": "4/8/21"
+  },
+  {
+    "Installation_ID": "IN106",
+    "Turbine_ID": "B46",
+    "Installation_NET_Duration": "24.92",
+    "Installation_Deviations": "6.748187877",
+    "Installation_Date": "4/12/21"
+  },
+  {
+    "Installation_ID": "IN107",
+    "Turbine_ID": "B47",
+    "Installation_NET_Duration": "17.25",
+    "Installation_Deviations": "4.505611061",
+    "Installation_Date": "4/13/21"
+  },
+  {
+    "Installation_ID": "IN108",
+    "Turbine_ID": "B48",
+    "Installation_NET_Duration": "19.3",
+    "Installation_Deviations": "8.42137265",
+    "Installation_Date": "4/14/21"
+  },
+  {
+    "Installation_ID": "IN109",
+    "Turbine_ID": "B49",
+    "Installation_NET_Duration": "13.22",
+    "Installation_Deviations": "1.964129642",
+    "Installation_Date": "4/15/21"
+  },
+  {
+    "Installation_ID": "IN110",
+    "Turbine_ID": "B50",
+    "Installation_NET_Duration": "14.5",
+    "Installation_Deviations": "4.124850284",
+    "Installation_Date": "4/18/21"
+  },
+  {
+    "Installation_ID": "IN111",
+    "Turbine_ID": "B51",
+    "Installation_NET_Duration": "18.67",
+    "Installation_Deviations": "1.518504959",
+    "Installation_Date": "4/20/21"
+  },
+  {
+    "Installation_ID": "IN112",
+    "Turbine_ID": "B52",
+    "Installation_NET_Duration": "15.33",
+    "Installation_Deviations": "5.219166376",
+    "Installation_Date": "4/20/21"
+  },
+  {
+    "Installation_ID": "IN113",
+    "Turbine_ID": "B53",
+    "Installation_NET_Duration": "16.58",
+    "Installation_Deviations": "8.674224987",
+    "Installation_Date": "4/23/21"
+  },
+  {
+    "Installation_ID": "IN114",
+    "Turbine_ID": "B54",
+    "Installation_NET_Duration": "28.17",
+    "Installation_Deviations": "5.238817769",
+    "Installation_Date": "4/26/21"
+  },
+  {
+    "Installation_ID": "IN115",
+    "Turbine_ID": "B55",
+    "Installation_NET_Duration": "26.55",
+    "Installation_Deviations": "9.416328618",
+    "Installation_Date": "4/27/21"
+  },
+  {
+    "Installation_ID": "IN116",
+    "Turbine_ID": "B56",
+    "Installation_NET_Duration": "21.92",
+    "Installation_Deviations": "6.002352993",
+    "Installation_Date": "4/27/21"
+  },
+  {
+    "Installation_ID": "IN117",
+    "Turbine_ID": "B57",
+    "Installation_NET_Duration": "21.07",
+    "Installation_Deviations": "7.891507164",
+    "Installation_Date": "4/28/21"
+  },
+  {
+    "Installation_ID": "IN118",
+    "Turbine_ID": "B58",
+    "Installation_NET_Duration": "24.17",
+    "Installation_Deviations": "4.833011828",
+    "Installation_Date": "5/2/21"
+  },
+  {
+    "Installation_ID": "IN119",
+    "Turbine_ID": "B59",
+    "Installation_NET_Duration": "21.17",
+    "Installation_Deviations": "4.664007367",
+    "Installation_Date": "5/3/21"
+  },
+  {
+    "Installation_ID": "IN120",
+    "Turbine_ID": "B60",
+    "Installation_NET_Duration": "16.58",
+    "Installation_Deviations": "6.08661288",
+    "Installation_Date": "5/3/21"
+  },
+  {
+    "Installation_ID": "IN121",
+    "Turbine_ID": "B61",
+    "Installation_NET_Duration": "17.17",
+    "Installation_Deviations": "5.909957811",
+    "Installation_Date": "5/7/21"
+  },
+  {
+    "Installation_ID": "IN122",
+    "Turbine_ID": "B62",
+    "Installation_NET_Duration": "14.17",
+    "Installation_Deviations": "7.66080721",
+    "Installation_Date": "5/12/21"
+  },
+  {
+    "Installation_ID": "IN123",
+    "Turbine_ID": "B63",
+    "Installation_NET_Duration": "15.53",
+    "Installation_Deviations": "2.658917052",
+    "Installation_Date": "5/13/21"
+  },
+  {
+    "Installation_ID": "IN124",
+    "Turbine_ID": "B64",
+    "Installation_NET_Duration": "15.93",
+    "Installation_Deviations": "9.787457184",
+    "Installation_Date": "5/14/21"
+  },
+  {
+    "Installation_ID": "IN125",
+    "Turbine_ID": "B65",
+    "Installation_NET_Duration": "14.50",
+    "Installation_Deviations": "2.714204827",
+    "Installation_Date": "5/15/21"
+  },
+  {
+    "Installation_ID": "IN126",
+    "Turbine_ID": "B66",
+    "Installation_NET_Duration": "19.58",
+    "Installation_Deviations": "5.883616902",
+    "Installation_Date": "5/17/21"
+  },
+  {
+    "Installation_ID": "IN127",
+    "Turbine_ID": "B67",
+    "Installation_NET_Duration": "16.75",
+    "Installation_Deviations": "1.775864849",
+    "Installation_Date": "5/18/21"
+  },
+  {
+    "Installation_ID": "IN128",
+    "Turbine_ID": "B68",
+    "Installation_NET_Duration": "17.17",
+    "Installation_Deviations": "0.588809344",
+    "Installation_Date": "5/19/21"
+  },
+  {
+    "Installation_ID": "IN129",
+    "Turbine_ID": "B69",
+    "Installation_NET_Duration": "17.67",
+    "Installation_Deviations": "8.747510734",
+    "Installation_Date": "5/20/21"
+  },
+  {
+    "Installation_ID": "IN130",
+    "Turbine_ID": "B70",
+    "Installation_NET_Duration": "15.45",
+    "Installation_Deviations": "1.945645465",
+    "Installation_Date": "5/22/21"
+  },
+  {
+    "Installation_ID": "IN131",
+    "Turbine_ID": "B71",
+    "Installation_NET_Duration": "16.10",
+    "Installation_Deviations": "5.078835211",
+    "Installation_Date": "5/24/21"
+  },
+  {
+    "Installation_ID": "IN132",
+    "Turbine_ID": "B72",
+    "Installation_NET_Duration": "14.37",
+    "Installation_Deviations": "4.896175329",
+    "Installation_Date": "5/25/21"
+  },
+  {
+    "Installation_ID": "IN133",
+    "Turbine_ID": "B73",
+    "Installation_NET_Duration": "15.60",
+    "Installation_Deviations": "4.779327421",
+    "Installation_Date": "5/25/21"
+  },
+  {
+    "Installation_ID": "IN134",
+    "Turbine_ID": "B74",
+    "Installation_NET_Duration": "17.17",
+    "Installation_Deviations": "7.266248038",
+    "Installation_Date": "5/28/21"
+  },
+  {
+    "Installation_ID": "IN135",
+    "Turbine_ID": "B75",
+    "Installation_NET_Duration": "16.75",
+    "Installation_Deviations": "1.986820868",
+    "Installation_Date": "5/29/21"
+  },
+  {
+    "Installation_ID": "IN136",
+    "Turbine_ID": "B76",
+    "Installation_NET_Duration": "17.28",
+    "Installation_Deviations": "8.616731061",
+    "Installation_Date": "5/30/21"
+  },
+  {
+    "Installation_ID": "IN137",
+    "Turbine_ID": "B77",
+    "Installation_NET_Duration": "13.9",
+    "Installation_Deviations": "8.68586945",
+    "Installation_Date": "5/31/21"
+  },
+  {
+    "Installation_ID": "IN138",
+    "Turbine_ID": "B78",
+    "Installation_NET_Duration": "13.45",
+    "Installation_Deviations": "3.908954379",
+    "Installation_Date": "6/2/21"
+  },
+  {
+    "Installation_ID": "IN139",
+    "Turbine_ID": "B79",
+    "Installation_NET_Duration": "14.75",
+    "Installation_Deviations": "9.568927239",
+    "Installation_Date": "6/3/21"
+  },
+  {
+    "Installation_ID": "IN140",
+    "Turbine_ID": "B80",
+    "Installation_NET_Duration": "24.48",
+    "Installation_Deviations": "8.338664468",
+    "Installation_Date": "6/4/21"
+  },
+  {
+    "Installation_ID": "IN141",
+    "Turbine_ID": "B81",
+    "Installation_NET_Duration": "19.40",
+    "Installation_Deviations": "7.620832504",
+    "Installation_Date": "6/5/21"
+  },
+  {
+    "Installation_ID": "IN142",
+    "Turbine_ID": "B82",
+    "Installation_NET_Duration": "17.57",
+    "Installation_Deviations": "4.821562341",
+    "Installation_Date": "5/28/21"
+  },
+  {
+    "Installation_ID": "IN143",
+    "Turbine_ID": "B83",
+    "Installation_NET_Duration": "18.35",
+    "Installation_Deviations": "7.158691843",
+    "Installation_Date": "5/30/21"
+  },
+  {
+    "Installation_ID": "IN144",
+    "Turbine_ID": "B84",
+    "Installation_NET_Duration": "19.00",
+    "Installation_Deviations": "4.890031391",
+    "Installation_Date": "5/31/21"
+  },
+  {
+    "Installation_ID": "IN145",
+    "Turbine_ID": "C01",
+    "Installation_NET_Duration": "15.85",
+    "Installation_Deviations": "0.609646308",
+    "Installation_Date": "6/1/21"
+  },
+  {
+    "Installation_ID": "IN146",
+    "Turbine_ID": "C02",
+    "Installation_NET_Duration": "15.22",
+    "Installation_Deviations": "8.564284818",
+    "Installation_Date": "6/5/21"
+  },
+  {
+    "Installation_ID": "IN147",
+    "Turbine_ID": "C03",
+    "Installation_NET_Duration": "18.00",
+    "Installation_Deviations": "1.49815538",
+    "Installation_Date": "6/6/21"
+  },
+  {
+    "Installation_ID": "IN148",
+    "Turbine_ID": "C04",
+    "Installation_NET_Duration": "18.08",
+    "Installation_Deviations": "9.55755206",
+    "Installation_Date": "6/7/21"
+  },
+  {
+    "Installation_ID": "IN149",
+    "Turbine_ID": "C05",
+    "Installation_NET_Duration": "15.47",
+    "Installation_Deviations": "1.740278596",
+    "Installation_Date": "6/8/21"
+  },
+  {
+    "Installation_ID": "IN150",
+    "Turbine_ID": "C06",
+    "Installation_NET_Duration": "17.00",
+    "Installation_Deviations": "7.766357552",
+    "Installation_Date": "6/12/21"
+  },
+  {
+    "Installation_ID": "IN151",
+    "Turbine_ID": "C07",
+    "Installation_NET_Duration": "20.28",
+    "Installation_Deviations": "8.614895423",
+    "Installation_Date": "6/13/21"
+  },
+  {
+    "Installation_ID": "IN152",
+    "Turbine_ID": "C08",
+    "Installation_NET_Duration": "21.60",
+    "Installation_Deviations": "6.252638766",
+    "Installation_Date": "6/14/21"
+  },
+  {
+    "Installation_ID": "IN153",
+    "Turbine_ID": "C09",
+    "Installation_NET_Duration": "20.35",
+    "Installation_Deviations": "8.075524221",
+    "Installation_Date": "6/15/21"
+  },
+  {
+    "Installation_ID": "IN154",
+    "Turbine_ID": "C10",
+    "Installation_NET_Duration": "15.57",
+    "Installation_Deviations": "4.784451062",
+    "Installation_Date": "6/13/21"
+  },
+  {
+    "Installation_ID": "IN155",
+    "Turbine_ID": "C11",
+    "Installation_NET_Duration": "14.78",
+    "Installation_Deviations": "0.002805494",
+    "Installation_Date": "6/15/21"
+  },
+  {
+    "Installation_ID": "IN156",
+    "Turbine_ID": "C12",
+    "Installation_NET_Duration": "20.62",
+    "Installation_Deviations": "4.959797251",
+    "Installation_Date": "6/16/21"
+  },
+  {
+    "Installation_ID": "IN157",
+    "Turbine_ID": "C13",
+    "Installation_NET_Duration": "16.77",
+    "Installation_Deviations": "2.724808361",
+    "Installation_Date": "6/17/21"
+  },
+  {
+    "Installation_ID": "IN158",
+    "Turbine_ID": "C14",
+    "Installation_NET_Duration": "17.15",
+    "Installation_Deviations": "8.064484545",
+    "Installation_Date": "6/21/21"
+  },
+  {
+    "Installation_ID": "IN159",
+    "Turbine_ID": "C15",
+    "Installation_NET_Duration": "18.73",
+    "Installation_Deviations": "6.75769503",
+    "Installation_Date": "6/23/21"
+  },
+  {
+    "Installation_ID": "IN160",
+    "Turbine_ID": "C16",
+    "Installation_NET_Duration": "21.28",
+    "Installation_Deviations": "1.999121028",
+    "Installation_Date": "6/24/21"
+  },
+  {
+    "Installation_ID": "IN161",
+    "Turbine_ID": "C17",
+    "Installation_NET_Duration": "18.78",
+    "Installation_Deviations": "1.067670895",
+    "Installation_Date": "6/25/21"
+  },
+  {
+    "Installation_ID": "IN162",
+    "Turbine_ID": "C18",
+    "Installation_NET_Duration": "19.40",
+    "Installation_Deviations": "8.395345269",
+    "Installation_Date": "6/25/21"
+  },
+  {
+    "Installation_ID": "IN163",
+    "Turbine_ID": "C19",
+    "Installation_NET_Duration": "18.22",
+    "Installation_Deviations": "2.148816967",
+    "Installation_Date": "6/26/21"
+  },
+  {
+    "Installation_ID": "IN164",
+    "Turbine_ID": "C20",
+    "Installation_NET_Duration": "16.55",
+    "Installation_Deviations": "0.398777151",
+    "Installation_Date": "6/29/21"
+  },
+  {
+    "Installation_ID": "IN165",
+    "Turbine_ID": "C21",
+    "Installation_NET_Duration": "14.35",
+    "Installation_Deviations": "8.066228997",
+    "Installation_Date": "6/30/21"
+  },
+  {
+    "Installation_ID": "IN166",
+    "Turbine_ID": "C22",
+    "Installation_NET_Duration": "17.42",
+    "Installation_Deviations": "2.691826044",
+    "Installation_Date": "6/29/21"
+  },
+  {
+    "Installation_ID": "IN167",
+    "Turbine_ID": "C23",
+    "Installation_NET_Duration": "16.37",
+    "Installation_Deviations": "7.495431987",
+    "Installation_Date": "6/30/21"
+  },
+  {
+    "Installation_ID": "IN168",
+    "Turbine_ID": "C24",
+    "Installation_NET_Duration": "15.63",
+    "Installation_Deviations": "8.573527889",
+    "Installation_Date": "7/3/21"
+  },
+  {
+    "Installation_ID": "IN169",
+    "Turbine_ID": "C25",
+    "Installation_NET_Duration": "16.07",
+    "Installation_Deviations": "0.329296474",
+    "Installation_Date": "7/4/21"
+  },
+  {
+    "Installation_ID": "IN170",
+    "Turbine_ID": "C26",
+    "Installation_NET_Duration": "16.43",
+    "Installation_Deviations": "5.551054322",
+    "Installation_Date": "7/3/21"
+  },
+  {
+    "Installation_ID": "IN171",
+    "Turbine_ID": "C27",
+    "Installation_NET_Duration": "15.17",
+    "Installation_Deviations": "8.011346005",
+    "Installation_Date": "7/4/21"
+  },
+  {
+    "Installation_ID": "IN172",
+    "Turbine_ID": "C28",
+    "Installation_NET_Duration": "13.75",
+    "Installation_Deviations": "7.385093272",
+    "Installation_Date": "7/8/21"
+  },
+  {
+    "Installation_ID": "IN173",
+    "Turbine_ID": "C29",
+    "Installation_NET_Duration": "13.87",
+    "Installation_Deviations": "4.323561132",
+    "Installation_Date": "7/9/21"
+  },
+  {
+    "Installation_ID": "IN174",
+    "Turbine_ID": "C30",
+    "Installation_NET_Duration": "12.47",
+    "Installation_Deviations": "3.662778079",
+    "Installation_Date": "7/8/21"
+  },
+  {
+    "Installation_ID": "IN175",
+    "Turbine_ID": "C31",
+    "Installation_NET_Duration": "17.32",
+    "Installation_Deviations": "3.937055175",
+    "Installation_Date": "7/9/21"
+  },
+  {
+    "Installation_ID": "IN176",
+    "Turbine_ID": "C32",
+    "Installation_NET_Duration": "15.90",
+    "Installation_Deviations": "2.787515499",
+    "Installation_Date": "7/11/21"
+  },
+  {
+    "Installation_ID": "IN177",
+    "Turbine_ID": "C33",
+    "Installation_NET_Duration": "13.52",
+    "Installation_Deviations": "4.487646025",
+    "Installation_Date": "7/12/21"
+  },
+  {
+    "Installation_ID": "IN178",
+    "Turbine_ID": "C34",
+    "Installation_NET_Duration": "15.15",
+    "Installation_Deviations": "2.031322891",
+    "Installation_Date": "7/12/21"
+  },
+  {
+    "Installation_ID": "IN179",
+    "Turbine_ID": "C35",
+    "Installation_NET_Duration": "13.80",
+    "Installation_Deviations": "7.051076476",
+    "Installation_Date": "7/13/21"
+  },
+  {
+    "Installation_ID": "IN180",
+    "Turbine_ID": "C36",
+    "Installation_NET_Duration": "19.33",
+    "Installation_Deviations": "7.55042607",
+    "Installation_Date": "7/15/21"
+  },
+  {
+    "Installation_ID": "IN181",
+    "Turbine_ID": "C37",
+    "Installation_NET_Duration": "16.63",
+    "Installation_Deviations": "5.581576687",
+    "Installation_Date": "7/16/21"
+  },
+  {
+    "Installation_ID": "IN182",
+    "Turbine_ID": "C38",
+    "Installation_NET_Duration": "16.67",
+    "Installation_Deviations": "4.504921118",
+    "Installation_Date": "7/16/21"
+  },
+  {
+    "Installation_ID": "IN183",
+    "Turbine_ID": "C39",
+    "Installation_NET_Duration": "14.18",
+    "Installation_Deviations": "2.7629355",
+    "Installation_Date": "7/17/21"
+  },
+  {
+    "Installation_ID": "IN184",
+    "Turbine_ID": "C40",
+    "Installation_NET_Duration": "15.75",
+    "Installation_Deviations": "3.348971448",
+    "Installation_Date": "7/22/21"
+  },
+  {
+    "Installation_ID": "IN185",
+    "Turbine_ID": "C41",
+    "Installation_NET_Duration": "14.53",
+    "Installation_Deviations": "3.101580932",
+    "Installation_Date": "7/23/21"
+  },
+  {
+    "Installation_ID": "IN186",
+    "Turbine_ID": "C42",
+    "Installation_NET_Duration": "14.02",
+    "Installation_Deviations": "5.661188048",
+    "Installation_Date": "7/22/21"
+  },
+  {
+    "Installation_ID": "IN187",
+    "Turbine_ID": "C43",
+    "Installation_NET_Duration": "17.33",
+    "Installation_Deviations": "7.235590792",
+    "Installation_Date": "7/23/21"
+  },
+  {
+    "Installation_ID": "IN188",
+    "Turbine_ID": "C44",
+    "Installation_NET_Duration": "14.92",
+    "Installation_Deviations": "9.616074449",
+    "Installation_Date": "7/24/21"
+  },
+  {
+    "Installation_ID": "IN189",
+    "Turbine_ID": "C45",
+    "Installation_NET_Duration": "18.63",
+    "Installation_Deviations": "0.495312088",
+    "Installation_Date": "7/25/21"
+  },
+  {
+    "Installation_ID": "IN190",
+    "Turbine_ID": "C46",
+    "Installation_NET_Duration": "15.63",
+    "Installation_Deviations": "0.743138372",
+    "Installation_Date": "7/30/21"
+  },
+  {
+    "Installation_ID": "IN191",
+    "Turbine_ID": "C47",
+    "Installation_NET_Duration": "14.75",
+    "Installation_Deviations": "5.731722284",
+    "Installation_Date": "7/31/21"
+  },
+  {
+    "Installation_ID": "IN192",
+    "Turbine_ID": "C48",
+    "Installation_NET_Duration": "16.63",
+    "Installation_Deviations": "3.356650919",
+    "Installation_Date": "8/1/21"
+  },
+  {
+    "Installation_ID": "IN193",
+    "Turbine_ID": "C49",
+    "Installation_NET_Duration": "19.08",
+    "Installation_Deviations": "1.338557182",
+    "Installation_Date": "8/2/21"
+  },
+  {
+    "Installation_ID": "IN194",
+    "Turbine_ID": "C50",
+    "Installation_NET_Duration": "21.73",
+    "Installation_Deviations": "1.632243701",
+    "Installation_Date": "8/3/21"
+  },
+  {
+    "Installation_ID": "IN195",
+    "Turbine_ID": "C51",
+    "Installation_NET_Duration": "17.98",
+    "Installation_Deviations": "0.63359888",
+    "Installation_Date": "8/5/21"
+  },
+  {
+    "Installation_ID": "IN196",
+    "Turbine_ID": "C52",
+    "Installation_NET_Duration": "16.60",
+    "Installation_Deviations": "6.366145191",
+    "Installation_Date": "8/7/21"
+  },
+  {
+    "Installation_ID": "IN197",
+    "Turbine_ID": "C53",
+    "Installation_NET_Duration": "17.82",
+    "Installation_Deviations": "6.927607014",
+    "Installation_Date": "8/9/21"
+  },
+  {
+    "Installation_ID": "IN198",
+    "Turbine_ID": "C54",
+    "Installation_NET_Duration": "17.73",
+    "Installation_Deviations": "1.568104397",
+    "Installation_Date": "8/7/21"
+  },
+  {
+    "Installation_ID": "IN199",
+    "Turbine_ID": "C55",
+    "Installation_NET_Duration": "19.13",
+    "Installation_Deviations": "9.506408693",
+    "Installation_Date": "8/9/21"
+  },
+  {
+    "Installation_ID": "IN200",
+    "Turbine_ID": "C56",
+    "Installation_NET_Duration": "16.58",
+    "Installation_Deviations": "0.609581612",
+    "Installation_Date": "8/10/21"
+  },
+  {
+    "Installation_ID": "IN201",
+    "Turbine_ID": "C57",
+    "Installation_NET_Duration": "16.67",
+    "Installation_Deviations": "1.474257052",
+    "Installation_Date": "8/11/21"
+  },
+  {
+    "Installation_ID": "IN202",
+    "Turbine_ID": "C58",
+    "Installation_NET_Duration": "15.93",
+    "Installation_Deviations": "9.980187318",
+    "Installation_Date": "8/13/21"
+  },
+  {
+    "Installation_ID": "IN203",
+    "Turbine_ID": "C59",
+    "Installation_NET_Duration": "13.04",
+    "Installation_Deviations": "8.252054343",
+    "Installation_Date": "8/16/21"
+  },
+  {
+    "Installation_ID": "IN204",
+    "Turbine_ID": "C60",
+    "Installation_NET_Duration": "19.88",
+    "Installation_Deviations": "3.562661621",
+    "Installation_Date": "8/18/21"
+  },
+  {
+    "Installation_ID": "IN205",
+    "Turbine_ID": "C61",
+    "Installation_NET_Duration": "16.13",
+    "Installation_Deviations": "9.301294615",
+    "Installation_Date": "8/20/21"
+  },
+  {
+    "Installation_ID": "IN206",
+    "Turbine_ID": "C62",
+    "Installation_NET_Duration": "16.20",
+    "Installation_Deviations": "7.71599182",
+    "Installation_Date": "8/27/21"
+  },
+  {
+    "Installation_ID": "IN207",
+    "Turbine_ID": "C63",
+    "Installation_NET_Duration": "16.30",
+    "Installation_Deviations": "5.101124206",
+    "Installation_Date": "8/28/21"
+  },
+  {
+    "Installation_ID": "IN208",
+    "Turbine_ID": "C64",
+    "Installation_NET_Duration": "20.21",
+    "Installation_Deviations": "6.294528026",
+    "Installation_Date": "9/2/21"
+  },
+  {
+    "Installation_ID": "IN209",
+    "Turbine_ID": "C65",
+    "Installation_NET_Duration": "18.00",
+    "Installation_Deviations": "9.504892837",
+    "Installation_Date": "9/3/21"
+  },
+  {
+    "Installation_ID": "IN210",
+    "Turbine_ID": "C66",
+    "Installation_NET_Duration": "19.42",
+    "Installation_Deviations": "0.441179688",
+    "Installation_Date": "8/24/21"
+  },
+  {
+    "Installation_ID": "IN211",
+    "Turbine_ID": "C67",
+    "Installation_NET_Duration": "16.23",
+    "Installation_Deviations": "5.069306442",
+    "Installation_Date": "8/27/21"
+  },
+  {
+    "Installation_ID": "IN212",
+    "Turbine_ID": "D01",
+    "Installation_NET_Duration": "16.47",
+    "Installation_Deviations": "5.690356977",
+    "Installation_Date": "8/28/21"
+  },
+  {
+    "Installation_ID": "IN213",
+    "Turbine_ID": "D02",
+    "Installation_NET_Duration": "17.00",
+    "Installation_Deviations": "1.155776685",
+    "Installation_Date": "9/2/21"
+  },
+  {
+    "Installation_ID": "IN214",
+    "Turbine_ID": "D03",
+    "Installation_NET_Duration": "15.92",
+    "Installation_Deviations": "3.218768347",
+    "Installation_Date": "9/5/21"
+  },
+  {
+    "Installation_ID": "IN215",
+    "Turbine_ID": "D04",
+    "Installation_NET_Duration": "17.32",
+    "Installation_Deviations": "8.522576075",
+    "Installation_Date": "9/6/21"
+  },
+  {
+    "Installation_ID": "IN216",
+    "Turbine_ID": "D05",
+    "Installation_NET_Duration": "17.17",
+    "Installation_Deviations": "8.556084665",
+    "Installation_Date": "9/7/21"
+  },
+  {
+    "Installation_ID": "IN217",
+    "Turbine_ID": "D06",
+    "Installation_NET_Duration": "20.08",
+    "Installation_Deviations": "7.146668741",
+    "Installation_Date": "9/10/21"
+  },
+  {
+    "Installation_ID": "IN218",
+    "Turbine_ID": "D07",
+    "Installation_NET_Duration": "22.07",
+    "Installation_Deviations": "9.028996523",
+    "Installation_Date": "9/7/21"
+  },
+  {
+    "Installation_ID": "IN219",
+    "Turbine_ID": "D08",
+    "Installation_NET_Duration": "13.98",
+    "Installation_Deviations": "0.24632647",
+    "Installation_Date": "7/9/21"
+  },
+  {
+    "Installation_ID": "IN220",
+    "Turbine_ID": "D09",
+    "Installation_NET_Duration": "19.55",
+    "Installation_Deviations": "2.668532316",
+    "Installation_Date": "9/8/21"
+  },
+  {
+    "Installation_ID": "IN221",
+    "Turbine_ID": "D10",
+    "Installation_NET_Duration": "15.53",
+    "Installation_Deviations": "7.611524247",
+    "Installation_Date": "9/9/21"
+  },
+  {
+    "Installation_ID": "IN222",
+    "Turbine_ID": "D11",
+    "Installation_NET_Duration": "17.17",
+    "Installation_Deviations": "4.277571016",
+    "Installation_Date": "9/13/21"
+  },
+  {
+    "Installation_ID": "IN223",
+    "Turbine_ID": "D12",
+    "Installation_NET_Duration": "13.65",
+    "Installation_Deviations": "3.674486641",
+    "Installation_Date": "9/14/21"
+  },
+  {
+    "Installation_ID": "IN224",
+    "Turbine_ID": "D13",
+    "Installation_NET_Duration": "21.2",
+    "Installation_Deviations": "5.971887411",
+    "Installation_Date": "9/17/21"
+  },
+  {
+    "Installation_ID": "IN225",
+    "Turbine_ID": "D14",
+    "Installation_NET_Duration": "14.42",
+    "Installation_Deviations": "1.354936467",
+    "Installation_Date": "9/18/21"
+  },
+  {
+    "Installation_ID": "IN226",
+    "Turbine_ID": "D15",
+    "Installation_NET_Duration": "17.48",
+    "Installation_Deviations": "6.131479551",
+    "Installation_Date": "9/13/21"
+  },
+  {
+    "Installation_ID": "IN227",
+    "Turbine_ID": "D16",
+    "Installation_NET_Duration": "14.90",
+    "Installation_Deviations": "8.23647691",
+    "Installation_Date": "9/13/21"
+  },
+  {
+    "Installation_ID": "IN228",
+    "Turbine_ID": "D17",
+    "Installation_NET_Duration": "14.92",
+    "Installation_Deviations": "8.567543405",
+    "Installation_Date": "9/14/21"
+  },
+  {
+    "Installation_ID": "IN229",
+    "Turbine_ID": "D18",
+    "Installation_NET_Duration": "15.65",
+    "Installation_Deviations": "4.981573281",
+    "Installation_Date": "9/16/21"
+  },
+  {
+    "Installation_ID": "IN230",
+    "Turbine_ID": "D19",
+    "Installation_NET_Duration": "13.92",
+    "Installation_Deviations": "8.914865461",
+    "Installation_Date": "9/19/21"
+  },
+  {
+    "Installation_ID": "IN231",
+    "Turbine_ID": "D20",
+    "Installation_NET_Duration": "15.25",
+    "Installation_Deviations": "7.960069956",
+    "Installation_Date": "9/20/21"
+  },
+  {
+    "Installation_ID": "IN232",
+    "Turbine_ID": "D21",
+    "Installation_NET_Duration": "15.73",
+    "Installation_Deviations": "1.284657703",
+    "Installation_Date": "9/21/21"
+  },
+  {
+    "Installation_ID": "IN233",
+    "Turbine_ID": "D22",
+    "Installation_NET_Duration": "16.48",
+    "Installation_Deviations": "1.970245758",
+    "Installation_Date": "9/22/21"
+  },
+  {
+    "Installation_ID": "IN234",
+    "Turbine_ID": "D23",
+    "Installation_NET_Duration": "18.48",
+    "Installation_Deviations": "1.657855063",
+    "Installation_Date": "9/22/21"
+  },
+  {
+    "Installation_ID": "IN235",
+    "Turbine_ID": "D24",
+    "Installation_NET_Duration": "16.73",
+    "Installation_Deviations": "5.120312096",
+    "Installation_Date": "9/25/21"
+  },
+  {
+    "Installation_ID": "IN236",
+    "Turbine_ID": "D25",
+    "Installation_NET_Duration": "21.00",
+    "Installation_Deviations": "5.80126761",
+    "Installation_Date": "9/26/21"
+  },
+  {
+    "Installation_ID": "IN237",
+    "Turbine_ID": "D26",
+    "Installation_NET_Duration": "18.67",
+    "Installation_Deviations": "4.69192922",
+    "Installation_Date": "10/6/21"
+  },
+  {
+    "Installation_ID": "IN238",
+    "Turbine_ID": "D27",
+    "Installation_NET_Duration": "17.32",
+    "Installation_Deviations": "4.940308273",
+    "Installation_Date": "9/26/21"
+  },
+  {
+    "Installation_ID": "IN239",
+    "Turbine_ID": "D28",
+    "Installation_NET_Duration": "18.48",
+    "Installation_Deviations": "8.725182521",
+    "Installation_Date": "10/1/21"
+  },
+  {
+    "Installation_ID": "IN240",
+    "Turbine_ID": "D29",
+    "Installation_NET_Duration": "18.65",
+    "Installation_Deviations": "8.869498037",
+    "Installation_Date": "10/4/21"
+  },
+  {
+    "Installation_ID": "IN241",
+    "Turbine_ID": "D30",
+    "Installation_NET_Duration": "18.90",
+    "Installation_Deviations": "1.587694463",
+    "Installation_Date": "10/6/21"
+  },
+  {
+    "Installation_ID": "IN242",
+    "Turbine_ID": "D31",
+    "Installation_NET_Duration": "13.8",
+    "Installation_Deviations": "6.355717465",
+    "Installation_Date": "10/11/21"
+  },
+  {
+    "Installation_ID": "IN243",
+    "Turbine_ID": "D32",
+    "Installation_NET_Duration": "41.60",
+    "Installation_Deviations": "3.668192116",
+    "Installation_Date": "10/12/21"
+  },
+  {
+    "Installation_ID": "IN244",
+    "Turbine_ID": "D33",
+    "Installation_NET_Duration": "33.08",
+    "Installation_Deviations": "6.579705358",
+    "Installation_Date": "10/13/21"
+  },
+  {
+    "Installation_ID": "IN245",
+    "Turbine_ID": "D34",
+    "Installation_NET_Duration": "32.33",
+    "Installation_Deviations": "6.581879356",
+    "Installation_Date": "10/15/21"
+  },
+  {
+    "Installation_ID": "IN246",
+    "Turbine_ID": "D35",
+    "Installation_NET_Duration": "32.33",
+    "Installation_Deviations": "3.630352046",
+    "Installation_Date": "10/10/21"
+  },
+  {
+    "Installation_ID": "IN247",
+    "Turbine_ID": "D36",
+    "Installation_NET_Duration": "30.73",
+    "Installation_Deviations": "9.956731167",
+    "Installation_Date": "10/11/21"
+  },
+  {
+    "Installation_ID": "IN248",
+    "Turbine_ID": "D37",
+    "Installation_NET_Duration": "26.50",
+    "Installation_Deviations": "3.779949034",
+    "Installation_Date": "10/12/21"
+  },
+  {
+    "Installation_ID": "IN249",
+    "Turbine_ID": "D38",
+    "Installation_NET_Duration": "31.20",
+    "Installation_Deviations": "7.940752261",
+    "Installation_Date": "10/13/21"
+  },
+  {
+    "Installation_ID": "IN250",
+    "Turbine_ID": "D39",
+    "Installation_NET_Duration": "24.35",
+    "Installation_Deviations": "4.805884972",
+    "Installation_Date": "10/17/21"
+  },
+  {
+    "Installation_ID": "IN251",
+    "Turbine_ID": "D40",
+    "Installation_NET_Duration": "28.13",
+    "Installation_Deviations": "1.958205734",
+    "Installation_Date": "10/18/21"
+  },
+  {
+    "Installation_ID": "IN252",
+    "Turbine_ID": "D41",
+    "Installation_NET_Duration": "21.32",
+    "Installation_Deviations": "5.612094827",
+    "Installation_Date": "10/20/21"
+  },
+  {
+    "Installation_ID": "IN253",
+    "Turbine_ID": "D42",
+    "Installation_NET_Duration": "30",
+    "Installation_Deviations": "1.72207242",
+    "Installation_Date": "10/23/21"
+  },
+  {
+    "Installation_ID": "IN254",
+    "Turbine_ID": "D43",
+    "Installation_NET_Duration": "21.42",
+    "Installation_Deviations": "2.381855788",
+    "Installation_Date": "10/23/21"
+  },
+  {
+    "Installation_ID": "IN255",
+    "Turbine_ID": "D44",
+    "Installation_NET_Duration": "21.08",
+    "Installation_Deviations": "1.97578385",
+    "Installation_Date": "10/25/21"
+  },
+  {
+    "Installation_ID": "IN256",
+    "Turbine_ID": "D45",
+    "Installation_NET_Duration": "24.08",
+    "Installation_Deviations": "8.373696503",
+    "Installation_Date": "10/31/21"
+  },
+  {
+    "Installation_ID": "IN257",
+    "Turbine_ID": "D46",
+    "Installation_NET_Duration": "24.09",
+    "Installation_Deviations": "4.263878112",
+    "Installation_Date": "11/2/21"
+  },
+  {
+    "Installation_ID": "IN258",
+    "Turbine_ID": "D47",
+    "Installation_NET_Duration": "22.16",
+    "Installation_Deviations": "2.89261278",
+    "Installation_Date": "11/2/21"
+  },
+  {
+    "Installation_ID": "IN259",
+    "Turbine_ID": "D48",
+    "Installation_NET_Duration": "24.75",
+    "Installation_Deviations": "3.554623197",
+    "Installation_Date": "11/2/21"
+  },
+  {
+    "Installation_ID": "IN260",
+    "Turbine_ID": "D49",
+    "Installation_NET_Duration": "22.42",
+    "Installation_Deviations": "7.534216574",
+    "Installation_Date": "11/4/21"
+  },
+  {
+    "Installation_ID": "IN261",
+    "Turbine_ID": "D50",
+    "Installation_NET_Duration": "26",
+    "Installation_Deviations": "5.450479122",
+    "Installation_Date": "11/8/21"
+  },
+  {
+    "Installation_ID": "IN262",
+    "Turbine_ID": "D51",
+    "Installation_NET_Duration": "22.25",
+    "Installation_Deviations": "4.751564217",
+    "Installation_Date": "11/10/21"
+  },
+  {
+    "Installation_ID": "IN263",
+    "Turbine_ID": "D52",
+    "Installation_NET_Duration": "17.3",
+    "Installation_Deviations": "1.298963046",
+    "Installation_Date": "11/11/21"
+  },
+  {
+    "Installation_ID": "IN264",
+    "Turbine_ID": "D53",
+    "Installation_NET_Duration": "16.1",
+    "Installation_Deviations": "9.840989448",
+    "Installation_Date": "11/13/21"
+  },
+  {
+    "Installation_ID": "IN265",
+    "Turbine_ID": "D54",
+    "Installation_NET_Duration": "16.25",
+    "Installation_Deviations": "6.47303048",
+    "Installation_Date": "11/14/21"
+  },
+  {
+    "Installation_ID": "IN266",
+    "Turbine_ID": "D55",
+    "Installation_NET_Duration": "16.37",
+    "Installation_Deviations": "2.264528706",
+    "Installation_Date": "11/11/21"
+  },
+  {
+    "Installation_ID": "IN267",
+    "Turbine_ID": "D56",
+    "Installation_NET_Duration": "19.00",
+    "Installation_Deviations": "2.111067749",
+    "Installation_Date": "11/13/21"
+  },
+  {
+    "Installation_ID": "IN268",
+    "Turbine_ID": "E01",
+    "Installation_NET_Duration": "17.33",
+    "Installation_Deviations": "2.763169165",
+    "Installation_Date": "11/14/21"
+  },
+  {
+    "Installation_ID": "IN269",
+    "Turbine_ID": "E02",
+    "Installation_NET_Duration": "15.50",
+    "Installation_Deviations": "0.131640115",
+    "Installation_Date": "11/15/21"
+  },
+  {
+    "Installation_ID": "IN270",
+    "Turbine_ID": "E03",
+    "Installation_NET_Duration": "20.50",
+    "Installation_Deviations": "5.845275822",
+    "Installation_Date": "11/20/21"
+  },
+  {
+    "Installation_ID": "IN271",
+    "Turbine_ID": "E04",
+    "Installation_NET_Duration": "17.75",
+    "Installation_Deviations": "9.987387486",
+    "Installation_Date": "11/23/21"
+  },
+  {
+    "Installation_ID": "IN272",
+    "Turbine_ID": "E05",
+    "Installation_NET_Duration": "17.00",
+    "Installation_Deviations": "3.336262838",
+    "Installation_Date": "11/24/21"
+  },
+  {
+    "Installation_ID": "IN273",
+    "Turbine_ID": "E06",
+    "Installation_NET_Duration": "15.58",
+    "Installation_Deviations": "5.900262849",
+    "Installation_Date": "11/27/21"
+  },
+  {
+    "Installation_ID": "IN274",
+    "Turbine_ID": "E07",
+    "Installation_NET_Duration": "16.73",
+    "Installation_Deviations": "2.108813868",
+    "Installation_Date": "11/22/21"
+  },
+  {
+    "Installation_ID": "IN275",
+    "Turbine_ID": "E08",
+    "Installation_NET_Duration": "14.63",
+    "Installation_Deviations": "2.42258013",
+    "Installation_Date": "11/22/21"
+  },
+  {
+    "Installation_ID": "IN276",
+    "Turbine_ID": "E09",
+    "Installation_NET_Duration": "12.90",
+    "Installation_Deviations": "7.096795177",
+    "Installation_Date": "11/23/21"
+  },
+  {
+    "Installation_ID": "IN277",
+    "Turbine_ID": "E10",
+    "Installation_NET_Duration": "14.65",
+    "Installation_Deviations": "1.640792215",
+    "Installation_Date": "11/24/21"
+  },
+  {
+    "Installation_ID": "IN278",
+    "Turbine_ID": "E11",
+    "Installation_NET_Duration": "18.41",
+    "Installation_Deviations": "6.547086653",
+    "Installation_Date": "12/4/21"
+  },
+  {
+    "Installation_ID": "IN279",
+    "Turbine_ID": "E12",
+    "Installation_NET_Duration": "15.75",
+    "Installation_Deviations": "9.577300517",
+    "Installation_Date": "12/6/21"
+  },
+  {
+    "Installation_ID": "IN280",
+    "Turbine_ID": "E13",
+    "Installation_NET_Duration": "17.91",
+    "Installation_Deviations": "0.471979457",
+    "Installation_Date": "12/9/21"
+  },
+  {
+    "Installation_ID": "IN281",
+    "Turbine_ID": "E14",
+    "Installation_NET_Duration": "16.32",
+    "Installation_Deviations": "4.371788643",
+    "Installation_Date": "12/9/21"
+  },
+  {
+    "Installation_ID": "IN282",
+    "Turbine_ID": "E15",
+    "Installation_NET_Duration": "14.60",
+    "Installation_Deviations": "8.908786701",
+    "Installation_Date": "12/4/21"
+  },
+  {
+    "Installation_ID": "IN283",
+    "Turbine_ID": "E16",
+    "Installation_NET_Duration": "13.73",
+    "Installation_Deviations": "5.149021682",
+    "Installation_Date": "12/9/21"
+  },
+  {
+    "Installation_ID": "IN284",
+    "Turbine_ID": "E17",
+    "Installation_NET_Duration": "13.76",
+    "Installation_Deviations": "4.73449557",
+    "Installation_Date": "12/10/21"
+  },
+  {
+    "Installation_ID": "IN285",
+    "Turbine_ID": "E18",
+    "Installation_NET_Duration": "14.96",
+    "Installation_Deviations": "6.620755234",
+    "Installation_Date": "12/14/21"
+  },
+  {
+    "Installation_ID": "IN286",
+    "Turbine_ID": "E19",
+    "Installation_NET_Duration": "17.33",
+    "Installation_Deviations": "1.896908441",
+    "Installation_Date": "12/16/21"
+  },
+  {
+    "Installation_ID": "IN287",
+    "Turbine_ID": "E20",
+    "Installation_NET_Duration": "14.09",
+    "Installation_Deviations": "7.977590394",
+    "Installation_Date": "12/17/21"
+  },
+  {
+    "Installation_ID": "IN288",
+    "Turbine_ID": "E21",
+    "Installation_NET_Duration": "12.16",
+    "Installation_Deviations": "3.330831752",
+    "Installation_Date": "12/18/21"
+  },
+  {
+    "Installation_ID": "IN289",
+    "Turbine_ID": "E22",
+    "Installation_NET_Duration": "15.85",
+    "Installation_Deviations": "9.092417139",
+    "Installation_Date": "12/16/12"
+  },
+  {
+    "Installation_ID": "IN290",
+    "Turbine_ID": "E23",
+    "Installation_NET_Duration": "18.47",
+    "Installation_Deviations": "0.269386786",
+    "Installation_Date": "12/17/21"
+  },
+  {
+    "Installation_ID": "IN291",
+    "Turbine_ID": "E24",
+    "Installation_NET_Duration": "14.40",
+    "Installation_Deviations": "5.097260805",
+    "Installation_Date": "12/18/21"
+  },
+  {
+    "Installation_ID": "IN292",
+    "Turbine_ID": "E25",
+    "Installation_NET_Duration": "13.52",
+    "Installation_Deviations": "3.626162816",
+    "Installation_Date": "12/19/21"
+  },
+  {
+    "Installation_ID": "IN293",
+    "Turbine_ID": "E26",
+    "Installation_NET_Duration": "17.05",
+    "Installation_Deviations": "8.969420089",
+    "Installation_Date": "12/21/21"
+  },
+  {
+    "Installation_ID": "IN294",
+    "Turbine_ID": "E27",
+    "Installation_NET_Duration": "14.55",
+    "Installation_Deviations": "0.982635217",
+    "Installation_Date": "12/23/21"
+  },
+  {
+    "Installation_ID": "IN295",
+    "Turbine_ID": "E28",
+    "Installation_NET_Duration": "14.16",
+    "Installation_Deviations": "5.259013",
+    "Installation_Date": "12/24/21"
+  },
+  {
+    "Installation_ID": "IN296",
+    "Turbine_ID": "E29",
+    "Installation_NET_Duration": "16.02",
+    "Installation_Deviations": "2.095121671",
+    "Installation_Date": "12/27/21"
+  },
+  {
+    "Installation_ID": "IN297",
+    "Turbine_ID": "E30",
+    "Installation_NET_Duration": "12.20",
+    "Installation_Deviations": "0.540141332",
+    "Installation_Date": "12/23/21"
+  },
+  {
+    "Installation_ID": "IN298",
+    "Turbine_ID": "E31",
+    "Installation_NET_Duration": "21.14",
+    "Installation_Deviations": "5.430733507",
+    "Installation_Date": "12/24/21"
+  },
+  {
+    "Installation_ID": "IN299",
+    "Turbine_ID": "E32",
+    "Installation_NET_Duration": "16.59",
+    "Installation_Deviations": "4.901820251",
+    "Installation_Date": "12/27/21"
+  },
+  {
+    "Installation_ID": "IN300",
+    "Turbine_ID": "E33",
+    "Installation_NET_Duration": "16.9",
+    "Installation_Deviations": "9.20794754",
+    "Installation_Date": "12/28/21"
+  },
+  {
+    "Installation_ID": "IN301",
+    "Turbine_ID": "E34",
+    "Installation_NET_Duration": "17.72",
+    "Installation_Deviations": "5.233257733",
+    "Installation_Date": "1/4/22"
+  },
+  {
+    "Installation_ID": "IN302",
+    "Turbine_ID": "E35",
+    "Installation_NET_Duration": "16.98",
+    "Installation_Deviations": "4.481616872",
+    "Installation_Date": "1/9/22"
+  },
+  {
+    "Installation_ID": "IN303",
+    "Turbine_ID": "E36",
+    "Installation_NET_Duration": "14.42",
+    "Installation_Deviations": "0.74985752",
+    "Installation_Date": "1/10/22"
+  },
+  {
+    "Installation_ID": "IN304",
+    "Turbine_ID": "E37",
+    "Installation_NET_Duration": "15.23",
+    "Installation_Deviations": "6.767848308",
+    "Installation_Date": "1/11/22"
+  },
+  {
+    "Installation_ID": "IN305",
+    "Turbine_ID": "E38",
+    "Installation_NET_Duration": "13.74",
+    "Installation_Deviations": "3.219526866",
+    "Installation_Date": "1/4/22"
+  },
+  {
+    "Installation_ID": "IN306",
+    "Turbine_ID": "E39",
+    "Installation_NET_Duration": "24.8",
+    "Installation_Deviations": "1.582884238",
+    "Installation_Date": "6/15/21"
+  },
+  {
+    "Installation_ID": "IN307",
+    "Turbine_ID": "E40",
+    "Installation_NET_Duration": "21.5",
+    "Installation_Deviations": "2.551397706",
+    "Installation_Date": "6/13/21"
+  },
+  {
+    "Installation_ID": "IN308",
+    "Turbine_ID": "E41",
+    "Installation_NET_Duration": "17.4",
+    "Installation_Deviations": "6.906995963",
+    "Installation_Date": "6/15/21"
+  },
+  {
+    "Installation_ID": "IN309",
+    "Turbine_ID": "E42",
+    "Installation_NET_Duration": "20.8",
+    "Installation_Deviations": "0.744104922",
+    "Installation_Date": "6/16/21"
+  },
+  {
+    "Installation_ID": "IN310",
+    "Turbine_ID": "E43",
+    "Installation_NET_Duration": "18",
+    "Installation_Deviations": "3.885306694",
+    "Installation_Date": "6/17/21"
+  },
+  {
+    "Installation_ID": "IN311",
+    "Turbine_ID": "E44",
+    "Installation_NET_Duration": "21.15",
+    "Installation_Deviations": "3.959209229",
+    "Installation_Date": "6/21/21"
+  },
+  {
+    "Installation_ID": "IN312",
+    "Turbine_ID": "E45",
+    "Installation_NET_Duration": "16.08",
+    "Installation_Deviations": "8.700560305",
+    "Installation_Date": "6/23/21"
+  },
+  {
+    "Installation_ID": "IN313",
+    "Turbine_ID": "E46",
+    "Installation_NET_Duration": "19.17",
+    "Installation_Deviations": "5.248443072",
+    "Installation_Date": "6/24/21"
+  },
+  {
+    "Installation_ID": "IN314",
+    "Turbine_ID": "E47",
+    "Installation_NET_Duration": "16.93",
+    "Installation_Deviations": "9.231474719",
+    "Installation_Date": "6/25/21"
+  },
+  {
+    "Installation_ID": "IN315",
+    "Turbine_ID": "E48",
+    "Installation_NET_Duration": "17.87",
+    "Installation_Deviations": "9.262077589",
+    "Installation_Date": "6/25/21"
+  },
+  {
+    "Installation_ID": "IN316",
+    "Turbine_ID": "E49",
+    "Installation_NET_Duration": "20.75",
+    "Installation_Deviations": "0.578558123",
+    "Installation_Date": "6/26/21"
+  },
+  {
+    "Installation_ID": "IN317",
+    "Turbine_ID": "E50",
+    "Installation_NET_Duration": "16.4",
+    "Installation_Deviations": "7.83300131",
+    "Installation_Date": "7/3/21"
+  },
+  {
+    "Installation_ID": "IN318",
+    "Turbine_ID": "E51",
+    "Installation_NET_Duration": "46.58",
+    "Installation_Deviations": "2.985579499",
+    "Installation_Date": "7/4/21"
+  },
+  {
+    "Installation_ID": "IN319",
+    "Turbine_ID": "E52",
+    "Installation_NET_Duration": "29.8",
+    "Installation_Deviations": "6.873528969",
+    "Installation_Date": "7/3/21"
+  }
+]

@@ -3,14 +3,14 @@ import React, {useEffect, useState} from 'react';
 import Header from "../../../components/Header/Header.jsx";
 import HeaderText from "../../../components/HeaderText/MK1/HeaderText.jsx";
 
-import ContentContainerLoadout from "../../../components/Containers/ContentContainer/ContentContainerLoadout.jsx";
+import ContentContainer from "../../../components/Containers/ContentContainer/ContentContainer.jsx";
 import ScrollArea from "../../../components/ScrollArea/ScrollArea.jsx";
 
 import styles from './ProjectDetailPage.module.scss';
 import loadout from "../../../utils/demo-data/loadout.json";
 import icon from "../../../icons/png/arrow-right-1.png";
 
-function ProjectDetailPage({projectId, projectName, storedProjectId}) {
+function ProjectDetailPage({projectId, projectName, storedProjectId, turbineCount}) {
     const [loadoutData, setLoadoutData] = useState([]);
     const [filteredLoadoutData, setFilteredLoadoutData] = useState([]);
     // Synchronous concurrency flag
@@ -95,23 +95,30 @@ function ProjectDetailPage({projectId, projectName, storedProjectId}) {
                             <div className={styles.project_grid_turbines_title}>
                                 Nr. of available turbines
                                 <div className={styles.project_grid_turbines_title_value}>
-                                    <span className={styles.project_grid_turbines_span}>46</span>
+                                    <span className={styles.project_grid_turbines_span}>{turbineCount}</span>
                                 </div>
                             </div>
 
                             <div className={styles.project_grid_turbines_title}>
                                 Nr. of turbine installations
                                 <div className={styles.project_grid_turbines_title_value}>
-                                    <span className={styles.project_grid_turbines_span}>52</span>
+                                    <span className={styles.project_grid_turbines_span}>{turbineCount}</span>
                                 </div>
                             </div>
 
                         </div>
 
-                        {stateCheck && <ContentContainerLoadout totalDurationCount={parseInt(totalDurationCount)}
-                                                                totalAverageCount={parseInt(totalAverageDurationCount / totalLoadoutCount)}
-                                                                totalLoadoutCount={totalLoadoutCount}
-                        />}
+                        {stateCheck &&
+                            <ContentContainer
+                                containerTitle={"Loadout Activity"}
+                                fieldTitleOne={"Number of loadouts"}
+                                fieldTitleTwo={"Total loadout duration"}
+                                fieldTitleThree={"Average loadout duration"}
+                                fieldValueOne={totalLoadoutCount}
+                                fieldValueTwo={parseInt(totalDurationCount) + ' h'}
+                                fieldValueThree={parseInt(totalAverageDurationCount / totalLoadoutCount) + ' h'}
+                            />
+                        }
 
                         <div className={styles.project_grid_row}>
                             <div className={styles.project_grid_row_title}>

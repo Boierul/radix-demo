@@ -1,6 +1,4 @@
-import React, {useEffect, useContext} from 'react';
-
-import Map from "../../components/Maps/Map.jsx";
+import React from 'react';
 import Header from "../../components/Header/Header.jsx";
 import HeaderTextMK2 from "../../components/HeaderText/MK2/HeaderTextMK2.jsx";
 
