@@ -1,8 +1,26 @@
 import React, {useEffect, useState} from "react";
 import * as XLSX from "xlsx";
 import ButtonText from "../../components/Buttons/ButtonText/ButtonText.jsx";
+import ButtonOutline from "../../components/Buttons/ButtonOutline/ButtonOutline.jsx";
 
 function ExcelFile({commissioningData, installationData, serviceData}) {
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        // Check if window is mobile
+        const checkIsMobile = () => {
+            setIsMobile(window.innerWidth < 960);
+        }
+
+        // Call checkIsMobile initially and on window resize
+        checkIsMobile();
+        window.addEventListener('resize', checkIsMobile);
+
+        // Remove event listener on cleanup
+        return () => window.removeEventListener('resize', checkIsMobile);
+    }, []);
+
+
 
     // Check if data is an array or object and convert to worksheet
     function comparePropsArray(inputData) {
@@ -63,7 +81,8 @@ function ExcelFile({commissioningData, installationData, serviceData}) {
 
     return (
         <div onClick={handleExport}>
-            <ButtonText text="Download reports" fontSize='15px' path='none'/>
+            {isMobile ? <ButtonOutline text="Download reports" fontSize='15px' path='none'/>
+                : <ButtonText text="Download reports" fontSize='15px' path='none'/>}
         </div>
     );
 }

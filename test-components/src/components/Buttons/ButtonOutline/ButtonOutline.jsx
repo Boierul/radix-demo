@@ -5,11 +5,15 @@ import styles from "./ButtonOutline.module.scss";
 
 function ButtonOutline({text, fontSize, path}) {
     function handleClick() {
-        window.location.href = `/${path}`;
+        if (path === 'none') {
+            return;
+        } else {
+            window.location.href = `/${path}`;
+        }
     }
 
     return (
-        <Link to={``} className={styles.button_outline} style={{ fontSize: `${fontSize}`}} onClick={handleClick}>
+        <Link to="" className={styles.button_outline} style={{ fontSize: `${fontSize}`}} onClick={handleClick}>
             {text}
         </Link>
     );

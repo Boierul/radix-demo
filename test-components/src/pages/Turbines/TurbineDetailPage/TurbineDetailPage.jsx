@@ -172,7 +172,9 @@ function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
                 </div>
 
                 <div className={styles.turbines_detail_reports_mobile}>
-                    <ButtonOutline text="Download reports" fontSize='15px' path='projects'/>
+                    <ExcelFile commissioningData={commissioningData}
+                               installationData={installationData}
+                               serviceData={serviceData}/>
                 </div>
 
                 <div className={styles.turbines_details_maps_container}>
