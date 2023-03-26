@@ -9,6 +9,7 @@ import ProjectDetailWrapper from "./pages/Projects/Wrappers/ProjectDetailWrapper
 import UnderConstructionPage from "./pages/Misc/UnderConstruction/UnderConstructionPage.jsx";
 import TurbineDetailPageWrapper from "./pages/Turbines/Wrappers/TurbineDetailPageWrapper.jsx";
 import TurbineIcon from "./components/TurbineIcon/TurbineIcon.jsx";
+import PulsatingCircle from "./components/PulsatingCircle/PulsatingCircle.jsx";
 
 function App() {
     return (
@@ -28,8 +29,8 @@ function App() {
                 alignItems: "center",
                 flexDirection: "column"
             }}>
-                {/*<PulsatingCircle/>*/}
-                <TurbineIcon/>
+                <PulsatingCircle/>
+                {/*<TurbineIcon/>*/}
                 {/*<ExcelFile data={loadout}/>*/}
             </div>}/>
         </Routes>

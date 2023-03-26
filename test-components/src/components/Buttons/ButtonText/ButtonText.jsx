@@ -5,8 +5,13 @@ import styles from './ButtonText.module.scss';
 
 function ButtonText({text, fontSize, path}) {
     function handleClick() {
-        window.location.href = `/${path}`;
+        if (path === 'none') {
+            return;
+        } else {
+            window.location.href = `/${path}`;
+        }
     }
+
     return (
         <Link to="" onClick={handleClick}>
             <a className={styles.button_text} style={{

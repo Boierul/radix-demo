@@ -11,12 +11,14 @@ import services from '../../../utils/demo-data/services.json'
 import commissions from '../../../utils/demo-data/commisions.json'
 import ButtonText from "../../../components/Buttons/ButtonText/ButtonText.jsx";
 import ButtonOutline from "../../../components/Buttons/ButtonOutline/ButtonOutline.jsx";
+import ExcelFile from "../../../features/Excel/ExcelFile.jsx";
 
 function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
 
     /*--------------------------------------------------------------------------------------------*/
 
     // Installations data
+    const [installationData, setInstallationData] = useState([]);
     const [installationsID, setInstallationsID] = useState([]);
     const [installationsDate, setInstallationsDate] = useState([]);
     const [installationsNetDuration, setInstallationsNetDuration] = useState([]);
@@ -27,9 +29,10 @@ function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
     useEffect(() => {
         installations.map((installation) => {
             if (installation.Turbine_ID === storedTurbineName) {
+                setInstallationData(installation)
                 setInstallationsID(installation.Installation_ID)
                 setInstallationsDate(formatDate(installation.Installation_Date))
-                setInstallationsNetDuration(installation.Installation_NET_Duration)
+                setInstallationsNetDuration(installation.Installation_NET_Duration + ' h')
                 setInstallationsDeviation(installation.Installation_Deviations)
             }
         })
@@ -52,6 +55,7 @@ function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
     /*--------------------------------------------------------------------------------------------*/
 
     // Service data
+    const [serviceData, setServiceData] = useState([]);
     const [servicesID, setServicesID] = useState([]);
     const [servicesDate, setServicesDate] = useState([]);
     const [servicesNetDuration, setServicesNetDuration] = useState([]);
@@ -61,9 +65,10 @@ function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
     useEffect(() => {
         services.map((service) => {
             if (service.Turbine_ID === storedTurbineName) {
+                setServiceData(service)
                 setServicesID(service.Service_ID)
                 setServicesDate(formatDateWithoutAddedYear(service.Service_Date))
-                setServicesNetDuration(service.Service_NET_Duration)
+                setServicesNetDuration(service.Service_NET_Duration + ' h')
                 setServicesDeviation(service.Service_Deviations)
             }
         })
@@ -71,7 +76,7 @@ function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
 
     // Function that formats the date from the API to a more readable format
     function formatDateWithoutAddedYear(dateString) {
-        const [month, day, year] = dateString.split('/');
+        const [day, month, year] = dateString.split('/');
         const monthNames = ["January", "February", "March", "April", "May", "June",
             "July", "August", "September", "October", "November", "December"
         ];
@@ -86,6 +91,7 @@ function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
     /*--------------------------------------------------------------------------------------------*/
 
     // Commissioning data
+    const [commissioningData, setCommissioningData] = useState([]);
     const [commissionID, setCommissionID] = useState([]);
     const [commissionsDate, setCommissionsDate] = useState([]);
     const [commissionsNetDuration, setCommissionsNetDuration] = useState([]);
@@ -95,9 +101,10 @@ function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
     useEffect(() => {
         commissions.map((commission) => {
             if (commission.Turbine_ID === storedTurbineName) {
+                setCommissioningData(commission)
                 setCommissionID(commission.Comm_ID)
                 setCommissionsDate(formatDateWithoutAddedYear(commission.Comm_Date))
-                setCommissionsNetDuration(commission.Comm_NET_Duration)
+                setCommissionsNetDuration(commission.Comm_NET_Duration + ' h')
                 setCommissionsDeviation(commission.Comm_Deviations)
             }
         })
@@ -117,7 +124,9 @@ function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
                     />
 
                     <div className={styles.turbines_detail_reports}>
-                        <ButtonText text="Download reports" fontSize='15px' path='projects'/>
+                        <ExcelFile commissioningData={commissioningData}
+                                   installationData={installationData}
+                                   serviceData={serviceData}/>
                     </div>
                 </div>
 
