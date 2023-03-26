@@ -9,8 +9,6 @@ import styles from './TurbineDetailPage.module.scss';
 import installations from '../../../utils/demo-data/installations.json'
 import services from '../../../utils/demo-data/services.json'
 import commissions from '../../../utils/demo-data/commisions.json'
-import ButtonText from "../../../components/Buttons/ButtonText/ButtonText.jsx";
-import ButtonOutline from "../../../components/Buttons/ButtonOutline/ButtonOutline.jsx";
 import ExcelFile from "../../../features/Excel/ExcelFile.jsx";
 
 function TurbineDetailPage({projectId, projectName, storedTurbineName}) {

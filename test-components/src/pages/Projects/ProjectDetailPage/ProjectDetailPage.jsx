@@ -11,6 +11,9 @@ import loadout from "../../../utils/demo-data/loadout.json";
 import icon from "../../../icons/png/arrow-right-1.png";
 
 function ProjectDetailPage({projectId, projectName, storedProjectId, turbineCount}) {
+    // Set the project Name and name in local storage
+    localStorage.setItem('projectName', projectName)
+
     const [loadoutData, setLoadoutData] = useState([]);
     const [filteredLoadoutData, setFilteredLoadoutData] = useState([]);
     // Synchronous concurrency flag

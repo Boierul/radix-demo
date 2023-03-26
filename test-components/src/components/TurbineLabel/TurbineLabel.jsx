@@ -1,12 +1,13 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import styles from "./TurbineLabel.module.scss";
 import PulsatingCircle from "../PulsatingCircle/PulsatingCircle.jsx";
 
-function TurbineLabel({projectId, turbineName}) {
+function TurbineLabel({projectId, turbineName, projectName}) {
 
     function handleTurbineClick() {
         // Save to local storage (Redux is not persistent)
         localStorage.setItem('turbineName', turbineName)
+        localStorage.setItem('projectName', projectName)
         window.location.href = `/projects/${projectId}/turbines/${turbineName}`;
     }
 

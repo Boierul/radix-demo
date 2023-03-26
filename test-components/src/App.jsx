@@ -8,8 +8,8 @@ import TurbineHomeWrapper from "./pages/Turbines/Wrappers/TurbineHomeWrapper.jsx
 import ProjectDetailWrapper from "./pages/Projects/Wrappers/ProjectDetailWrapper.jsx";
 import UnderConstructionPage from "./pages/Misc/UnderConstruction/UnderConstructionPage.jsx";
 import TurbineDetailPageWrapper from "./pages/Turbines/Wrappers/TurbineDetailPageWrapper.jsx";
-import TurbineIcon from "./components/TurbineIcon/TurbineIcon.jsx";
 import PulsatingCircle from "./components/PulsatingCircle/PulsatingCircle.jsx";
+import TurbinesAll from "./pages/Turbines/TurbinesAll/TurbinesAll.jsx";
 
 function App() {
     return (
@@ -19,6 +19,7 @@ function App() {
             <Route path="/projects/:projectId" element={<ProjectDetailWrapper/>}/>
             <Route path="/projects/:projectId/turbines" element={<TurbineHomeWrapper/>}/>
             <Route path="/projects/:projectId/turbines/:turbineId" element={<TurbineDetailPageWrapper/>}/>
+            <Route path="/projects/:projectId/turbinesAll" element={<TurbinesAll/>}/>
             <Route path="/construction" element={<UnderConstructionPage/>}/>
             <Route path="/*" element={<Custom404/>}/>
 
@@ -30,8 +31,6 @@ function App() {
                 flexDirection: "column"
             }}>
                 <PulsatingCircle/>
-                {/*<TurbineIcon/>*/}
-                {/*<ExcelFile data={loadout}/>*/}
             </div>}/>
         </Routes>
     )

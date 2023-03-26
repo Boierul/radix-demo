@@ -27,7 +27,7 @@ function TurbinesHome({projectId, projectName, turbineList}) {
                 <div className={styles.turbines_grid_container}>
                     {reduceList.map((turbine) => {
                         return (
-                            <TurbineLabel turbineName={turbine.Turbine_ID} projectId={projectId}/>
+                            <TurbineLabel turbineName={turbine.Turbine_ID} projectId={projectId} projectName={projectName}/>
                         )
                     })}
                     <div className={styles.turbine_grid_container_row}>
