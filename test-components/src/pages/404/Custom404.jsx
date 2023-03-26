@@ -10,7 +10,7 @@ function Custom404() {
                 <h2 className={styles.heading}>This page could not be found.</h2>
             </div>
             <div className={styles.link_container}>
-                <ButtonText text="Go to homepage" fontSize='12px'/>
+                <ButtonText text="Go to homepage" fontSize='12px' path=''/>
             </div>
         </div>
     );

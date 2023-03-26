@@ -1,5 +1,4 @@
 import './App.scss'
-import {useState} from "react";
 import {Route, Routes} from "react-router-dom";
 
 import Home from "./pages/Home/Home.jsx";
@@ -8,7 +7,6 @@ import Custom404 from "./pages/404/Custom404.jsx";
 import TurbineHomeWrapper from "./pages/Turbines/Wrappers/TurbineHomeWrapper.jsx";
 import ProjectDetailWrapper from "./pages/Projects/Wrappers/ProjectDetailWrapper.jsx";
 import UnderConstructionPage from "./pages/Misc/UnderConstruction/UnderConstructionPage.jsx";
-import PulsatingCircle from "./components/PulsatingCircle/PulsatingCircle.jsx";
 import TurbineDetailPageWrapper from "./pages/Turbines/Wrappers/TurbineDetailPageWrapper.jsx";
 import TurbineIcon from "./components/TurbineIcon/TurbineIcon.jsx";
 
@@ -30,9 +28,9 @@ function App() {
                 alignItems: "center",
                 flexDirection: "column"
             }}>
-                {/*<ButtonText text="Baraga"/>*/}
                 {/*<PulsatingCircle/>*/}
                 <TurbineIcon/>
+                {/*<ExcelFile data={loadout}/>*/}
             </div>}/>
         </Routes>
     )

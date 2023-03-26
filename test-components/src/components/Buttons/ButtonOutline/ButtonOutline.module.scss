@@ -1,15 +1,15 @@
-.link:hover {
+.button_outline:hover {
   background-color: var(--main-color-hover);
   transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.link {
+.button_outline {
   cursor: pointer;
   font-weight: 300;
   font-size: 11px;
   color: var(--main-color-reverse);
   text-decoration: none;
-  //border: 1px solid rgba(0,0,0,.3);
+  border: 1px solid rgba(0,0,0,.3);
   padding: 10px 20px;
   border-radius: 4px;
   transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);

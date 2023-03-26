@@ -5,8 +5,27 @@
 .header_text {
   margin-top: 3rem;
   margin-left: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   @media screen and (max-width: 520px) {
     margin-left: 1rem;
+  }
+}
+
+.turbines_detail_reports {
+  margin-right: 5rem;
+  @media screen and (max-width: 960px) {
+    display: none;
+  }
+}
+
+.turbines_detail_reports_mobile {
+  display: none;
+  @media screen and (max-width: 960px) {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -92,4 +111,3 @@
   display: flex;
   justify-content: space-between;
 }
-

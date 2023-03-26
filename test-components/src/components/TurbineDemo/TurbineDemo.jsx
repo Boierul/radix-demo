@@ -1,10 +1,15 @@
 import React from 'react';
+
 import './TurbineDemo.css'
+import TimeContainer from "../TimeContainer/TimeContainer";
 
 function TurbineDemo() {
     return (
         <>
             <div className="container">
+                <div className='turbine_demo_time'>
+                    <TimeContainer/>
+                </div>
                 <div className="stolby">
                     <svg
                         version="1.1"

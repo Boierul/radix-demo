@@ -1,12 +1,16 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-import styles from "../ButtonText/ButtonText.module.scss";
+import styles from "./ButtonOutline.module.scss";
 
-function ButtonOutline(props) {
+function ButtonOutline({text, fontSize, path}) {
+    function handleClick() {
+        window.location.href = `/${path}`;
+    }
+
     return (
-        <Link to="/">
-            <a className={styles.button_text}>{text}</a>
+        <Link to={``} className={styles.button_outline} style={{ fontSize: `${fontSize}`}} onClick={handleClick}>
+            {text}
         </Link>
     );
 }

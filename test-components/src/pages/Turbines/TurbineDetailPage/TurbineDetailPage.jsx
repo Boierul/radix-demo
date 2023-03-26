@@ -9,6 +9,8 @@ import styles from './TurbineDetailPage.module.scss';
 import installations from '../../../utils/demo-data/installations.json'
 import services from '../../../utils/demo-data/services.json'
 import commissions from '../../../utils/demo-data/commisions.json'
+import ButtonText from "../../../components/Buttons/ButtonText/ButtonText.jsx";
+import ButtonOutline from "../../../components/Buttons/ButtonOutline/ButtonOutline.jsx";
 
 function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
 
@@ -113,6 +115,10 @@ function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
                         projectId={`${projectId}`}
                         turbineId={`${storedTurbineName}`}
                     />
+
+                    <div className={styles.turbines_detail_reports}>
+                        <ButtonText text="Download reports" fontSize='15px' path='projects'/>
+                    </div>
                 </div>
 
                 <div className={styles.turbines_detail_grid}>
@@ -154,6 +160,10 @@ function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
                                           fieldValueFour={(Math.round(commissionsDeviation * 100) / 100).toFixed(2)}
                         />
                     </div>
+                </div>
+
+                <div className={styles.turbines_detail_reports_mobile}>
+                    <ButtonOutline text="Download reports" fontSize='15px' path='projects'/>
                 </div>
 
                 <div className={styles.turbines_details_maps_container}>

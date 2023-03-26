@@ -3,9 +3,12 @@ import {Link} from "react-router-dom";
 
 import styles from './ButtonText.module.scss';
 
-function ButtonText({text, fontSize}) {
+function ButtonText({text, fontSize, path}) {
+    function handleClick() {
+        window.location.href = `/${path}`;
+    }
     return (
-        <Link to="/">
+        <Link to="" onClick={handleClick}>
             <a className={styles.button_text} style={{
                 fontSize: `${fontSize}`
             }}>{text}</a>
