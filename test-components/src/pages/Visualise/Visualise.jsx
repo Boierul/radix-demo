@@ -7,6 +7,7 @@ import styles from './Visualise.module.scss'
 import LinearChart from "../../components/Charts/LinearChart/LinearChart.jsx";
 import LinearChartMK2 from "../../components/Charts/LinearChart/LinearChartMK2.jsx";
 import PieChart from "../../components/Charts/PieChart/PieChart.jsx";
+import ScatterPlot from "../../components/Charts/ScatterPlot/ScatterPlot.jsx";
 
 function Visualise() {
     return (
@@ -60,9 +61,24 @@ function Visualise() {
                 <div style={{
                     height: "800px",
                     paddingLeft: '3rem',
-                    width: "auto",
+                    width: "auto"
                 }}>
                     <PieChart/>
+                </div>
+
+                <div className={styles.header_text}>
+                    <HeaderText
+                        title="Turbine Trend Chart"
+                        subtitle="Trend chart that displays turbine malfunctions"
+                    />
+                </div>
+
+                <div style={{
+                    height: "800px",
+                    paddingLeft: '3rem',
+                    width: "auto"
+                }}>
+                    <ScatterPlot/>
                 </div>
 
                 <div className={styles.header_text} style={{

@@ -92,7 +92,7 @@
 }
 
 .turbines_details_maps_container {
-  margin: 4rem 5rem;
+  margin: 3rem 5rem;
   border: 2px solid #ececec;
   border-radius: 10px;
   box-shadow: 0 2px 10px var(--blackA7);
@@ -110,4 +110,30 @@
 .turbines_details_maps_container_inner {
   display: flex;
   justify-content: space-between;
+}
+
+.turbines_detail_visualise_row {
+  width: auto;
+  height: 100px;
+  margin: 0 5rem;
+  margin-bottom: 2rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ececec;
+  border-radius: 6px;
+  color: #f8f6f8;
+  background-color: var(--main-color-reverse);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  @media screen and (max-width: 920px) {
+    margin: 0 3rem;
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0 2rem;
+  }
+}
+
+.turbines_detail_visualise_row:hover {
+  cursor: pointer;
+  background-color: rgb(26, 26, 26);
 }

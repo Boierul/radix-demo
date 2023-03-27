@@ -13,6 +13,7 @@ import Visualise from "./pages/Visualise/Visualise.jsx";
 import PulsatingCircle from "./components/PulsatingCircle/PulsatingCircle.jsx";
 import LinearChart from "./components/Charts/LinearChart/LinearChart.jsx";
 import PieChart from "./components/Charts/PieChart/PieChart.jsx";
+import ScatterPlot from "./components/Charts/ScatterPlot/ScatterPlot.jsx";
 
 function App() {
     return (
@@ -36,7 +37,7 @@ function App() {
                     alignItems: "center",
                     flexDirection: "column"
                 }}>
-                    <PieChart/>
+                    <ScatterPlot/>
                     {/*<PulsatingCircle/>*/}
                     {/*<ContainerData/>*/}
                 </div>}/>
