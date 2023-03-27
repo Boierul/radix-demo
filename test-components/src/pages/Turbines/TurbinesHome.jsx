@@ -9,7 +9,6 @@ import plusIcon from "../../icons/png/plus-inverted.png";
 import TurbineDemo from "../../components/TurbineDemo/TurbineDemo.jsx";
 import ButtonText from "../../components/Buttons/ButtonText/ButtonText.jsx";
 import ButtonOutline from "../../components/Buttons/ButtonOutline/ButtonOutline.jsx";
-import CalendarDemo from "../../components/Calendar/CalendarDemo.jsx";
 
 function TurbinesHome({projectId, projectName, turbineList}) {
     // Limit the number of turbines to 10 to display

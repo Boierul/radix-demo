@@ -3,90 +3,79 @@ import React from 'react';
 import {DataGrid, GridToolbar} from "@mui/x-data-grid";
 import {Box} from "@mui/material";
 
-import {mockMonitorData} from "../../data/mockData.js";
+import {mockContainerData} from "../../data/mockContainerData.js";
 
 /* Add this field to make the cells editable: cellClassName: "name-column--cell" */
 const columns = [
     {
         field: "id",
-        headerName: "Tree ID",
-        flex: 2,
-        headerAlign: 'center',
-        align: "center"
-    },
-    {
-        field: "projectId",
-        headerName: "Project",
+        headerName: "UDI",
         flex: 0.7,
         headerAlign: 'center',
         align: "center"
     },
     {
-        field: "field",
-        headerName: "Field Nr.",
-        flex: 0.8,
-        type: "number",
+        field: "productID",
+        headerName: "Product ID",
+        flex: 1.1,
+        headerAlign: 'center',
+        align: "center"
+    },
+    {
+        field: "type",
+        headerName: "Type",
+        flex: 0.7,
         headerAlign: 'center',
         align: "center",
     },
     {
-        field: "keeperName",
-        headerName: "Keeper",
-        flex: 1.5,
-        headerAlign: 'center',
-        align: "center"
-    },
-    {
-        field: "dateTime",
-        headerName: "Time / Date",
-        flex: 2,
-        headerAlign: 'center',
-        align: "center"
-    },
-    {
-        field: "geolocation",
-        headerName: "Geolocation",
-        flex: 2,
-        headerAlign: 'center',
-        align: "center"
-    },
-    {
-        field: "kgCO2",
-        headerName: "Kg / CO2",
-        type: "number",
-        flex: 0.9,
-        headerAlign: 'center',
-        align: "center"
-    },
-    {
-        field: "hm",
-        headerName: "H (m)",
-        type: "number",
-        flex: 0.5,
-        headerAlign: 'center',
-        align: "center"
-    },
-    {
-        field: "dcm",
-        headerName: "D (cm)",
-        type: "number",
-        flex: 0.7,
-        headerAlign: 'center',
-        align: "center"
-    },
-    {
-        field: "treeSpecies",
-        headerName: "Tree Species",
+        field: "airTemperature",
+        headerName: "Air Temperature [K]",
         flex: 1.2,
         headerAlign: 'center',
-        align: "center"
+        align: "center",
     },
     {
-        field: "notes",
-        headerName: "Notes",
-        flex: 2,
+        field: "processTemperature",
+        headerName: "Process Temperature [K]",
+        flex: 1.2,
         headerAlign: 'center',
-        align: "center"
+        align: "center",
+    },
+    {
+        field: "rotationalSpeed",
+        headerName: "Rotational Speed [rpm]",
+        flex: 1.2,
+        headerAlign: 'center',
+        align: "center",
+    },
+    {
+        field: "torque",
+        headerName: "Torque [N/m]",
+        flex: 0.8,
+        headerAlign: 'center',
+        align: "center",
+    },
+    {
+        field: "toolWear",
+        headerName: "Tool Wear [min]",
+        flex: 0.8,
+        headerAlign: 'center',
+        align: "center",
+    },
+    {
+        field: "target",
+        headerName: "Target",
+        flex: 0.6,
+        headerAlign: 'center',
+        align: "center",
+    },
+    {
+        field: "failureType",
+        headerName: "Failure Type",
+        flex: 0.8,
+        headerAlign: 'center',
+        align: "center",
     }
 ];
 
@@ -94,7 +83,7 @@ function ContainerData() {
     return (
         <>
             <Box
-                m="2rem 0 0 0"
+                m="2.5rem 0 0 0"
                 p="0 5rem"
                 height="70vh"
                 sx={{
@@ -103,7 +92,7 @@ function ContainerData() {
                         fontSize: "13px",
                     },
                     "& .MuiDataGrid-iconSeparator": {
-                        color: '#f4f4f4'
+                        color: '#f4f4f4',
                     },
                     "& .MuiDataGrid-cell": {
                         borderBottom: "none",
@@ -125,20 +114,25 @@ function ContainerData() {
                         borderTop: "none",
                         backgroundColor: '#f4f4f4',
                         color: '#000',
-                        borderRadius: "0.2em"
+                        borderRadius: "0.2em",
+                        border: '1.5px solid #D9D9D9;'
                     },
                     "& .MuiCheckbox-root": {
                         color: '#f4f4f4',
                     },
                     "& .MuiDataGrid-toolbarContainer .MuiButton-text": {
                         color: `#000`,
+                    },
+                    "& .MuiSvgIcon-fontSizeSmall" : {
+                        color: `#fff`,
+                        opacity: 1
                     }
                 }}
             >
                 <DataGrid
                     columns={columns}
-                    density='comfortable'
-                    rows={mockMonitorData}
+                    density='standard'
+                    rows={mockContainerData}
                     components={{Toolbar: GridToolbar}}
                 />
             </Box>

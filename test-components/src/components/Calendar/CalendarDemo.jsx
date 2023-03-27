@@ -38,7 +38,7 @@ const CalendarDemo = () => {
                         style={{
                             backgroundColor: "white",
                             borderRadius: "5px",
-                            padding: "20px",
+                            padding: "30px",
                             boxShadow: '0 2px 10px rgba(0,0,0,.3)',
                             border: '1px solid rgba(0,0,0,.3)'
                         }}
@@ -50,9 +50,9 @@ const CalendarDemo = () => {
                         <div><span style={{fontWeight: 600}}>Value: </span>{` ${e.value}`}</div>
                         <div style={{
                             borderBottom: '1px solid rgba(0,0,0,.3)',
-                            paddingTop: '.25rem',
+                            paddingTop: '.55rem'
                         }}/>
-                        <div><span style={{fontWeight: 600}}>Magnitude_TP_Max: </span>{` ${e.data.Magnitude_TP_Max}`}</div>
+                        <div style={{paddingTop: '.55rem'}}><span style={{fontWeight: 600}}>Magnitude_TP_Max: </span>{` ${e.data.Magnitude_TP_Max}`}</div>
                         <div><span style={{fontWeight: 600}}>Magnitude_TP_Mean: </span>{` ${e.data.Magnitude_TP_Mean}`}</div>
                         <div><span style={{fontWeight: 600}}>Magnitude_TP_Min: </span>{` ${e.data.Magnitude_TP_Min}`}</div>
                         <div><span style={{fontWeight: 600}}>Magnitude_VesselQuaySide_Max: </span>{` ${e.data.Magnitude_VesselQuaySide_Max}`}</div>
