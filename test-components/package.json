@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.14",
+    "@mui/x-data-grid": "^5.17.19",
     "@nivo/calendar": "^0.80.0",
     "@nivo/colors": "^0.80.0",
     "@radix-ui/colors": "^0.1.8",

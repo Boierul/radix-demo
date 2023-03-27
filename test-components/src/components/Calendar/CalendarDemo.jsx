@@ -28,8 +28,8 @@ const CalendarDemo = () => {
             margin={{top: 40, right: 40, bottom: 40, left: 40}}
             yearSpacing={40}
             monthBorderColor="#fff"
-            onClick={(e)=> {
-                console.log(e.data.Turbine_ID)
+            onClick={(e) => {
+                console.log(e)
                 // window.location.href = `/projects/${e.data.Project_ID}/turbines/${e.data.Turbine_ID}`
             }}
             tooltip={(e) => {
@@ -37,16 +37,27 @@ const CalendarDemo = () => {
                     <div
                         style={{
                             backgroundColor: "white",
-                            border: "1px solid black",
                             borderRadius: "5px",
-                            padding: "5px",
+                            padding: "20px",
+                            boxShadow: '0 2px 10px rgba(0,0,0,.3)',
+                            border: '1px solid rgba(0,0,0,.3)'
                         }}
                     >
-                        <div>{`Date: ${e.data.TimestampUtc}`}</div>
-                        <div>{`Project ID: ${e.data.Project_ID}`}</div>
-                        <div>{`Turbine ID: ${e.data.Turbine_ID}`}</div>
-                        <div>{`Kit ID: ${e.data.KitId}`}</div>
-                        <div>{`Value: ${e.value}`}</div>
+                        <div><span style={{fontWeight: 600}}>Date:</span> {` ${e.data.TimestampUtc}`}</div>
+                        <div><span style={{fontWeight: 600}}>Project ID:</span>{` ${e.data.Project_ID}`}</div>
+                        <div><span style={{fontWeight: 600}}>Turbine ID: </span>{` ${e.data.Turbine_ID}`}</div>
+                        <div><span style={{fontWeight: 600}}>Kit ID: </span>{` ${e.data.KitId}`}</div>
+                        <div><span style={{fontWeight: 600}}>Value: </span>{` ${e.value}`}</div>
+                        <div style={{
+                            borderBottom: '1px solid rgba(0,0,0,.3)',
+                            paddingTop: '.25rem',
+                        }}/>
+                        <div><span style={{fontWeight: 600}}>Magnitude_TP_Max: </span>{` ${e.data.Magnitude_TP_Max}`}</div>
+                        <div><span style={{fontWeight: 600}}>Magnitude_TP_Mean: </span>{` ${e.data.Magnitude_TP_Mean}`}</div>
+                        <div><span style={{fontWeight: 600}}>Magnitude_TP_Min: </span>{` ${e.data.Magnitude_TP_Min}`}</div>
+                        <div><span style={{fontWeight: 600}}>Magnitude_VesselQuaySide_Max: </span>{` ${e.data.Magnitude_VesselQuaySide_Max}`}</div>
+                        <div><span style={{fontWeight: 600}}>Magnitude_VesselQuaySide_Mean: </span>{` ${e.data.Magnitude_VesselQuaySide_Mean}`}</div>
+                        <div><span style={{fontWeight: 600}}>Magnitude_VesselQuaySide_Min: </span>{` ${e.data.Magnitude_VesselQuaySide_Min}`}</div>
                     </div>
                 )
             }

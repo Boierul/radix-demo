@@ -11,6 +11,8 @@ import TurbineDetailPageWrapper from "./pages/Turbines/Wrappers/TurbineDetailPag
 import TurbineAllWrapper from "./pages/Turbines/Wrappers/TurbineAllWrapper.jsx";
 import CalendarDemo from "./components/Calendar/CalendarDemo.jsx";
 import Visualise from "./pages/Visualise/Visualise.jsx";
+import ContainerData from "./components/ContainerData/ContainerData.jsx";
+import PulsatingCircle from "./components/PulsatingCircle/PulsatingCircle.jsx";
 
 function App() {
     return (
@@ -33,9 +35,10 @@ function App() {
                 alignItems: "center",
                 flexDirection: "column"
             }}>
-                {/*<PulsatingCircle/>*/}
+                <PulsatingCircle/>
                 {/*<SelectDemo/>*/}
-                <CalendarDemo/>
+                {/*<CalendarDemo/>*/}
+                {/*<ContainerData/>*/}
             </div>}/>
         </Routes>
     )
