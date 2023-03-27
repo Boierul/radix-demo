@@ -9,8 +9,8 @@ import ProjectDetailWrapper from "./pages/Projects/Wrappers/ProjectDetailWrapper
 import UnderConstructionPage from "./pages/Misc/UnderConstruction/UnderConstructionPage.jsx";
 import TurbineDetailPageWrapper from "./pages/Turbines/Wrappers/TurbineDetailPageWrapper.jsx";
 import TurbineAllWrapper from "./pages/Turbines/Wrappers/TurbineAllWrapper.jsx";
-import PulsatingCircle from "./components/PulsatingCircle/PulsatingCircle.jsx";
 import CalendarDemo from "./components/Calendar/CalendarDemo.jsx";
+import Visualise from "./pages/Visualise/Visualise.jsx";
 
 function App() {
     return (
@@ -22,11 +22,12 @@ function App() {
             <Route path="/projects/:projectId/turbines/:turbineId" element={<TurbineDetailPageWrapper/>}/>
             <Route path="/projects/:projectId/turbinesAll" element={<TurbineAllWrapper/>}/>
             <Route path="/construction" element={<UnderConstructionPage/>}/>
+            <Route path="/visualise" element={<Visualise/>}/>
             <Route path="/*" element={<Custom404/>}/>
 
             <Route path="/demo" element={<div style={{
-                height: "100vh",
-                width: "100vw",
+                height: "99vh",
+                width: "auto",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",

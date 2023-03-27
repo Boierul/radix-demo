@@ -66,10 +66,12 @@ a {
 .Text.faded {
     font-family: Montserrat, sans-serif;
     color: var(--mauve10);
-    font-size: 14px;
+    font-weight: 300 !important;
+    font-size: 17px !important;
 }
 .Text.bold {
-    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600 !important;
     font-size: 17px;
 }
 

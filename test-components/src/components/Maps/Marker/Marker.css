@@ -65,7 +65,7 @@ a {
     color: var(--mauve10);
 }
 .Text.bold {
-    font-weight: 200;
+    font-weight: 300;
     color: var(--main-color-reverse);
 }
 

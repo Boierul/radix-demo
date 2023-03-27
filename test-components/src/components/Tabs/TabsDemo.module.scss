@@ -1,0 +1,103 @@
+@import '@radix-ui/colors/blackA.css';
+@import '@radix-ui/colors/green.css';
+@import '@radix-ui/colors/mauve.css';
+@import '@radix-ui/colors/violet.css';
+
+/* reset */
+button,
+fieldset,
+input {
+  all: unset;
+}
+
+.TabsRoot {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  border: 1px solid rgba(0,0,0,.3);
+  border-radius: 5px;
+  @media screen and (max-width:450px){
+    max-width: 350px;
+    margin-bottom: 1rem;
+  }
+}
+
+.TabsList {
+  flex-shrink: 0;
+  display: flex;
+  border-bottom: 1px solid var(--mauve6);
+}
+
+.TabsTrigger {
+  font-family: inherit;
+  background-color: white;
+  padding: 0 20px;
+  height: 45px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 1;
+  color: var(--mauve11);
+  user-select: none;
+}
+.TabsTrigger:first-child {
+  border-top-left-radius: 6px;
+}
+.TabsTrigger:last-child {
+  border-top-right-radius: 6px;
+}
+.TabsTrigger:hover {
+  color: var(--main-color-reverse);
+}
+.TabsTrigger[data-state='active'] {
+  color: var(--main-color-reverse);
+  box-shadow: inset 0 -1px 0 0 currentColor, 0 1px 0 0 currentColor;
+}
+
+.TabsContent {
+  flex-grow: 1;
+  padding: 2rem 3rem;
+  background-color: white;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  outline: none;
+}
+
+.Text {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: var(--mauve11);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.Fieldset {
+  margin-bottom: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Label {
+  padding-bottom: .75rem;
+  padding-right: .75rem;
+  font-size: 14px;
+  line-height: .1;
+  color: var(--main-color-reverse);
+}
+
+.Input {
+  flex: 1 0 auto;
+  border-radius: 4px;
+  padding: 0 1rem;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--main-color-reverse);
+  border: 1px solid rgba(0,0,0,.3);
+  height: 35px;
+  width: 75%;
+}

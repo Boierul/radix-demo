@@ -1,13 +1,10 @@
 import React from 'react';
-import Header from "../../components/Header/Header.jsx";
-import Map from "../../components/Maps/Map.jsx";
+import LoginPage from "../Login/LoginPage.jsx";
 
 function Home() {
     return (
         <>
-            <Header/>
-
-            <Map/>
+            <LoginPage/>
         </>
     );
 }
