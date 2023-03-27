@@ -9,9 +9,7 @@ import ProjectDetailWrapper from "./pages/Projects/Wrappers/ProjectDetailWrapper
 import UnderConstructionPage from "./pages/Misc/UnderConstruction/UnderConstructionPage.jsx";
 import TurbineDetailPageWrapper from "./pages/Turbines/Wrappers/TurbineDetailPageWrapper.jsx";
 import TurbineAllWrapper from "./pages/Turbines/Wrappers/TurbineAllWrapper.jsx";
-import CalendarDemo from "./components/Calendar/CalendarDemo.jsx";
 import Visualise from "./pages/Visualise/Visualise.jsx";
-import ContainerData from "./components/ContainerData/ContainerData.jsx";
 import PulsatingCircle from "./components/PulsatingCircle/PulsatingCircle.jsx";
 
 function App() {

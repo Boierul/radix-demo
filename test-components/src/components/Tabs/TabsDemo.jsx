@@ -40,13 +40,13 @@ const TabsDemo = () => (
             <p className={styles.Text}>Create a sustainable new account here</p>
             <fieldset className={styles.Fieldset}>
                 <label className={styles.Label} htmlFor="currentPassword">
-                    Current password
+                    Your username
                 </label>
                 <input className={styles.Input} id="currentPassword" type="password" />
             </fieldset>
             <fieldset className={styles.Fieldset}>
                 <label className={styles.Label} htmlFor="newPassword">
-                    New password
+                    Insert password
                 </label>
                 <input className={styles.Input} id="newPassword" type="password" />
             </fieldset>
