@@ -1,19 +1,24 @@
 import React from 'react';
 import CalendarDemo from "../../components/Calendar/CalendarDemo.jsx";
-import motionSensors from "../../utils/demo-data/motionsernsors.json";
+import Header from "../../components/Header/Header.jsx";
 
 function Visualise() {
     return (
-        <div style={{
-            height: "99vh",
-            width: "auto",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            flexDirection: "column"
-        }}>
-            <CalendarDemo data={motionSensors}/>
-        </div>
+        <>
+            <Header/>
+
+            <div style={{
+                paddingTop: '4rem'
+            }}>
+                <div style={{
+                    height: "300px",
+                    padding: '1rem 2.5rem',
+                    width: "auto",
+                }}>
+                    <CalendarDemo/>
+                </div>
+            </div>
+        </>
     );
 }
 

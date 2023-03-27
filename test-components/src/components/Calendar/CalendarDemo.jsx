@@ -1,68 +1,71 @@
 import {ResponsiveCalendar} from "@nivo/calendar";
+import {useEffect, useState} from "react";
+import motionSensors from "../../utils/demo-data/motionsernsors.json";
 
-const data = [
-    {
-        day: "2016-03-01",
-        value: 1,
-        timestampUtc: "2021-03-24 11:40:00.0000000",
-        extraData: "Low activity"
-    },
-    {
-        day: "2016-03-02",
-        value: 2,
-        timestampUtc: "2016-03-02",
-        extraData: "Medium activity"
-    },
-    {
-        day: "2016-03-03",
-        value: 3,
-        timestampUtc: "2016-03-03",
-        extraData: "High activity"
-    }
-];
+const CalendarDemo = () => {
+    const [propData, setPropData] = useState(null);
 
-const CalendarDemo = () => (
+    useEffect(() => {
+        const newData = motionSensors.map((obj, index) => {
+            return {
+                ...obj,
+                day: obj.TimestampUtc.split(' ')[0],
+                value: index + 1
+            };
+        });
 
-    <ResponsiveCalendar
-        data={data}
-        keys={["value", "extraData"]}
-        from="2016-03-01"
-        to="2016-07-12"
-        emptyColor="#eeeeee"
-        colors={["#61cdbb", "#97e3d5", "#e8c1a0", "#f47560"]}
-        margin={{top: 40, right: 40, bottom: 40, left: 40}}
-        yearSpacing={40}
-        monthBorderColor="#fff"
-        tooltip={(e) => {
-            return (
-                <div
-                    style={{
-                        backgroundColor: "white",
-                        border: "1px solid black",
-                        borderRadius: "5px",
-                        padding: "5px",
-                    }}
-                >
-                    <div>{`Date: ${e.data.timestampUtc}`}</div>
-                    {/*<div>{`Value: ${e.value}`}</div>*/}
-                    {/*<div>{`Extra Data: ${e.data.extraData}`}</div>*/}
-                </div>
-            )
-        }
-        }
-        dayBorderWidth={2}
-        dayBorderColor="#fff"
-        legends={[{
-            anchor: "bottom-right",
-            direction: "row",
-            translateY: 36,
-            itemCount: 4,
-            itemWidth: 42,
-            itemHeight: 36,
-            itemsSpacing: 14,
-            itemDirection: "right-to-left",
-        },]}
-    />
-);
+        setPropData(newData)
+    }, []);
+
+    return (
+        <ResponsiveCalendar
+            data={propData}
+            keys={["value", "extraData"]}
+            from="2021-03-01"
+            to="2021-07-01"
+            emptyColor="#eeeeee"
+            colors={["#f47560", "#e8c1a0", "#97e3d5", "#61cdbb"]}
+            margin={{top: 40, right: 40, bottom: 40, left: 40}}
+            yearSpacing={40}
+            monthBorderColor="#fff"
+            onClick={(e)=> {
+                console.log(e.data.Turbine_ID)
+                // window.location.href = `/projects/${e.data.Project_ID}/turbines/${e.data.Turbine_ID}`
+            }}
+            tooltip={(e) => {
+                return (
+                    <div
+                        style={{
+                            backgroundColor: "white",
+                            border: "1px solid black",
+                            borderRadius: "5px",
+                            padding: "5px",
+                        }}
+                    >
+                        <div>{`Date: ${e.data.TimestampUtc}`}</div>
+                        <div>{`Project ID: ${e.data.Project_ID}`}</div>
+                        <div>{`Turbine ID: ${e.data.Turbine_ID}`}</div>
+                        <div>{`Kit ID: ${e.data.KitId}`}</div>
+                        <div>{`Value: ${e.value}`}</div>
+                    </div>
+                )
+            }
+            }
+            dayBorderWidth={2}
+            dayBorderColor="#fff"
+            legends={[{
+                anchor: "bottom-right",
+                direction: "row",
+                translateY: 36,
+                itemCount: 4,
+                itemWidth: 42,
+                itemHeight: 36,
+                itemsSpacing: 14,
+                itemDirection: "right-to-left",
+            },]}
+        />
+    );
+
+}
 
 export default CalendarDemo;
