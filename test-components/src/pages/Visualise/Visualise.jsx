@@ -8,6 +8,8 @@ import LinearChart from "../../components/Charts/LinearChart/LinearChart.jsx";
 import LinearChartMK2 from "../../components/Charts/LinearChart/LinearChartMK2.jsx";
 import PieChart from "../../components/Charts/PieChart/PieChart.jsx";
 import ScatterPlot from "../../components/Charts/ScatterPlot/ScatterPlot.jsx";
+import StreamChart from "../../components/Charts/StreamChart/StreamChart.jsx";
+import NetworkChart from "../../components/Charts/NetworkChart/NetworkChart.jsx";
 
 function Visualise() {
     return (
@@ -96,6 +98,40 @@ function Visualise() {
                     width: "auto",
                 }}>
                     <CalendarDemo/>
+                </div>
+
+                <div className={styles.header_text}>
+                    <HeaderText
+                        title="Magnitude Stream Chart"
+                        subtitle="Stream chart that displays turbine magnitude statistics"
+                    />
+                </div>
+
+                <div style={{
+                    height: "800px",
+                    paddingLeft: '3rem',
+                    width: "auto"
+                }}>
+                    <StreamChart/>
+                </div>
+
+                <div className={styles.header_text}>
+                    <HeaderText
+                        title="Network Chart"
+                        subtitle="Network chart that displays turbine network"
+                    />
+                </div>
+
+                <div style={{
+                    height: "450px",
+                    width: '80%',
+                    scale: '1.2',
+                    paddingLeft: '9rem',
+                    paddingBottom: '1rem',
+                    display: 'flex',
+
+                }}>
+                    <NetworkChart/>
                 </div>
             </div>
         </>

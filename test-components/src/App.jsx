@@ -10,10 +10,7 @@ import UnderConstructionPage from "./pages/Misc/UnderConstruction/UnderConstruct
 import TurbineDetailPageWrapper from "./pages/Turbines/Wrappers/TurbineDetailPageWrapper.jsx";
 import TurbineAllWrapper from "./pages/Turbines/Wrappers/TurbineAllWrapper.jsx";
 import Visualise from "./pages/Visualise/Visualise.jsx";
-import PulsatingCircle from "./components/PulsatingCircle/PulsatingCircle.jsx";
-import LinearChart from "./components/Charts/LinearChart/LinearChart.jsx";
-import PieChart from "./components/Charts/PieChart/PieChart.jsx";
-import ScatterPlot from "./components/Charts/ScatterPlot/ScatterPlot.jsx";
+import NetworkChart from "./components/Charts/NetworkChart/NetworkChart.jsx";
 
 function App() {
     return (
@@ -37,9 +34,8 @@ function App() {
                     alignItems: "center",
                     flexDirection: "column"
                 }}>
-                    <ScatterPlot/>
+                    <NetworkChart/>
                     {/*<PulsatingCircle/>*/}
-                    {/*<ContainerData/>*/}
                 </div>}/>
         </Routes>
     )
