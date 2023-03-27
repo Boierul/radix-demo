@@ -11,6 +11,8 @@ import TurbineDetailPageWrapper from "./pages/Turbines/Wrappers/TurbineDetailPag
 import TurbineAllWrapper from "./pages/Turbines/Wrappers/TurbineAllWrapper.jsx";
 import Visualise from "./pages/Visualise/Visualise.jsx";
 import PulsatingCircle from "./components/PulsatingCircle/PulsatingCircle.jsx";
+import LinearChart from "./components/Charts/LinearChart/LinearChart.jsx";
+import PieChart from "./components/Charts/PieChart/PieChart.jsx";
 
 function App() {
     return (
@@ -25,17 +27,19 @@ function App() {
             <Route path="/visualise" element={<Visualise/>}/>
             <Route path="/*" element={<Custom404/>}/>
 
-            <Route path="/demo" element={<div style={{
-                height: "99vh",
-                width: "auto",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                flexDirection: "column"
-            }}>
-                <PulsatingCircle/>
-                {/*<ContainerData/>*/}
-            </div>}/>
+            <Route path="/demo" element={
+                <div style={{
+                    height: "99vh",
+                    width: "auto",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flexDirection: "column"
+                }}>
+                    <PieChart/>
+                    {/*<PulsatingCircle/>*/}
+                    {/*<ContainerData/>*/}
+                </div>}/>
         </Routes>
     )
 }

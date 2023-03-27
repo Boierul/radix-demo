@@ -28,7 +28,7 @@ const TabsDemo = () => (
                 <label className={styles.Label}>
                 Password
                 </label>
-                <input className={styles.Input}/>
+                <input className={styles.Input} type='password'/>
             </fieldset>
 
             <div style={{ display: 'flex', marginTop: 20, justifyContent: 'flex-end' }}>
@@ -42,7 +42,7 @@ const TabsDemo = () => (
                 <label className={styles.Label} htmlFor="currentPassword">
                     Your username
                 </label>
-                <input className={styles.Input} id="currentPassword" type="password" />
+                <input className={styles.Input} id="username"/>
             </fieldset>
             <fieldset className={styles.Fieldset}>
                 <label className={styles.Label} htmlFor="newPassword">

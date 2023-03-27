@@ -21,6 +21,10 @@
       height: 700px;
     }
 
+    @media screen and (max-width:700px){
+      height: 40%;
+    }
+
     .login_logo {
       scale: 2.25;
       left: 20%;
