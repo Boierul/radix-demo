@@ -36,8 +36,6 @@ function App() {
                 flexDirection: "column"
             }}>
                 <PulsatingCircle/>
-                {/*<SelectDemo/>*/}
-                {/*<CalendarDemo/>*/}
                 {/*<ContainerData/>*/}
             </div>}/>
         </Routes>
