@@ -1,14 +1,58 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 
 import './TurbineDemo.css'
 import TimeContainer from "../TimeContainer/TimeContainer";
 
 function TurbineDemo() {
+    // Fetch the temperature dynamically (limited to 1000 API calls)
+    async function getTemperature() {
+        try {
+            const response = await fetch(
+                'http://dataservice.accuweather.com/currentconditions/v1/55488_PC?apikey=8HOOfIiku9ydnpGMCcGiKoZX3aAb4AdA&details=true'
+            );
+            const data = await response.json();
+            console.log(data[0].Wind.Speed.Metric)
+            return data[0].Temperature.Metric.Value;
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
+    // Fetch the wind dynamically (limited to 1000 API calls)
+    async function getWind() {
+        try {
+            const response = await fetch(
+                'http://dataservice.accuweather.com/currentconditions/v1/55488_PC?apikey=8HOOfIiku9ydnpGMCcGiKoZX3aAb4AdA&details=true'
+            );
+            const data = await response.json();
+            return data[0].Wind.Speed.Metric.Value;
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
+
+    const [temperature, setTemperature] = useState('');
+    const [windSpeed, setWindSpeed] = useState('');
+    useEffect(() => {
+        getTemperature().then(result => setTemperature(result));
+        getWind().then(result => setWindSpeed(result));
+    }, []);
+
+// .then(windResult => setWindSpeed(windResult)));
+
+
     return (
         <>
             <div className="container">
                 <div className='turbine_demo_time'>
                     <TimeContainer/>
+                </div>
+                <div className='turbine_demo_temperature'>
+                    {temperature}°C
+                </div>
+                <div className='turbine_demo_wind'>
+                    {windSpeed} km/h
                 </div>
                 <div className="stolby">
                     <svg
