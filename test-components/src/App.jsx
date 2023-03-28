@@ -10,7 +10,7 @@ import UnderConstructionPage from "./pages/Misc/UnderConstruction/UnderConstruct
 import TurbineDetailPageWrapper from "./pages/Turbines/Wrappers/TurbineDetailPageWrapper.jsx";
 import TurbineAllWrapper from "./pages/Turbines/Wrappers/TurbineAllWrapper.jsx";
 import Visualise from "./pages/Visualise/Visualise.jsx";
-import NetworkChart from "./components/Charts/NetworkChart/NetworkChart.jsx";
+import ToastDemo from "./components/Toast/ToastDemo.jsx";
 
 function App() {
     return (
@@ -34,7 +34,7 @@ function App() {
                     alignItems: "center",
                     flexDirection: "column"
                 }}>
-                    <NetworkChart/>
+                    <ToastDemo/>
                     {/*<PulsatingCircle/>*/}
                 </div>}/>
         </Routes>

@@ -27,11 +27,11 @@
 
 .turbine_demo_wind {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: -4rem;
-    padding-right: 50rem;
+    margin-top: -4.25rem;
+    padding-right: 48rem;
     font-size: 3.5rem;
 }
 

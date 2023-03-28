@@ -1,15 +1,17 @@
 import React from 'react';
+
 import CalendarDemo from "../../components/Calendar/CalendarDemo.jsx";
 import Header from "../../components/Header/Header.jsx";
 import ContainerData from "../../components/ContainerData/ContainerData.jsx";
 import HeaderText from "../../components/HeaderText/MK1/HeaderText.jsx";
-import styles from './Visualise.module.scss'
 import LinearChart from "../../components/Charts/LinearChart/LinearChart.jsx";
 import LinearChartMK2 from "../../components/Charts/LinearChart/LinearChartMK2.jsx";
 import PieChart from "../../components/Charts/PieChart/PieChart.jsx";
 import ScatterPlot from "../../components/Charts/ScatterPlot/ScatterPlot.jsx";
 import StreamChart from "../../components/Charts/StreamChart/StreamChart.jsx";
 import NetworkChart from "../../components/Charts/NetworkChart/NetworkChart.jsx";
+
+import styles from './Visualise.module.scss'
 
 function Visualise() {
     return (

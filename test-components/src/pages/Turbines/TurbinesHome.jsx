@@ -15,6 +15,7 @@ function TurbinesHome({projectId, projectName, turbineList}) {
     const reduceList = turbineList.slice(0, 11);
 
     /*----------------------------------------------------------------------------------------------------------------*/
+
     const morningBackground = 'linear-gradient(#C6E4EE 0%, #C6E4EE 40%, #FED1AE 60%, #FAA0B9 70%, #CB7DCB 80%, #757ECB 100%)'
     const dayBackground = 'linear-gradient(to bottom, #94c5f8 1%,#a6e6ff 70%,#b1b5ea 100%)'
     const eveningBackground = 'linear-gradient(to bottom, #154277 0%,#576e71 30%,#e1c45e 70%,#b26339 100%)'
@@ -44,7 +45,6 @@ function TurbinesHome({projectId, projectName, turbineList}) {
             return '#fff';
         }
     }
-
 
     /*----------------------------------------------------------------------------------------------------------------*/
 

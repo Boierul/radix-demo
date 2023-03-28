@@ -52,7 +52,13 @@ function TurbineDemo() {
                     {temperature}°C
                 </div>
                 <div className='turbine_demo_wind'>
-                    {windSpeed} km/h
+                    {windSpeed}
+                    <span style={{
+                        fontSize: '40px',
+                        paddingLeft: '1rem'
+                    }}>
+                        km/h
+                    </span>
                 </div>
                 <div className="stolby">
                     <svg
