@@ -39,8 +39,6 @@ function TurbineDemo() {
         getWind().then(result => setWindSpeed(result));
     }, []);
 
-// .then(windResult => setWindSpeed(windResult)));
-
 
     return (
         <>

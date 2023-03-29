@@ -20,22 +20,22 @@ const Menu = () => {
                 <ul>
                     <li>
                         <NavLink to="/projects" className={styles.menu__link}>
-                           your projects
+                           Projects
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/visualise" className={styles.menu__link}>
-                            visualise data
+                            Visualise data
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/construction" className={styles.menu__link}>
-                            notifications
+                            Notifications
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/construction" className={styles.menu__link}>
-                            settings
+                            Settings
                         </NavLink>
                     </li>
                 </ul>
@@ -50,22 +50,22 @@ const Menu = () => {
                 <ul>
                     <li>
                         <NavLink to="/projects" className={styles.menu__link}>
-                            your projects
+                            Projects
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/visualise" className={styles.menu__link}>
-                            visualise data
+                            Visualise data
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/construction" className={styles.menu__link}>
-                            notifications
+                            Notifications
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/construction" className={styles.menu__link}>
-                            settings
+                            Settings
                         </NavLink>
                     </li>
                 </ul>

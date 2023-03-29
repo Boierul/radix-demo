@@ -12,6 +12,8 @@ import icon from "../../../icons/png/arrow-right-1.png";
 import ButtonText from "../../../components/Buttons/ButtonText/ButtonText.jsx";
 import ButtonOutline from "../../../components/Buttons/ButtonOutline/ButtonOutline.jsx";
 
+import classNames from "classnames";
+
 function ProjectDetailPage({projectId, projectName, storedProjectId, turbineCount}) {
     // Set the project Name and name in local storage
     localStorage.setItem('projectName', projectName)
@@ -59,6 +61,8 @@ function ProjectDetailPage({projectId, projectName, storedProjectId, turbineCoun
 
     }, [stateCheck]);
 
+    const [isPulsating, setIsPulsating] = useState(true);
+
     return (
         <>
             <Header/>
@@ -69,12 +73,13 @@ function ProjectDetailPage({projectId, projectName, storedProjectId, turbineCoun
                                 subtitle="Here is displayed all the data related to your project"/>
 
                     <div className={styles.project_detail_view_all}>
+                        <ButtonText text={'Edit project'} path={`construction`}/>
                         <ButtonText text={'View all projects'} path={`projects`}/>
                     </div>
                 </div>
 
                 <div className={styles.project_detail_view_all_mobile}>
-                    <ButtonOutline text={'View all projects'} path={`projects`}/>
+                    <ButtonOutline text={'View all projects'} path={`projects`} fontSize='15px'/>
                 </div>
 
                 <div className={styles.loadout_section}>
@@ -85,11 +90,11 @@ function ProjectDetailPage({projectId, projectName, storedProjectId, turbineCoun
                                     <>Turbines Activity</>
                                     <>
                                         <img
-                                            className={styles.project_grid_image}
+                                            className={classNames(styles.project_grid_image, styles.pulsate)}
                                             src={icon}
                                             alt="icon"
                                             onClick={() => {
-                                                window.location.href = `/projects/${storedProjectId}/turbines`
+                                                window.location.href = `/construction`;
                                             }}
                                         />
                                     </>
@@ -140,8 +145,14 @@ function ProjectDetailPage({projectId, projectName, storedProjectId, turbineCoun
                             </div>
                             <ScrollArea filteredLoadoutData={filteredLoadoutData}/>
                         </div>
-
                     </div>
+
+                    <div className={styles.project_detail_visualise_row} onClick={() => {
+                        window.location.href = `/projects/${projectId}/turbines`
+                    }}>
+                        View all turbines
+                    </div>
+
                 </div>
 
             </div>

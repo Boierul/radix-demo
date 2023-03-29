@@ -11,6 +11,7 @@ import styles from "./ProjectsHome.module.scss";
 import DialogDemo from "../../components/Dialog/DialogDemo.jsx";
 
 import plusIcon from '../../icons/png/plus.png';
+import ButtonText from "../../components/Buttons/ButtonText/ButtonText.jsx";
 
 function ProjectsHome() {
     // Store the previous sumTotalDuration value
@@ -55,6 +56,10 @@ function ProjectsHome() {
                         title="Projects"
                         subtitle="Here are displayed all your available projects"
                     />
+
+                    <div className={styles.project_link}>
+                        <ButtonText text={'Manage projects'} path={`construction`}/>
+                    </div>
                 </div>
 
                 <div className={styles.grid_container}>

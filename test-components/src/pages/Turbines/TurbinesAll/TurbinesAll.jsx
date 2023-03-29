@@ -30,16 +30,16 @@ function TurbinesAll({storedProjectName, storedProjectId, turbineList}) {
                                               projectName={storedProjectName}/>
                         )
                     })}
-                    <div className={styles.turbines_all_grid_container_row}>
-                        <DialogDemo title='Add turbine'
-                                    description='Here you can add a new turbine to your list'
-                                    labelOne={'Name'}
-                                    labelTwo={'Others'}
-                                    icon={plusIcon}
-                                    buttonText={'Add turbine'}
-                                    backgroundColor={'#000'}
-                        />
-                    </div>
+                    {/*<div className={styles.turbines_all_grid_container_row}>*/}
+                    {/*    <DialogDemo title='Add turbine'*/}
+                    {/*                description='Here you can add a new turbine to your list'*/}
+                    {/*                labelOne={'Name'}*/}
+                    {/*                labelTwo={'Others'}*/}
+                    {/*                icon={plusIcon}*/}
+                    {/*                buttonText={'Add turbine'}*/}
+                    {/*                backgroundColor={'#000'}*/}
+                    {/*    />*/}
+                    {/*</div>*/}
                 </div>
 
             </div>

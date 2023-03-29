@@ -88,7 +88,7 @@ function ContainerData() {
                 height="70vh"
                 sx={{
                     "& .MuiDataGrid-root": {
-                        border: "none",
+                        border: "1.5px solid #D9D9D9",
                         fontSize: "13px",
                     },
                     "& .MuiDataGrid-iconSeparator": {
@@ -115,7 +115,7 @@ function ContainerData() {
                         backgroundColor: '#f4f4f4',
                         color: '#000',
                         borderRadius: "0.2em",
-                        border: '1.5px solid #D9D9D9;'
+                        border: '1px solid #D9D9D9;'
                     },
                     "& .MuiCheckbox-root": {
                         color: '#f4f4f4',

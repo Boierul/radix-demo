@@ -19,7 +19,7 @@ function HeaderTextMK2({title, subtitle, projectId}) {
                         {title}
                     </span>
                     <span className={styles.header_text_path_1} onClick={handleProjectTurbinesClick}>
-                        / Turbine
+                        / Turbines
                     </span>
                </div>
                 <span className={styles.header_text_subtitle}>{subtitle}</span>

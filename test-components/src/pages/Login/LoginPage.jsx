@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './LoginPage.module.scss';
-import LogoMain from "../../icons/LogoMain.jsx";
 import TabsDemo from "../../components/Tabs/TabsDemo.jsx";
+import styles from './LoginPage.module.scss';
 import icon from '../../icons/png/Siemens-Emblem.png';
+
 function LoginPage() {
     return (
         <div className={styles.login_container}>
