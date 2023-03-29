@@ -233,7 +233,7 @@ function TurbineDetailPage({projectId, projectName, storedTurbineName}) {
                 </div>
 
 
-                <div className={styles.turbines_detail_visualise_row} onClick={()=> {
+                <div className={styles.turbines_detail_visualise_row} onClick={() => {
                     window.location.href = 'https://markshulhin.github.io/'
                 }}>
                     Visualise Turbine
