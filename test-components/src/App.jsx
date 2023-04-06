@@ -35,7 +35,6 @@ function App() {
                     flexDirection: "column"
                 }}>
                     <ToastDemo/>
-                    {/*<PulsatingCircle/>*/}
                 </div>}/>
         </Routes>
     )
